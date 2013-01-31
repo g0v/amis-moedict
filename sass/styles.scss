@@ -1,0 +1,63 @@
+// compass config
+$support-for-original-webkit-gradients: false;
+
+// bootstrap
+$screen-small: 1px;
+$baseFontSize: 14pt;
+$baseBorderRadius: 0;
+$bodyBackground: hsl(0,3%,95%);
+
+// font-awesome
+$fontAwesomePath: "./fonts";
+
+$grayLight:             #ddd;
+$grayLighter:           #eee;
+$border-color:          $grayLight;
+
+$primary-color: #6B0000;
+
+@import "compass/css3";
+@import "hidpi";
+
+// Core variables and mixins
+@import "bootstrap/bootstrap";
+
+// for progress indicator of strokes
+@import "strokes";
+
+// CSS Reset
+@import "han";
+@import "font-awesome";
+
+// @font-face
+@import "ff";
+
+// Unicode PUA and IDC glyphs
+@import "glyph";
+
+// theme
+@import "theme";
+@import "pref";
+@import "result";
+
+// Twitter timeline and Google Search Index
+@import "widget";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body { font-size: 14pt }
