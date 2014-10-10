@@ -456,8 +456,14 @@ window.do-load = ->
     setPref \lang LANG
     for {lang, words} in (React.View.result.props.xrefs || []) | lang is LANG
       id ||= words.0
+<<<<<<< HEAD
     id ||= LRU[LANG]?replace(/[\\\n][\d\D]*/, '').replace(/[\\"~`]/g, '')
     id ||= {a: \萌 t: \發穎 h: \發芽 c: \萌 p: \ci'im }[LANG]
+=======
+    id ||= LRU[LANG]?replace(/[\\\n][\d\D]*/, '')
+    id ||= {a: \萌 t: \發穎 h: \發芽 c: \萌}[LANG]
+    id -= /[\\"~`]/g
+>>>>>>> a05ccc3ce9ca211e11ed23e2d1c2bf76b279e374
     unless isCordova
       GET "#LANG/xref.json" (-> XREF[LANG] = it), \text
       GET "#LANG/index.json" (-> INDEX[LANG] = it), \text
@@ -701,7 +707,7 @@ window.do-load = ->
     fill-json part, id, cb
 
   if isCordova
-    for lang of HASH-OF => let lang
+    for let lang of HASH-OF
       GET "#lang/xref.json", (-> XREF[lang] = it; init! if lang is LANG), \text
       p1 <- GET "#lang/index.1.json", _, \text
       p2 <- GET "#lang/index.2.json", _, \text
@@ -716,7 +722,7 @@ window.do-load = ->
   unless STANDALONE
     GET "t/variants.json", (-> XREF.tv = {t: it}), \text
 
-  for lang of HASH-OF | lang isnt \h => let lang
+  for let lang of HASH-OF | lang isnt \h
     return if STANDALONE and lang isnt STANDALONE
     GET "#lang/=.json", (->
       $ul = render-taxonomy lang, $.parseJSON it
@@ -932,10 +938,9 @@ $ ->
       color = "black"
       pathAttrs = { stroke: color, "stroke-width": 0, "stroke-linecap": "round", "fill": color }
       delay = 350ms
-      for outline in doc.getElementsByTagName 'Outline' => let
-        setTimeout (->
-          drawOutline(paper,outline,pathAttrs)
-        ), timeout += delay
+      for let outline in doc.getElementsByTagName 'Outline'
+        <- setTimeout _, timeout += delay
+        drawOutline(paper,outline,pathAttrs)
       cb (timeout + delay)
 
   window.strokeWords = (words) ->
