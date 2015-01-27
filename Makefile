@@ -33,7 +33,7 @@ amis ::
 	perl link2pack.pl p < p.txt
 	cp moedict-data-amis/index.json           p/index.json
 	cd moedict-data-amis && python cmn-amis-longstr.py
-	cp moedict-data-amis/revdict-amis.txt     revdict-amis.txt
+	cp moedict-data-amis/revdict-amis*.txt    .
 
 
 checkout ::
