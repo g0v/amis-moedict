@@ -44,7 +44,7 @@ checkout ::
 	-git clone --depth 1 https://github.com/miaoski/amis-data.git moedict-data-amis
 	-git clone https://github.com/g0v/moedict-epub.git
 
-moedict-data :: checkout
+moedict-data :: checkout pinyin
 
 offline :: deps
 	perl link2pack.pl a < a.txt
@@ -69,10 +69,10 @@ offline-dev :: moedict-data deps translation
 	lsc autolink.ls a > a.txt
 	perl link2pack.pl a < a.txt
 	#lsc json2prefix.ls t
-	#lsc autolink.ls t > t.txt
+	#lsc autolink.ls t | env LC_ALL=C sort > t.txt
 	perl link2pack.pl t < t.txt
 	#lsc json2prefix.ls h
-	#lsc autolink.ls h > h.txt
+	#lsc autolink.ls h | env LC_ALL=C sort > h.txt
 	perl link2pack.pl h < h.txt
 	#-lsc json2prefix.ls c
 	#-lsc autolink.ls c > c.txt
@@ -102,6 +102,12 @@ twblg ::
 	lsc autolink.ls t > t.txt
 	perl link2pack.pl t < t.txt
 	python twblg_index.py
+
+pinyin ::
+	perl build-pinyin-lookup.pl a
+	perl build-pinyin-lookup.pl t
+	perl build-pinyin-lookup.pl h
+	perl build-pinyin-lookup.pl c
 
 translation :: translation-data moedict-data
 	python translation-data/xml2txt.py
