@@ -207,7 +207,8 @@ DropDown = createClass do
       MenuItem { lang: \c, href: \#~ }, \兩岸詞典
       Taxonomy { lang: \c }
       MenuItem { lang: \c, href: \#~@ }, \…部首表
-      MenuItem { lang: \p, href: '#;' }, \阿美語
+      MenuItem { lang: \p, href: '#;' }, \方敏英阿美語
+      MenuItem { lang: \m, href: '#,' }, \潘世光阿美語
     ]
     ul { className: \dropdown-menu, role: \navigation }, ...list
 
@@ -261,9 +262,9 @@ Translations = createClass do
     u.rate = 1.0
     syn.speak u
 
-const HASH-OF = {a: \#, t: "#'", h: \#:, c: \#~, p: '#;'}
-const XREF-LABEL-OF = {a: \華, t: \閩, h: \客, c: \陸, ca: \臺 p: \阿}
-XRefs = React.createClass do
+const HASH-OF = {a: \#, t: "#'", h: \#:, c: \#~, p: '#;', m: '#,' }
+const XREF-LABEL-OF = {a: \華, t: \閩, h: \客, c: \陸, ca: \臺 p: \方 m: \潘 }
+XRefs = createClass do
   render: ->
     { LANG, xrefs } = @props
     div { className: \xrefs }, ...for { lang, words } in xrefs
