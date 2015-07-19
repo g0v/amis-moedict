@@ -1,3 +1,13 @@
+require! <[
+  ./scripts/Links.jsx
+  ./scripts/Nav.jsx
+  ./scripts/UserPref.jsx
+  ./scripts/RightAngle.ls
+]>
+
+# Use the ./ prefix only for the web, not Cordova
+const DotSlash = if !(document?) or document?URL is /^https?:/ then "./" else ""
+
 React = require('react')
 window.isMoedictDesktop = isMoedictDesktop = true if window?moedictDesktop
 $body = window?$('body') || { hasClass: -> false }
@@ -14,9 +24,8 @@ withProperties = (tag, def-props={}) ->
 
 div-inline = div `withProperties` { style: { display: \inline } }
 h1-name    = h1  `withProperties` { itemProp: \name }
-cjk        = '([\uD800-\uDBFF][\uDC00-\uDFFF]|[^，、；。－—<>])'
-r-cjk-one  = new RegExp "^#{cjk}$"
-r-cjk-g    = new RegExp cjk, \g
+r-cjk-one  = /^(?:[\uD800-\uDBFF][\uDC00-\uDFFF]|[^？，、；。－—<>])$/
+r-cjk-g    = /([\uD800-\uDBFF][\uDC00-\uDFFF]|[^？，、；。－—<>])/g
 nbsp       = '\u00A0'
 CurrentId  = null
 
@@ -210,6 +219,8 @@ Result = createClass do
 Term = createClass do
   render: ->
     { LANG, H=HASH-OF[LANG], title, english, heteronyms, radical, translation, non_radical_stroke_count: nrs-count, stroke_count: s-count, pinyin: py, xrefs } = @props
+    H -= /^#/
+    H = "#DotSlash##H"
     CurrentId := @props.id # Used in h()
     a-stroke = a { className: 'iconic-circle stroke icon-pencil', title: \筆順動畫, style: { color: \white } }
     $char = if radical
@@ -233,7 +244,7 @@ Translations = createClass do
     {translation} = @props
     div { className: \xrefs }, span { className: \translation },
       ...for let key, val of { English: \英, francais: \法, Deutsch: \德 } | translation[key]
-        text = untag((translation[key] * ', ') - /, CL:.*/g - /\|(?:<\/?a[^>*]>|[^[,.(])+/g)
+        text = untag(translation[key] * ', ') - /, CL:.*/g - /\|[^[,.()]+/g
         div { key, className: \xref-line },
           span { className: \fw_lang }, val
           span { className: \fw_def, onClick: ~> @onClick val, text }, text
@@ -255,11 +266,10 @@ XRefs = createClass do
   render: ->
     { LANG, xrefs } = @props
     div { className: \xrefs }, ...for { lang, words } in xrefs
-      H = HASH-OF[lang]
+      H = "#DotSlash#{ HASH-OF[lang] }"
       div { key: lang, className: \xref-line },
-        span { className: 'xref part-of-speech' },
+        span { className: 'xref part-of-speech' style: marginRight: \5px },
           XREF-LABEL-OF["#LANG#lang"] || XREF-LABEL-OF[lang]
-        nbsp
         span { className: 'xref', itemProp: \citation },
           ...intersperse \、, for word in words
             word -= /[`~]/g
@@ -283,9 +293,8 @@ Heteronym = createClass do
       re = /(.)\u20DE(\S+)/g
       pinyin-list = []
       while t = re.exec(pinyin)
-        variant = " 四海大平安".indexOf(t.1)
+        variant = " 四海大平安南".indexOf(t.1)
         mp3 = http "h.moedict.tw/#{variant}-#audio_id.ogg"
-        mp3.=replace(/ogg$/ \mp3) if mp3 and not can-play-ogg!
         pinyin-list ++= span { className: \audioBlock },
           div { className: 'icon-play playAudio part-of-speech' },
             meta { itemProp: \name, content: mp3 - /^.*\// }
@@ -299,21 +308,19 @@ Heteronym = createClass do
     t = untag h title
     { ruby: title-ruby, youyin, b-alt, p-alt, cn-specific, bopomofo, pinyin } = decorate-ruby @props unless LANG is \h
     list = [ if title-ruby
-      ruby { className: "rightangle", dangerouslySetInnerHTML: { __html: h title-ruby } }
+      RightAngle { html: h title-ruby }
     else
       span { dangerouslySetInnerHTML: { __html: title } }
     ]
     list ++= small { className: \youyin } youyin if youyin
     mp3 = ''
-    if audio_id and (can-play-ogg! or can-play-mp3!)
+    if audio_id
       if LANG is \t and not (20000 < audio_id < 50000)
         basename = (100000 + Number audio_id) - /^1/
         mp3 = http "t.moedict.tw/#basename.ogg"
       else if LANG is \a
         mp3 = http "a.moedict.tw/#audio_id.ogg" # TODO: opus
-      mp3.=replace(/opus$/ \ogg) if mp3 is /opus$/ and not can-play-opus!
-      mp3.=replace(/(opus|ogg)$/ \mp3) if mp3 is /(opus|ogg)$/ and not can-play-ogg!
-    if mp3 => list ++= i { +itemScope, itemType: \http://schema.org/AudioObject, className: 'icon-play playAudio' },
+    if mp3 => list ++= i { itemType: \http://schema.org/AudioObject, className: 'icon-play playAudio' },
       meta { itemProp: \name, content: mp3 - /^.*\// }
       meta { itemProp: \contentURL, content: mp3 }
     if b-alt
@@ -397,14 +404,14 @@ decorate-ruby = ({ LANG, title='', bopomofo, py, pinyin=py, trs }) ->
   if r-cjk-one.test title
     ruby = '<div class="stroke" title="筆順動畫"><rb>' + title + '</rb></div>'
   else
-    r-cjk-ci = new RegExp "(<a href=\"#[':~]?(#cjk+)\")>\\2</a>" \g
+    r-cjk-ci = new RegExp "(<a[^>]*href=\"(?:\./)?#?[':~]?((?:[\uD800-\uDBFF][\uDC00-\uDFFF]|[^？，、；。－—<>])+)\")>\\2</a>" \g
     ruby = title
-    .replace r-cjk-ci, ( mat, open-tag, ci, x, offset ) ->
+    .replace r-cjk-ci, ( mat, open-tag, ci, offset ) ->
       open-tag = "<rb>#open-tag word-id=\"#offset\">"
       close-tag = \</a></rb>
       ci .= replace r-cjk-g, "#{open-tag}$1#close-tag"
     # Deal with rare CJK not indexed, such as ○, 𤍤
-    .replace new RegExp("<\/rb>(#cjk+)(<rb>)?", \g), ( mat, rare-cjk, x, open-tag ) ->
+    .replace new RegExp("<\/rb>((?:[\uD800-\uDBFF][\uDC00-\uDFFF]|[^？，、；。－—<>])+)(<rb>)?", \g), ( mat, rare-cjk, open-tag ) ->
       open-tag = open-tag || ''
       rare-cjk .= replace r-cjk-g, \<rb>$1</rb>
       \</rb> + rare-cjk + open-tag
@@ -442,12 +449,12 @@ decorate-ruby = ({ LANG, title='', bopomofo, py, pinyin=py, trs }) ->
     #yin = "#{ p[idx].replace(/-/g, '\u2011') }\n#yin" if
     p-upper[idx] = if isParallel then "<rt#span>#{p[idx]}</rt>"
     p[idx] = "<rt#span>#yin</rt>"
-  ruby += '<rtc hidden class="zhuyin"><rt>' + b.replace(/[ ]+/g, '</rt><rt>') + '</rt></rtc>'
-  ruby += '<rtc hidden class="romanization">'
+  ruby += '<rtc class="zhuyin" hidden="hidden"><rt>' + b.replace(/[ ]+/g, '</rt><rt>') + '</rt></rtc>'
+  ruby += '<rtc class="romanization" hidden="hidden">'
   ruby += p.join ''
   ruby += '</rtc>'
   if isParallel
-    ruby += '<rtc hidden class="romanization">'
+    ruby += '<rtc class="romanization" hidden="hidden">'
     ruby += p-upper.join ''
     ruby += '</rtc>'
   if LANG is \c
@@ -525,11 +532,13 @@ function convert-pinyin-t (yin, isBody=true)
   # POJ Rules from: https://lukhnos.org/blog/zh/archives/472/
   return yin.replace(/o([^.!?,\w\s\u2011]*)o/g, 'o$1\u0358')
             .replace(/ts/g, 'ch')
-            .replace(/u([^\w\s]*)a/g, 'o$1a')
-            .replace(/u([^\w\s]*)e/g, 'o$1e')
-            .replace(/i([^\w\s]*)k($|[-\s])/g, 'e$1k$2')
-            .replace(/i([^\w\s]*)ng/g, 'e$1ng')
-            .replace(/nn($|[-\s])/g, 'ⁿ$1')
+            .replace(/Ts/g, 'Ch')
+            .replace(/u([^‑-\w\s]*)a/g, 'o$1a')
+            .replace(/u([^‑-\w\s]*)e/g, 'o$1e')
+            .replace(/i([^‑-\w\s]*)k($|[-\s])/g, 'e$1k$2')
+            .replace(/i([^‑-\w\s]*)ng/g, 'e$1ng')
+            .replace(/nn($|[‑-\s])/g, 'ⁿ$1')
+            .replace(/nnh($|[‑-\s])/g, 'hⁿ$1')
             .replace(/([ie])r/g, '$1\u0358')
             .replace(/\u030B/g, "\u0306") # 9th tone
 
@@ -604,9 +613,8 @@ function decorate-nyms (props)
   list = []
   for key, val of { synonyms: \似, antonyms: \反, variants: \異 } | props[key]
     list ++= span { key, className: key },
-      span { className: \part-of-speech }, val
-      nbsp
-      ...intersperse \、, for __html in props[key] / \,
+      span { className: \part-of-speech style: marginRight: \5px }, val
+      ...intersperse \、, for __html in props[key] / /,+/
         span { dangerouslySetInnerHTML: { __html } }
   return list
 
@@ -624,7 +632,19 @@ Definition = createClass do
       span { key, className: \def, dangerouslySetInnerHTML: { __html: h it } }
     for let key in <[ example quote link ]> | @props[key]
       list ++= for it, idx in @props[key]
-        span { "#key.#idx", className: key, dangerouslySetInnerHTML: { __html: h it } }
+        __html = h it
+        if LANG is \t and __html is /class="ruby/
+          $ = require('cheerio').load((__html - /<\/?b>/g), { -decodeEntities })
+          title = $('.ruby .ruby .rb').eq(0).html()
+          bopomofo = $('.trs.pinyin').attr('title')
+          py = $('.upper').text() || $('.trs.pinyin').text()
+          { ruby } = decorate-ruby { LANG: \t, title, bopomofo, py }
+          span { key: "#key.#idx", className: key },
+            span { className: \h1 }, RightAngle { html: h ruby }
+            if $('.mandarin').html!
+              span { className: \mandarin, dangerouslySetInnerHTML: { __html: $('.mandarin').html() } }
+        else
+          span { key: "#key.#idx", className: key, dangerouslySetInnerHTML: { __html } }
     list ++= decorate-nyms @props
     list ++= $after-def if $after-def
     style = if is-colon-def then { marginLeft: \-28px } else {}
@@ -656,6 +676,7 @@ RadicalTable = createClass do
     else
       rows = JSON.parse terms
     list = []
+    H = "#DotSlash#H"
     for chars, strokes in rows | chars?length
       chs = []
       for ch in chars
@@ -670,7 +691,8 @@ List = createClass do
   render: ->
     {terms, id, H, LRU} = @props
     return div {} unless terms
-
+    H -= /^#/
+    H = "#DotSlash##H"
     id -= /^[@=]/
     terms -= /^[^"]*/
     list = [ h1-name {}, id ]
@@ -718,9 +740,6 @@ http-map =
 
 http-map <<< window.moedictDesktop.voices if isMoedictDesktop
 http = -> "http#{if not isMoedictDesktop or it.match(/^([^.]+)\.[^\/]+/).1 not of window.moedictDesktop.voices then "s" else ""}://#{ it.replace(/^([^.]+)\.[^\/]+/, (xs,x) -> http-map[x] or xs ) }"
-can-play-mp3 = -> !isMoedictDesktop
-can-play-ogg = -> isMoedictDesktop or window?can-play-ogg?!
-can-play-opus = -> no
 function h (it)
   id = CurrentId
   it += '</span></span></span></span>' if it is /\uFFF9/
@@ -806,7 +825,7 @@ function trs2bpmf (LANG, trs)
     it.=replace //[ptkh]$// -> tone := Tones[it+tone]; ''
     it.=replace //(#V)//g -> Vowels[it]
     it + (tone || '\uFFFD')
-  ).replace(/[- ]/g '').replace(/\uFFFD/g ' ').replace(/\. ?/g \。).replace(/\? ?/g \？).replace(/\! ?/g \！).replace(/\, ?/g \，)
+  ).replace(/[- ]/g '').replace(/\uFFFD/g ' ').replace(/[.?!,] ?/g '')
 
 const keyMap = {
   h: \"heteronyms" b: \"bopomofo" p: \"pinyin" d: \"definitions"
@@ -821,15 +840,15 @@ decodeLangPart = (LANG-OR-H, part='') ->
     part.=replace /"`辨~\u20DE&nbsp`似~\u20DE"[^}]*},{"f":"([^（]+)[^"]*"/ '"辨\u20DE 似\u20DE $1"'
   part.=replace /"`(.)~\u20DE"[^}]*},{"f":"([^（]+)[^"]*"/g '"$1\u20DE $2"'
   part.=replace /"([hbpdcnftrelsaqETAVCDS_=])":/g (, k) -> keyMap[k] + \:
-  H = HASH-OF[LANG-OR-H] || LANG-OR-H
-  part.=replace /([「【『（《])`([^~]+)~([。，、；：？！─…．·－」』》〉]+)/g (, pre, word, post) -> "<span class='punct'>#pre<a href=\\\"#H#word\\\">#word</a>#post</span>"
-  part.=replace /([「【『（《])`([^~]+)~/g (, pre, word) -> "<span class='punct'>#pre<a href=\\\"#H#word\\\">#word</a></span>"
-  part.=replace /`([^~]+)~([。，、；：？！─…．·－」』》〉]+)/g (, word, post) -> "<span class='punct'><a href=\\\"#H#word\\\">#word</a>#post</span>"
+  H = "#DotSlash#{ HASH-OF[LANG-OR-H] || LANG-OR-H }"
+  part.=replace /([「【『（《])`([^~]+)~([。，、；：？！─…．·－」』》〉]+)/g (, pre, word, post) -> "<span class=\\\"punct\\\">#pre<a href=\\\"#H#word\\\">#word</a>#post</span>"
+  part.=replace /([「【『（《])`([^~]+)~/g (, pre, word) -> "<span class=\\\"punct\\\">#pre<a href=\\\"#H#word\\\">#word</a></span>"
+  part.=replace /`([^~]+)~([。，、；：？！─…．·－」』》〉]+)/g (, word, post) -> "<span class=\\\"punct\\\"><a href=\\\"#H#word\\\">#word</a>#post</span>"
   part.=replace /`([^~]+)~/g (, word) -> "<a href=\\\"#H#word\\\">#word</a>"
   part.=replace /([)）])/g "$1\u200B"
   return part
 
-module.exports = { UserPref, Result, DropDown, Nav, Links, decodeLangPart }
+module.exports = { UserPref, Result, Nav, Links, decodeLangPart }
 
 PinYinMap =
   "WadeGiles": {"zha":"cha","cha":"ch'a","zhai":"chai","chai":"ch'ai","zhan":"chan","chan":"ch'an","zhang":"chang","chang":"ch'ang","zhao":"chao","chao":"ch'ao","zhe":"che","che":"ch'e","zhei":"chei","zhen":"chen","chen":"ch'en","zheng":"cheng","cheng":"ch'eng","ji":"chi","qi":"ch'i","jia":"chia","qia":"ch'ia","jiang":"chiang","qiang":"ch'iang","jiao":"chiao","qiao":"ch'iao","jie":"chieh","qie":"ch'ieh","jian":"chien","qian":"ch'ien","zhi":"chih","chi":"ch'ih","jin":"chin","qin":"ch'in","jing":"ching","qing":"ch'ing","jiu":"chiu","qiu":"ch'iu","jiong":"chiung","qiong":"ch'iung","zhuo":"cho","chuo":"ch'o","zhou":"chou","chou":"ch'ou","zhu":"chu","chu":"ch'u","zhua":"chua","chua":"ch'ua","zhuai":"chuai","chuai":"ch'uai","zhuan":"chuan","chuan":"ch'uan","zhuang":"chuang","chuang":"ch'uang","zhui":"chui","chui":"ch'ui","zhun":"chun","chun":"ch'un","zhong":"chung","chong":"ch'ung","ju":"chü","qu":"ch'ü","juan":"chüan","quan":"ch'üan","jue":"chüeh","que":"ch'üeh","jun":"chün","qun":"ch'ün","er":"erh","he":"ho","xi":"hsi","xia":"hsia","xiang":"hsiang","xiao":"hsiao","xie":"hsieh","xian":"hsien","xin":"hsin","xing":"hsing","xiu":"hsiu","xiong":"hsiung","xu":"hsü","xuan":"hsüan","xue":"hsüeh","xun":"hsün","hong":"hung","ran":"jan","rang":"jang","rao":"jao","re":"je","ren":"jen","reng":"jeng","ri":"jih","ruo":"jo","rou":"jou","ru":"ju","ruan":"juan","rui":"jui","run":"jun","rong":"jung","ga":"ka","ka":"k'a","gai":"kai","kai":"k'ai","gan":"kan","kan":"k'an","gang":"kang","kang":"k'ang","gao":"kao","kao":"k'ao","gei":"kei","gen":"ken","ken":"k'en","geng":"keng","keng":"k'eng","ge":"ko","ke":"k'o","gou":"kou","kou":"k'ou","gu":"ku","ku":"k'u","gua":"kua","kua":"k'ua","guai":"kuai","kuai":"k'uai","guan":"kuan","kuan":"k'uan","guang":"kuang","kuang":"k'uang","gui":"kuei","kui":"k'uei","gun":"kun","kun":"k'un","gong":"kung","kong":"k'ung","guo":"kuo","kuo":"k'uo","lie":"lieh","lian":"lien","luo":"lo","long":"lung","lv":"lü","lve":"lüeh","lvn":"lün","mie":"mieh","mian":"mien","nie":"nieh","nian":"nien","nuo":"no","nong":"nung","nv":"nü","nve":"nüeh","ba":"pa","pa":"p'a","bai":"pai","pai":"p'ai","ban":"pan","pan":"p'an","bang":"pang","pang":"p'ang","bao":"pao","pao":"p'ao","bei":"pei","pei":"p'ei","ben":"pen","pen":"p'en","beng":"peng","peng":"p'eng","bi":"pi","pi":"p'i","biao":"piao","piao":"p'iao","bie":"pieh","pie":"p'ieh","bian":"pien","pian":"p'ien","bin":"pin","pin":"p'in","bing":"ping","ping":"p'ing","bo":"po","po":"p'o","pou":"p'ou","bu":"pu","pu":"p'u","shi":"shih","shong":"shung","suo":"so","si":"ssu","song":"sung","da":"ta","ta":"t'a","dai":"tai","tai":"t'ai","dan":"tan","tan":"t'an","dang":"tang","tang":"t'ang","dao":"tao","tao":"t'ao","de":"te","te":"t'e","dei":"tei","den":"ten","deng":"teng","teng":"t'eng","di":"ti","ti":"t'i","diang":"tiang","diao":"tiao","tiao":"t'iao","die":"tieh","tie":"t'ieh","dian":"tien","tian":"t'ien","ding":"ting","ting":"t'ing","diu":"tiu","duo":"to","tuo":"t'o","dou":"tou","tou":"t'ou","za":"tsa","ca":"ts'a","zai":"tsai","cai":"ts'ai","zan":"tsan","can":"ts'an","zang":"tsang","cang":"ts'ang","zao":"tsao","cao":"ts'ao","ze":"tse","ce":"ts'e","zei":"tsei","zen":"tsen","cen":"ts'en","zeng":"tseng","ceng":"ts'eng","zuo":"tso","cuo":"ts'o","zou":"tsou","cou":"ts'ou","zu":"tsu","cu":"ts'u","zuan":"tsuan","cuan":"ts'uan","zui":"tsui","cui":"ts'ui","zun":"tsun","cun":"ts'un","zong":"tsung","cong":"ts'ung","du":"tu","tu":"t'u","duan":"tuan","tuan":"t'uan","dui":"tui","tui":"t'ui","dun":"tun","tun":"t'un","dong":"tung","tong":"t'ung","zi":"tzu","ci":"tz'u","yan":"yen","ye":"yeh","you":"yu","yong":"yung","yu":"yü","yuan":"yüan","yue":"yüeh","yun":"yün"}
