@@ -759,7 +759,11 @@ function h (it)
   else if $?('body').hasClass('lang-m') then
       res.=replace(/\uFFF9/g '<span class="example-amis">').replace(/\uFFFB/g '</span><span class="example-fr">')
   else:
-    res.=replace(/\uFFF9/g '<span class="ruby"><span class="rb"><span class="ruby"><span class="rb">')
+    res.=replace(/\uFFF9/g """
+      <span class="ruby#{
+        if $?('body').hasClass('lang-t') and localStorage?getItem(\pinyin_t) is "TL-DT" then " parallel" else ""
+      }"><span class="rb"><span class="ruby"><span class="rb">
+    """)
     .replace(/\uFFFA/g '</span><br><span class="rt trs pinyin">')
     .replace(/\uFFFB$/, '')
     .replace(/\uFFFB/g '</span></span></span></span><br><span class="rt mandarin">')
