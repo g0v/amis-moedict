@@ -33,6 +33,8 @@ sudo apt-get install nodejs python-lxml curl
 
 ```
 npm i
+pip install lxml
+sudo npm i -g gulp
 ```
 
 ## 建置
