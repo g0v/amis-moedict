@@ -342,7 +342,6 @@ Heteronym = createClass do
     list ++= span { lang: \en, className: \english } english if english
     list ++= span { className: \specific_to, dangerouslySetInnerHTML: { __html: h specific_to } } if specific_to
 
-    console.log "X"
     return div-inline {},
       meta { itemProp: \image, content: encodeURIComponent(t) + ".png" }
       meta { itemProp: \name, content: t }
