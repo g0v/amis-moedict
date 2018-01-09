@@ -726,11 +726,7 @@
     window.fillQuery = fillQuery = function(it){
       var title, input;
       title = replace$.call(decodeURIComponent(it), /[（(].*/, '');
-      if (LANG !== 'p') {
-        title = replace$.call(title, /^[':!~;\|]/, '');
-      } else {
-        title = replace$.call(title, /^[:!~;\|]/, '');
-      }
+      title = replace$.call(title, /^[:!~;\|]/, '');
       if (/^</.exec(title)) {
         return;
       }
