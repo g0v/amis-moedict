@@ -17,6 +17,7 @@ js/deps.js ::
 
 manifest :: js/deps.js
 	perl -pi -e 's/# [A-Z].*\n/# @{[`date`]}/m' manifest.appcache
+	perl -pi -e 's/# [A-Z].*\n/# @{[`date`]}/m' amis-deploy/manifest.appcache
 
 amis-static:
 	cp -r styles.css *.html js css fonts p m s dict-amis*.json amis-deploy/
