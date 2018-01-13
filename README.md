@@ -12,7 +12,8 @@
 
 ```sh
 git clone git@github.com:g0v/amis-moedict.git
-npm i
+npm install
+npm install gulp-cli --global
 make amis
 ```
 
