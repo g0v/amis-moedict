@@ -1028,14 +1028,14 @@
           var $star, key;
           $star = $(this).hide();
           key = "\"" + prevId + "\"\n";
-          if ($(this).hasClass('icon-star-empty')) {
+          if ($(this).hasClass('icon-bookmark-empty')) {
             STARRED[LANG] = key + STARRED[LANG];
             $(this).attr('title', '已加入記錄簿');
           } else {
             STARRED[LANG] = replace$.call(STARRED[LANG], key + "", '');
             $(this).attr('title', '加入字詞記錄簿');
           }
-          $(this).toggleClass('icon-star-empty').toggleClass('icon-star');
+          $(this).toggleClass('icon-bookmark-empty').toggleClass('icon-bookmark');
           $('#btn-starred a').fadeOut('fast', function(){
             return $(this).css('background', '#ddd').fadeIn(function(){
               $(this).css('background', 'transparent');
