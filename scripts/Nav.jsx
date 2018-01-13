@@ -18,7 +18,8 @@ export default class Nav extends React.Component { render() {
             </li>
             <li id="btn-starred" title="字詞紀錄簿">
                 <a href="#=*" style={{ paddingLeft: "5px", paddingRight: "5px" }}>
-                    <i className="icon-bookmark">  字詞紀錄簿</i>
+                    <i className="icon-bookmark" style={{ display: "inline" }} />
+                    <span className="hidden-xs">字詞紀錄簿</span>
                 </a>
             </li>
             { window.isMoedictDesktop && <li id="btn-moedict-desktop-addons">
