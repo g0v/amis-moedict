@@ -92,7 +92,7 @@ body.lang-h {
     h1 {
         border-bottom: 0;
         margin: .25em 0 .25em;
-    
+
         & + .bopomofo {
             display: table;
         }
@@ -513,6 +513,11 @@ body.lang-a.web #lookback {
             left: 100%;
             top: 0;
         }
+    }
+
+    .nav .web-inline-only a {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
