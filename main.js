@@ -1028,7 +1028,7 @@
           var $star, key;
           $star = $(this).hide();
           key = "\"" + prevId + "\"\n";
-          if ($(this).hasClass('icon-bookmark-empty')) {
+          if ($(this).hasClass('icon-bookmark')) {
             STARRED[LANG] = key + STARRED[LANG];
             $(this).attr('title', '已加入記錄簿');
           } else {
