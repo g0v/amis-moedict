@@ -11,7 +11,7 @@
 ## 安裝開發環境
 
 ```sh
-git clone -b amis-react git@github.com:g0v/amis-moedict.git
+git clone git@github.com:g0v/amis-moedict.git
 npm i
 make amis
 ```
