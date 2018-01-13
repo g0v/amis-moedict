@@ -254,12 +254,12 @@
       STARRED = (typeof window != 'undefined' && window !== null ? window.STARRED : void 8) || {};
       if (STARRED[LANG] && ~STARRED[LANG].indexOf("\"" + CurrentId + "\"")) {
         return i({
-          className: "star iconic-color icon-star",
+          className: "star iconic-color icon-bookmark",
           title: '已加入記錄簿'
         });
       }
       return i({
-        className: "star iconic-color icon-star-empty",
+        className: "star iconic-color icon-bookmark-empty",
         title: '加入字詞記錄簿'
       });
     }
@@ -955,7 +955,7 @@
       list = [h1Name({}, id)];
       if (id === '字詞紀錄簿' && !terms) {
         btn = i({
-          className: 'icon-star-empty'
+          className: 'icon-bookmark-empty'
         });
         list = list.concat(p({
           className: 'bg-info'

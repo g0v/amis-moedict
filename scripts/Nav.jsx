@@ -18,12 +18,7 @@ export default class Nav extends React.Component { render() {
             </li>
             <li id="btn-starred" title="字詞紀錄簿">
                 <a href="#=*" style={{ paddingLeft: "5px", paddingRight: "5px" }}>
-                    <i className="icon-bookmark-empty" />
-                </a>
-            </li>
-            <li id="btn-pref" title="偏好設定">
-                <a href="#=*" style={{ paddingLeft: "5px", paddingRight: "5px" }}>
-                    <i className="icon-cogs" />
+                    <i className="icon-bookmark">  字詞紀錄簿</i>
                 </a>
             </li>
             { window.isMoedictDesktop && <li id="btn-moedict-desktop-addons">
@@ -44,6 +39,13 @@ export default class Nav extends React.Component { render() {
             }}>
                 <a style={{ paddingLeft: "5px", paddingRight: "5px" }} href="#" onClick={()=> window.adjustFontSize(+1)}>
                     <i className="icon-resize-full" />
+                </a>
+            </li>
+        </ul>
+        <ul className="nav pull-right hidden-xs">
+            <li id="btn-pref" title="偏好設定">
+                <a href="#=*" style={{ paddingLeft: "5px", paddingRight: "5px" }}>
+                    <i className="icon-cogs" />
                 </a>
             </li>
         </ul>
@@ -76,6 +78,7 @@ export default class Nav extends React.Component { render() {
                 </a>
             </li>
         </ul>
+
     </nav>
 } }
 
@@ -102,5 +105,3 @@ class MenuItem extends React.Component { render() {
             role={role} href={href}>{ children }</a>
     </li>
 } }
-
-
