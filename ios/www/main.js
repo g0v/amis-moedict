@@ -417,12 +417,12 @@
       $('body').on('click', '.results .star', function(){
         var key;
         key = "\"" + prevId + "\"\n";
-        if ($(this).hasClass('icon-star-empty')) {
+        if ($(this).hasClass('icon-bookmark-empty')) {
           STARRED[LANG] = key + STARRED[LANG];
         } else {
           STARRED[LANG] = replace$.call(STARRED[LANG], key + "", '');
         }
-        $(this).toggleClass('icon-star-empty').toggleClass('icon-star');
+        $(this).toggleClass('icon-bookmark-empty').toggleClass('icon-bookmark');
         $('#btn-starred').fadeOut('fast', function(){
           return $(this).css('background', '#ddd').fadeIn(function(){
             return $(this).css('background', 'transparent');
@@ -744,7 +744,7 @@
             return window.scrollTo(0, 0);
           });
         }
-        html = html.replace('<!-- STAR -->', ~STARRED[LANG].indexOf("\"" + prevId + "\"") ? "<i class='star iconic-color icon-star' title='已加入記錄簿'></i>" : "<i class='star iconic-color icon-star-empty' title='加入字詞記錄簿'></i>");
+        html = html.replace('<!-- STAR -->', ~STARRED[LANG].indexOf("\"" + prevId + "\"") ? "<i class='star iconic-color icon-bookmark' title='已加入記錄簿'></i>" : "<i class='star iconic-color icon-bookmark-empty' title='加入字詞記錄簿'></i>");
         $('#result').html(html);
         $('#result .part-of-speech a').attr('href', null);
         setPinyinBindings();
@@ -1248,7 +1248,7 @@
     title = "<h1 style='padding-bottom: 10px'>" + id + "</h1>";
     terms = replace$.call(terms, /^[^"]*/, '');
     if (id === '字詞紀錄簿' && !terms) {
-      terms += "（請按詞條右方的 <i class='icon-star-empty'></i> 按鈕，即可將字詞加到這裡。）";
+      terms += "（請按詞條右方的 <i class='icon-bookmark-empty'></i> 按鈕，即可將字詞加到這裡。）";
     }
     if (/^";/.exec(terms)) {
       terms = "<table border=1 bordercolor=#ccc><tr><td><span class='part-of-speech'>臺</span></td><td><span class='part-of-speech'>陸</span></td></tr>" + terms + "</table>";

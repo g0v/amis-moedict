@@ -8269,11 +8269,11 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "\f004";
 }
 
-.icon-star:before {
+.icon-bookmark:before {
   content: "\f005";
 }
 
-.icon-star-empty:before {
+.icon-bookmark-empty:before {
   content: "\f006";
 }
 
@@ -8770,7 +8770,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "\f088";
 }
 
-.icon-star-half:before {
+.icon-bookmark-half:before {
   content: "\f089";
 }
 
@@ -9306,8 +9306,8 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "\f122";
 }
 
-.icon-star-half-full:before,
-.icon-star-half-empty:before {
+.icon-bookmark-half-full:before,
+.icon-bookmark-half-empty:before {
   content: "\f123";
 }
 
