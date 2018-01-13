@@ -1,13 +1,13 @@
 {
   "author": "g0v.tw",
-  "name": "moedict-webkit",
+  "name": "amis-moedict",
   "description": "amis.moedict.tw",
   "license": "CC0-1.0",
   "version": "0.0.1",
-  "homepage": "https://github.com/g0v/moedict-webkit",
+  "homepage": "https://github.com/g0v/amis-moedict",
   "repository": {
     "type": "git",
-    "url": "https://github.com/g0v/moedict-webkit"
+    "url": "https://github.com/g0v/amis-moedict"
   },
   "scripts": {
     "start": "gulp run",
