@@ -20,7 +20,7 @@ manifest :: js/deps.js
 	perl -pi -e 's/# [A-Z].*\n/# @{[`date`]}/m' amis-deploy/manifest.appcache
 
 amis-static:
-	cp -r styles.css icon.png 2017-Amis-Logo.png *.html js css fonts p m s dict-amis*.json amis-deploy/
+	cp -r styles.css icon.png 2017-Amis-Logo.png *.html js css images fonts p m s dict-amis*.json amis-deploy/
 	cp ../amis-safolu/txt/amis-ch-mapping.json amis-deploy/s/ch-mapping.json
 	cp ../amis-safolu/tmp/amis-stem-words.json amis-deploy/s/stem-words.json
 
