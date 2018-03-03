@@ -2,8 +2,8 @@
   "author": "au",
   "status": "beta",
   "name": "moedict",
-  "description": "moedict: Dictionaries from Ministry of Education",
-  "description_zh": "萌典: 教育部字典匯總",
+  "description": "'Amis moedict: Dictionaries from Safolu Kacaw Lalanges, Virginia Fey, Louis Pourrias, Maurice Poinsot",
+  "description_zh": "阿美語萌典，目前有蔡中涵、方敏英、博利亞、潘世光字典",
   "homepage": "https://moedict.tw/",
   "document": "http://3du.tw/",
   "repository": {
@@ -16,9 +16,10 @@
     }
   ],
   "keywords": [
-    "livescript",
-    "sass",
-    "bootstrap"
+    "nodejs",
+    "react",
+    "scss",
+    "bootstrap3"
   ],
   "audience": [
     "contributor"
@@ -30,20 +31,26 @@
     "3du"
   ],
   "contributors": [
-    "clkao",
-    "hlb",
+    "wildjcrt",
+    "miaoski",
+    "audreyt",
+    "leo424y",
+    "moon_c",
+    "misscs",
     "a-tsioh",
-    "pektiong",
-    "c9s",
-    "miaout17",
-    "racklin",
-    "poga",
-    "caasi"
+    "PeterDaveHello",
+    "yhsiang",
+    "caasi",
+    "viirya",
+    "gugod",
+    "ethantw"
   ],
   "thumbnail": [
-    "https://pbs.twimg.com/media/BQMX_oGCEAIaAEQ.png"
+    "https://amis.moedict.tw/2017-Amis-Logo.png"
   ],
   "needs": [
-    "designer"
+    "programmer",
+    "designer",
+    "txt"
   ]
 }
