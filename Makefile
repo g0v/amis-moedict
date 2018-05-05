@@ -24,7 +24,10 @@ amis-static:
 	cp ../amis-safolu/txt/amis-ch-mapping.json amis-deploy/s/ch-mapping.json
 	cp ../amis-safolu/tmp/amis-stem-words.json amis-deploy/s/stem-words.json
 
-amis :: amis-fey amis-poinsot amis-safolu
+amis:
+	cp -r amis-deploy/images amis-deploy/fonts amis-deploy/p amis-deploy/m amis-deploy/s amis-deploy/dict-amis*.json .
+
+amis-build :: amis-fey amis-poinsot amis-safolu
 
 amis-fey ::
 	@-git clone --depth 1 https://github.com/miaoski/amis-data.git moedict-data-amis
