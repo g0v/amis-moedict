@@ -3,9 +3,6 @@
 ## 環境需求
 
 * Node.js v6+
-* Perl 5.8.0+
-* Python
-* Ruby
 * Gulp
 
 ## 安裝開發環境
@@ -27,26 +24,6 @@ make dev
 
 * gulpfile.js
 * webpack.config.js
-
-## 重新編譯字典
-
-編譯方敏英字典
-
-```
-make amis-fey
-```
-
-編譯潘世光、博利亞阿法字典
-
-```
-make amis-poinsot
-```
-
-編譯蔡中涵大辭典
-
-```
-make amis-safolu
-```
 
 ## Deploy production 步驟
 
@@ -70,17 +47,56 @@ $ git commit -m 'Update js/deps.js and amis-deploy/manifest.appcache in amis-dep
 $ git push
 ```
 
-# 字典授權
+## 重新編譯字典
+
+### 編譯環境需求
+
+* Node.js v6+
+* Perl 5.8.0+
+* Python
+* Ruby
+
+#### 編譯指令說明
+
+全部字典重編：
+
+* 方敏英字典
+* 潘世光、博利亞阿法字典
+* 蔡中涵大辭典
+
+```
+make amis-build
+```
+
+只重編方敏英字典
+
+```
+make amis-fey
+```
+
+只重編潘世光、博利亞阿法字典
+
+```
+make amis-poinsot
+```
+
+只重編蔡中涵大辭典
+
+```
+make amis-safolu
+```
+
+## 字典授權
 
 * 蔡中涵阿美語大辭典，由蔡中涵博士提供 g0v 及阿美語萌典無償使用。
 * 方敏英阿美語字典（Virginia Fey 編著），由台灣聖經公會提供紙本，並經由鄉民 OCR 電子化，採用 CC BY-NC 授權。
 * 博利亞潘世光神父阿美語-法語、阿美語-漢語字典，由天主教巴黎外方會的潘世光神父（Maurice Poinsot）、博利亞神父（Louis Pourrias）提供，採用 CC BY-NC 授權。
 
-# Logo 字型
+## Logo 字型
 
 目前 Logo 使用 [Century® Schoolbook](https://www.myfonts.com/fonts/bitstream/century-schoolbook/) 這個字體。
 
-# CC0 1.0 公眾領域貢獻宣告
+## CC0 1.0 公眾領域貢獻宣告
 
 除前述資料檔之外，本目錄下的所有其他檔案，由作者 唐鳳、Miaoski、Jerry Lee 在法律
 許可的範圍內，拋棄該著作依著作權法所享有之權利，包括所有相關
