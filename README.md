@@ -1,5 +1,7 @@
 這是 <https://amis.moedict.tw> 線上及離線查詢 App 的源碼庫。
 
+# Web 開發
+
 ## 環境需求
 
 * Node.js v6+
@@ -47,6 +49,8 @@ $ git commit -m 'Update js/deps.js and amis-deploy/manifest.appcache in amis-dep
 $ git push
 ```
 
+# 字典相關
+
 ## 重新編譯字典
 
 ### 編譯環境需求
@@ -86,11 +90,14 @@ make amis-poinsot
 make amis-safolu
 ```
 
+# 授權
+
 ## 字典授權
 
 * 蔡中涵阿美語大辭典，由蔡中涵博士提供 g0v 及阿美語萌典無償使用。
 * 方敏英阿美語字典（Virginia Fey 編著），由台灣聖經公會提供紙本，並經由鄉民 OCR 電子化，採用 CC BY-NC 授權。
 * 博利亞潘世光神父阿美語-法語、阿美語-漢語字典，由天主教巴黎外方會的潘世光神父（Maurice Poinsot）、博利亞神父（Louis Pourrias）提供，採用 CC BY-NC 授權。
+
 
 ## Logo 字型
 
