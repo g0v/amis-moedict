@@ -1,4 +1,6 @@
-這是 <https://amis.moedict.tw> 線上及離線查詢 App 的源碼庫。
+這是阿美語萌典網站 <https://amis.moedict.tw> 線上及離線查詢 App 的源碼庫。
+
+阿美語萌典團隊的 [hackfoldr 傳送門](https://beta.hackfoldr.org/11BRa7Ftnni8Q1NRdjwS378BgBz832UY4uIr-d0J0YpM)。
 
 # Web 開發
 
