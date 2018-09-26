@@ -29,6 +29,50 @@ make dev
 * gulpfile.js
 * webpack.config.js
 
+## JSON 結構說明
+
+json 檔案資料夾分類如下：
+
+* s: 蔡中涵大辭典
+* p: 方敏英字典
+* m: 潘世光、博利亞阿法字典
+
+### JSON 完整欄位
+
+    {
+      h: [ # Array, required
+        {
+          d: [ # Array, required
+            {
+              f: 'String, required',
+              s: [
+                'String, optional'
+              ],
+              e: [
+                'String, optional'
+              ],
+              type: 'String, optional'
+            }
+          ]
+        }
+      ],
+      t: 'String, required',
+      stem: 'String, optional',
+      tag: 'String, optional'
+    }
+
+### 欄位說明
+
+* h
+* * d
+* * * e：範例
+* * * f：釋義
+* * * s：（確認中）
+* * * type：（確認中），只有潘世光、博利亞阿法字典有使用
+* t：詞
+* stem：詞幹，只有蔡中涵大辭典有使用
+* tag：（確認中），只有蔡中涵大辭典有使用
+
 ## Deploy production 步驟
 
 如果只有改到 js
