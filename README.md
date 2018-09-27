@@ -39,17 +39,21 @@ json 檔案資料夾分類如下：
 
 ### JSON 完整欄位
 
+以下兩段是等義的，因為維護者比較習慣看註解格式，但是 TypeScript 電腦可讀，所以兩種格式都附上。
+
+#### 註解格式
+
     {
       h: [ # Array, required
         {
           d: [ # Array, required
             {
               f: 'String, required',
-              s: [
-                'String, optional'
+              s: [ # Array, optional
+                'String'
               ],
-              e: [
-                'String, optional'
+              e: [ # Array, optional
+                'String'
               ],
               type: 'String, optional'
             }
@@ -60,6 +64,22 @@ json 檔案資料夾分類如下：
       stem: 'String, optional',
       tag: 'String, optional'
     }
+
+#### TypeScript 格式
+
+    type Entry = {
+      h: {
+        d: {
+          f: string,
+          s?: string[],
+          e?: string[],
+          type?: string
+        }[]
+      }[],
+      t: string,
+      stem?: string,
+      tag?: string,
+    };
 
 ### 欄位說明
 
