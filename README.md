@@ -29,6 +29,70 @@ make dev
 * gulpfile.js
 * webpack.config.js
 
+## JSON 結構說明
+
+json 檔案資料夾分類如下：
+
+* s: 蔡中涵大辭典
+* p: 方敏英字典
+* m: 潘世光、博利亞阿法字典
+
+### JSON 完整欄位
+
+以下兩段是等義的，因為維護者比較習慣看註解格式，但是 TypeScript 電腦可讀，所以兩種格式都附上。
+
+#### 註解格式
+
+    {
+      h: [ # Array, required
+        {
+          d: [ # Array, required
+            {
+              f: 'String, required',
+              s: [ # Array, optional
+                'String'
+              ],
+              e: [ # Array, optional
+                'String'
+              ],
+              type: 'String, optional'
+            }
+          ]
+        }
+      ],
+      t: 'String, required',
+      stem: 'String, optional',
+      tag: 'String, optional'
+    }
+
+#### TypeScript 格式
+
+    type Entry = {
+      h: {
+        d: {
+          f: string,
+          s?: string[],
+          e?: string[],
+          type?: string
+        }[]
+      }[],
+      t: string,
+      stem?: string,
+      tag?: string,
+    };
+
+### 欄位說明
+
+* h：沿襲自萌典的 heteronym，本專案中為了盡量與萌典格式接近而保留。
+* * d：定義 definitions，一個詞 (t) 可能會有多個定義。
+* * * f：詞義解釋 def。
+* * * e：範例 example。
+* * * s：同義詞 synonym。
+* * * type：（神父的字典本來就有的標記，意義待確認，歡迎 PR），只有潘世光、博利亞阿法字典有使用。
+* t：沿襲自萌典的 title，本專案中就是字詞。
+* stem：詞幹，只有蔡中涵大辭典有使用。
+* tag：重疊構詞 reduplication，只有蔡中涵大辭典有使用。
+
 ## Deploy production 步驟
 
 如果只有改到 js
