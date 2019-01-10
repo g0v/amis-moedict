@@ -2,6 +2,14 @@
 
 阿美語萌典團隊的 [hackfoldr 傳送門](https://beta.hackfoldr.org/11BRa7Ftnni8Q1NRdjwS378BgBz832UY4uIr-d0J0YpM)。
 
+## About 'Amis moedict
+
+’Amis/Pangcah Dictionary, an online ’Amis to Chinese / English / French dictionary, was established with the power of citizens to preserve the once considered soon-to-disappear indigenous language.
+
+In Taiwan, there are 16 different indigenous nations. Though their languages never developed into writing system, detailed records have been made with the efforts of missionaries and cultural heritage inheritors.
+
+The ’Amis/Pangcah Dictionary is the first example of an digitized, online indigenous language dictionary. We hope that others can develop their own online dictionaries, too.
+
 # Web 開發
 
 ## 環境需求
