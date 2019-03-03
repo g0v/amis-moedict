@@ -329,11 +329,13 @@
       $el.removeClass('icon-play').addClass('icon-spinner');
       $el.parent('.audioBlock').addClass('playing');
       urls = [url];
-      if (/(ogg|opus)$/.exec(url) && canPlayMp3() && !isGecko) {
+      if (/(ogg|opus)$/.exec(url) && canPlayMp3()) {
         urls.unshift(url.replace(/(ogg|opus)$/, 'mp3'));
       }
       audio = new window.Howl({
         buffer: true,
+        html5: true,
+        src: urls,
         urls: urls,
         onend: done,
         format: ['wav'],
