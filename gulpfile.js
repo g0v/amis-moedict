@@ -2,7 +2,7 @@
 (function(){
   var gulp, sass, src, ref$, ref1$, watch, split$ = ''.split;
   gulp = require('gulp');
-  sass = require('gulp-sass');
+  sass = require('gulp-dart-sass');
   src = function(it){
     return gulp.src(it);
   };
