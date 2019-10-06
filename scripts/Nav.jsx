@@ -7,12 +7,12 @@ export default class Nav extends React.Component { render() {
         </div>
         <ul className="nav navbar-nav">
             <li className="dropdown">
-                <a className="dropdown-toggle" href="#" data-toggle="dropdown">
+                <a className="dropdown-toggle" data-href="#" data-toggle="dropdown">
                     <i className="icon-book">&nbsp;</i>
                     <span className="lang-active" style={{
                         margin: 0, padding: 0
                     }} itemProp="articleSection">方敏英字典</span>
-                    <b className="caret"></b>
+                    <span className="caret"></span>
                 </a>
                 <DropDown STANDALONE={this.props.STANDALONE} />
             </li>
