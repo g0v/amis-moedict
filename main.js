@@ -1110,14 +1110,7 @@
       var reactProps, xrefs, res$, lang, ref$, words;
       part = React.View.decodeLangPart(LANG, part);
       reactProps = null;
-      if (/^\[\s*\[/.exec(part)) {
-        reactProps = {
-          id: id,
-          type: 'radical',
-          terms: part,
-          H: HASHOF[LANG]
-        };
-      } else if (/^\[/.exec(part)) {
+      if (/^\[/.exec(part)) {
         reactProps = {
           id: id,
           type: 'list',
