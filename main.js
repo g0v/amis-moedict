@@ -1,5 +1,5 @@
 (function(){
-  var isCordova, isMoedictDesktop, DEBUGGING, ref$, STANDALONE, ref1$, any, map, unique, React, LANG, MOEID, XREFLABELOF, TITLEOF, HASHOF, STARRED, key, LRU, res$, isQuery, isDroidGap, isDeviceReady, isMobile, isApp, isWebKit, isGecko, isChrome, isPrerendered, widthIsXs, entryHistory, INDEX, STEM, CH_STEM_MAPPING, XREF, CACHED, addToLru, GET, e, playing, player, seq, getEl, callLater, MOE, han_amis_lookup, SIMPTRAD, httpMap, LoadedScripts, split$ = ''.split, replace$ = ''.replace, join$ = [].join;
+  var isCordova, isMoedictDesktop, DEBUGGING, ref$, STANDALONE, ref1$, any, map, unique, React, LANG, MOEID, XREFLABELOF, TITLEOF, HASHOF, STARRED, key, LRU, res$, isQuery, isDroidGap, isDeviceReady, isMobile, isApp, isWebKit, isGecko, isChrome, isPrerendered, widthIsXs, entryHistory, INDEX, STEM, CH_STEM_MAPPING, XREF, CACHED, addToLru, GET, e, playing, player, seq, getEl, callLater, MOE, han_amis_lookup, httpMap, LoadedScripts, split$ = ''.split, replace$ = ''.replace, join$ = [].join;
   window.isCordova = isCordova = !/^https?:/.test(document.URL) && !/^http:\/\/localhost/.test(document.URL);
   if (window.moedictDesktop) {
     window.isMoedictDesktop = isMoedictDesktop = true;
@@ -52,7 +52,7 @@
     s: '蔡中涵'
   };
   HASHOF = {
-    p: '#',
+    p: '#~',
     m: "#!",
     s: '#:'
   };
@@ -694,7 +694,7 @@
           return window.pressLang(lang, val);
         }, 1);
       }
-      val = b2g(val);
+      val = val.toLowerCase();
       if (val === prevVal) {
         return true;
       }
@@ -847,17 +847,13 @@
       var that;
       if (that = $('#query').val()) {
         $('.erase-box').show();
-        return doLookup(b2g(that));
+        return doLookup(that.toLowerCase());
       }
       return $('.erase-box').hide();
     };
     window.doLookup = doLookup = function(val){
       var title, Index, id, hist;
       title = replace$.call(val, /[（(].*/, '');
-      if (/draw/.exec(location.search) && !$('body').hasClass('autodraw')) {
-        $('body').addClass('autodraw');
-        strokeWords(title);
-      }
       Index = INDEX[LANG];
       if (/^[=@]/.exec(title)) {} else if (isCordova || !Index) {
         if (/object/.exec(title)) {
@@ -989,12 +985,6 @@
       $result = $('#result');
       $h1 = $result.find('h1, .h1');
       $tooltip = $('.ui-tooltip');
-      if ($('svg, canvas').length && !$('body').hasClass('autodraw')) {
-        $('#strokes').fadeOut('fast', function(){
-          $('#strokes').html('');
-          return window.scrollTo(0, 0);
-        });
-      }
       $tooltip.remove();
       setTimeout(function(){
         $tooltip.remove();
@@ -1045,17 +1035,6 @@
             });
           });
           return setPref("starred-" + LANG, STARRED[LANG]);
-        });
-        $('.results .stroke').on(vclick, function(){
-          $('#historical-scripts').fadeIn();
-          if ($('svg, canvas').length) {
-            return $('#strokes').fadeOut('fast', function(){
-              $('#strokes').html('');
-              return window.scrollTo(0, 0);
-            });
-          }
-          window.scrollTo(0, 0);
-          return strokeWords(replace$.call($('h1:first').data('title'), /[（(].*/, ''));
         });
         $('.results .playAudio').click(function(){
           return window.playAudio(this, $(this).find("meta[itemprop='contentURL']").attr('content'));
@@ -1131,14 +1110,7 @@
       var reactProps, xrefs, res$, lang, ref$, words;
       part = React.View.decodeLangPart(LANG, part);
       reactProps = null;
-      if (/^\[\s*\[/.exec(part)) {
-        reactProps = {
-          id: id,
-          type: 'radical',
-          terms: part,
-          H: HASHOF[LANG]
-        };
-      } else if (/^\[/.exec(part)) {
+      if (/^\[/.exec(part)) {
         reactProps = {
           id: id,
           type: 'list',
@@ -1261,7 +1233,7 @@
     }
     return $ul;
   }
-  MOE = '{"n":8,"t":"萌","r":"`艸~","c":12,"h":[{"d":[{"q":["`說文解字~：「`萌~，`艸~`芽~`也~。」","`唐~．`韓愈~、`劉~`師~`服~、`侯~`喜~、`軒轅~`彌~`明~．`石~`鼎~`聯句~：「`秋~`瓜~`未~`落~`蒂~，`凍~`芋~`強~`抽~`萌~。」"],"type":"`名~","f":"`草木~`初~`生~`的~`芽~。"},{"q":["`韓非子~．`說~`林~`上~：「`聖人~`見~`微~`以~`知~`萌~，`見~`端~`以~`知~`末~。」","`漢~．`蔡邕~．`對~`詔~`問~`灾~`異~`八~`事~：「`以~`杜漸防萌~，`則~`其~`救~`也~。」"],"type":"`名~","f":"`事物~`發生~`的~`開端~`或~`徵兆~。"},{"type":"`名~","l":["`通~「`氓~」。"],"e":["`如~：「`萌黎~」、「`萌隸~」。"],"f":"`人民~。"},{"type":"`名~","f":"`姓~。`如~`五代~`時~`蜀~`有~`萌~`慮~。"},{"q":["`楚辭~．`王~`逸~．`九思~．`傷~`時~：「`明~`風~`習習~`兮~`龢~`暖~，`百草~`萌~`兮~`華~`榮~。」"],"type":"`動~","e":["`如~：「`萌芽~」。"],"f":"`發芽~。"},{"q":["`管子~．`牧民~：「`惟~`有道~`者~，`能~`備~`患~`於~`未~`形~`也~，`故~`禍~`不~`萌~。」","`三國演義~．`第一~`回~：「`若~`萌~`異心~，`必~`獲~`惡報~。」"],"type":"`動~","e":["`如~：「`故態復萌~」。"],"f":"`發生~。"}],"p":"méng","b":"ㄇㄥˊ","=":"0676"}],"translation":{"francais":["germer"],"Deutsch":["Leute, Menschen  (S)","Meng  (Eig, Fam)","keimen, sprießen, knospen, ausschlagen "],"English":["to sprout","to bud","to have a strong affection for (slang)","adorable (loanword from Japanese `萌~え moe, slang describing affection for a cute character)"]}}';
+  MOE = '{"n":8,"t":"萌","r":"`艸~","c":12,"h":[{"d":[{"q":["`說文解字~：「`萌~，`艸~`芽~`也~。」","`唐~．`韓愈~、`劉~`師~`服~、`侯~`喜~、`軒轅~`彌~`明~．`石~`鼎~`聯句~：「`秋~`瓜~`未~`落~`蒂~，`凍~`芋~`強~`抽~`萌~。」"],"type":"`名~","f":"`草木~`初~`生~`的~`芽~。"},{"q":["`韓非子~．`說~`林~`上~：「`聖人~`見~`微~`以~`知~`萌~，`見~`端~`以~`知~`末~。」","`漢~．`蔡邕~．`對~`詔~`問~`灾~`異~`八~`事~：「`以~`杜漸防萌~，`則~`其~`救~`也~。」"],"type":"`名~","f":"`事物~`發生~`的~`開端~`或~`徵兆~。"},{"type":"`名~","l":["`通~「`氓~」。"],"e":["`如~：「`萌黎~」、「`萌隸~」。"],"f":"`人民~。"},{"type":"`名~","f":"`姓~。`如~`五代~`時~`蜀~`有~`萌~`慮~。"},{"q":["`楚辭~．`王~`逸~．`九思~．`傷~`時~：「`明~`風~`習習~`兮~`龢~`暖~，`百草~`萌~`兮~`華~`榮~。」"],"type":"`動~","e":["`如~：「`萌芽~」。"],"f":"`發芽~。"},{"q":["`管子~．`牧民~：「`惟~`有道~`者~，`能~`備~`患~`於~`未~`形~`也~，`故~`禍~`不~`萌~。」","`三國演義~．`第一~`回~：「`若~`萌~`異心~，`必~`獲~`惡報~。」"],"type":"`動~","e":["`如~：「`故態復萌~」。"],"f":"`發生~。"}],"p":"méng","b":"ㄇㄥˊ","=":"0676"}]}';
   function amisOrdering(list, term){
     var filteredList;
     list = list.sort();
@@ -1406,7 +1378,7 @@
         }
         regex = regex.replace(/\(\)/g, '');
         try {
-          results = INDEX[LANG].match(RegExp(b2g(regex) + '', 'g'));
+          results = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
         } catch (e$) {}
         results || (results = xrefOf(term, LANG === 'a' ? 't' : 'a', LANG));
         results = amisOrdering(results, term);
@@ -1487,26 +1459,6 @@
       });
     });
   };
-  SIMPTRAD = require('./js/simp-trad.js');
-  function b2g(str){
-    var rv, i$, ref$, len$, char, idx;
-    str == null && (str = '');
-    if (LANG === 'p' || LANG === 'm' || LANG === 's') {
-      return str.toLowerCase();
-    }
-    if (!((LANG === 'a' || LANG === 'c') && !/^@/.test(str))) {
-      return str.replace(/台([北中南東灣語])/g, '臺$1');
-    }
-    rv = '';
-    for (i$ = 0, len$ = (ref$ = split$.call(str, '')).length; i$ < len$; ++i$) {
-      char = ref$[i$];
-      idx = SIMPTRAD.indexOf(char);
-      rv += idx % 2
-        ? char
-        : SIMPTRAD[idx + 1];
-    }
-    return rv.replace(/台([北中南東灣語])/g, '臺$1');
-  }
   function canPlayMp3(){
     var a;
     if (CACHED.canPlayMp3 != null) {
@@ -1537,9 +1489,7 @@
   httpMap = {
     a: '203146b5091e8f0aafda-15d41c68795720c6e932125f5ace0c70.ssl.cf1.rackcdn.com',
     h: 'a7ff62cf9d5b13408e72-351edcddf20c69da65316dd74d25951e.ssl.cf1.rackcdn.com',
-    t: '1763c5ee9859e0316ed6-db85b55a6a3fbe33f09b9245992383bd.ssl.cf1.rackcdn.com',
-    'stroke-json': '829091573dd46381a321-9e8a43b8d3436eaf4353af683c892840.ssl.cf1.rackcdn.com',
-    stroke: '/626a26a628fa127d6a25-47cac8eba79cfb787dbcc3e49a1a65f1.ssl.cf1.rackcdn.com'
+    t: '1763c5ee9859e0316ed6-db85b55a6a3fbe33f09b9245992383bd.ssl.cf1.rackcdn.com'
   };
   function http(it){
     if (location.protocol !== 'https:') {
@@ -1549,152 +1499,6 @@
       return httpMap[x] || xs;
     });
   }
-  $(function(){
-    var filterNodes, drawOutline, fetchStrokeXml, strokeWord;
-    filterNodes = function(childNodes){
-      var nodes, i$, len$, n;
-      nodes = [];
-      for (i$ = 0, len$ = childNodes.length; i$ < len$; ++i$) {
-        n = childNodes[i$];
-        if (n.nodeType === 1) {
-          nodes.push(n);
-        }
-      }
-      return nodes;
-    };
-    drawOutline = function(paper, outline, pathAttrs){
-      var path, i$, ref$, len$, node, a, stroke;
-      path = [];
-      for (i$ = 0, len$ = (ref$ = outline.childNodes).length; i$ < len$; ++i$) {
-        node = ref$[i$];
-        if (node.nodeType !== 1) {
-          continue;
-        }
-        a = node.attributes;
-        if (!a) {
-          continue;
-        }
-        switch (node.nodeName) {
-        case "MoveTo":
-          path.push(["M", parseFloat(a.x.value), parseFloat(a.y.value)]);
-          break;
-        case "LineTo":
-          path.push(["L", parseFloat(a.x.value), parseFloat(a.y.value)]);
-          break;
-        case "CubicTo":
-          path.push(["C", parseFloat(a.x1.value), parseFloat(a.y1.value), parseFloat(a.x2.value), parseFloat(a.y2.value), parseFloat(a.x3.value), parseFloat(a.y3.value)]);
-          break;
-        case "QuadTo":
-          path.push(["Q", parseFloat(a.x1.value), parseFloat(a.y1.value), parseFloat(a.x2.value), parseFloat(a.y2.value)]);
-        }
-      }
-      stroke = paper.path(path).attr(pathAttrs).transform("s0.1,0.1,0,0");
-      stroke.node.setAttribute("class", "fade");
-      return setTimeout(function(){
-        return stroke.node.setAttribute("class", "fade in");
-      }, 1);
-    };
-    fetchStrokeXml = function(code, next, cb){
-      return $.get((isCordova ? http("stroke.moedict.tw/") : "utf8/") + code.toLowerCase() + ".xml", cb, "xml").fail(function(){
-        return $('svg:last').fadeOut('fast', function(){
-          $('svg:last').remove();
-          return next();
-        });
-      });
-    };
-    strokeWord = function(word, cb, timeout){
-      var utf8code, id, div, paper, gridLines, i$, len$, line;
-      if (!$('#strokes').is(':visible')) {
-        return;
-      }
-      window.scrollTo(0, 0);
-      utf8code = escape(word).replace(/%u/, "");
-      id = "stroke-" + ((Math.random() + "").replace(/^../, ''));
-      div = $('<div/>', {
-        id: id,
-        css: {
-          display: 'inline-block'
-        }
-      }).appendTo($('#strokes'));
-      paper = Raphael(id, 204, 204);
-      gridLines = ["M68,0 L68,204", "M136,0 L136,204", "M0,68 L204,68", "M0,136 L204,136"];
-      for (i$ = 0, len$ = gridLines.length; i$ < len$; ++i$) {
-        line = gridLines[i$];
-        paper.path(line).attr({
-          'stroke-width': 1,
-          stroke: '#a33'
-        });
-      }
-      return fetchStrokeXml(utf8code, function(){
-        return cb(timeout);
-      }, function(doc){
-        var color, pathAttrs, delay, i$, ref$, len$;
-        window.scrollTo(0, 0);
-        color = "black";
-        pathAttrs = {
-          stroke: color,
-          "stroke-width": 0,
-          "stroke-linecap": "round",
-          "fill": color
-        };
-        delay = 350;
-        for (i$ = 0, len$ = (ref$ = doc.getElementsByTagName('Outline')).length; i$ < len$; ++i$) {
-          (fn$.call(this, ref$[i$]));
-        }
-        return cb(timeout + delay);
-        function fn$(outline){
-          setTimeout(function(){
-            return drawOutline(paper, outline, pathAttrs);
-          }, timeout += delay);
-        }
-      });
-    };
-    return window.strokeWords = function(words){
-      $('#strokes').html('').show();
-      if ((function(){
-        var ref$;
-        try {
-          return (ref$ = document.createElement('canvas')) != null ? ref$.getContext('2d') : void 8;
-        } catch (e$) {}
-      }())) {
-        return getScript('js/raf.min.js', function(){
-          return getScript('js/gl-matrix-min.js', function(){
-            return getScript('js/sax.js', function(){
-              return getScript('js/jquery.strokeWords.js', function(){
-                var url, dataType;
-                url = './json/';
-                dataType = 'json';
-                if (isCordova) {
-                  if (window.DataView && window.ArrayBuffer) {
-                    url = './bin/';
-                    dataType = 'bin';
-                  } else {
-                    url = http('stroke-json.moedict.tw/');
-                  }
-                }
-                return $('#strokes').strokeWords(words, {
-                  url: url,
-                  dataType: dataType,
-                  svg: false
-                });
-              });
-            });
-          });
-        });
-      } else {
-        return getScript('js/raphael.js', function(){
-          var ws, step;
-          ws = words.split('');
-          step = function(it){
-            if (ws.length) {
-              return strokeWord(ws.shift(), step, it);
-            }
-          };
-          return step(0);
-        });
-      }
-    };
-  });
   LoadedScripts = {};
   function getScript(src, cb){
     if (LoadedScripts[src]) {
