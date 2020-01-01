@@ -16,8 +16,8 @@ js/deps.js ::
 	cp js/deps.js amis-deploy/js
 
 manifest :: js/deps.js
-	perl -pi -e 's/# [A-Z].*\n/# @{[`date`]}/m' manifest.appcache
-	perl -pi -e 's/# [A-Z].*\n/# @{[`date`]}/m' amis-deploy/manifest.appcache
+	ruby -e 'filepath=ARGV[0];IO.write(filepath, File.open(filepath) {|f| f.read.gsub(/# 20.*\n/, "# #{Time.now.to_s}\n")})' -i manifest.appcache
+	ruby -e 'filepath=ARGV[0];IO.write(filepath, File.open(filepath) {|f| f.read.gsub(/# 20.*\n/, "# #{Time.now.to_s}\n")})' -i amis-deploy/manifest.appcache
 
 amis-static:
 	cp -r styles.css icon.png 2017-Amis-Logo.png *.html js css images fonts p m s dict-amis*.json amis-deploy/
