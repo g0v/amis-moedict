@@ -1,5 +1,5 @@
 (function(){
-  var isCordova, isMoedictDesktop, DEBUGGING, ref$, STANDALONE, ref1$, any, map, unique, React, LANG, MOEID, XREFLABELOF, TITLEOF, HASHOF, STARRED, key, LRU, res$, isQuery, isDroidGap, isDeviceReady, isMobile, isApp, isWebKit, isGecko, isChrome, isPrerendered, widthIsXs, entryHistory, INDEX, STEM, CH_STEM_MAPPING, XREF, CACHED, addToLru, GET, e, playing, player, seq, getEl, callLater, MOE, han_amis_lookup, SIMPTRAD, httpMap, LoadedScripts, split$ = ''.split, replace$ = ''.replace, join$ = [].join;
+  var isCordova, isMoedictDesktop, DEBUGGING, ref$, STANDALONE, ref1$, any, map, unique, React, LANG, MOEID, XREFLABELOF, TITLEOF, HASHOF, STARRED, key, LRU, res$, isQuery, isDroidGap, isDeviceReady, isMobile, isApp, isWebKit, isGecko, isChrome, isPrerendered, widthIsXs, entryHistory, INDEX, STEM, CH_STEM_MAPPING, XREF, CACHED, addToLru, GET, e, playing, player, seq, getEl, callLater, MOE, han_amis_lookup, httpMap, LoadedScripts, split$ = ''.split, replace$ = ''.replace, join$ = [].join;
   window.isCordova = isCordova = !/^https?:/.test(document.URL) && !/^http:\/\/localhost/.test(document.URL);
   if (window.moedictDesktop) {
     window.isMoedictDesktop = isMoedictDesktop = true;
@@ -694,7 +694,7 @@
           return window.pressLang(lang, val);
         }, 1);
       }
-      val = b2g(val);
+      val = val.toLowerCase();
       if (val === prevVal) {
         return true;
       }
@@ -847,7 +847,7 @@
       var that;
       if (that = $('#query').val()) {
         $('.erase-box').show();
-        return doLookup(b2g(that));
+        return doLookup(that.toLowerCase());
       }
       return $('.erase-box').hide();
     };
@@ -1385,7 +1385,7 @@
         }
         regex = regex.replace(/\(\)/g, '');
         try {
-          results = INDEX[LANG].match(RegExp(b2g(regex) + '', 'g'));
+          results = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
         } catch (e$) {}
         results || (results = xrefOf(term, LANG === 'a' ? 't' : 'a', LANG));
         results = amisOrdering(results, term);
@@ -1466,26 +1466,6 @@
       });
     });
   };
-  SIMPTRAD = require('./js/simp-trad.js');
-  function b2g(str){
-    var rv, i$, ref$, len$, char, idx;
-    str == null && (str = '');
-    if (LANG === 'p' || LANG === 'm' || LANG === 's') {
-      return str.toLowerCase();
-    }
-    if (!((LANG === 'a' || LANG === 'c') && !/^@/.test(str))) {
-      return str.replace(/台([北中南東灣語])/g, '臺$1');
-    }
-    rv = '';
-    for (i$ = 0, len$ = (ref$ = split$.call(str, '')).length; i$ < len$; ++i$) {
-      char = ref$[i$];
-      idx = SIMPTRAD.indexOf(char);
-      rv += idx % 2
-        ? char
-        : SIMPTRAD[idx + 1];
-    }
-    return rv.replace(/台([北中南東灣語])/g, '臺$1');
-  }
   function canPlayMp3(){
     var a;
     if (CACHED.canPlayMp3 != null) {
