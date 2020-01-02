@@ -605,7 +605,7 @@
           return;
         }
         val = $(this).attr('href');
-        if (val === '#' || val === '##') {
+        if (val === '#' || val === '#~') {
           return true;
         }
         if ($('.dropdown.open').length) {
