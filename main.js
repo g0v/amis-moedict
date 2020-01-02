@@ -658,12 +658,10 @@
       if (/</.exec(val) || /^\s+$/.exec(val) || /index.html/.exec(val)) {
         return;
       }
-      if ((val === '\'=諺語' || val === '!=諺語' || val === ':=諺語') && !widthIsXs()) {
-        setTimeout(function(){
-          return $('#query').autocomplete('search');
-        }, 500);
+      if (/^~/.exec(val + "")) {
+        lang = 'p';
+        val = val.substr(1);
       }
-      lang = 'p';
       if (/^!/.exec(val + "")) {
         lang = 'm';
         val = val.substr(1);
