@@ -85,7 +85,7 @@ export default class Nav extends React.Component { render() {
 
 class DropDown extends React.Component { render() {
     return <ul className="dropdown-menu" role="navigation">{[
-        <MenuItem key="##" lang="p" href="##">方敏英字典</MenuItem>,
+        <MenuItem key="#~" lang="p" href="#~">方敏英字典</MenuItem>,
         <MenuItem key="#!" lang="m" href="#!">潘世光阿法</MenuItem>,
         <MenuItem key="#:" lang="s" href="#:">蔡中涵大辭典</MenuItem>]}
     </ul>
