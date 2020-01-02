@@ -1344,12 +1344,13 @@
         try {
           results = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
         } catch (e$) {}
-        results || (results = xrefOf(term, LANG === 'a' ? 't' : 'a', LANG));
-        results = amisOrdering(results, term);
+        if (results !== null) {
+          results = amisOrdering(results, term);
+        }
         if (!(results != null && results.length)) {
           return cb(['']);
         }
-        if (results.length === 1) {
+        if ((results != null) && (results.length === 1)) {
           doLookup(replace$.call(results[0], /"/g, ''));
         }
         MaxResults = widthIsXs() ? 400 : 1024;
