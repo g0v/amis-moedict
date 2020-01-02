@@ -76,11 +76,6 @@
   }
   LRU = res$;
   isQuery = /^\?q=/.exec(location.search);
-  if (/\?_escaped_fragment_=(.+)/.exec(location.search)) {
-    isQuery = true;
-    MOEID = decodeURIComponent(RegExp.$1);
-    LANG = 't';
-  }
   isDroidGap = isCordova && /android_asset/.exec(location.href);
   isDeviceReady = !isCordova;
   if (DEBUGGING) {
@@ -132,13 +127,6 @@
       m: 'aag'
     }
   };
-  if (isCordova && STANDALONE !== 'c' && !window.ALL_LANGUAGES) {
-    delete HASHOF.c;
-    delete INDEX.c;
-    $(function(){
-      return $('.nav .c').remove();
-    });
-  }
   function xrefOf(id, srcLang, tgtLangOnly){
     var rv, parsed, i$, ref$, len$, chunk, ref1$, tgtLang, words, idx, part, x;
     srcLang == null && (srcLang = LANG);
@@ -375,7 +363,7 @@
     return setTimeout(it, isMobile ? 10 : 1);
   };
   window.doLoad = function(){
-    var fontSize, saveFontSize, cacheLoading, pressAbout, pressErase, pressBack, init, grokVal, grokHash, fillQuery, prevId, prevVal, bucketOf, lookup, doLookup, htmlCache, res$, key, fetch, loadJson, setPinyinBindings, bindHtmlActions, fillJson, fillBucket, i$, ref$, results$ = [];
+    var fontSize, saveFontSize, cacheLoading, pressAbout, pressErase, pressBack, init, grokVal, grokHash, fillQuery, prevId, prevVal, bucketOf, lookup, doLookup, htmlCache, res$, key, fetch, loadJson, bindHtmlActions, fillJson, fillBucket, i$, ref$, results$ = [];
     if (!isDeviceReady) {
       return;
     }
@@ -430,7 +418,6 @@
       $('body').addClass('overflow-scrolling-true');
       $('body').addClass("prefer-down-false");
     }
-    $('#result').addClass("prefer-pinyin-true");
     fontSize = getPref('font-size') || 14;
     $('body').bind('pinch', function(arg$, arg1$){
       var scale;
@@ -532,9 +519,6 @@
       }
       $('body').on('dblclick', '.entry', function(){
         return;
-        if (LANG !== 'c') {
-          return;
-        }
         $(this).css({
           borderRadius: '10px',
           background: '#eeeeff'
@@ -779,8 +763,6 @@
       prevVal = null;
       LANG = lang || (function(){
         switch (LANG) {
-        case 'a':
-          return 'p';
         case 'p':
           return 'm';
         case 'm':
@@ -951,9 +933,6 @@
         });
       }
       return setTimeout(function(){
-        if (id === '萌' && LANG === 'a') {
-          return fillJson(MOE, '萌');
-        }
         return loadJson(id);
       }, 1);
     };
@@ -969,16 +948,6 @@
       }
       bucket = bucketOf(id);
       return fillBucket(id, bucket, cb);
-    };
-    setPinyinBindings = function(){
-      return;
-      return $('#result.prefer-pinyin-true .bopomofo .bpmf, #result.prefer-pinyin-false .bopomofo .pinyin').unbind('click').click(function(){
-        var val;
-        val = !getPref('prefer-pinyin');
-        setPref('prefer-pinyin', val);
-        $('#result').removeClass("prefer-pinyin-" + !val).addClass("prefer-pinyin-" + val);
-        return callLater(setPinyinBindings);
-      });
     };
     window.bindHtmlActions = bindHtmlActions = function(){
       var $result, $h1, $tooltip;
@@ -1013,7 +982,6 @@
           $h1.find('a').removeClass('hovered');
         });
         $('#result .part-of-speech a').attr('href', null);
-        setPinyinBindings();
         cacheLoading = false;
         vclick = isMobile ? 'touchstart click' : 'click';
         $('.results .star').on(vclick, function(){
@@ -1050,12 +1018,8 @@
           });
           return;
         }
-        $('#result .trs.pinyin').tooltip({
-          tooltipClass: 'bpmf'
-        });
         $('#result a[href]:not(.xref)').tooltip({
           disabled: true,
-          tooltipClass: "prefer-pinyin-" + true,
           show: 100,
           hide: 100,
           items: 'a',
@@ -1380,29 +1344,13 @@
         try {
           results = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
         } catch (e$) {}
-        results || (results = xrefOf(term, LANG === 'a' ? 't' : 'a', LANG));
-        results = amisOrdering(results, term);
-        if (LANG === 'h' && term === '我') {
-          results.unshift('𠊎');
-        }
-        if (LANG === 't') {
-          for (i$ = 0, len$ = (ref$ = xrefOf(term, 'tv', 't').reverse()).length; i$ < len$; ++i$) {
-            v = ref$[i$];
-            if (!in$(v, results)) {
-              results.unshift(v);
-            }
-          }
-        }
-        if (LANG === 'c' && !(results != null && results.length)) {
-          return cb(["▶找不到。建議收錄？"]);
-        }
-        if (LANG !== 'c' && !(results != null && results.length)) {
-          return cb(["▶找不到。分享這些字？"]);
+        if (results !== null) {
+          results = amisOrdering(results, term);
         }
         if (!(results != null && results.length)) {
           return cb(['']);
         }
-        if (results.length === 1) {
+        if ((results != null) && (results.length === 1)) {
           doLookup(replace$.call(results[0], /"/g, ''));
         }
         MaxResults = widthIsXs() ? 400 : 1024;
