@@ -198,6 +198,11 @@
           setPref("GET " + url, it);
         }
       }
+
+      if (it.search(/^\<\!DOCTYPE html\>/) !== -1) {
+        return onSuccess("{}");
+      }
+
       return onSuccess(CACHED[url] = it);
     };
     error = function(){
@@ -1081,6 +1086,8 @@
           LRU: LRU[LANG]
         };
       } else {
+        if (part === "{}") return;
+
         res$ = [];
         for (lang in ref$ = xrefOf(id)) {
           words = ref$[lang];
