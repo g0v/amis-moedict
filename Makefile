@@ -25,14 +25,14 @@ amis-static:
 	cp ../amis-safolu/tmp/amis-stem-words.json amis-deploy/s/stem-words.json
 
 amis:
-	cp -r amis-deploy/images amis-deploy/fonts amis-deploy/p amis-deploy/m amis-deploy/s amis-deploy/dict-amis*.json .
+	cp -r amis-deploy/images amis-deploy/fonts amis-deploy/p amis-deploy/m amis-deploy/s .
 
 amis-build :: amis-fey amis-poinsot amis-safolu
 
 amis-fey ::
 	@-git clone --depth 1 https://github.com/miaoski/amis-data.git moedict-data-amis
 	cd moedict-data-amis && make moedict
-	ln -sf moedict-data-amis/dict-amis.json   dict-amis.json
+	# ln -sf moedict-data-amis/dict-amis.json   dict-amis.json
 	node json2prefix.js p
 	node autolink.js p > p.txt
 	perl link2pack.pl p < p.txt
@@ -53,7 +53,7 @@ amis-poinsot ::
 
 amis-safolu ::
 	@-git clone --depth 1 https://github.com/miaoski/amis-safolu.git ../amis-safolu
-	ln -sf ../amis-safolu/txt/dict-amis-safolu.json dict-amis-safolu.json
+	# ln -sf ../amis-safolu/txt/dict-amis-safolu.json dict-amis-safolu.json
 	node json2prefix.js s
 	node autolink.js s > s.txt
 	perl link2pack.pl s < s.txt
