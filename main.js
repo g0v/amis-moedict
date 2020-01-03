@@ -1,5 +1,7 @@
 (function(){
-  var isCordova, isMoedictDesktop, DEBUGGING, ref$, STANDALONE, ref1$, any, map, unique, React, LANG, MOEID, XREFLABELOF, TITLEOF, HASHOF, STARRED, key, LRU, res$, isQuery, isDroidGap, isDeviceReady, isMobile, isApp, isWebKit, isGecko, isChrome, isPrerendered, widthIsXs, entryHistory, INDEX, STEM, CH_STEM_MAPPING, XREF, CACHED, addToLru, GET, e, playing, player, seq, getEl, callLater, MOE, han_amis_lookup, httpMap, LoadedScripts, split$ = ''.split, replace$ = ''.replace, join$ = [].join;
+  var GET_SUCCESS = 'GET_SUCCESS';
+  var GET_FAILURE = 'GET_FAILURE';
+  var isCordova, isMoedictDesktop, DEBUGGING, ref$, STANDALONE, ref1$, any, map, unique, React, LANG, MOEID, XREFLABELOF, TITLEOF, HASHOF, STARRED, key, LRU, res$, isQuery, isDroidGap, isDeviceReady, isMobile, isApp, isWebKit, isGecko, isChrome, isPrerendered, widthIsXs, entryHistory, INDEX, STEM, CH_STEM_MAPPING, XREF, CACHED, addToLru, Success, Failure, GET, e, playing, player, seq, getEl, callLater, MOE, han_amis_lookup, httpMap, LoadedScripts, split$ = ''.split, replace$ = ''.replace, join$ = [].join;
   window.isCordova = isCordova = !/^https?:/.test(document.URL) && !/^http:\/\/localhost/.test(document.URL);
   if (window.moedictDesktop) {
     window.isMoedictDesktop = isMoedictDesktop = true;
@@ -179,19 +181,27 @@
     }
     return setPref("lru-" + LANG, LRU[LANG]);
   };
-  GET = function(url, data, onSuccess, dataType){
+  Success = function(value) {
+    return { status: GET_SUCCESS, value: value };
+  };
+  Failure = function(message) {
+    return { status: GET_FAILURE, value: undefined, message: message };
+  };
+  GET = function(url, data, onResult, dataType){
     var ref$, that, success, error, beforeSend;
     if (LANG === 'p' || LANG === 'm' || LANG === 's') {
       url = url.toLowerCase();
     }
     if (data instanceof Function) {
-      ref$ = [null, onSuccess, data], data = ref$[0], dataType = ref$[1], onSuccess = ref$[2];
+      ref$ = [null, onResult, data], data = ref$[0], dataType = ref$[1], onResult = ref$[2];
     }
     if (that = CACHED[url]) {
-      return onSuccess(that);
+      return onResult(Success(that));
     }
     dataType == null && (dataType = 'text');
     success = function(it){
+      var that;
+
       if (/^[a-z]\/([^-a-z@=].+)\.json$/.exec(url)) {
         addToLru(decodeURIComponent(RegExp.$1));
         if (!isCordova) {
@@ -200,15 +210,17 @@
       }
 
       if (it.search(/^\<\!DOCTYPE html\>/) !== -1) {
-        return onSuccess("{}");
+        return onResult(Failure('Not Found'));
       }
 
-      return onSuccess(CACHED[url] = it);
+      return onResult(Success(CACHED[url] = it));
     };
-    error = function(){
+    error = function(_, __, statusText){
       var that;
       if (that = getPref("GET " + url)) {
-        return onSuccess(CACHED[url] = that);
+        return onResult(Success(CACHED[url] = that));
+      } else {
+        return onResult(Failure(statusText));
       }
     };
     beforeSend = function(it){
@@ -368,7 +380,7 @@
     return setTimeout(it, isMobile ? 10 : 1);
   };
   window.doLoad = function(){
-    var fontSize, saveFontSize, cacheLoading, pressAbout, pressErase, pressBack, init, grokVal, grokHash, fillQuery, prevId, prevVal, bucketOf, lookup, doLookup, htmlCache, res$, key, fetch, loadJson, bindHtmlActions, fillJson, fillBucket, i$, ref$, results$ = [];
+    var fontSize, saveFontSize, cacheLoading, pressAbout, pressErase, pressBack, init, grokVal, grokHash, fillQuery, prevId, prevVal, bucketOf, lookup, doLookup, htmlCache, res$, key, fetch, loadJson, bindHtmlActions, fillNotFound, fillJson, fillBucket, i$, ref$, results$ = [];
     if (!isDeviceReady) {
       return;
     }
@@ -794,16 +806,20 @@
       id = replace$.call(id, /[\\"~`]/g, '');
       if (!isCordova) {
         GET(LANG + "/xref.json", function(it){
-          return XREF[LANG] = it;
+          if (it.status === GET_FAILURE) return;
+          return XREF[LANG] = it.value;
         }, 'text');
         GET(LANG + "/index.json", function(it){
-          return INDEX[LANG] = it;
+          if (it.status === GET_FAILURE) return;
+          return INDEX[LANG] = it.value;
         }, 'text');
         GET(LANG + "/stem-words.json", function(it){
-          return STEM[LANG] = $.parseJSON(it);
+          if (it.status === GET_FAILURE) return;
+          return STEM[LANG] = $.parseJSON(it.value);
         }, 'text');
         GET(LANG + "/ch-mapping.json", function(it){
-          return CH_STEM_MAPPING[LANG] = $.parseJSON(it);
+          if (it.status === GET_FAILURE) return;
+          return CH_STEM_MAPPING[LANG] = $.parseJSON(it.value);
         }, 'text');
       }
       $('body').removeClass("lang-a");
@@ -946,7 +962,10 @@
       }
       if (!isCordova) {
         return GET(LANG + "/" + encodeURIComponent(replace$.call(id, /\(.*/, '')) + ".json", null, function(it){
-          return fillJson(it, id, cb);
+          if (it.status === GET_FAILURE) {
+            return fillNotFound(id, cb);
+          };
+          return fillJson(it.value, id, cb);
         }, 'text');
       }
       bucket = bucketOf(id);
@@ -1073,6 +1092,16 @@
         });
       });
     };
+    fillNotFound = function(id, cb){
+      var reactProps = { type: 'not-found', id: id };
+      if (cb) {
+        return cb(React.renderToString(React.View.Result(reactProps)));
+      }
+      if (React.View.result) {
+        return (ref$ = React.View.result) != null ? ref$.replaceProps(reactProps, bindHtmlActions) : void 8;
+      }
+      return React.View.result = React.render(React.View.Result(reactProps), $('#result')[0], bindHtmlActions);
+    };
     fillJson = function(part, id, cb){
       var reactProps, xrefs, res$, lang, ref$, words;
       part = React.View.decodeLangPart(LANG, part);
@@ -1086,8 +1115,6 @@
           LRU: LRU[LANG]
         };
       } else {
-        if (part === "{}") return;
-
         res$ = [];
         for (lang in ref$ = xrefOf(id)) {
           words = ref$[lang];
@@ -1117,6 +1144,8 @@
     };
     fillBucket = function(id, bucket, cb){
       return GET("p" + LANG + "ck/" + bucket + ".txt", function(raw){
+        if (raw.status === GET_FAILURE) return;
+        raw = raw.value;
         var key, idx, part;
         key = escape(id);
         idx = raw.indexOf('"' + key + '":{');
@@ -1137,29 +1166,35 @@
       return results$;
     } else {
       GET(LANG + "/index.json", function(it){
-        INDEX[LANG] = it;
+        if (it.status === GET_FAILURE) return;
+        INDEX[LANG] = it.value;
         init();
         return initAutocomplete();
       }, 'text');
       GET(LANG + "/stem-words.json", function(it){
-        STEM[LANG] = $.parseJSON(it);
+        if (it.status === GET_FAILURE) return;
+        STEM[LANG] = $.parseJSON(it.value);
         return initAutocomplete();
       }, 'text');
       return GET(LANG + "/ch-mapping.json", function(it){
-        CH_STEM_MAPPING[LANG] = $.parseJSON(it);
+        if (it.status === GET_FAILURE) return;
+        CH_STEM_MAPPING[LANG] = $.parseJSON(it.value);
         return initAutocomplete();
       }, 'text');
     }
     function fn$(lang){
       GET(lang + "/xref.json", function(it){
-        XREF[lang] = it;
+        if (it.status === GET_FAILURE) return;
+        XREF[lang] = it.value;
         if (lang === LANG) {
           return init();
         }
       }, 'text');
       return GET(lang + "/index.1.json", function(p1){
+        if (p1.status === GET_FAILURE) return;
         return GET(lang + "/index.2.json", function(p2){
-          INDEX[lang] = p1 + p2;
+          if (p2.status === GET_FAILURE) return;
+          INDEX[lang] = p1.value + p2.value;
           if (lang === LANG) {
             return initAutocomplete();
           }
@@ -1372,7 +1407,11 @@
   }
   han_amis_lookup = function(query, cb){
     GET(LANG + '/revdict-amis-def.txt', function(cmn_amis_def){
+      if (cmn_amis_def.status === GET_FAILURE) return;
+      cmn_amis_def = cmn_amis_def.value;
       return GET(LANG + '/revdict-amis-ex.txt', function(cmn_amis_ex){
+        if (cmn_amis_ex.status === GET_FAILURE) return;
+        cmn_amis_ex = cmn_amis_ex.value;
         var x, terms, stems, lookup_in, this$ = this;
         x = [];
         terms = query.replace(/^\s+/, "").replace(/\s+$/, "");

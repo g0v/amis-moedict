@@ -61,6 +61,12 @@
             __html: this.props.html
           }
         });
+      case 'not-found':
+        return divInline(
+          {},
+          h1({ className: 'title' }, this.props.id),
+          div({ className: 'entry' }, p({}, '找不到這個詞喔'))
+        );
       default:
         return div({});
       }
