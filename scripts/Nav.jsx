@@ -22,11 +22,6 @@ export default class Nav extends React.Component { render() {
                     <span className="hidden-xs">字詞紀錄簿</span>
                 </a>
             </li>
-            { window.isMoedictDesktop && <li id="btn-moedict-desktop-addons">
-                <a href="https://racklin.github.io/moedict-desktop/addon.html" style={{
-                    paddingLeft: "5px", paddingRight: "5px"
-                }} alt="下載擴充套件"><i className="icon-download-alt" /></a>
-            </li> }
             <li className="resize-btn app-only" style={{
                 position: "absolute", top: "2px", left: "8em", padding: "3px"
             }}>
@@ -63,11 +58,6 @@ export default class Nav extends React.Component { render() {
             <li><a href="http://ckhis.ck.tp.edu.tw/~ljm/amis-mp/" target="_blank" title="「阿美語萌典」校對活動"><img src="https://www.moedict.tw/dodo/icon.png" width="32" height="32" /> 幫校對</a></li>
         </ul>
         <ul className="nav pull-right hidden-xs">
-            <li className="web-inline-only" style={{ display: "inline-block" }}>
-                <a href="https://racklin.github.io/moedict-desktop/download.html" target="_blank" title="桌面版下載（可離線使用）" style={{ color: "#ccc" }}>
-                    <i className="icon-download-alt" />
-                </a>
-            </li>
             <li className="web-inline-only" style={{ display: "inline-block" }}>
                 <a href="https://play.google.com/store/apps/details?id=org.audreyt.dict.moe" target="_blank" title="Google Play 下載" style={{ color: "#ccc" }}>
                     <i className="icon-android" />
