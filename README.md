@@ -42,8 +42,11 @@ make dev
 json 檔案資料夾分類如下：
 
 * s: 蔡中涵大辭典
+* * prefix: `#:`
 * p: 方敏英字典
+* * prefix: `#~`
 * m: 潘世光、博利亞阿法字典
+* * prefix: `#!`
 
 ### JSON 完整欄位
 
@@ -93,7 +96,7 @@ json 檔案資料夾分類如下：
 
 * h：沿襲自萌典的 heteronym，本專案中為了盡量與萌典格式接近而保留。
 * * d：定義 definitions，一個詞 (t) 可能會有多個定義。
-* * * f：詞義解釋 def。
+* * * f：解釋 description。
 * * * e：範例 example。
 * * * s：同義詞 synonym。
 * * * type：（神父的字典本來就有的標記，意義待確認，歡迎 PR），只有潘世光、博利亞阿法字典有使用。
@@ -106,10 +109,9 @@ json 檔案資料夾分類如下：
 如果只有改到 js
 
 ```
-$ make js/deps.js
-更新 amis-deploy/manifest.appcache 這個檔案第二行的時間
+$ make manifest
 $ git add .
-$ git commit -m 'Update js/deps.js and amis-deploy/manifest.appcache in amis-deploy'
+$ git commit -m 'Run `make manifest` and rebuild deps.js'
 $ git push
 ```
 
