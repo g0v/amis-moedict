@@ -30,7 +30,7 @@
     "gulp-postcss": "^5.1.8",
     "gulp-watch": "^3.0.0",
     "gulp-webpack": "^1.1.0",
-    "iconv-lite": "^0.4.5",
+    "iconv-lite": "^0.4.24",
     "jquery": "^3.4.1",
     "json-loader": "^0.5.1",
     "prelude-ls": "^1.1.2",
