@@ -14,8 +14,8 @@ The ’Amis/Pangcah Dictionary is the first example of an digitized, online indi
 
 ## 環境需求
 
-* Node.js v6+
-* Gulp
+* Node.js: > v6, < v11
+* Gulp: v3
 
 ## 安裝開發環境
 
