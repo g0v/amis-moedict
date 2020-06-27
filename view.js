@@ -510,14 +510,22 @@
     res = it.replace(/[\uFF0E\u2022]/g, '\u00B7').replace(/\u223C/g, '\uFF0D').replace(/\u0358/g, '\u030d').replace(/(.)\u20DD/g, "<span class='regional part-of-speech'>$1</span> ").replace(/(.)\u20DE/g, "</span><span class='part-of-speech'>$1</span><span>").replace(/(.)\u20DF/g, "<span class='specific'>$1</span>").replace(RegExp('<a([^<]+)>' + id + '<\\/a>', 'g'), "<a class='mark'$1>" + id + "</a>").replace(RegExp('(>[^<]*)' + id + '(?!</(?:h1|rb)>)<', 'g'), "$1<b>" + id + "</b><");
     if (typeof $ == 'function' && $('body').hasClass('lang-p')) {
       if (res.indexOf('\uFFF9\uFFFA') >= 0) {
-        res = res.replace(/\uFFF9/g, '').replace(/\uFFFA/g, '<span class="amisenglish">').replace(/\uFFFB/g, '</span><br><span class="amismandarin">');
+        res = res.replace(/\uFFF9/g, '')
+                 .replace(/\uFFFA/g, '<span class="amisenglish">')
+                 .replace(/\uFFFB/g, '</span><br><span class="amismandarin">');
       } else {
-        res = res.replace(/\uFFF9/g, '<span class="part-of-speech">例</span>&nbsp;<span class="amisnative">').replace(/\uFFFA/g, '</span><br><span class="amisenglish">').replace(/\uFFFB/g, '</span><br><span class="amismandarin">');
+        res = res.replace(/\uFFF9/g, '<span class="part-of-speech">例</span>&nbsp;<span class="amisnative">')
+                 .replace(/\uFFFA/g, '</span><br><span class="amisenglish">')
+                 .replace(/\uFFFB/g, '</span><br><span class="amismandarin">');
       }
     } else if (typeof $ == 'function' && $('body').hasClass('lang-m')) {
-      res = res.replace(/\uFFF9/g, '<span class="example-amis">').replace(/\uFFFB/g, '</span><span class="example-fr">');
+      res = res.replace(/\uFFF9/g, '<span class="example-amis">')
+               .replace(/\uFFFB/g, '</span><span class="example-fr">');
     } else if (typeof $ == 'function' && $('body').hasClass('lang-s')) {
-      res = res.replace(/\uFFF9\uFFFA\uFFFB/g, '').replace(/\uFFF9/g, '<span class="amisnative">').replace(/\uFFFA/g, '').replace(/\uFFFB/g, '</span><br><span class="amismandarin">');
+      res = res.replace(/\uFFF9\uFFFA\uFFFB/g, '')
+               .replace(/\uFFF9/g, '<span class="amisnative">')
+               .replace(/\uFFFA/g, '')
+               .replace(/\uFFFB/g, '</span><br><span class="amismandarin">');
     }
     return res;
   }
