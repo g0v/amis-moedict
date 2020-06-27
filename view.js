@@ -74,19 +74,28 @@
   });
   Term = createClass({
     render: function(){
-      var ref$, LANG, H, ref1$, title, heteronyms, xrefs, tag, stem, $char, list, res$, i$, len$, key, props;
+      var ref$, LANG, H, ref1$, title, heteronyms, xrefs, tag, stem, aStroke, $char, list, res$, i$, len$, key, props;
       ref$ = this.props, LANG = ref$.LANG, H = (ref1$ = ref$.H) != null
         ? ref1$
         : HASHOF[LANG], title = ref$.title, heteronyms = ref$.heteronyms, xrefs = ref$.xrefs, tag = ref$.tag, stem = ref$.stem;
       H = replace$.call(H, /^#/, '');
       H = DotSlash + "#" + H;
       CurrentId = this.props.id;
+      if (tag != null) {
+        aStroke = span({
+          className: 'part-of-speech'
+        }, tag);
+      } else {
+        aStroke = '';
+      }
+      $char = div({ className: 'radical' }, aStroke);
       res$ = [];
       for (i$ = 0, len$ = heteronyms.length; i$ < len$; ++i$) {
         key = i$;
         props = heteronyms[i$];
         res$.push(Heteronym(import$({
           key: key,
+          $char: $char,
           H: H,
           LANG: LANG,
           title: title,
