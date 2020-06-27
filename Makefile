@@ -30,7 +30,9 @@ amis:
 amis-build :: amis-fey amis-poinsot amis-safolu
 
 amis-fey ::
-	@-git clone --depth 1 https://github.com/miaoski/amis-data.git moedict-data-amis
+	if test ! -d "moedict-data-amis"; then \
+		git clone --depth 1 https://github.com/miaoski/amis-data.git moedict-data-amis; \
+	fi
 	cd moedict-data-amis && make moedict
 	# ln -sf moedict-data-amis/dict-amis.json   dict-amis.json
 	node json2prefix.js p
@@ -41,7 +43,9 @@ amis-fey ::
 	cp moedict-data-amis/revdict-amis*.txt    p/
 
 amis-poinsot ::
-	@-git clone --depth 1 https://github.com/miaoski/amis-francais.git moedict-data-amis-mp
+	if test ! -d "moedict-data-amis-mp"; then \
+		git clone --depth 1 https://github.com/miaoski/amis-francais.git moedict-data-amis-mp; \
+	fi
 	cd moedict-data-amis-mp && python moedict.py
 	ln -sf moedict-data-amis-mp/dict-amis-mp.json   dict-amis-mp.json
 	node json2prefix.js m
@@ -52,7 +56,9 @@ amis-poinsot ::
 	touch m/revdict-amis-ex.txt
 
 amis-safolu ::
-	@-git clone --depth 1 https://github.com/miaoski/amis-safolu.git ../amis-safolu
+	if test ! -d "../amis-safolu"; then \
+		git clone --depth 1 https://github.com/miaoski/amis-safolu.git ../amis-safolu; \
+	fi
 	ln -sf ../amis-safolu/s
 	# ln -sf ../amis-safolu/txt/dict-amis-safolu.json dict-amis-safolu.json
 	# node json2prefix.js s
