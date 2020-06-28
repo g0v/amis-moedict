@@ -60,16 +60,6 @@ amis-safolu ::
 		git clone --depth 1 https://github.com/miaoski/amis-safolu.git ../amis-safolu; \
 	fi
 	ln -sf ../amis-safolu/s
-	# ln -sf ../amis-safolu/txt/dict-amis-safolu.json dict-amis-safolu.json
-	# node json2prefix.js s
-	# node autolink.js s > s.txt
-	# perl link2pack.pl s < s.txt
-	# cp ../amis-safolu/txt/index.json           s/index.json
-	# python ../amis-safolu/txt/revdict.py
-	# mv revdict-*.txt                           s/
-	# cp ../amis-safolu/txt/amis-ch-mapping.json s/ch-mapping.json
-	# ruby ../amis-safolu/txt/stem-mapping.rb
-	# cp ../amis-safolu/tmp/amis-stem-words.json s/stem-words.json
 
 clean ::
 	git clean -xdf
