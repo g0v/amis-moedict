@@ -602,6 +602,7 @@
     part = part.replace(/`([^~]+)~([。，、；：？！─…．·－」』》〉]+)/g, function(arg$, word, post){
       return "<span class=\\\"punct\\\"><a href=\\\"" + H + word + "\\\">" + word + "</a>" + post + "</span>";
     });
+    part = part.replace(/(\.|\?|\!) ?/g, '$1<br>')
     part = part.replace(/`([^~]+)~/g, function(arg$, word){
       return "<a href=\\\"" + H + word + "\\\">" + word + "</a>";
     });
