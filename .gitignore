@@ -1,5 +1,10 @@
 .DS_Store
 .sass-cache/
+
+# Ignore vim temp files
+*.swp
+*.swo
+
 /a
 /c
 /h
