@@ -14,6 +14,7 @@ deps ::
 js/deps.js ::
 	gulp webpack:build
 	cp js/deps.js amis-deploy/js
+	cp styles.css amis-deploy/
 
 manifest :: js/deps.js
 	ruby -e 'filepath=ARGV[0];IO.write(filepath, File.open(filepath) {|f| f.read.gsub(/# 20.*\n/, "# #{Time.now.to_s}\n")})' -i manifest.appcache
