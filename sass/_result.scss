@@ -591,7 +591,7 @@ body.lang-t .example, body.lang-h .example {
     font-size: 92%;
 }
 
-.antonyms, .synonyms, .variants {
+.antonyms, .alternatives, .references, .variants {
     clear: both;
     display: block;
     font-size: 85%;
@@ -778,7 +778,8 @@ body .ui-tooltip {
     .example,
     .quote,
     .antonyms,
-    .synonyms,
+    .alternatives,
+    .references,
     .variants,
     .radical,
     .star {

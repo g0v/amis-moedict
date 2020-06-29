@@ -183,10 +183,10 @@
   });
   Heteronym = createClass({
     render: function(){
-      var ref$, CurrentId, key, $char, H, LANG, title, id, ref1$, definitions, synonyms, stem, re, t, mp3, __html, titleRuby, youyin, list, basename, defs;
+      var ref$, CurrentId, key, $char, H, LANG, title, id, ref1$, definitions, alternatives, stem, re, t, mp3, __html, titleRuby, youyin, list, basename, defs;
       ref$ = this.props, CurrentId = ref$.CurrentId, key = ref$.key, $char = ref$.$char, H = ref$.H, LANG = ref$.LANG, title = ref$.title, id = ref$.id, definitions = (ref1$ = ref$.definitions) != null
         ? ref1$
-        : [], synonyms = ref$.synonyms, stem = ref$.stem;
+        : [], alternatives = ref$.alternatives, stem = ref$.stem;
       t = untag(h(title));
       list = [
         span({ dangerouslySetInnerHTML: { __html: title } })
@@ -243,7 +243,7 @@
             LANG: LANG,
             H: H,
             defs: defs,
-            synonyms: synonyms
+            alternatives: alternatives
           }));
         }
         return results$;
@@ -293,7 +293,7 @@
     var list, key, ref$, val, __html;
     list = [];
     for (key in ref$ = {
-      synonyms: '似'
+      alternatives: '同'
     }) {
       val = ref$[key];
       if (props[key]) {
@@ -326,8 +326,8 @@
   }
   Definition = createClass({
     render: function(it){
-      var ref$, LANG, type, def, defs, synonyms, $afterDef, defString, list, res$, i$, len$, key, style, wrapper, this$ = this;
-      ref$ = this.props, LANG = ref$.LANG, type = ref$.type, def = ref$.def, defs = ref$.defs, synonyms = ref$.synonyms;
+      var ref$, LANG, type, def, defs, alternatives, $afterDef, defString, list, res$, i$, len$, key, style, wrapper, this$ = this;
+      ref$ = this.props, LANG = ref$.LANG, type = ref$.type, def = ref$.def, defs = ref$.defs, alternatives = ref$.alternatives;
       if (/∥/.exec(def)) {
         $afterDef = div({
           style: {
@@ -580,7 +580,7 @@
     f: '"def"',
     t: '"title"',
     e: '"example"',
-    s: '"synonyms"'
+    s: '"alternatives"'
   };
   decodeLangPart = function(LANGORH, part){
     var H;
