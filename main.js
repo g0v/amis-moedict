@@ -1432,8 +1432,8 @@
             if (p === -1 || x.length > 20) {
               break;
             }
-            ae = cmn.lastIndexOf('\ufffb', p);
-            ab = cmn.lastIndexOf('\ufffa', ae);
+            ae = cmn.lastIndexOf('\uFFFB', p);
+            ab = cmn.lastIndexOf('\uFFFA', ae);
             title = cmn.slice(ab + 1, ae);
             if (!in$(title, x)) {
               results$.push(x.push(title));
