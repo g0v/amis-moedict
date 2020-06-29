@@ -102,7 +102,7 @@ json 檔案資料夾分類如下：
 * * d：定義 definitions，一個詞 (t) 可能會有多個定義。
 * * * f：解釋 description，一個定義 (d) 只會有一個解釋。
 * * * e：範例 example。
-* * * s：同義詞 synonym。
+* * * s：同義詞 alternative。
 * * * r：參考詞 reference。
 * * * type：（潘世光、博利亞的字典本來就有的標記，意義待確認，歡迎 PR），只有潘世光、博利亞阿法字典有使用。
 * t：沿襲自萌典的 title，本專案中就是字詞。
