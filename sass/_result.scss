@@ -497,7 +497,7 @@ body.lang-c {
 .translation .fw_def {
     @extend %han-sans;
     display: inline;
-    padding-left: 1.7em; 
+    padding-left: 1.7em;
     font-size: 90%;
     word-break: normal !important;
     vertical-align: top;
@@ -637,7 +637,7 @@ body.lang-t .example, body.lang-h .example {
     padding-bottom: 5px;
     border-bottom: 1px ridge #dddddd;
 
-    
+
     .result & .entry-item  {
         // 如果只有一個解釋，不顯示為列表
         >ol li:only-child {
@@ -698,7 +698,7 @@ body .ui-tooltip {
         display: block;
         margin-top: .25em;
     }
-    // 
+    //
     .bopomofo {
         display: none;
         margin: 0px;
@@ -730,7 +730,7 @@ body .ui-tooltip {
                     position: static;
                 }
             }
-            // 如果只有一個解釋，不顯示為列表 
+            // 如果只有一個解釋，不顯示為列表
             &:only-child {
                 list-style: none;
                 margin-left: .75em !important;
