@@ -183,7 +183,7 @@
   });
   Heteronym = createClass({
     render: function(){
-      var ref$, CurrentId, key, $char, H, LANG, title, id, ref1$, definitions, alternatives, stem, re, t, mp3, __html, titleRuby, youyin, list, basename, defs;
+      var ref$, CurrentId, key, $char, H, LANG, title, id, ref1$, definitions, alternatives, references, stem, re, t, mp3, __html, titleRuby, youyin, list, basename, defs;
       ref$         = this.props,
       CurrentId    = ref$.CurrentId,
       key          = ref$.key,
@@ -194,6 +194,7 @@
       id           = ref$.id,
       definitions  = (ref1$ = ref$.definitions) != null ? ref1$ : [],
       alternatives = ref$.alternatives,
+      references   = ref$.references,
       stem         = ref$.stem;
 
       t = untag(h(title));
@@ -252,7 +253,8 @@
             LANG: LANG,
             H: H,
             defs: defs,
-            alternatives: alternatives
+            alternatives: alternatives,
+            references: references
           }));
         }
         return results$;
@@ -301,6 +303,7 @@
   function decorateNyms(props){
     var list, key, ref$, val, __html;
     list = [];
+
     for (key in ref$ = {
       alternatives: '同'
     }) {
@@ -319,6 +322,26 @@
         ].concat(slice$.call(intersperse('、', (fn$()))))));
       }
     }
+
+    for (key in ref$ = {
+      references: '參見'
+    }) {
+      val = ref$[key];
+      if (props[key]) {
+        list = list.concat(span.apply(null, [
+          {
+            key: key,
+            className: key
+          }, span({
+            className: 'part-of-speech',
+            style: {
+              marginRight: '5px'
+            }
+          }, val)
+        ].concat(slice$.call(intersperse('、', (fn$()))))));
+      }
+    }
+
     return list;
     function fn$(){
       var i$, ref$, len$, results$ = [];
@@ -335,13 +358,14 @@
   }
   Definition = createClass({
     render: function(it){
-      var ref$, LANG, type, def, defs, alternatives, $afterDef, defString, list, res$, i$, len$, key, style, wrapper, this$ = this;
+      var ref$, LANG, type, def, defs, alternatives, references, $afterDef, defString, list, res$, i$, len$, key, style, wrapper, this$ = this;
       ref$         = this.props,
       LANG         = ref$.LANG,
       type         = ref$.type,
       def          = ref$.def,
       defs         = ref$.defs,
-      alternatives = ref$.alternatives;
+      alternatives = ref$.alternatives,
+      references   = ref$.references;
 
       if (/∥/.exec(def)) {
         $afterDef = div({
@@ -595,7 +619,8 @@
     f: '"def"',
     t: '"title"',
     e: '"example"',
-    s: '"alternatives"'
+    s: '"alternatives"',
+    r: '"references"'
   };
   decodeLangPart = function(LANGORH, part){
     var H;
@@ -604,7 +629,7 @@
       part = part.replace(/"`辨~\u20DE&nbsp`似~\u20DE"[^}]*},{"f":"([^（]+)[^"]*"/, '"辨\u20DE 似\u20DE $1"');
     }
     part = part.replace(/"`(.)~\u20DE"[^}]*},{"f":"([^（]+)[^"]*"/g, '"$1\u20DE $2"');
-    part = part.replace(/"([hdftes])":/g, function(arg$, k){
+    part = part.replace(/"([hdftesr])":/g, function(arg$, k){
       return keyMap[k] + ':';
     });
     H = DotSlash + "" + (HASHOF[LANGORH] || LANGORH);
