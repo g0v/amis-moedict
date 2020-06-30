@@ -629,9 +629,12 @@
       part = part.replace(/"`辨~\u20DE&nbsp`似~\u20DE"[^}]*},{"f":"([^（]+)[^"]*"/, '"辨\u20DE 似\u20DE $1"');
     }
     part = part.replace(/"`(.)~\u20DE"[^}]*},{"f":"([^（]+)[^"]*"/g, '"$1\u20DE $2"');
-    part = part.replace(/"([hdftesr])":/g, function(arg$, k){
+
+    var regex = new RegExp(`"([${Object.keys(keyMap).join("")}])":`, "g");
+    part = part.replace(regex, function(arg$, k){
       return keyMap[k] + ':';
     });
+
     H = DotSlash + "" + (HASHOF[LANGORH] || LANGORH);
     part = part.replace(/([「【『（《])`([^~]+)~([。，、；：？！─…．·－」』》〉]+)/g, function(arg$, pre, word, post){
       return "<span class=\\\"punct\\\">" + pre + "<a href=\\\"" + H + word + "\\\">" + word + "</a>" + post + "</span>";
@@ -642,7 +645,6 @@
     part = part.replace(/`([^~]+)~([。，、；：？！─…．·－」』》〉]+)/g, function(arg$, word, post){
       return "<span class=\\\"punct\\\"><a href=\\\"" + H + word + "\\\">" + word + "</a>" + post + "</span>";
     });
-    part = part.replace(/(\.|\?|\!) ?/g, '$1<br>')
     part = part.replace(/`([^~]+)~/g, function(arg$, word){
       return "<a href=\\\"" + H + word + "\\\">" + word + "</a>";
     });
