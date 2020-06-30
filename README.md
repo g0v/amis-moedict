@@ -101,17 +101,17 @@ json 檔案資料夾分類如下：
 * h：沿襲自萌典的 heteronym，本專案中為了盡量與萌典格式接近而保留。
 * * d：定義 definitions，一個詞 (t) 可能會有多個定義。
 * * * f：解釋 description，一個定義 (d) 只會有一個解釋。
-* * * e：範例 example。
-* * * s：同義詞 alternative。
-* * * r：參考詞 reference。
+* * * e：範例 example，屬於解釋 (f)。
+* * * s：同義詞 synonym 或 alternative，屬於解釋 (f)。
+* * * r：參考詞 reference，屬於解釋 (f)，只有蔡中涵大辭典有使用。。
 * * * type：（潘世光、博利亞的字典本來就有的標記，意義待確認，歡迎 PR），只有潘世光、博利亞阿法字典有使用。
 * t：沿襲自萌典的 title，本專案中就是字詞。
 * stem：詞幹，只有蔡中涵大辭典有使用。
-* tag：重疊構詞 reduplication，只有蔡中涵大辭典有使用。
+* tag：重疊構詞 repetition，只有蔡中涵大辭典有使用。
 
 ## Deploy production 步驟
 
-如果只有改到 js
+如果有改到 js 或 css
 
 ```
 $ make manifest
@@ -123,10 +123,10 @@ $ git push
 如果有改到字典檔案，如更新蔡中涵大辭典
 
 ```
+$ make manifest
 $ make amis-static
-更新 amis-deploy/manifest.appcache 這個檔案第二行的時間
 $ git add .
-$ git commit -m 'Update js/deps.js and amis-deploy/manifest.appcache in amis-deploy'
+$ git commit -m 'Update amis-static'
 $ git push
 ```
 
