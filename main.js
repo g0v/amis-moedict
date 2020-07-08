@@ -3,27 +3,33 @@
   var GET_FAILURE = 'GET_FAILURE';
   var isCordova, isMoedictDesktop, DEBUGGING, ref$, STANDALONE, ref1$, any, map, unique, React, LANG, MOEID, XREFLABELOF, TITLEOF, HASHOF, STARRED, key, LRU, res$, isQuery, isDroidGap, isDeviceReady, isMobile, isApp, isWebKit, isGecko, isChrome, isPrerendered, widthIsXs, entryHistory, INDEX, STEM, CH_STEM_MAPPING, XREF, CACHED, addToLru, Success, Failure, GET, e, playing, player, seq, getEl, callLater, MOE, han_amis_lookup, httpMap, LoadedScripts, split$ = ''.split, replace$ = ''.replace, join$ = [].join;
   window.isCordova = isCordova = !/^https?:/.test(document.URL) && !/^http:\/\/localhost/.test(document.URL);
+
   if (window.moedictDesktop) {
     window.isMoedictDesktop = isMoedictDesktop = true;
   }
-  DEBUGGING = !isCordova && !!((ref$ = window.cordova) != null && ref$.require);
-  STANDALONE = window.STANDALONE;
-  ref1$ = require('prelude-ls'), any = ref1$.any, map = ref1$.map, unique = ref1$.unique;
-  window.$ = window.jQuery = require('jquery');
-  React = require('react');
-  React.View = require('./view');
+
+  DEBUGGING    = !isCordova && !!((ref$ = window.cordova) != null && ref$.require);
+  STANDALONE   = window.STANDALONE;
+  ref1$        = require('prelude-ls'), any = ref1$.any, map = ref1$.map, unique = ref1$.unique;
+  window.$     = window.jQuery = require('jquery');
+  React        = require('react');
+  React.View   = require('./view');
   window.React = React;
+
   if (!window.PRERENDER_LANG) {
     $(function(){
       return React.View.result = React.render(React.View.Result(), $('#result')[0]);
     });
   }
+
   LANG = STANDALONE || window.PRERENDER_LANG || getPref('lang') || 's';
+
   MOEID = getPref('prev-id') || {
     p: 'ci\'im',
     m: 'aag',
     s: 'co\'ong'
   }[LANG];
+
   $(function(){
     $('body').addClass("lang-" + LANG);
     React.render(React.createElement(React.View.Links), $('#links')[0]);
@@ -43,21 +49,25 @@
       }
     });
   });
+
   XREFLABELOF = {
     p: '方',
     m: '潘',
     s: '蔡'
   };
+
   TITLEOF = {
     p: '方敏英',
     m: '潘世光',
     s: '蔡中涵'
   };
+
   HASHOF = {
     p: '#~',
     m: "#!",
     s: '#:'
   };
+
   if ((isCordova || DEBUGGING) && !window.ALL_LANGUAGES) {
     if (STANDALONE) {
       HASHOF = (ref1$ = {}, ref1$[STANDALONE + ""] = HASHOF[STANDALONE], ref1$);
@@ -65,6 +75,7 @@
       delete HASHOF.c;
     }
   }
+
   window.STARRED = STARRED = (function(){
     var resultObj$ = {};
     for (key in HASHOF) {
@@ -72,18 +83,20 @@
     }
     return resultObj$;
   }());
+
   res$ = {};
   for (key in HASHOF) {
     res$[key] = getPref("lru-" + key) || "";
   }
   LRU = res$;
+
   isQuery = /^\?q=/.exec(location.search);
   isDroidGap = isCordova && /android_asset/.exec(location.href);
   isDeviceReady = !isCordova;
-  if (DEBUGGING) {
-    isCordova = true;
-  }
+  if (DEBUGGING) { isCordova = true; }
+
   isMobile = isCordova || 'ontouchstart' in window || 'onmsgesturechange' in window;
+
   if (isCordova || (function(){
     var ref$;
     try {
@@ -92,29 +105,35 @@
   }())) {
     isApp = true;
   }
+
   isWebKit = /WebKit/.exec(navigator.userAgent);
-  isGecko = /\bGecko\/\b/.exec(navigator.userAgent);
+  isGecko  = /\bGecko\/\b/.exec(navigator.userAgent);
   isChrome = /\bChrome\/\b/.exec(navigator.userAgent);
   isPrerendered = window.PRERENDER_LANG;
+  entryHistory = [];
+
   widthIsXs = function(){
     return $('body').width() < 768;
   };
-  entryHistory = [];
+
   INDEX = {
     p: '',
     m: '',
     s: ''
   };
+
   STEM = {
     p: '',
     m: '',
     s: ''
   };
+
   CH_STEM_MAPPING = {
     p: '',
     m: '',
     s: ''
   };
+
   XREF = {
     p: {
       m: "aag",
@@ -129,6 +148,7 @@
       m: 'aag'
     }
   };
+
   function xrefOf(id, srcLang, tgtLangOnly){
     var rv, parsed, i$, ref$, len$, chunk, ref1$, tgtLang, words, idx, part, x;
     srcLang == null && (srcLang = LANG);
@@ -167,6 +187,7 @@
       return results$;
     }
   }
+
   CACHED = {};
   addToLru = function(it){
     var key, lru;
@@ -181,12 +202,15 @@
     }
     return setPref("lru-" + LANG, LRU[LANG]);
   };
+
   Success = function(value) {
     return { status: GET_SUCCESS, value: value };
   };
+
   Failure = function(message) {
     return { status: GET_FAILURE, value: undefined, message: message };
   };
+
   GET = function(url, data, onResult, dataType){
     var ref$, that, success, error, beforeSend;
     if (LANG === 'p' || LANG === 'm' || LANG === 's') {
@@ -237,6 +261,7 @@
       beforeSend: beforeSend
     });
   };
+
   try {
     if (!(isCordova && !DEBUGGING)) {
       throw null;
@@ -275,26 +300,31 @@
       }
     });
   }
+
   function setPref(k, v){
     try {
       return typeof localStorage != 'undefined' && localStorage !== null ? localStorage.setItem(k, typeof JSON != 'undefined' && JSON !== null ? JSON.stringify(v) : void 8) : void 8;
     } catch (e$) {}
   }
+
   function getPref(k){
     var ref$;
     try {
       return $.parseJSON((ref$ = typeof localStorage != 'undefined' && localStorage !== null ? localStorage.getItem(k) : void 8) != null ? ref$ : 'null');
     } catch (e$) {}
   }
+
   function rmPref(k){
     try {
       return typeof localStorage != 'undefined' && localStorage !== null ? localStorage.removeItem(k) : void 8;
     } catch (e$) {}
   }
+
   seq = 0;
   getEl = function(){
     return $("#player-" + seq);
   };
+
   window.stopAudio = function(){
     var $el;
     $el = getEl();
@@ -309,6 +339,7 @@
     player = null;
     return playing = null;
   };
+
   window.playAudio = function(el, url){
     var done, play;
     done = function(){
@@ -359,6 +390,7 @@
       return play();
     });
   };
+
   window.showInfo = function(){
     var ref, onStop, onExit;
     ref = window.open('about.html', '_blank', 'location=no');
@@ -376,32 +408,22 @@
     ref.addEventListener('loadstop', onStop);
     return ref.addEventListener('exit', onExit);
   };
+
   callLater = function(it){
     return setTimeout(it, isMobile ? 10 : 1);
   };
+
   window.doLoad = function(){
     var fontSize, saveFontSize, cacheLoading, pressAbout, pressErase, pressBack, init, grokVal, grokHash, fillQuery, prevId, prevVal, bucketOf, lookup, doLookup, htmlCache, res$, key, fetch, loadJson, bindHtmlActions, fillNotFound, fillJson, fillBucket, i$, ref$, results$ = [];
-    if (!isDeviceReady) {
-      return;
-    }
-    if (isCordova) {
-      $('body').addClass('cordova');
-    }
-    if (isApp) {
-      $('body').addClass('app');
-    }
-    if (!isApp) {
-      $('body').addClass('web');
-    }
-    if (isCordova && !isDroidGap) {
-      $('body').addClass('ios');
-    }
-    if (!(isMobile || isApp)) {
-      $('body').addClass('desktop');
-    }
-    if (isDroidGap) {
-      $('body').addClass('android');
-    }
+
+    if (!isDeviceReady)           { return; }
+    if (isCordova)                { $('body').addClass('cordova'); }
+    if (isApp)                    { $('body').addClass('app'); }
+    if (!isApp)                   { $('body').addClass('web'); }
+    if (isCordova && !isDroidGap) { $('body').addClass('ios'); }
+    if (!(isMobile || isApp))     { $('body').addClass('desktop'); }
+    if (isDroidGap)               { $('body').addClass('android'); }
+
     if (!(STANDALONE && isDroidGap)) {
       window.IS_GOOGLE_AFS_IFRAME_ = true;
       setTimeout(function(){
@@ -423,11 +445,13 @@
         return setTimeout(pollGsc, 500);
       }, 1);
     }
+
     if (!(isApp || widthIsXs())) {
       setTimeout(function(){
         return !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");;
       }, 1);
     }
+
     if (/Android\s*[12]\./.exec(navigator.userAgent)) {
       $('body').addClass('overflow-scrolling-false');
       $('body').addClass("prefer-down-false");
@@ -436,25 +460,30 @@
       $('body').addClass("prefer-down-false");
     }
     fontSize = getPref('font-size') || 14;
+
     $('body').bind('pinch', function(arg$, arg1$){
       var scale;
       scale = arg1$.scale;
       return $('body').css('font-size', Math.max(10, Math.min(42, scale * fontSize)) + 'pt');
     });
+
     saveFontSize = function(arg$, arg1$){
       var scale;
       scale = arg1$.scale;
       setPref('font-size', fontSize = Math.max(10, Math.min(42, scale * fontSize)));
       return $('body').css('font-size', fontSize + 'pt');
     };
+
     $('body').bind('pinchclose', saveFontSize);
     $('body').bind('pinchopen', saveFontSize);
+
     window.adjustFontSize = function(offset){
       setPref('font-size', fontSize = Math.max(10, Math.min(42, fontSize + offset)));
       return $('body').css('font-size', fontSize + 'pt');
     };
     window.adjustFontSize(0);
     cacheLoading = false;
+
     if (isCordova) {
       window.pressAbout = pressAbout = function(){
         return window.open('about.html', '_blank');
@@ -464,10 +493,12 @@
         return location.href = 'about.html';
       };
     }
+
     window.pressErase = pressErase = function(){
       $('#query').val('').focus();
       return $('.erase-box').hide();
     };
+
     window.pressBack = pressBack = function(){
       var cur, token;
       stopAudio();
@@ -504,6 +535,7 @@
       });
       return false;
     };
+
     try {
       document.addEventListener('backbutton', function(){
         if (entryHistory.length <= 1) {
@@ -513,10 +545,12 @@
         }
       }, false);
     } catch (e$) {}
+
     window.pressQuit = function(){
       stopAudio();
       return navigator.app.exitApp();
     };
+
     init = function(){
       var onFollow;
       $('#query').keyup(lookup).change(lookup).keypress(lookup).keydown(lookup).on('input', lookup);
@@ -667,6 +701,7 @@
         return fetch(MOEID);
       }
     };
+
     window.grokVal = grokVal = function(val){
       var lang;
       stopAudio();
@@ -705,6 +740,7 @@
       }
       return false;
     };
+
     window.decodeHash = function(it){
       if (/%/.exec(it)) {
         it = decodeURIComponent(it);
@@ -714,6 +750,7 @@
       }
       return it;
     };
+
     window.grokHash = grokHash = function(){
       if (!/^#./.test(location.hash)) {
         return false;
@@ -724,6 +761,7 @@
       } catch (e$) {}
       return false;
     };
+
     window.fillQuery = fillQuery = function(it){
       var title, input;
       title = replace$.call(decodeURIComponent(it), /[（(].*/, '');
@@ -762,7 +800,9 @@
       lookup(title);
       return true;
     };
+
     prevId = prevVal = window.PRERENDER_ID;
+
     window.pressLang = function(lang, id){
       var i$, ref$, ref1$, len$, ref2$, words;
       lang == null && (lang = '');
@@ -833,6 +873,7 @@
       $('#query').val(id);
       return window.doLookup(id);
     };
+
     bucketOf = function(it){
       var code;
       if (/^[=@]/.exec(it)) {
@@ -844,6 +885,7 @@
       }
       return code % (LANG === 'a' ? 1024 : 128);
     };
+
     lookup = function(){
       var that;
       if (that = $('#query').val()) {
@@ -852,6 +894,7 @@
       }
       return $('.erase-box').hide();
     };
+
     window.doLookup = doLookup = function(val){
       var title, Index, id, hist;
       title = replace$.call(val, /[（(].*/, '');
@@ -891,11 +934,13 @@
       fetch(title);
       return true;
     };
+
     res$ = {};
     for (key in HASHOF) {
       res$[key] = [];
     }
     htmlCache = res$;
+
     fetch = function(it){
       var hash, page, e, id, ref$, this$ = this;
       if (!it) {
@@ -955,6 +1000,7 @@
         return loadJson(id);
       }, 1);
     };
+
     loadJson = function(id, cb){
       var bucket;
       if (/^=\*/.exec(id)) {
@@ -971,6 +1017,7 @@
       bucket = bucketOf(id);
       return fillBucket(id, bucket, cb);
     };
+
     window.bindHtmlActions = bindHtmlActions = function(){
       var $result, $h1, $tooltip;
       $result = $('#result');
@@ -1092,6 +1139,7 @@
         });
       });
     };
+
     fillNotFound = function(id, cb){
       var reactProps = { type: 'not-found', id: id };
       if (cb) {
@@ -1102,6 +1150,7 @@
       }
       return React.View.result = React.render(React.View.Result(reactProps), $('#result')[0], bindHtmlActions);
     };
+
     fillJson = function(part, id, cb){
       var reactProps, xrefs, res$, lang, ref$, words;
       part = React.View.decodeLangPart(LANG, part);
@@ -1142,6 +1191,7 @@
       }
       return React.View.result = React.render(React.View.Result(reactProps), $('#result')[0], bindHtmlActions);
     };
+
     fillBucket = function(id, bucket, cb){
       return GET("p" + LANG + "ck/" + bucket + ".txt", function(raw){
         if (raw.status === GET_FAILURE) return;
@@ -1263,6 +1313,7 @@
       return list;
     }
   }
+
   function initAutocomplete(){
     $.widget("ui.autocomplete", $.ui.autocomplete, {
       _close: function(){
@@ -1405,6 +1456,7 @@
       }
     });
   }
+
   han_amis_lookup = function(query, cb){
     GET(LANG + '/revdict-amis-def.txt', function(cmn_amis_def){
       if (cmn_amis_def.status === GET_FAILURE) return;
@@ -1451,6 +1503,7 @@
       });
     });
   };
+
   function canPlayMp3(){
     var a;
     if (CACHED.canPlayMp3 != null) {
@@ -1459,6 +1512,7 @@
     a = document.createElement('audio');
     return CACHED.canPlayMp3 = !!(replace$.call(typeof a.canPlayType == 'function' ? a.canPlayType('audio/mpeg;') : void 8, /^no$/, ''));
   }
+
   window.canPlayOgg = (function(){
     function canPlayOgg(){
       var a;
@@ -1470,6 +1524,7 @@
     }
     return canPlayOgg;
   }());
+
   function canPlayOpus(){
     var a;
     if (CACHED.canPlayOpus != null) {
@@ -1506,16 +1561,19 @@
       complete: cb
     });
   }
+
   function import$(obj, src){
     var own = {}.hasOwnProperty;
     for (var key in src) if (own.call(src, key)) obj[key] = src[key];
     return obj;
   }
+
   function in$(x, xs){
     var i = -1, l = xs.length >>> 0;
     while (++i < l) if (x === xs[i]) return true;
     return false;
   }
+
   function deepEq$(x, y, type){
     var toString = {}.toString, hasOwnProperty = {}.hasOwnProperty,
         has = function (obj, key) { return hasOwnProperty.call(obj, key); };
