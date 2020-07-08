@@ -1385,7 +1385,6 @@
             regex = regex + '[^"]*';
           }
         }
-        regex = replace$.call(regex, /\s/g, '');
         if (/[%?._]/.exec(term)) {
           regex = regex.replace(/[?._]/g, '[^"]');
           regex = regex.replace(/%/g, '[^"]*');
