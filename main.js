@@ -846,10 +846,6 @@
       }[LANG]);
       id = replace$.call(id, /[\\"~`]/g, '');
       if (!isCordova) {
-        GET(LANG + "/xref.json", function(it){
-          if (it.status === GET_FAILURE) return;
-          return XREF[LANG] = it.value;
-        }, 'text');
         GET(LANG + "/index.json", function(it){
           if (it.status === GET_FAILURE) return;
           return INDEX[LANG] = it.value;
@@ -1210,49 +1206,27 @@
         return fillJson(part, id, cb);
       });
     };
-    if (isCordova) {
-      for (i$ in ref$ = HASHOF) {
-        results$.push((fn$.call(this, i$)));
-      }
-      return results$;
-    } else {
-      GET(LANG + "/index.json", function(it){
-        if (it.status === GET_FAILURE) return;
-        INDEX[LANG] = it.value;
-        init();
-        return initAutocomplete();
-      }, 'text');
-      GET(LANG + "/stem-words.json", function(it){
-        if (it.status === GET_FAILURE) return;
-        STEM[LANG] = $.parseJSON(it.value);
-        return initAutocomplete();
-      }, 'text');
-      return GET(LANG + "/ch-mapping.json", function(it){
-        if (it.status === GET_FAILURE) return;
-        CH_STEM_MAPPING[LANG] = $.parseJSON(it.value);
-        return initAutocomplete();
-      }, 'text');
-    }
-    function fn$(lang){
-      GET(lang + "/xref.json", function(it){
-        if (it.status === GET_FAILURE) return;
-        XREF[lang] = it.value;
-        if (lang === LANG) {
-          return init();
-        }
-      }, 'text');
-      return GET(lang + "/index.1.json", function(p1){
-        if (p1.status === GET_FAILURE) return;
-        return GET(lang + "/index.2.json", function(p2){
-          if (p2.status === GET_FAILURE) return;
-          INDEX[lang] = p1.value + p2.value;
-          if (lang === LANG) {
-            return initAutocomplete();
-          }
-        }, 'text');
-      }, 'text');
-    }
+
+    GET(LANG + "/index.json", function(it){
+      if (it.status === GET_FAILURE) return;
+      INDEX[LANG] = it.value;
+      init();
+      return initAutocomplete();
+    }, 'text');
+
+    GET(LANG + "/stem-words.json", function(it){
+      if (it.status === GET_FAILURE) return;
+      STEM[LANG] = $.parseJSON(it.value);
+      return initAutocomplete();
+    }, 'text');
+
+    GET(LANG + "/ch-mapping.json", function(it){
+      if (it.status === GET_FAILURE) return;
+      CH_STEM_MAPPING[LANG] = $.parseJSON(it.value);
+      return initAutocomplete();
+    }, 'text');
   };
+
   function renderTaxonomy(lang, taxonomy){
     var $ul, i$, ref$, len$, taxo, label, submenu;
     $ul = $('<ul/>', {
@@ -1341,15 +1315,6 @@
       select: function(e, arg$){
         var item, val;
         item = arg$.item;
-        if (/^▶/.exec(item != null ? item.value : void 8)) {
-          val = $('#query').val().replace(/^→列出含有「/, '').replace(/」的詞$/, '');
-          if (LANG === 'c') {
-            window.open("mailto:xldictionary@gmail.com?subject=建議收錄：" + val + "&body=出處及定義：", '_system');
-          } else {
-            window.open("https://www.moedict.tw/" + HASHOF[LANG].slice(1) + val, '_system');
-          }
-          return false;
-        }
         if (/^\(/.exec(item != null ? item.value : void 8)) {
           return false;
         }
@@ -1381,12 +1346,6 @@
       source: function(arg$, cb){
         var term, regex, results, i$, ref$, len$, v, MaxResults, more, this$ = this;
         term = arg$.term;
-        if (term === '=諺語' && LANG === 't') {
-          term = "。";
-        }
-        if (term === '=諺語' && LANG === 'h') {
-          term = "，";
-        }
         $('iframe').fadeOut('fast');
         if (!term.length) {
           return cb([]);
