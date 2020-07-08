@@ -1533,19 +1533,7 @@
     a = document.createElement('audio');
     return CACHED.canPlayOpus = !!(replace$.call(typeof a.canPlayType == 'function' ? a.canPlayType('audio/ogg; codecs="opus"') : void 8, /^no$/, ''));
   }
-  httpMap = {
-    a: '203146b5091e8f0aafda-15d41c68795720c6e932125f5ace0c70.ssl.cf1.rackcdn.com',
-    h: 'a7ff62cf9d5b13408e72-351edcddf20c69da65316dd74d25951e.ssl.cf1.rackcdn.com',
-    t: '1763c5ee9859e0316ed6-db85b55a6a3fbe33f09b9245992383bd.ssl.cf1.rackcdn.com'
-  };
-  function http(it){
-    if (location.protocol !== 'https:') {
-      return "http://" + it;
-    }
-    return "https://" + it.replace(/^([^.]+)\.[^\/]+/, function(xs, x){
-      return httpMap[x] || xs;
-    });
-  }
+
   LoadedScripts = {};
   function getScript(src, cb){
     if (LoadedScripts[src]) {

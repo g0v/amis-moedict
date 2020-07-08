@@ -1,5 +1,5 @@
 (function(){
-  var Links, Nav, UserPref, DotSlash, React, isMoedictDesktop, $body, ref$, p, i, a, b, form, h1, div, main, span, br, h3, h4, button, label, table, nav, tr, td, th, input, hr, meta, ul, ol, li, small, any, map, createClass, withProperties, divInline, h1Name, nbsp, CurrentId, Result, Term, HASHOF, XREFLABELOF, XRefs, Star, Heteronym, DefinitionList, Definition, List, httpMap, http, untag, groupBy, keyMap, decodeLangPart, slice$ = [].slice, replace$ = ''.replace, join$ = [].join, split$ = ''.split, this$ = this;
+  var Links, Nav, UserPref, DotSlash, React, isMoedictDesktop, $body, ref$, p, i, a, b, form, h1, div, main, span, br, h3, h4, button, label, table, nav, tr, td, th, input, hr, meta, ul, ol, li, small, any, map, createClass, withProperties, divInline, h1Name, nbsp, CurrentId, Result, Term, HASHOF, XREFLABELOF, XRefs, Star, Heteronym, DefinitionList, Definition, List, untag, groupBy, keyMap, decodeLangPart, slice$ = [].slice, replace$ = ''.replace, join$ = [].join, split$ = ''.split, this$ = this;
   Links = require('./scripts/Links.jsx');
   Nav = require('./scripts/Nav.jsx');
   UserPref = require('./scripts/UserPref.jsx');
@@ -215,7 +215,7 @@
           className: 'youyin'
         }, youyin));
       }
-      mp3 = http("服務.意傳.台灣/%E6%96%87%E6%9C%AC%E7%9B%B4%E6%8E%A5%E5%90%88%E6%88%90?%E6%9F%A5%E8%A9%A2%E8%85%94%E5%8F%A3=Pangcah&%E6%9F%A5%E8%A9%A2%E8%AA%9E%E5%8F%A5=" + t);
+      mp3 = `https://服務.意傳.台灣/%E6%96%87%E6%9C%AC%E7%9B%B4%E6%8E%A5%E5%90%88%E6%88%90?%E6%9F%A5%E8%A9%A2%E8%85%94%E5%8F%A3=Pangcah&%E6%9F%A5%E8%A9%A2%E8%AA%9E%E5%8F%A5=${t}`;
       if (mp3) {
         list = list.concat(i({
           itemType: 'http://schema.org/AudioObject',
@@ -527,19 +527,6 @@
       return divInline.apply(null, [{}].concat(slice$.call(list)));
     }
   });
-  httpMap = {
-    a: '203146b5091e8f0aafda-15d41c68795720c6e932125f5ace0c70.ssl.cf1.rackcdn.com',
-    h: 'a7ff62cf9d5b13408e72-351edcddf20c69da65316dd74d25951e.ssl.cf1.rackcdn.com',
-    t: '1763c5ee9859e0316ed6-db85b55a6a3fbe33f09b9245992383bd.ssl.cf1.rackcdn.com'
-  };
-  if (isMoedictDesktop) {
-    import$(httpMap, window.moedictDesktop.voices);
-  }
-  http = function(it){
-    return "http" + (!isMoedictDesktop || !(it.match(/^([^.]+)\.[^\/]+/)[1] in window.moedictDesktop.voices) ? "s" : "") + "://" + it.replace(/^([^.]+)\.[^\/]+/, function(xs, x){
-      return httpMap[x] || xs;
-    });
-  };
   function h(it){
     var id, res;
     id = CurrentId;
