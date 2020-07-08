@@ -900,16 +900,28 @@
         if (/object/.exec(title)) {
           return;
         }
-        if (Index && Index.indexOf("\"" + title + "\"") === -1) {
-          return true;
+        if (LANG === 's') {
+          if (Index && Index.indexOf("\"" + title + "\ufffa") === -1) {
+            return true;
+          }
+        } else {
+          if (Index && Index.indexOf("\"" + title + "\"") === -1) {
+            return true;
+          }
         }
       } else {
         if (prevVal === val) {
           return true;
         }
         prevVal = val;
-        if (!(Index.indexOf("\"" + title + "\"") >= 0)) {
-          return true;
+        if (LANG === 's') {
+          if (!(Index.indexOf("\"" + title + "\ufffa") >= 0)) {
+            return true;
+          }
+        } else {
+          if (!(Index.indexOf("\"" + title + "\"") >= 0)) {
+            return true;
+          }
         }
       }
       id = title;
@@ -1305,12 +1317,26 @@
           fillQuery(it);
         }
         return this.valueMethod.apply(this.element, arguments);
+      },
+      _renderItem: function(ul, item) {
+        var array = item.label.split("\ufffa"), term = array[0], desc = '';
+        if (array[1] !== undefined) {
+          desc = array[1];
+        }
+
+        return $( "<li>" )
+                 .append( "<div>" + term + "<span>" + desc + "</span></div>" )
+                 .appendTo( ul );
       }
     });
     return $('#query').autocomplete({
       position: {
         my: "left bottom",
         at: "left top"
+      },
+      focus: function(e, arg$){
+        arg$.item.label = arg$.item.label.split("\ufffa")[0];
+        arg$.item.value = arg$.item.value.split("\ufffa")[0];
       },
       select: function(e, arg$){
         var item, val;
