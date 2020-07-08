@@ -479,6 +479,16 @@ body.overflow-scrolling-false .ui-autocomplete {
     border-bottom: 1px solid #ddd;
 }
 
+.ui-menu-item-wrapper {
+  overflow: hidden;
+  height: 32px;
+  span {
+    padding-left: 5px;
+    font-size: 16px;
+    color: #aaa;
+  }
+}
+
 .nav, .dropdown, .dropdown .dropdown-menu, #query-box {
   font-size: 19px;
 }
