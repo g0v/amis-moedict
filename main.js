@@ -1466,6 +1466,7 @@
             return x.indexOf(item) === pos;
           });
         }
+
         lookup_in = function(cmn){
           var p, ae, ab, title, results$ = [];
           p = 0;
@@ -1483,8 +1484,22 @@
           }
           return results$;
         };
+
         lookup_in(cmn_amis_def);
         lookup_in(cmn_amis_ex);
+
+        if (LANG === 's') {
+          x = x.map(function(ele) {
+            if (/\ufffa/.test(ele)) return ele;
+
+            var e, r, regex;
+            e = ele.split("\ufffa")[0];
+            regex = `[^"]*${e}\ufffa[^"]*`;
+            r = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
+            if (r !== undefined) return r[0];
+          });
+        }
+
         if (x.length === 0) {
           return cb(["無符合之詞"]);
         } else {
