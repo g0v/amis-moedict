@@ -1276,23 +1276,28 @@
   }
 
   function amisOrdering(list, term){
-    var filteredList;
+    var filteredList,
+        termList = list.map(function(ele) { return ele.split("\ufffa")[0]; });
+
     list = list.sort();
-    if (in$(term, list)) {
+    if (in$(term, termList)) {
       if (in$(term, Object.keys(STEM[LANG]))) {
-        filteredList = list.filter(function(w){
-          return !deepEq$(w, term, '===');
+        filteredList = list.filter(function(ele){
+          var e = ele.split("\ufffa")[0];
+          return !deepEq$(e, term, '===');
         });
-        filteredList = filteredList.filter(function(w){
-          return !in$(w, STEM[LANG][term]);
+        filteredList = filteredList.filter(function(ele){
+          var e = ele.split("\ufffa")[0];
+          return !in$(e, STEM[LANG][term]);
         });
         if (filteredList.length) {
           filteredList = ["以下是模糊搜尋"].concat(filteredList);
         }
         return [term].concat(STEM[LANG][term], filteredList);
       } else {
-        filteredList = list.filter(function(w){
-          return !deepEq$(w, term, '===');
+        filteredList = list.filter(function(ele){
+          var e = ele.split("\ufffa")[0];
+          return !deepEq$(e, term, '===');
         });
         return [term].concat(filteredList);
       }
@@ -1461,6 +1466,7 @@
             return x.indexOf(item) === pos;
           });
         }
+
         lookup_in = function(cmn){
           var p, ae, ab, title, results$ = [];
           p = 0;
@@ -1478,8 +1484,22 @@
           }
           return results$;
         };
+
         lookup_in(cmn_amis_def);
         lookup_in(cmn_amis_ex);
+
+        if (LANG === 's') {
+          x = x.map(function(ele) {
+            if (/\ufffa/.test(ele)) return ele;
+
+            var e, r, regex;
+            e = ele.split("\ufffa")[0];
+            regex = `[^"]*${e}\ufffa[^"]*`;
+            r = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
+            if (r !== undefined) return r[0];
+          });
+        }
+
         if (x.length === 0) {
           return cb(["無符合之詞"]);
         } else {
