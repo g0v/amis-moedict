@@ -1494,7 +1494,8 @@
 
             var e, r, regex;
             e = ele.split("\ufffa")[0];
-            regex = `[^"]*${e}\ufffa[^"]*`;
+            e = e.replace("^", "\\^")
+            regex = `"${e}\ufffa[^"]*`;
             r = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
             if (r !== undefined) return r[0];
           });
