@@ -1494,10 +1494,10 @@
 
             var e, r, regex;
             e = ele.split("\ufffa")[0];
-            e = e.replace("^", "\\^")
-            regex = `"${e}\ufffa[^"]*`;
+            e = e.replace("^", "\\^");
+            regex = `"${e}\ufffa.*"`;
             r = INDEX[LANG].match(RegExp(regex.toLowerCase() + '', 'g'));
-            if (r !== undefined) return r[0];
+            if (r !== undefined) return r[0].replace(/"/g, '');
           });
         }
 
