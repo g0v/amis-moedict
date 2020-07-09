@@ -1276,23 +1276,28 @@
   }
 
   function amisOrdering(list, term){
-    var filteredList;
+    var filteredList,
+        termList = list.map(function(ele) { return ele.split("\ufffa")[0]; });
+
     list = list.sort();
-    if (in$(term, list)) {
+    if (in$(term, termList)) {
       if (in$(term, Object.keys(STEM[LANG]))) {
-        filteredList = list.filter(function(w){
-          return !deepEq$(w, term, '===');
+        filteredList = list.filter(function(ele){
+          var e = ele.split("\ufffa")[0];
+          return !deepEq$(e, term, '===');
         });
-        filteredList = filteredList.filter(function(w){
-          return !in$(w, STEM[LANG][term]);
+        filteredList = filteredList.filter(function(ele){
+          var e = ele.split("\ufffa")[0];
+          return !in$(e, STEM[LANG][term]);
         });
         if (filteredList.length) {
           filteredList = ["以下是模糊搜尋"].concat(filteredList);
         }
         return [term].concat(STEM[LANG][term], filteredList);
       } else {
-        filteredList = list.filter(function(w){
-          return !deepEq$(w, term, '===');
+        filteredList = list.filter(function(ele){
+          var e = ele.split("\ufffa")[0];
+          return !deepEq$(e, term, '===');
         });
         return [term].concat(filteredList);
       }
