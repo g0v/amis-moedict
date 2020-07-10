@@ -33,4 +33,7 @@ module.exports = {
             { test: /\.json$/, loader: 'json' }
         ])
     },
+    devServer: {
+      disableHostCheck: true
+    },
 }
