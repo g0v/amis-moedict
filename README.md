@@ -57,6 +57,7 @@ json 檔案資料夾分類如下：
     {
       h: [ # Array, required
         {
+          name: 'String, optional',
           d: [ # Array, required
             {
               f: 'String, required',
@@ -83,6 +84,7 @@ json 檔案資料夾分類如下：
 
     type Entry = {
       h: {
+        name?: string,
         d: {
           f: string,
           e?: string[],
@@ -99,6 +101,7 @@ json 檔案資料夾分類如下：
 ### 欄位說明
 
 * h：沿襲自萌典的 heteronym，本專案中為了盡量與萌典格式接近而保留。
+* * name：字詞名稱，字詞含有大寫時，就會使用 name；若全小寫，則使用 t。
 * * d：定義 definitions，一個詞 (t) 可能會有多個定義。
 * * * f：解釋 description，一個定義 (d) 只會有一個解釋。
 * * * e：範例 example，屬於解釋 (f)。
