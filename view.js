@@ -77,7 +77,7 @@
       var ref$, LANG, H, ref1$, title, heteronyms, xrefs, tag, stem, aStroke, $char, list, res$, i$, len$, key, props;
       ref$ = this.props, LANG = ref$.LANG, H = (ref1$ = ref$.H) != null
         ? ref1$
-        : HASHOF[LANG], title = ref$.title, heteronyms = ref$.heteronyms, xrefs = ref$.xrefs, tag = ref$.tag, stem = ref$.stem;
+        : HASHOF[LANG], heteronyms = ref$.heteronyms, xrefs = ref$.xrefs, tag = ref$.tag, stem = ref$.stem;
       H = replace$.call(H, /^#/, '');
       H = DotSlash + "#" + H;
       CurrentId = this.props.id;
@@ -93,6 +93,11 @@
       for (i$ = 0, len$ = heteronyms.length; i$ < len$; ++i$) {
         key = i$;
         props = heteronyms[i$];
+        if (props['name'] !== undefined) {
+          title = props['name'];
+        } else {
+          title = ref$.title;
+        }
         res$.push(Heteronym(import$({
           key: key,
           $char: $char,
