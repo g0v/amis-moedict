@@ -1487,7 +1487,8 @@
 
         lookup_in(cmn_amis_def);
         lookup_in(cmn_amis_ex);
-        x = x.filter(function(ele) { return ele !== '' })
+        x = x.filter(function(ele) { return (ele !== '') });
+        x = x.filter(function(ele) { return (ele.indexOf('\ufffa') != -1) });
 
         if (LANG === 's') {
           x = x.map(function(ele) {
