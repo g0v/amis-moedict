@@ -15,6 +15,7 @@
     <meta content="IE=edge,chrome=IE9" http-equiv="X-UA-Compatible">
     <meta name="keywords" content="詞典,辭典,阿美語,方敏英,潘世光,博利亞,蔡中涵,Virginia Fey,Maurice Poinsot,Louis Pourrias,Safolu Kacaw Lalanges,g0v">
     <meta name="description" content="提供 Android 及 iOS 離線 App。來源為台灣聖經公會、方敏英神父、潘世光神父、博利亞神父、蔡中涵博士。辭典本文的著作權仍為各該著作人所有。">
+    <link rel="manifest" href="amis-moedict.webmanifest">
   </head>
   <body id="moedict" onhashchange="grokHash()" itemscope itemtype="http://schema.org/ScholarlyArticle" class="main">
     <noscript>
@@ -99,5 +100,12 @@
       fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script><!--<![endif]-->
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+        .register('/sw.js')
+        .then(function() { console.log("Service Worker Registered"); });
+      }
+    </script>    
   </body>
 </html>
