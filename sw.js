@@ -1,5 +1,5 @@
 const CACHE_NAME = 'cache-v1';
-self.addEventListener('install', function() {
+self.addEventListener('install', async function() {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
         '/js/deps.js',
