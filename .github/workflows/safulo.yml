@@ -1,0 +1,30 @@
+name: Safulo dictionary automated processing
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'docs/s/*.json'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-20.04
+    name: rebuild index and stem list
+    steps:
+      - uses: actions/checkout@v3
+      - name: generate index.json
+        working-directory: ./safulo-daily
+        run: python regen-index.py
+      - name: generate stem-words.json
+        working-directory: ./safulo-daily
+        run: python regen-stems.py
+      - name: commit generated files
+        run: |
+          git config user.email miaoski@gmail.com
+          git config user.name miaoski-bot
+          git commit -m 'bot generated' docs/s/index.json docs/s/stem-words.json
+          git push
