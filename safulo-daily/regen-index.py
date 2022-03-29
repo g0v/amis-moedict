@@ -3,14 +3,19 @@
 
 import json
 from glob import glob
+from tqdm import tqdm
 
 INDEX = '../docs/s/index.json'
 CMN_MAX_LEN = 11
 
 index = {}
 fnx = glob('../docs/s/*.json')
-for fn in fnx:
-    j = json.load(open(fn))
+for fn in tqdm(fnx):
+    try:
+        j = json.load(open(fn))
+    except:
+        print('跳過:', fn)
+        continue
     if 't' not in j:
         continue
     t = j['t']
