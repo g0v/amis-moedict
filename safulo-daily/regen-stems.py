@@ -2,14 +2,10 @@
 # 重新產生 stem-words.json
 
 import json
-from glob import glob
-
-STEM_WORDS = '../docs/s/stem-words.json'
-CMN_MAX_LEN = 11
+from dailylib import *
 
 stems = {}
-fnx = glob('../docs/s/*.json')
-for fn in fnx:
+for fn in list_vocabs():
     j = json.load(open(fn))
     if 't' not in j or 'stem' not in j or j['stem'] == '': 
         continue
@@ -23,7 +19,7 @@ for fn in fnx:
         pass
     stems[j['stem']].append(t + u'\ufffa' + cmn)
 
-print(f'There are {len(stems)} stems.')
+print(f'總共有 {len(stems)} 個詞幹.')
 
 with open(STEM_WORDS, 'w') as f:
     f.write(json.dumps(stems, ensure_ascii=False))

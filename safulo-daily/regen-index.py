@@ -2,19 +2,15 @@
 # 重新產生 index.json
 
 import json
-from glob import glob
 from tqdm import tqdm
-
-INDEX = '../docs/s/index.json'
-CMN_MAX_LEN = 11
+from dailylib import *
 
 index = {}
-fnx = glob('../docs/s/*.json')
-for fn in tqdm(fnx):
+for fn in tqdm(list_vocabs()):
     try:
         j = json.load(open(fn))
     except:
-        print('跳過:', fn)
+        print('錯誤的 json 檔:', fn)
         continue
     if 't' not in j:
         continue
