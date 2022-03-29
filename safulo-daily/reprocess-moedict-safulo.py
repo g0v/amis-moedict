@@ -1,36 +1,38 @@
 #!/usr/bin/env python3
 # coding: utf-8
 # 阿美語萌典蔡中涵大辭中: 重新產生例句的超連結
+# 2022.3.29 新增 last 只處理上次處理後的 commits
 
-import pickle
+import sys
 import json
-from glob import glob
 import re
 from tqdm import tqdm
-
-# Generate stem_tags first
-stem_tags = {}
-fnx = glob('../docs/s/*.json')
-print('Regenerating stems and vocabulary list.')
-for fn in tqdm(fnx):
-    try:
-        with open(fn) as f:
-            word = json.load(f)
-            stem = word.get('stem')
-            tag = word.get('tag')
-            stem_tags[word['t']] = [stem, tag]
-    except KeyboardInterrupt:
-        break
-    except:
-        print('無法解析檔案:', fn)
-        pass
-print('Done. Processing lexicon files.')
-
-vocabulary = [x.lower() for x in stem_tags.keys()]
-stems = set([v[0].lower() for k,v in stem_tags.items() if v[0]])
-sorted_stems = sorted(stems, key=lambda x: -len(x))
+from dailylib import *
 
 PUNCTUATIONS = re.compile(r"""([".,:;?/ -])""")
+
+# Generate stem_tags first
+def generate_stem_tags():
+    global vocabulary, sorted_stems
+    stem_tags = {}
+    print('Regenerating stems and vocabulary list.')
+    for fn in tqdm(list_vocabs()):
+        try:
+            with open(fn) as f:
+                word = json.load(f)
+                stem = word.get('stem')
+                tag = word.get('tag')
+                stem_tags[word['t']] = [stem, tag]
+        except KeyboardInterrupt:
+            break
+        except:
+            print('無法解析檔案:', fn)
+            pass
+    print('Done. Processing lexicon files.')
+
+    vocabulary = [x.lower() for x in stem_tags.keys()]
+    stems = set([v[0].lower() for k,v in stem_tags.items() if v[0]])
+    sorted_stems = sorted(stems, key=lambda x: -len(x))
 
 def longest_stem_match(word):
     for s in sorted_stems:
@@ -88,11 +90,23 @@ if __name__ == '__main__':
     from pprint import pprint
     from colorama import Fore, Style
     from copy import deepcopy
-    fnx = glob('../docs/s/*.json')
     num_i = 0
+
+    if len(sys.argv) < 2 or sys.argv[1] not in ('all', 'last'):
+        print(f'用法: {__file__} [last|all]')
+        sys.exit(1)
+    if sys.argv[1] == 'all':
+        fnx = list_vocabs()
+    elif sys.argv[1] == 'last':
+        fnx = list_vocabs(last=True)
+    else:
+        sys.exit(2)
 
     DEBUG = False
     print(f'Processing {len(fnx)} files.')
+
+    generate_stem_tags()
+
     for fn in fnx:
         pro = json.load(open(fn))
         if 't' not in pro:                      # Not a lexicon
@@ -118,3 +132,4 @@ if __name__ == '__main__':
             num_i += 1
 
     print(f'{num_i} / {len(fnx)} are identical.')
+    system('git rev-parse HEAD > last')
