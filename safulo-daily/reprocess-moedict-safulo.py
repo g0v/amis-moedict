@@ -88,7 +88,6 @@ def process(lexicon):
 
 if __name__ == '__main__':
     from pprint import pprint
-    from colorama import Fore, Style
     from copy import deepcopy
     num_i = 0
 
@@ -116,6 +115,7 @@ if __name__ == '__main__':
         process(pro)
         if pro != org:
             if DEBUG:
+                from colorama import Fore, Style
                 print(Fore.YELLOW, end='')
                 pprint(org)
                 print(Style.RESET_ALL, end='')
@@ -132,4 +132,3 @@ if __name__ == '__main__':
             num_i += 1
 
     print(f'{num_i} / {len(fnx)} are identical.')
-    system('git rev-parse HEAD > last')

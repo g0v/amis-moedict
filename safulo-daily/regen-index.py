@@ -2,11 +2,10 @@
 # 重新產生 index.json
 
 import json
-from tqdm import tqdm
 from dailylib import *
 
 index = {}
-for fn in tqdm(list_vocabs()):
+for fn in list_vocabs():
     try:
         j = json.load(open(fn))
     except:

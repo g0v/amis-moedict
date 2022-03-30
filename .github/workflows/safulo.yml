@@ -1,0 +1,19 @@
+name: Safulo dictionary automated processing
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'docs/s/*.json'
+jobs:
+  rebuild:
+    name: Rebuild json
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v1
+      - name: run regen-index.py
+        working-directory: ./safulo-daily
+        run: python regex-index.py
+      - name: run regen-stem.py
+        working-directory: ./safulo-daily
+        run: python regex-stems.py
