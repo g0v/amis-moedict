@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v1
+      - name: show pwd
+        working-directory: ./safulo-daily
+        run: ls -l
+      - name: show pwd
+        working-directory: ./safulo-daily
+        run: echo $(pwd)
       - name: run regen-index.py
         working-directory: ./safulo-daily
         run: python regex-index.py
