@@ -9,28 +9,18 @@ jobs:
   build:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-20.04
-    name: build and deploy
+    name: rebuild index and stem list
     steps:
       - uses: actions/checkout@v3
-      - name: run regen-index.py
+      - name: generate index.json
         working-directory: ./safulo-daily
         run: python regen-index.py
-      - name: run regen-stem.py
+      - name: generate stem-words.json
         working-directory: ./safulo-daily
         run: python regen-stems.py
-      - name: archive build output
-        run: tar --dereference --hard-dereference --directory docs/ -cvf artifact.tar .
-      - uses: actions/upload-artifact@v3
-        with:
-          name: github-pages
-          path: ./artifact.tar
-          if-no-files-found: warn
-      - name: clean up
-        run: echo TODO
-  deploy:
-    concurrency: ci-${{ github.ref }}
-    runs-on: ubuntu-20.04
-    needs: build
-    steps:
-      - uses: actions/deploy-pages@v1
-        url: https://amis.moedict.tw
+      - name: commit generated files
+        run: |
+          git config user.email miaoski@gmail.com
+          git config user.name miaoski-bot
+          git commit -m 'bot generated' docs/s/index.json docs/s/stem-words.py
+          git push
