@@ -23,8 +23,14 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: ./docs/artifact.tar
+          path: ./artifact.tar
           if-no-files-found: warn
       - name: clean up
         run: echo TODO
+  deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-20.04
+    needs: build
+    steps:
       - uses: actions/deploy-pages@v1
+        url: https://amis.moedict.tw
