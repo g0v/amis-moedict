@@ -1,0 +1,24 @@
+name: Safulo dictionary hyperlinks
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: generate stem-words.json
+        working-directory: ./safulo-daily
+        run: |
+          python reprocess-moedict-safulo.py last
+          git rev-parse HEAD > last
+      - name: commit generated files
+        run: |
+          git config user.email miaoski@gmail.com
+          git config user.name miaoski-bot
+          git commit -m 'bot generated hyperlinks' ./safulo-daily/last ./docs/s/
+          git push
