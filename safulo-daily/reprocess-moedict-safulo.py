@@ -6,7 +6,6 @@
 import sys
 import json
 import re
-from tqdm import tqdm
 from dailylib import *
 
 PUNCTUATIONS = re.compile(r"""([".,:;?/ -])""")
@@ -16,7 +15,7 @@ def generate_stem_tags():
     global vocabulary, sorted_stems
     stem_tags = {}
     print('Regenerating stems and vocabulary list.')
-    for fn in tqdm(list_vocabs()):
+    for fn in list_vocabs():
         try:
             with open(fn) as f:
                 word = json.load(f)
