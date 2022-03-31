@@ -6,14 +6,25 @@ on:
     paths:
       - 'docs/s/*.json'
 jobs:
-  rebuild:
-    name: Rebuild json
+  build:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-20.04
+    name: build and deploy
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: run regen-index.py
         working-directory: ./safulo-daily
         run: python regen-index.py
       - name: run regen-stem.py
         working-directory: ./safulo-daily
         run: python regen-stems.py
+      - name: archive build output
+        run: tar --dereference --hard-dereference --directory docs/ -cvf artifact.tar .
+      - uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ./docs/artifact.tar
+          if-no-files-found: warn
+      - name: clean up
+        run: echo TODO
+      - uses: actions/deploy-pages@v1
