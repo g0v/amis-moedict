@@ -5,6 +5,10 @@ on:
       - master
     paths:
       - 'docs/s/*.json'
+
+permissions:
+  contents: write
+
 jobs:
   build:
     concurrency: ci-${{ github.ref }}
