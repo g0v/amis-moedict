@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 50
+          fetch-depth: 100
       - name: list modified files
         working-directory: ./safulo-daily
         run: |
