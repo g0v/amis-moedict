@@ -14,14 +14,18 @@ jobs:
         with:
           fetch-depth: 100
       - name: list modified files
+        id: listfiles
         working-directory: ./safulo-daily
         run: |
           git diff --name-only $(<last)..HEAD | tee filelist
+          test -s filelist && echo "::set-output name=has_newfiles::true"
       - name: generate stem-words.json
+        if: steps.listfiles.outputs.has_newfiles == 'true'
         working-directory: ./safulo-daily
         run: |
           python reprocess-moedict-safulo.py last
       - name: commit generated files
+        if: steps.listfiles.outputs.has_newfiles == 'true'
         run: |
           git config user.email miaoski@gmail.com
           git config user.name miaoski-bot
