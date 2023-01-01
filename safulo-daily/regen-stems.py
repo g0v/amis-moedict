@@ -17,8 +17,8 @@ for fn in list_vocabs():
         cmn = j['h'][0]['d'][0]['f'][:CMN_MAX_LEN]
     except:
         pass
-    # stems[j['stem']].append(t + u'\ufffa' + cmn)
-    stems[j['stem']].append(t)
+    stems[j['stem']].append(t + u'\ufffa' + cmn)
+    # stems[j['stem']].append(t)
 
 for stem in stems:
     stems[stem] = sorted(stems[stem])
