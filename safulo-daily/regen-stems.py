@@ -17,9 +17,13 @@ for fn in list_vocabs():
         cmn = j['h'][0]['d'][0]['f'][:CMN_MAX_LEN]
     except:
         pass
-    stems[j['stem']].append(t + u'\ufffa' + cmn)
+    # stems[j['stem']].append(t + u'\ufffa' + cmn)
+    stems[j['stem']].append(t)
+
+for stem in stems:
+    stems[stem] = sorted(stems[stem])
 
 print(f'總共有 {len(stems)} 個詞幹.')
 
 with open(STEM_WORDS, 'w') as f:
-    f.write(json.dumps(stems, ensure_ascii=False))
+    f.write(json.dumps(stems, ensure_ascii=False, indent=4))
