@@ -6,10 +6,6 @@
   src = function(it){
     return gulp.src(it);
   };
-  gulp.task('default', ['sass']);
-  gulp.task('build', ['default', 'webpack:build']);
-  gulp.task('run', ['default', 'static-here', 'show-url']);
-  gulp.task('dev', ['default', 'webpack:dev', 'show-url']);
   if ((ref$ = (ref1$ = process.argv)[ref1$.length - 1]) === 'run' || ref$ === 'dev') {
     watch = require('gulp-watch');
     src = function(it){
@@ -45,4 +41,8 @@
     process.argv = process.argv.concat(['--hot', '--port', '8888']);
     return require('./node_modules/webpack-dev-server/bin/webpack-dev-server.js');
   });
+  gulp.task('default', gulp.series('sass'));
+  gulp.task('build', gulp.series('default', 'webpack:build'));
+  gulp.task('run', gulp.series('default', 'static-here', 'show-url'));
+  gulp.task('dev', gulp.series('default', 'webpack:dev', 'show-url'));
 }).call(this);
