@@ -106,7 +106,12 @@ if __name__ == '__main__':
     generate_stem_tags()
 
     for fn in fnx:
-        pro = json.load(open(fn))
+        try:
+            pro = json.load(open(fn))
+        except FileNotFoundError:
+            print('!!! Skip non-existing file', fn)
+            continue
+        print('* Reading', fn)
         if 't' not in pro:                      # Not a lexicon
             print('Ignore file:', fn)
             continue
