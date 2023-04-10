@@ -36,10 +36,15 @@ for fn in list_vocabs():
                 xxs[t][stem] = 1 + xxs[t].get(stem, 0)
 
 nx = {}
-for k, v in xxs:
+for k, v in xxs.items():
     if re.search(r'[a-z]+', k):
         continue
-    nx[k.strip()] = ','.join(sorted(v, key=lambda x:v[x], reverse=True))
+    try:
+        nx[k.strip()] = ','.join(sorted(v, key=lambda x:v[x], reverse=True))
+    except TypeError:
+        print('k=', k)
+        print('v=', v)
+        raise
 
-with open('ch-mapping-new.json') as f:
+with open('ch-mapping-new.json', 'w') as f:
     f.write(json.dumps(nx, indent=4, ensure_ascii=False))
