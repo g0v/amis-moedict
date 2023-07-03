@@ -25,8 +25,11 @@ def split_ch(s):
 """
     import re
     s = re.sub(r'[(（〈〔].+[）)〉〕]', '', s)
-    s = re.split(r'[、。，；]', s)
+    s = s.replace('“', '"').replace('”', '"').replace('…', '').replace('（', '')
+    s = s.replace('(', '')
+    s = re.split(r'[、。，；：;]', s)
     s = [x.strip().rstrip('了') for x in s if len(x) > 0]
+    s = [x for x in s if len(x) > 0]
     return s
 
 for w in words:
