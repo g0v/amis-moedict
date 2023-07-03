@@ -37,7 +37,7 @@ for fn in list_vocabs():
 
 nx = {}
 for k, v in xxs.items():
-    if re.search(r'[a-z]+', k):
+    if re.search(r'[a-z0-9]+', k):
         continue
     try:
         nx[k.strip()] = ','.join(sorted(v, key=lambda x:v[x], reverse=True))
