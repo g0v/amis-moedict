@@ -352,23 +352,34 @@
         "talapikoen￺把…轉彎，轉彎吧！",
         "talapiko￺到拐彎處，轉彎。"
     ],
-    "keleng": [
-        "kakelengan￺打雷的日子，雷雨交加的",
-        "kakeleng￺雷電。",
-        "kelekelengan￺雷神。",
-        "masakelengay￺出入孔做成了。",
-        "masakeleng￺出入孔被做成。",
-        "misakelengan￺把…做一個坑洞；挖出一",
-        "misakelengay￺正在做一個坑洞了；挖出",
-        "misakeleng￺做一個坑洞；挖出一個洞",
-        "pisakelengan￺製造出入孔、坑洞的地方",
-        "pisakeleng￺請製造出入孔、坑洞。",
-        "sakelengen￺把…挖孔、挖洞、挖眼吧",
-        "sakeleng￺挖眼、挖孔、挖小洞。",
-        "sapisakelengaw￺想做出入孔、鑽孔。",
-        "sapisakeleng￺做出入孔、鑽孔使用的器",
-        "tahakelengay￺掉進洞穴裏了。",
-        "tahakeleng￺掉進洞穴裏。"
+    "la'ed": [
+        "kacila'ed￺留有間距的，中間有距離",
+        "kalala'ed￺兩者之間的距離，間距，",
+        "kasala'edan￺每一距離、間距。",
+        "kasala'ed￺每一距離、間距。",
+        "lala'ed￺彼此間的距離，間隔。",
+        "mapala'eday￺被隔開了，被間隔開了。",
+        "mapala'ed￺被隔開，被間隔開。",
+        "mikalala'edan￺造成有距離了。",
+        "mikalala'eday￺形成距離了。",
+        "mikalala'ed￺ （關於）彼此距離、相",
+        "mipala'edan￺把…隔開了、分隔了、分",
+        "mipala'eday￺隔開了，分隔了，分開了",
+        "mipala'ed￺隔開，分隔，分開一段距",
+        "pala'eday￺拉開距離了，隔開了。",
+        "pala'eden￺讓…隔開、隔離、分開一",
+        "pala'ed￺使之間隔開，拉開距離，",
+        "palala'ela'eday￺使之間隔一段距離了。",
+        "palala'ela'eden￺讓…間隔一段距離。",
+        "palala'ela'ed￺使之間隔一段距離。",
+        "pipala'edan￺分開、隔開的地方、時間",
+        "pipala'ed￺請分開、隔開一段距離。",
+        "sakacila'edaw￺希望有間隔、距離。",
+        "sakacila'ed￺有間隔、距離的原因。",
+        "sala'edan￺界限、界線。",
+        "sapala'ed￺供隔離、隔開用的。",
+        "sapipala'edaw￺想隔開、分開。",
+        "sapipala'ed￺隔開、分開使用的器具。"
     ],
     "'oyod": [
         "mi'oyod￺牛車達不到的地方用人力"
@@ -610,40 +621,18 @@
     "lafodes": [
         "milafodes￺脫離，離開，分開，分裂"
     ],
-    "ta'i": [
-        "cita'iay￺生鏽的，帶鏽漬的 ",
-        "cita'i￺生鏽，帶鏽漬 ",
-        "lita'ien￺把糞拾起來。",
-        "lita'i￺拾糞，積肥。",
-        "malita'iay￺（肥料）被拾撿起來了。",
-        "malita'i￺（肥料）被拾、撿起來。",
-        "malitina'iay￺被掏出內臟了，肚子被掏",
-        "malitina'i￺被掏出內臟，被剖腹掏空",
-        "mapata'iay￺被施人糞肥了，施肥了。",
-        "mapata'i￺被施人糞，施肥。",
-        "mata'iay￺生鏽了，有鏽了。",
-        "mata'i￺生鏽，有鏽。",
-        "mipata'ian￺給…施肥了，施過肥料了",
-        "mipata'iay￺正在施肥了。",
-        "mipata'i￺給糞，施肥，上肥料。",
-        "mita'ian￺把糞拾起來了，積肥了。",
-        "mita'iay￺在拾糞積肥了。",
-        "mita'i￺拾糞，積肥。",
-        "papata'ien￺要施肥。",
-        "pata'ian￺廁所、糞坑、 糞桶。",
-        "pata'iay￺讓人拉屎了、施肥了。",
-        "pata'ien￺讓…拉屎、給…施肥。",
-        "pata'i￺讓人拉屎、施肥。",
-        "pipata'ian￺施肥的地點、時間。",
-        "pipata'i￺請施肥吧。",
-        "sakacita'iaw￺希望生銹。",
-        "sakacita'i￺生銹的原因。",
-        "sapata'i￺供施肥用。",
-        "sapipata'i￺想給作物施肥。",
-        "tata'ian￺便池，糞桶，糞坑，廁所",
-        "tina'i￺腸子。",
-        "toma'iay￺在拉屎、大便了。",
-        "toma'i￺拉屎、大便。"
+    "di'o": [
+        "mipadi'oan￺把孩子逗笑說話了。",
+        "mipadi'oay￺在逗孩子說話。",
+        "mipadi'o￺逗孩子學說話。",
+        "padi'oay￺使之咿呀學語了。",
+        "padi'oen￺逗引孩子咿呀學語。",
+        "padi'o￺使之咿呀學語。",
+        "papadi'oen￺要逗引小孩學話。",
+        "pipadi'oan￺逗引孩子的地點、時間。",
+        "pipadi'o￺請逗引孩子吧。",
+        "sapipadi'oaw￺想逗引嬰兒學話。",
+        "sapipadi'o￺逗引嬰兒呀呀學語使用的"
     ],
     "'apocok": [
         "masa'apocokay￺堆積得冒尖了。",
@@ -1952,45 +1941,18 @@
         "satefonen￺把…挖井、鑿井、挖井吧",
         "satefon￺挖井、鑿井。"
     ],
-    "heci": [
-        "ciheciay￺結果實的，長肌肉的。",
-        "ciheci￺結果實，長肌肉。",
-        "cilaheciay￺有結果，有成就。",
-        "cilaheci￺有結果，有成就。",
-        "hecian￺結成的果實。",
-        "kalahecian￺事情有結果、工作完成的",
-        "karaheciay￺結果實多，結果累累。",
-        "karaheci￺果實多，結果累累。",
-        "lahecien￺把某事使出結果、完成。",
-        "laheci￺結果，完成，實現。",
-        "lalahecien￺即將完成、實現，即將完",
-        "makaheciay￺長許多果實了，結果累累",
-        "makaheci￺長許多果實，結果累累。",
-        "malaheciay￺結果實了，有成果了，有",
-        "malaheci￺結果實，有成果，有成績",
-        "masaheci￺具體，明顯。",
-        "mifoheci￺剝皮，去殼。",
-        "milahecian￺把…完成了、做完了。",
-        "milaheciay￺正在完成。",
-        "milaheci￺去完成，做完事情。",
-        "paheciay￺使之結果、完成了。",
-        "pahecien￺把…做出結果、完成。",
-        "paheci￺使之結果、完成。",
-        "palaheciay￺使之變成果實了，使之結",
-        "palahecien￺讓…變成果實、結果、有",
-        "palaheci￺使之變成果實，使之結果",
-        "pilahecian￺做出成績、結果的地方、",
-        "pilaheci￺一定做出成績、結果吧。",
-        "sahecien￺把…說明、解釋、解說。",
-        "saheci￺說明、解釋、解說。",
-        "sakaciheciaw￺希望結果，希望有結果。",
-        "sakaciheci￺結果的原因。",
-        "sakacilaheciaw￺希望有成果、成就。",
-        "sakacilaheci￺有成果、成就的原因。",
-        "sakalaheciaw￺希望取得成績、成果。",
-        "sakalaheci￺取得成績、成果的緣故。",
-        "sapilaheciaw￺想完成工作、做出成績。",
-        "sapilaheci￺用於完成工作、做出成績"
+    "fiwfiw": [
+        "fiwfiwen￺把某物吹拂，吹動。",
+        "lafiwfiway￺蘆葦，木苧麻，四脈苧麻",
+        "mafiwfiway￺被風吹動起來，吹拂著。",
+        "mafiwfiw￺被風吹動，吹拂。",
+        "mifiwfiwan￺把…吹動了、吹拂了。",
+        "mifiwfiway￺在吹動、吹拂著。",
+        "mifiwfiw￺吹動，微風吹拂。",
+        "pifiwfiwan￺大風吹拂的地方、時間。",
+        "pifiwfiw￺猛烈吹拂。",
+        "sapifiwfiwaw￺想吹動、吹拂。",
+        "sapifiwfiw￺用於吹動、吹拂的工具。"
     ],
     "lasong": [
         "lalasongen￺要探訪、拜訪，要探訪、",
@@ -2269,89 +2231,50 @@
         "sapi'a'owangaw￺想捕捉海膽。",
         "sapi'a'owang￺捕捉海膽的用具。"
     ],
-    "ira": [
-        "airaay￺要有了，會有的。",
-        "aira￺即將有，會有。",
-        "iraayay￺在遠處，在遠的地方。",
-        "iraay￺有的，有。",
-        "itiraay￺在那裡，在那兒。",
-        "itiraen￺要求安置在那裡，把某物",
-        "itirahan￺就把某物安置在那裡。",
-        "itira￺在那裡，在那兒，不遠處",
-        "kairaan￺來的、出現的時間或地方",
-        "kairaira￺各色各樣。",
-        "kaira￺來的，出現的，存在的。",
-        "kaniraen￺請稍往那邊靠近。",
-        "kanira￺稍往那邊靠近。",
-        "katahiraan￺到達那裡的時間。",
-        "katahira￺到那裡的。",
-        "katayraan￺去的時間或地方。",
-        "katayra￺去的。",
-        "kinaira￺所有的，收獲的，資源，",
-        "kinayra￺收獲、財產。",
-        "lekairair￺應有盡有，樣樣齊全。",
-        "mikairaan￺指因某種原因而出現存在",
-        "mikairaay￺指出現、存在、來到的人",
-        "mikaira￺（關於）出現、存在、來",
-        "mikiiraan￺把（某事）從那裡開始了",
-        "mikiiraay￺正從那裡開始了、著手了",
-        "mikitira￺從那裡開始、著手。",
-        "mipapipatairaan￺曾經按照吩咐給送去了。",
-        "mipapipatairaay￺叫（人）送去了。",
-        "mipapipataira￺叫（人）送去。",
-        "mipasairaan￺把…朝向那裡了、那邊了",
-        "mipasairaay￺正在使之向那裡、那邊了",
-        "mipasaira￺使之向那裡、那邊，朝向",
-        "pakairaan￺信仰、宗教。",
-        "pakairaaw￺經過那裏啦。",
-        "pakairaay￺經過那裏了。",
-        "pakairaen￺使…經過那裏，把…放在",
-        "pakaira￺經過那裏。",
-        "pakatairaay￺使之去了，讓他人去了。",
-        "pakatairaen￺讓…去、前往。",
-        "pakataira￺讓他人去，使之去。",
-        "pakatiraay￺經過那裏了，從那裏了。",
-        "pakatiraen￺讓…經過那裏，請從那裏",
-        "pakatira￺經過那裏，從那裏。",
-        "pakenahiraay￺放任漂流了。",
-        "pakinahiraay￺讓某人自由。",
-        "pakinahiraen￺讓…放任自流。",
-        "pakinahira￺使之自由自在，放任自流",
-        "pakiraan￺所經過、達到的地方，道",
-        "pakiraaw￺從那裏開始。",
-        "pakiraay￺經過、達到那裏了，從那",
-        "pakiraen￺讓…經過、達到那裏，從",
-        "pakira￺經過、達到那裏，從那裏",
-        "pakitiraay￺暫時放在那裏了，暫時擱",
-        "pakitiraen￺讓…暫時放在那裏，把…",
-        "pakitira￺暫時放在那裏，暫時擱置",
-        "papapipatairaen￺要讓…送去。",
-        "papipatairaay￺讓人去了、讓人送去了、",
-        "papipatairaen￺讓…送去，把…派去。",
-        "papipataira￺讓人去、讓人送去、叫人",
-        "pasaira i￺(短語) 關於、從、由",
-        "pasairaay￺向那裏了、朝向那裏了。",
-        "pasairaen￺讓…向那裏、朝向那裏，",
-        "pasaira￺向那裏、朝向那裏。",
-        "pasitiraay￺向那邊、那裏了。",
-        "pasitiraen￺讓…向那邊、那裏、把…",
-        "pasitirasa￺就向著那邊、那裏。",
-        "pasitira￺向那邊、那裏。",
-        "patairaay￺拿去了、送去了、帶去了",
-        "patairaen￺把…送去、拿去、帶去。",
-        "pataira￺拿去、送去、帶去。",
-        "sairairaen￺給…虛張聲勢。",
-        "sairaira￺虛張聲勢、狐假虎威。",
-        "sakairaaw￺希望有。",
-        "sakaira￺所以、因此。",
-        "sakatahira￺到達的原因、時間。",
-        "sapipasairaaw￺想使方向朝向那裏。",
-        "sapipasaira￺使方向朝向那邊的用具。",
-        "taheraay￺達到那裏了。",
-        "tahera￺到達那裏。",
-        "tahiraay￺到達了。",
-        "tahira￺到達那裏。",
-        "tatahira￺要到達，會到達，能到達"
+    "comod": [
+        "alacomocomodhan￺一個個走進去吧。",
+        "alacomocomod￺一個跟著一個進去。",
+        "cacomoden￺要進去的，要搬進去的房",
+        "comoden￺進去吧。",
+        "kapicomod￺方才進去的，剛進去的。",
+        "mapacomoday￺被送進去了，被弄進去了",
+        "mapacomod￺被送進去，被弄進去。",
+        "mapapipacomoday￺被人叫進去了，被傳喚進",
+        "mapapipacomod￺被人叫進去，被傳喚進去",
+        "micomodan￺把…進去了，進去過。",
+        "micomoday￺正在進入、進去了。",
+        "micomod￺進入，進來，進去。",
+        "mipacomodan￺把…送進去了、弄進去了",
+        "mipacomoday￺送進去了、弄進去了。",
+        "mipacomod￺送進去，弄進去。",
+        "mipakacomodan￺能夠把…進去了。",
+        "mipakacomoday￺能夠進去了，進得去了。",
+        "mipakacomod￺能夠進去，進得去。",
+        "mipapipacomodan￺按照吩咐叫進去了，叫進",
+        "mipapipacomoday￺正在叫（人）進去了。",
+        "mipapipacomod￺叫（人）進去。",
+        "pacomoday￺讓進了，送進了。",
+        "pacomoden￺把…送進、弄進去。",
+        "pacomod￺使之進去，讓進，送進。",
+        "pakacomoday￺能進去了，進得去了。",
+        "pakacomoden￺能把…進去。",
+        "pakacomod￺能進去，進得去。",
+        "papacomoden￺要送進去、弄進去。",
+        "papicomoday￺讓人進去了，叫人進去了",
+        "papicomoden￺讓…進去。",
+        "papicomod￺讓人進去、叫人進去。",
+        "papipacomoday￺讓人叫進去、弄進去了。",
+        "papipacomoden￺讓…叫進去、弄進去。",
+        "papipacomod￺讓人叫進去、弄進去。",
+        "picomodan￺進去的地點、時間、入口",
+        "picomod￺進去、請進去。",
+        "pipacomodan￺把東西送進去、弄進去的",
+        "pipacomod￺請送進去、弄進去吧。",
+        "sacomod￺門口、入口。",
+        "sapicomodaw￺想進去、進入。",
+        "sapicomod￺進入、進去某處使用的工",
+        "sapipacomodaw￺想送進去，想弄進去。",
+        "sapipacomod￺送進去、弄進去使用的器"
     ],
     "feto": [
         "cifetoay￺起水泡的，長水泡了。",
@@ -4546,30 +4469,17 @@
         "sapicoracoraw￺想催促、督促他人。",
         "sapicoracor￺用於催促、督促、敦促的"
     ],
-    "kayakay": [
-        "kayakayen￺過橋，踩過去。",
-        "lakayakay￺媒人。",
-        "malakayakayay￺搭橋了，作媒了。",
-        "malakayakay￺搭橋，作媒。",
-        "mikayakayan￺把…踩了、爬了。",
-        "mikayakayay￺正在踩著、爬著。",
-        "mikayakay￺指通過某交通工具從此處",
-        "mipakayakayan￺曾經給…搭橋了，為某某",
-        "mipakayakayay￺正在搭橋了、做媒了。",
-        "mipakayakay￺搭橋，做媒。",
-        "misakayakay￺造橋、鋪橋、做階梯。",
-        "pakayakayay￺正在造橋、搭橋、鋪橋了",
-        "pakayakayen￺給…造橋、搭橋、鋪橋。",
-        "pakayakay￺造橋，搭橋，鋪橋。",
-        "papakayakayen￺要架橋。",
-        "pipakayakayan￺架橋的地方、時間。",
-        "pipakayakay￺請架橋。",
-        "sakayakayen￺把…造橋、造橋吧。",
-        "sakayakay￺造橋、鋪橋、階梯。",
-        "sapikayakayaw￺想過橋。",
-        "sapikayakay￺過橋使用的工具。",
-        "sapipakayakayaw￺想架橋、搭橋。",
-        "sapipakayakay￺架橋、搭橋的器具。"
+    "soot": [
+        "masootay￺被堵塞了，阻塞了。",
+        "masoot￺被堵塞，阻塞。",
+        "misootan￺把…堵塞了、堵住了。",
+        "misootay￺堵了，堵塞了，堵住了。",
+        "misoot￺拴，給…綁。",
+        "sapisootaw￺想堵塞、想堵住。",
+        "sapisoot￺堵塞、塞住使用的器具、",
+        "sasooten￺要堵塞。",
+        "sasoot￺塞子。",
+        "sooten￺把…堵住、堵塞。"
     ],
     "ca'i": [
         "ca'ien￺必須對某人禮讓要，謙讓",
@@ -13858,40 +13768,15 @@
         "sapikarongaw￺想傳遞消息。",
         "sapikarong￺用於傳訊、傳遞資訊的器"
     ],
-    "tangic": [
-        "'atangicay￺愛哭的人。",
-        "'atangic￺愛哭。",
-        "katomangican￺哭的（時間、地方、狀況",
-        "mapatangicay￺迫於某種原因被人懇求。",
-        "mapatangic￺迫於某種原因向人懇求。",
-        "matangicay￺被懇求、哀求著。",
-        "matangic￺被懇求、哀求。",
-        "mipatangican￺把…弄哭了，向某某哀求",
-        "mipatangicay￺弄哭了，哀求著，哭求著",
-        "mipatangic￺弄哭，哀求，哭求。",
-        "mitangican￺向…哭求了、哀求了。",
-        "mitangicay￺正在哭求，哀求著。",
-        "mitangic￺哭求，哀求。",
-        "napatangican￺勉強從事過的。",
-        "papatangicen￺要懇求、哀求。",
-        "patangicay￺正在向他人哀求、懇求。",
-        "patangicen￺向…哀求、懇求。",
-        "patangichan￺特地向…哀求、懇求。",
-        "patangicsa￺哀求著、勉強著。",
-        "patangic￺使之哭泣、哀求、懇求。",
-        "pipatangican￺懇求、哀求的地方、時間",
-        "pipatangic￺請懇求、哀求吧。",
-        "sapipatangicaw￺想哀求、哭求。",
-        "sapipatangic￺哀求、哭求東西的手段。",
-        "sapitangicaw￺想哀求、懇求。",
-        "sapitangic￺哀求、懇求憑藉的工具。",
-        "tangicen￺把…哭求、哀求，哭吧！",
-        "tanotangicsa￺一直哭泣的樣子。",
-        "tanotangic￺一直哭，只是哭泣。",
-        "tatangicsa￺處於哭泣的狀態。",
-        "tatangic￺一直哭泣，老哭著。",
-        "tomangicay￺哭了，在哭著。",
-        "tomangic￺哭，哭泣。"
+    "rongawit": [
+        "mirongawitan￺用長柄工具把…鉤取了。",
+        "mirongawitay￺正在用長柄的工具鉤取了",
+        "mirongawit￺用長柄的工具取物。",
+        "pirongawitan￺勾取東西的地方、時間。",
+        "pirongawit￺用工具把東西勾取吧。",
+        "rarongawiten￺要勾取東西。",
+        "sapirongawitaw￺想勾取東西。",
+        "sapirongawit￺勾取東西使用的工具。"
     ],
     "holol": [
         "hahololen￺要拜訪的，要招待的，款",
@@ -25899,10 +25784,13 @@
         "sakakiwen￺把…做磨刀石。",
         "sakakiw￺做磨刀石。"
     ],
-    "piko'": [
-        "mipiko'an￺把…拐彎了、弄彎了。",
-        "mipiko'ay￺正在拐彎了，弄彎了。",
-        "mipiko'￺拐彎，彎曲，弄彎。"
+    "kali": [
+        "kalien￺挖水溝、水圳。",
+        "mikalian￺把水溝挖好了。",
+        "mikaliay￺在挖水溝、水圳了。",
+        "mikali￺挖水溝、水圳。",
+        "sapikaliaw￺想挖掘溝渠。",
+        "sapikali￺挖掘溝渠使用的器具。"
     ],
     "fita'o": [
         "masafita'oay￺ 形成或出現水窪、廢水",
@@ -27552,10 +27440,18 @@
         "sapisaodo'￺做瑪瑙珠寶使用的器具。",
         "sasaodo'en￺要冶煉瑪瑙。"
     ],
-    "^ekim": [
-        "malatada^ekimay￺變成真正的金子了。",
-        "malatada^ekim￺變成真正的金子。",
-        "tada^ekim￺純金，黃金。"
+    "ngitngit": [
+        "mangitngitay￺被啃吃了，嚙咬了。",
+        "mangitngit￺被啃吃，嚙咬。",
+        "mingitngitan￺把…啃吃了、齧食了。",
+        "mingitngitay￺正在啃吃、齧食東西。",
+        "mingitngit￺啃，齧食。",
+        "ngitngiten￺把…啃吃、齧咬。",
+        "ngitngithan￺特地把…啃吃、齧咬。",
+        "pingitngitan￺啃吃的地點、時間。",
+        "pingitngit￺請啃吃、啃吃吧。",
+        "sapingitngitaw￺想啃吃、齧咬東西。",
+        "sapingitngit￺啃吃、齧咬東西使用的器"
     ],
     "posang": [
         "maposangay￺被撓頭了，被搔頭了。",
@@ -36267,22 +36163,13 @@
         "co'epen￺以嘴貼近水面吸飲。",
         "co'epsa￺專注地，浸淫地。"
     ],
-    "milmil": [
-        "mamilmilay￺被撫摸著，摩挲著，觸摸",
-        "mamilmilen￺要摸弄、摩挲，要摸弄、",
-        "mamilmil￺被撫摸，摩挲，觸摸。",
-        "milmilen￺把…撫摸、摸弄。",
-        "mimilmilan￺把…撫玩了、撫弄了。",
-        "mimilmilay￺撫玩著，撫弄著。",
-        "mimilmil￺撫弄，撫摩。",
-        "pimilmilan￺撫摸東西的地方、時間。",
-        "pimilmil￺請撫摸吧、用手指玩弄吧",
-        "samilmilmilen￺把…反復撫弄。",
-        "samilmilmilhan￺特地把…反復撫弄。",
-        "samilmilmilsa￺不停撫弄的樣子。",
-        "samilmilmil￺不停地撫弄。",
-        "sapimilmilaw￺想撫摩、想觸摸。",
-        "sapimilmil￺撫摩、觸摸、摸弄使用的"
+    "'ofong": [
+        "'ofongen￺把…翻修、翻蓋。",
+        "mi'ofongan￺把…翻修了、整修了。",
+        "mi'ofongay￺正在翻修、整修了。",
+        "mi'ofong￺翻修，整修。",
+        "sapi'ofongaw￺想翻修屋頂。",
+        "sapi'ofong￺翻修屋頂使用的器具。"
     ],
     "timpo": [
         "satimpo￺做斧頭。"
@@ -36764,21 +36651,36 @@
         "sapipasaperedaw￺想一叢一叢地種植。",
         "sapipasapered￺一叢一叢種植作物使用的"
     ],
-    "podpod": [
-        "mapodpoday￺被揀起來，撿拾起來。",
-        "mapodpod￺被揀，撿拾。",
-        "mipodpodan￺把…撿了、拾起來了。",
-        "mipodpoday￺正在撿拾。",
-        "mipodpod￺撿，拾。",
-        "papodpoday￺使之拾掇、撿拾東西了。",
-        "papodpoden￺讓…拾掇、撿拾；把…拾",
-        "papodpod￺使之拾掇、撿拾東西。",
-        "pipodpodan￺撿拾的地方、時間。",
-        "pipodpod￺把東西撿拾起來吧。",
-        "podpoden￺把…撿拾。",
-        "podpodhan￺特地把…撿拾起來。",
-        "sapipodpodaw￺想撿拾東西。",
-        "sapipodpod￺撿拾東西的器具。"
+    "pitek": [
+        "mapakapitekay￺能被折斷了。",
+        "mapakapitek￺能被折斷，能被弄斷。",
+        "mapapipitekay￺被派人去折斷了，被指令",
+        "mapapipitek￺被人派去折斷，被指令折",
+        "mapitekay￺被折斷了。",
+        "mapitek￺被折斷，弄折了。",
+        "mipakapitekan￺曾經有能力把…折斷了。",
+        "mipakapitekay￺有能力折斷了，能夠折斷",
+        "mipakapitek￺有能力折斷，能夠折斷。",
+        "mipapipitekan￺曾經把…請來折斷東西了",
+        "mipapipitekay￺叫（人）折斷了。",
+        "mipapipitek￺叫（人）折斷。",
+        "mipitekan￺把…折斷了。",
+        "mipitekay￺正在折斷東西。",
+        "mipitek￺折斷東西。",
+        "pakapitekay￺能夠折斷了，能折斷了，",
+        "pakapiteken￺能夠把…折斷。",
+        "pakapitek￺能夠折斷，能折斷，折得",
+        "papipitekay￺讓人折斷了、叫人折斷了",
+        "papipiteken￺讓…折斷；把…叫來折斷",
+        "papipitek￺讓人折斷、叫人折斷。",
+        "papitekay￺使之折斷了。",
+        "papiteken￺讓…折斷、把…折斷。",
+        "papitek￺使之折斷。",
+        "pipitekan￺折斷東西的地方、時間。",
+        "pipitek￺把東西折斷吧、請折斷吧",
+        "piteken￺把…折斷、弄斷。",
+        "sapipitekaw￺想折斷東西。",
+        "sapipitek￺折斷東西的用具。"
     ],
     "dahepay": [
         "dadahepayen￺要攤開或披開來曬的衣物",
@@ -37724,22 +37626,15 @@
         "sapisedak￺鑽出、闖出某處使用的器",
         "sedaksa￺突然出現地。"
     ],
-    "seking": [
-        "masekingay￺接受考試、考核了。",
-        "maseking￺被考試、考核，接受考試",
-        "misekingan￺把…考試了、考核了、考",
-        "misekingay￺正在考試、考核、考驗了",
-        "miseking￺考試，考核，考驗。",
-        "pasekingan￺考試、考驗的地方或時間",
-        "pasekingay￺使之考試、考驗了。",
-        "pasekingen￺讓…考試、考驗；把…考",
-        "paseking￺使之考試、考驗。",
-        "pisekingan￺考試、考驗的地方、時間",
-        "piseking￺請考試、考驗吧。",
-        "sapisekingaw￺想考試、考核、考驗。",
-        "sapiseking￺考試、考驗、考核使用的",
-        "sasekingen￺要考試、考驗。",
-        "sekingen￺把…考試、考核、測驗。"
+    "hedot": [
+        "hedoten￺把（田螺）啜食。",
+        "mihedotan￺把…抽啜了、啜食了。",
+        "mihedotay￺在抽啜著，啜食著。",
+        "mihedot￺抽啜，啜食。",
+        "pihedotan￺啜食、啜飲的地方、時間",
+        "pihedot￺請啜食、啜飲。",
+        "sapihedotaw￺想啜食（田螺）。",
+        "sapihedot￺啜食（田螺）使用的器具"
     ],
     "to'to'": [
         "mato'to'ay￺被刳槽、鑿眼了。",
@@ -38312,17 +38207,18 @@
         "sapipaiyoaw￺想給藥治療。",
         "sapipaiyo￺給藥治療使用的器具。"
     ],
-    "rara": [
-        "hararaay￺放慢速度，慢吞吞，慢條",
-        "hararasa￺不停地糾纏人家，軟磨著",
-        "harara￺放慢速度，慢吞吞，慢條",
-        "marara￺被延遲、耽擱，等得太久",
-        "misarara￺延遲，耽擱，磨蹭，慢慢",
-        "pararaay￺使之先行、先走了。",
-        "pararaen￺讓…先行、先走。",
-        "parara￺使之先行、先走。",
-        "rarasa￺慢吞吞地做事。",
-        "sararasa￺慢吞吞地樣子、那麼緩慢"
+    "'awas": [
+        "'a'awasen￺要跨越。",
+        "'awasen￺把…跨越、跨過去。",
+        "haha'awasen￺要腳跨過去，要跨越的目",
+        "mi'awasan￺把…跨越了、跨過去了。",
+        "mi'awasay￺正在跨越了。",
+        "mi'awas￺跨越，越過。",
+        "pi'awasan￺跨越的地方、時間。",
+        "pi'awas￺請跨越吧。",
+        "sa'awas￺（跨越籬笆、柵欄的）蹬",
+        "sapi'awasaw￺想跨越、想跨過去。",
+        "sapi'awas￺跨越、跨過去使用的器具"
     ],
     "pohal": [
         "cipohal￺有智慧，有經驗。",
@@ -38721,19 +38617,8 @@
         "'a'afonoen￺要砍樹。",
         "'afonoen￺把（樹）砍伐。"
     ],
-    "hedal": [
-        "hahedalen￺要鬆開的，要解開的繩子",
-        "hedalen￺把（繩子）解開。",
-        "hedalhan￺特地把（繩子）一解開。",
-        "mahedalay￺被解開了，鬆開了。",
-        "mahedal￺被解開、鬆開。",
-        "mihedalan￺把…解開了；釋放、原諒",
-        "mihedalay￺正在解開、鬆開了。",
-        "mihedal￺解開，鬆開。",
-        "pihedalan￺解開、釋放的地點、時間",
-        "pihedal￺請解開、釋放。",
-        "sapihedalaw￺想解開、鬆開結繩。",
-        "sapihedal￺解開、鬆開結繩使用的器"
+    "kako": [
+        "misakako￺負起一事的責任。"
     ],
     "kayhid": [
         "kayhiden￺把某某引誘、教唆。",
@@ -39371,17 +39256,8 @@
         "sapihafhafaw￺想吮吸、吸入。",
         "sapihafhaf￺用於吮吸、吸入某物的器"
     ],
-    "'atip": [
-        "'a'atipen￺要用橫條夾住。",
-        "'atipen￺把…夾住。",
-        "ma'atipay￺籬笆等）挾住了，挾緊了",
-        "mi'atipan￺用橫條把…夾住了。",
-        "mi'atipay￺正在用橫條夾著，夾住了",
-        "mi'atip￺用橫條夾住，夾（籬笆）",
-        "pi'atipan￺夾籬笆的地方、時間。",
-        "pi'atip￺請夾籬笆吧。",
-        "sapi'atipaw￺想用橫條夾籬笆。",
-        "sapi'atip￺夾持籬笆使用的器具。"
+    "paloepo": [
+        "sapaloeposa￺霹靂啪啦響著。"
     ],
     "fidaol": [
         "safidaolan￺種植胡瓜、甜瓜的地方。",
@@ -39434,10 +39310,10 @@
         "piki'aotan￺超越、超過的地方、時間",
         "piki'aot￺把（他）超越、超過。"
     ],
-    "^emin": [
-        "ma^emin￺全部，所有，都是。",
-        "mapaka^eminay￺能全部被完成了。",
-        "mapaka^emin￺能全部被完成。"
+    "fofo'": [
+        "mifofo'an￺用魚籠把…捕撈了。",
+        "mifofo'ay￺正在用魚籠捕撈了。",
+        "mifofo'￺用魚籠捕撈。"
     ],
     "nono'": [
         "kanono'an￺令人誇耀、炫耀的（事情",
@@ -41521,27 +41397,426 @@
         "matatomaliw￺相互交換。",
         "patatomaliw￺互相合作，交換 周轉。"
     ],
-    "horhor": [
-        "hahorhoren￺要攪混，要攪混的水。",
-        "horhoren￺把（水）攪混、用水沖蝕"
+    "faki": [
+        "fakifaki￺祖父們，舅父們等。"
     ],
-    "talatiih": [
-        "talatiihay￺做夢了。"
+    "hipapes": [
+        "hipapesen￺向前跳躍。"
     ],
-    "kontaw": [
-        "pakontaway￺正在打拳、拳擊了。",
-        "pakontawen￺把…打拳、拳擊。",
-        "pakontaw￺打拳，拳擊。"
+    "tonel": [
+        "tatonelen￺要在開水裏煮燙一下。"
     ],
-    "kihenay": [
-        "kihenayay￺軟和，容易了。"
+    "pelac": [
+        "hapelac￺採海貝工具。"
     ],
-    "takotakop": [
-        "takotakopen￺拼命地把…追趕。"
+    "paysin": [
+        "kapaysinan￺所禁忌的、忌諱的。",
+        "mipaysin￺禁忌，忌諱。",
+        "paysinen￺恪守禁忌。",
+        "sapipaysinaw￺為了禁忌、忌諱，希望禁"
     ],
-    "kaxkax": [
-        "tadikaxkaxay￺仰翻了，往上翻了。",
-        "tadikaxkax￺仰翻，往上翻。"
+    "kiyarok": [
+        "kiyaroken￺特地去約會、造訪。",
+        "makiyarokay￺被拜訪了，被約會了。",
+        "makiyarok￺被拜訪，被約會。",
+        "mikiyarokan￺把…約會了、幽會了。",
+        "mikiyarokay￺在約會著，幽會著（情人",
+        "mikiyarok￺約會，幽會（情人）。",
+        "sapikiyarokaw￺想約會、幽會。",
+        "sapikiyarok￺約會、幽會使用的器具。"
+    ],
+    "kokoy": [
+        "sakokoyan￺佛手瓜園。",
+        "sakokoyen￺把…種佛手瓜、種佛手瓜",
+        "sakokoy￺種佛手瓜。"
+    ],
+    "so'aliw": [
+        "masaso'aliway￺（人、車）交叉往來，路",
+        "masaso'aliw￺錯失，（人、車）交叉往",
+        "so'aliwa'iwsa￺人來車往衆多紛紜的樣子",
+        "so'aliwen￺要從側旁把…趕到前面。"
+    ],
+    "fodifod": [
+        "mafodifod￺縹"
+    ],
+    "lalok": [
+        "kalalok￺勤奮的，努力的，認真的",
+        "malalokay￺認真起來，勤奮起來。",
+        "malalok￺認真，勤奮，努力。",
+        "talalokan￺雞窩，雞籠，雞舍。"
+    ],
+    "tahekod": [
+        "matahekod￺湧進，湧往。"
+    ],
+    "saolatek": [
+        "mipapisaolatekan￺曾得到允許隨便、隨意行",
+        "mipapisaolatekay￺允許他人隨便、過分、隨",
+        "mipapisaolatek￺允許他人過分、隨意行事",
+        "papisaolatekay￺讓人過分地做了；叫人過",
+        "papisaolateken￺讓…過分、誇大地做。",
+        "papisaolatek￺讓人過分地做，叫人過分"
+    ],
+    "cedas": [
+        "macedasay￺在暴漲、噴湧、噴瀉。",
+        "macedas￺暴漲，噴湧，噴瀉。"
+    ],
+    "sanalsal": [
+        "masanalsal￺會騷"
+    ],
+    "fecol": [
+        "mafecolay￺吃飽了。",
+        "mafecol￺吃飽。",
+        "pafecolay￺吃飽了，給吃飽了。",
+        "pafecolen￺讓…吃飽，請…吃飽。",
+        "pafecol￺吃飽，給吃飽。"
+    ],
+    "'ecak": [
+        "ka'ecakan￺煮熟、成熟的時間或地方",
+        "ka'ecak￺煮熟的，成熟的。"
+    ],
+    "fa^edet": [
+        "fa^edetay￺熱的。",
+        "fa^edeten￺加熱，弄熱。",
+        "sapisafa^edetaw￺想加熱、加溫。",
+        "sapisafa^edet￺加熱、加溫使用的器具。",
+        "sasafa^edeten￺要加溫、加熱。"
+    ],
+    "'okem": [
+        "ma'okemay￺枯乾了，乾脆了。",
+        "ma'okem￺枯乾，乾脆。"
+    ],
+    "toptop": [
+        "tatoptopan￺木槽、豬槽的裏面。",
+        "tatoptopen￺要逐步跟上。",
+        "toptopen￺把…挖槽、鑿槽。"
+    ],
+    "deko": [
+        "midekoan￺把…藏在衣袖裡了。",
+        "midekoay￺藏在衣袖裡了。",
+        "mideko￺把手藏在袖子裡，袖手，",
+        "sapidekoaw￺想藏匿衣袖、想袖手。",
+        "sapideko￺袖手、藏匿衣袖使用的器"
+    ],
+    "'epip": [
+        "mi'epipan￺把（笛子等）吹奏了，吹",
+        "mi'epipay￺在吹笛子、哨子了。",
+        "mi'epip￺吹笛子，吹哨子。",
+        "misa'epip￺製作笛子。",
+        "sa'epipen￺把…做笛子、口哨。",
+        "sa'epip￺做笛子、口哨。",
+        "sapi'epipaw￺想吹奏樂器。",
+        "sapi'epip￺吹奏的用具。"
+    ],
+    "cedis": [
+        "mocedisay￺露牙了，咧嘴露出牙齒了",
+        "mocedis￺露牙，咧嘴露出牙齒。"
+    ],
+    "do^eng": [
+        "do^engay￺耳聾的。",
+        "mado^engay￺耳聾了，重聽了，失靈了",
+        "mado^eng￺耳聾，重聽，失靈。",
+        "masatalido^edo^engay￺裝聾作啞的，假裝聾子的",
+        "masatalido^edo^eng￺裝聾作啞了，裝出聾子的"
+    ],
+    "lolang": [
+        "milolangan￺指所採集的豬飼料及其地",
+        "milolangay￺在採構樹葉做豬飼料了。",
+        "milolang￺採構樹(豬飼料)。",
+        "sapilolangaw￺想採豬食。",
+        "sapilolang￺採豬食的用具。"
+    ],
+    "oya": [
+        "nanoyaan￺從那時起，從那一天起，",
+        "nanoya￺之後，從此，從那時，從",
+        "oyahan￺敍述故事情景的口頭語。",
+        "oyanan￺(指示代詞)。就是那個"
+    ],
+    "'elo'": [
+        "'elo'￺撒嬌，嬌聲嬌氣。"
+    ],
+    "'enengel": [
+        "sa'enengelay￺最苦了。",
+        "sa'enengelen￺把…弄苦、加苦味。",
+        "sa'enengelsa￺味道苦苦的。",
+        "sa'enengel￺弄苦、發苦。"
+    ],
+    "'acefol": [
+        "'acefolay￺冒煙了，冒汽了。"
+    ],
+    "'iyak": [
+        "ma'iyakay￺嗆到了。",
+        "ma'iyak￺喉嚨被食物、水嗆到。",
+        "tala'iyakay￺噎住了，噎食了。",
+        "tala'iyaken￺把…噎住、噎食。",
+        "tala'iyak￺噎住，噎食。"
+    ],
+    "lokot": [
+        "malokotay￺鬈髮的，捲髮的。",
+        "malokot￺鬈髮，捲髮。",
+        "milokot￺鬈頭髮，捲頭髮。"
+    ],
+    "tomay": [
+        "karatomayay￺指喜歡熊的人、的人。",
+        "karatomay￺蔓草果，大如黃粒，色紅",
+        "matomayay￺耍酒瘋撒野了。",
+        "matomay￺耍酒瘋。",
+        "tomayan￺熊的種類。"
+    ],
+    "tela'": [
+        "tela'sa￺啪啦響著。"
+    ],
+    "ngitid": [
+        "ngangitiden￺要用嘴叼、銜。",
+        "ngitiden￺把…叼銜。"
+    ],
+    "riwac": [
+        "riwacan￺一片肉(魚)，一塊肉。",
+        "riwacen￺用竹刀把…割下來。"
+    ],
+    "'antol": [
+        "'antolay￺發臭了，腐臭了。"
+    ],
+    "'engiw": [
+        "ma'engiway￺聲音高而尖銳，刺耳了。",
+        "ma'engiw￺聲音高而尖銳，刺耳。"
+    ],
+    "fonak": [
+        "mafonakay￺沙石土的，沙土的。"
+    ],
+    "ropayas": [
+        "saropayassa￺呈平靜的樣子。"
+    ],
+    "tonton": [
+        "kinatonton￺剁下來的木段、木片。",
+        "tatontonen￺要砍剁。",
+        "tontonen￺把…切細，一刀一刀的切"
+    ],
+    "ca'i": [
+        "ca'ien￺必須對某人禮讓要，謙讓",
+        "caca'ien￺要禮讓、謙讓的。",
+        "mica'i￺禮讓，讓位。"
+    ],
+    "cedem": [
+        "cedecedem￺甜甜的味道。",
+        "cedemay￺甜了，甜的。"
+    ],
+    "padeteng": [
+        "mipadeteng￺故意，有意，專程。",
+        "padetengan￺故意的，有意的，專程的",
+        "padetengen￺故意、有意把事情做了。",
+        "padetenghan￺於是故意把事情這樣做。",
+        "padetengsa￺故意地、有意識地、不自"
+    ],
+    "dasa'": [
+        "dadasa'en￺要奉祀、祭奠的（",
+        "dasa'en￺要舉行祭祀儀式。",
+        "pidasa'an￺舉行祭祀的地點、時間。",
+        "pidasa'￺舉行祭祀吧。",
+        "sapidasa'aw￺想奉祀。",
+        "sapidasa'￺奉祀的日期、器具。"
+    ],
+    "korod": [
+        "pakoroday￺送行了，送別了。",
+        "pakoroden￺給…送行、送別。",
+        "pakorod￺送行，送別。"
+    ],
+    "lawla": [
+        "kalawlaan￺歡慶、歡樂的時間或地方",
+        "kalawla￺（表促使、命令）狂歡吧",
+        "karalawlaay￺愛開玩笑，天性幽默。",
+        "karalawla￺天性幽默，愛開玩笑。",
+        "palawlaan￺歡樂、慶祝、聯歡的地方",
+        "palawlaay￺歡樂、慶祝、聯歡的。"
+    ],
+    "noka": [
+        "minokaan￺把…捻成線了、紡成紗了",
+        "minokaay￺正在捻線，撚線、紡紗。",
+        "minoka￺捻線，撚線，紡紗。",
+        "nanokaan￺紡織工具，織布機。",
+        "nanokaen￺要撚，要紡紗。",
+        "nokaen￺把（紗線）紡織、撚線。",
+        "sapinokaaw￺想紡紗、撚線。",
+        "sapinoka￺紡紗、撚線使用的器具。"
+    ],
+    "totoy": [
+        "karatotoyay￺咸豐草、鬼針草。",
+        "karatotoy￺喜歡小狗 。",
+        "karototoyay￺(一種藥用植物)咸豐草",
+        "katotoyay￺幼小，幼動物。",
+        "kiritotoyay￺喜歡小狗寵物。",
+        "kiritotoy￺喜歡小狗寵物。"
+    ],
+    "tenten": [
+        "tatentenen￺要砸傷。",
+        "tentenen￺把…砸傷。"
+    ],
+    "faloko": [
+        "misafalokoay￺皮革整理工，皮革製造業"
+    ],
+    "fohahak": [
+        "mafohahakay￺發酵了。",
+        "mafohahak￺發酵。"
+    ],
+    "'eli'": [
+        "aeli'en￺",
+        "sapi'eli'aw￺想割茅草。",
+        "sapi'eli'￺割茅草的工具。"
+    ],
+    "colipes": [
+        "cacolipesen￺口中含水用口噴水的動作",
+        "colipesen￺要用嘴噴灑，噴水。",
+        "micolipes￺口含著水或酒噴灑出去。"
+    ],
+    "ca'angaw": [
+        "mica'angaw￺抬頭看，仰望。"
+    ],
+    "dadem": [
+        "madademay￺容易的，淺顯的，流暢的",
+        "madadem￺容易，淺顯，流暢，流利"
+    ],
+    "pa'edeng": [
+        "mipa'edengan￺把…按照需要取得了，各",
+        "mipa'edengay￺按照需要，各取所需了。",
+        "mipa'edeng￺各取所需，按照需要，不"
+    ],
+    "'amanac": [
+        "'amanacay￺禿了。"
+    ],
+    "hali": [
+        "pihalian￺營房門，瞭望台。"
+    ],
+    "'emang": [
+        "sa'emangen￺把…弄小。",
+        "sa'emang￺弄小、弄一點點。"
+    ],
+    "'eroc": [
+        "ma'eroc￺磨削，銼，鈍。"
+    ],
+    "sa^eli": [
+        "masa^eliay￺被索取、討要了，討到東",
+        "masa^eli￺被索取、討要。"
+    ],
+    "liklon": [
+        "maliklonay￺下山坡了，走下坡路了。",
+        "maliklon￺下山坡，走下坡路。"
+    ],
+    "riyah": [
+        "mariyahay￺發紅了，曙光初露了。",
+        "mariyah￺發紅，曙光初露。"
+    ],
+    "'alangad": [
+        "misa'alangadan￺把飯團、便當做好了。",
+        "misa'alangaday￺在做飯團、便當了。",
+        "misa'alangad￺做飯團、便當。",
+        "sa'alangaden￺把…做飯團、做飯團吧。",
+        "sa'alangad￺做飯團。",
+        "sapisa'alangadaw￺想做飯團、飯包。",
+        "sapisa'alangad￺做飯團、飯包使用的器具"
+    ],
+    "sefek": [
+        "masefekay￺滿載了，豐饒了，豐盛了",
+        "masefek￺滿載，豐饒，豐盛，東西"
+    ],
+    "tolek": [
+        "katolekan￺耳聾的時間。",
+        "matolekay￺耳聾了，重聽了，失靈了",
+        "matolek￺耳聾，重聽。"
+    ],
+    "fihkac": [
+        "fafihkacen￺要用捕鳥器捕鳥，要捕捉",
+        "fihkacen￺用捕鳥器。",
+        "mifihkac￺捕鳥，用捕鳥器捕鳥。",
+        "pisafihkacan￺做捕鳥器的地方、時間。",
+        "pisafihkac￺請做捕鳥器吧。",
+        "sapifihkacaw￺想捕獵鳥獸。",
+        "sapifihkac￺捕鳥器，捕獵鳥獸的器具"
+    ],
+    "rakes": [
+        "rakesen￺把樟腦採集、砍伐。"
+    ],
+    "telong": [
+        "matelongay￺很深了，深刻了。",
+        "matelong￺很深，深刻。"
+    ],
+    "pakokot": [
+        "pakokoten￺把…控告、控訴、揭發。",
+        "papakokoten￺即將控告。"
+    ],
+    "caremcem": [
+        "caremcemen￺感到擔心憂慮。"
+    ],
+    "cidem": [
+        "macidemay￺尖利，尖銳。",
+        "macidem￺尖利，尖銳。",
+        "sakacicidemaw￺希望有鋒芒、尖利。",
+        "sakacicidem￺有鋒芒、尖利的原因。"
+    ],
+    "rohnac": [
+        "rohnacay￺光滑了。"
+    ],
+    "ngasan": [
+        "mangasanay￺痲瘋病人，皮膚起腫皰者"
+    ],
+    "dohkit": [
+        "dohkiten￺把粘貼的東西揭開、剝開"
+    ],
+    "amoto": [
+        "kaamoto￺鋪上水泥的。",
+        "maamotoay￺鋪水泥了。",
+        "maamoto￺鋪水泥，打上水泥。"
+    ],
+    "testes": [
+        "testesen￺把…指責、怒駡。"
+    ],
+    "hohoy": [
+        "kalihohoyan￺被弄歪的、傾斜的地方。",
+        "mahohoy￺歪的、傾斜的。"
+    ],
+    "tapic": [
+        "tapicen￺把…撩起、折疊。"
+    ],
+    "kolefo'": [
+        "kasakolefolefo'￺每一條皺折，每一條摺疊",
+        "sakolefolefo'en￺把…叠皺褶、打皺褶。",
+        "sakolefolefo'￺叠皺褶、打皺褶。"
+    ],
+    "'ol'ol": [
+        "ta'ol'olan￺一種含在嘴裏的玩具，可"
+    ],
+    "lingeses": [
+        "salingeses￺感到噁心、厭惡。"
+    ],
+    "'idepet": [
+        "ma'idepetay￺吝嗇，小氣，自私。",
+        "ma'idepet￺小氣、吝嗇。"
+    ],
+    "tomokol": [
+        "tomokolay￺長新芽了，萌芽了。"
+    ],
+    "siriw": [
+        "masiriway￺斜視著，睥睨著。",
+        "masiriw￺斜視，睥睨。"
+    ],
+    "'ifecang": [
+        "sa'ifecangen￺把…弄僵硬、僵化。",
+        "sa'ifecangsa￺處於僵硬、僵化的狀態、",
+        "sa'ifecang￺弄僵硬、僵化。"
+    ],
+    "retes": [
+        "moretesay￺傷口潰瘍流膿了。",
+        "moretes￺傷口潰瘍流膿。"
+    ],
+    "posir": [
+        "maposiray￺脫皮了。",
+        "maposir￺脫皮。"
+    ],
+    "ngangafolan": [
+        "cingangafolanay￺有皮膚病的，長白癜瘋的",
+        "cingangafolan￺有皮膚病，長白癜瘋。"
+    ],
+    "ponir": [
+        "maponiray￺被激流沖走了，流失了。",
+        "maponir￺被激流沖走，流失。"
     ],
     "safang": [
         "misafangan￺用紗網把（魚）捕撈了。",
@@ -41551,292 +41826,483 @@
         "sapisafangaw￺想用網捕撈魚蝦。",
         "sapisafang￺捕撈魚蝦使用的器具（紗"
     ],
-    "korah": [
-        "korahay￺褐色的，棕色的，咖啡色",
-        "makorahay￺發黃了，呈黃色的。",
-        "makorah￺發黃，呈黃色。"
+    "wikih": [
+        "mawikihay￺（翅膀、胳膊等）被反背",
+        "mawikih￺（翅膀，胳膊等）被反背"
     ],
-    "torik": [
-        "mitorik￺編織(使用竹子、藤條等",
-        "tatoriken￺要編織。"
+    "'asic": [
+        "ka'asican￺不育、不孕的; 果實王",
+        "ma'asicay￺不育，不孕。",
+        "ma'asic￺不育，不孕。"
     ],
-    "hangit": [
-        "hahangitan￺跡象，形跡，標誌。"
+    "'araway": [
+        "'a'arawayen￺要砍松木。",
+        "'arawayan￺檜樹或麻黃樹的種類或地",
+        "'arawayen￺把檜樹、麻黃樹砍伐。"
     ],
-    "co'ekoy": [
-        "co^ekoysa￺垂頭喪氣地。"
+    "ko'ol": [
+        "masako'olay￺（因蟲咬）腫起來了。",
+        "masako'ol￺（因蟲咬）腫起來。"
     ],
-    "ropayas": [
-        "saropayassa￺呈平靜的樣子。"
+    "copa": [
+        "cacopaen￺要靠近的、要挨近的、要",
+        "copaen￺把某目標靠近，走近。",
+        "micopa￺靠近，接近。",
+        "pacopaay￺使之靠近、挨近了。",
+        "pacopaen￺把…靠近、挨近，讓…靠",
+        "pacopa￺使之靠近、挨近。"
     ],
-    "pakolod": [
-        "pakoloden￺給…送行、送別。"
+    "mita": [
+        "hamita￺做為我們大家的，準備給"
     ],
-    "limad": [
-        "lalimaden￺即將移動、搬動，即將移",
-        "limaden￺把某物移動、搬動。"
+    "coyacoy": [
+        "macoyacoyay￺（指半空之物）搖動起來",
+        "macoyacoy￺（指半空之物）被搖動，",
+        "pakacoyacoyay￺經過吊橋了。",
+        "pakacoyacoyen￺把吊橋經過，經過吊橋吧",
+        "pakacoyacoy￺經過吊橋，通過吊橋。"
     ],
-    "alaf^afa": [
-        "alaf^afaay￺（水）溫熱了，有點熱了"
+    "pacako": [
+        "mapacakoay￺讓回答了，被叫起來回答",
+        "mapacako￺讓回答，被叫去起來回答"
     ],
-    "saynay": [
-        "saynayen￺有意識地撒嬌、對…撒嬌"
+    "co'nep": [
+        "caco'nepen￺要浸水的，溺水的人。"
     ],
-    "kiyaki'a": [
-        "makiyaki'aay￺叫嚷聲一片嘈雜，人聲喧",
-        "makiyaki'a￺叫嚷聲嘈雜，人聲喧鬧。"
+    "fonal": [
+        "mafonalay￺被弄碎了，粉碎了。",
+        "mafonal￺被弄碎，粉碎。"
     ],
-    "si'ed": [
-        "masi'eday￺食物卡在喉嚨中了。",
-        "masi'ed￺(食物卡在喉嚨裏)噎住"
+    "talipa'elal": [
+        "talipa'elalay￺睡醒了，醒悟了。"
     ],
-    "canger": [
-        "macangeray￺被卡住了，阻塞，滯留。",
-        "macanger￺被卡住，阻塞，滯留。"
+    "paseneng": [
+        "sapasenengen￺炫耀，吹牛，自豪。",
+        "sapaseneng￺炫耀，有意識地炫耀、誇",
+        "sapasenesenengen￺有意識地要向…炫耀、誇",
+        "sapasenesenengsa￺有意反覆不停地炫耀著、",
+        "sapaseneseneng￺有意識地反覆炫耀或自誇"
     ],
-    "songet": [
-        "songetan￺鼻子。",
-        "songeten￺把鼻涕擤掉、擤鼻涕吧。"
+    "rawang": [
+        "kasarawang￺每一個隔間。"
     ],
-    "fiyot": [
-        "tafiyotan￺拉風箱、鼓風。"
+    "loya": [
+        "saloya￺浪費、荒廢。",
+        "sapisaloyaaw￺想浪費、荒廢。",
+        "sapisaloya￺浪費、荒廢東西憑藉的手"
     ],
-    "pingko": [
-        "mapingkoay￺破產、倒閉了。",
-        "mapingko￺破產，倒閉。"
+    "taga'": [
+        "mitafa'￺堵住溪水捕魚。"
     ],
-    "'afoyong": [
-        "sa'afoyong￺茸茸地一堆草。"
+    "pangta": [
+        "katalapangtaan￺擱淺的。",
+        "pangtaay￺淺了，淺顯了。"
     ],
-    "pohetal": [
-        "pohetalay￺空曠的、遼闊的。"
+    "kiyot": [
+        "kakiyoten￺要用手指挖，要剷除、剔",
+        "kiyoten￺把（瑕疵）摳除、刪掉。"
     ],
-    "fidac": [
-        "tahafidacan￺小母牛。"
+    "lidaw": [
+        "palidaway￺弄沙啞了，弄啞了。",
+        "palidawen￺把…弄沙啞、弄啞。",
+        "palidaw￺顫抖音，沙啞，弄沙啞的"
     ],
-    "ratar": [
-        "karatar￺趕早的，一大清早做的。",
-        "marataray￺早早起來了，早起做事了",
-        "maratar￺黎明，清晨起個大早。",
-        "sakarataraw￺希望早起。",
-        "sakaratar￺早起的時間、原因。"
+    "tefafac": [
+        "matefafacay￺（表皮）被扯破、撕裂了",
+        "matefafac￺（表皮）被扯破、扯裂。"
     ],
-    "lo^eteng": [
-        "lo^etengay￺黏了，有黏性。"
+    "tofil": [
+        "katofil￺嘴唇。",
+        "satofilen￺把…編織草披吧。",
+        "satofil￺編織草披（雨具）。"
     ],
-    "fihfih": [
-        "fafihfihen￺要搖擺扇出風來、搖曳的",
-        "fihfihen￺要把某物搖動、搖擺。"
+    "'adicaw": [
+        "'adicawan￺大理石的品種。"
     ],
-    "^eresay": [
-        "ma^eresayay￺精心打扮、裝飾了。"
+    "li'edac": [
+        "mili'eda￺掃乾淨，洗淨。"
     ],
-    "isis": [
-        "haliisisay￺愛吹口哨的。",
-        "haliisis￺愛吹口哨。"
+    "ngidet": [
+        "sasongideten￺要擤鼻涕。",
+        "songideten￺把鼻涕擤掉。",
+        "songidet￺擤鼻涕。"
     ],
-    "'awakay": [
-        "'a'awakayen￺要拔蔓梗。",
-        "'awakayen￺把蔓梗採摘。"
+    "folosi": [
+        "mafolosiay￺具有特異功能、神奇能力",
+        "mafolosi￺具有特異功能、神奇能力"
+    ],
+    "ngiwal": [
+        "mingiwal￺要…撬去、摳去。",
+        "ngangiwalen￺要撬，要摳。",
+        "ngiwalen￺把…撬去、摳去。"
+    ],
+    "finefa": [
+        "finefaen￺使對方趴下，命令對方趴"
+    ],
+    "saan": [
+        "mikasaan￺（關於）發生、出現的情"
+    ],
+    "keteng": [
+        "ketengen￺把目標投中。"
+    ],
+    "lidalid": [
+        "lalidaliden￺要弄平、攤平、碾平，要",
+        "lidaliden￺把某物耙平、攤平、碾平",
+        "salidalid￺耙平、碾平東西的工具。"
+    ],
+    "ta^eta": [
+        "mata^etaay￺上鎖了，（門）被鎖上了",
+        "mata^eta￺上鎖，（門）被鎖上。",
+        "sapita^etaaw￺想要上鎖。",
+        "sapita^etaw￺想鎖門。",
+        "sapita^eta￺鎖門的用具、鎖頭。",
+        "sata^eta￺鑰匙、鎖、門閂、鎖頭。",
+        "ta^etaen￺把…上鎖、鎖門。"
+    ],
+    "pi'pi'": [
+        "pi'pi'en￺請鼓掌、拍手；給…鼓掌"
+    ],
+    "lata'ang": [
+        "palata'ang￺歌頌，贊美。"
+    ],
+    "'adecaw": [
+        "'adecawan￺有很多大理石的地方。"
+    ],
+    "hono'": [
+        "hahono'en￺要鬆綁，要鬆綁的（對像",
+        "hono'en￺把（繩子）鬆開，鬆綁。",
+        "mihono'￺把（繩子）​鬆開，鬆綁"
+    ],
+    "pi'ero": [
+        "pi'eroen￺踮腳吧、踮腳把…（看）"
+    ],
+    "tokak": [
+        "tokaksa￺呈嘎然而止的狀態。"
+    ],
+    "tawyiw": [
+        "pipatawyiwan￺放醬油的地點、時間。",
+        "pipatawyiw￺請放醬油吧。",
+        "sapipatawyiwaw￺想放醬油、給醬油。",
+        "sapipatawyiw￺加醬油、想放醬油、給醬"
+    ],
+    "fiher": [
+        "safiheren￺把…造車輪、造車輪吧。",
+        "safiher￺造車輪。"
+    ],
+    "patilon": [
+        "napipatilonan￺曾經賠償錢物的地方（時"
+    ],
+    "nawang": [
+        "kananawangan￺遊玩、娛樂的時間或地方"
+    ],
+    "acedah": [
+        "acedahay￺有辣味，辣的。",
+        "acedahen￺搞辣一點，弄辣一點，加"
+    ],
+    "^efa": [
+        "ci^efa￺有馬，帶馬。",
+        "mapa^efaay￺得到馬了，給馬了。",
+        "mapa^efa￺給馬，（馬）被送給。",
+        "sapipa^efaaw￺想送馬、想飼養馬。",
+        "sapipa^efa￺送馬、養馬的用具。"
+    ],
+    "pingaping": [
+        "mapingapingay￺（因受傷或鬆動而）下垂",
+        "mapingaping￺（因受傷或鬆動而）下垂"
+    ],
+    "kepid": [
+        "sakepiden￺把…編織容器、編織容器",
+        "sakepid￺編織容器。"
+    ],
+    "yofin": [
+        "mipayofinan￺把…郵寄了、寄走了。",
+        "mipayofinay￺正在郵寄、寄信了。",
+        "mipayofin￺郵寄，寄信。"
+    ],
+    "naharhar": [
+        "naharharay￺破曉了，黎明了，天亮了"
+    ],
+    "rolo": [
+        "mirolo￺自娛，遊樂，交友。"
+    ],
+    "komimit": [
+        "kakomimiten￺要捏揉，要擰揉的（對象"
+    ],
+    "tangka'": [
+        "misatangka'￺強身，鍛鍊身體。"
+    ],
+    "tapelok": [
+        "tapeloken￺把…洗淨。"
+    ],
+    "kori": [
+        "makoriay￺瘦了，消瘦了。",
+        "makori￺瘦，消瘦。"
+    ],
+    "taped": [
+        "mitaped￺修補，縫補。"
+    ],
+    "tamarang": [
+        "tamarangan￺海蟹的種類。"
+    ],
+    "lingsing": [
+        "salingsingsa￺鈴鐺聲，叮當響。"
+    ],
+    "kowak": [
+        "kakowakay￺小白鷺。"
+    ],
+    "karop": [
+        "karopen￺把（東西）收集起來，摟",
+        "sakarop￺搜集廢品的用具、垃圾袋"
+    ],
+    "'omeling": [
+        "'omelingay￺閃光了、閃亮了。"
+    ],
+    "so'aw": [
+        "maso'away￺口渴了，渴了。",
+        "maso'awen￺感到口渴。",
+        "maso'aw￺口渴，渴。"
+    ],
+    "tonekan": [
+        "nipatonekan￺固定的時間、約定的時間"
+    ],
+    "'dil": [
+        "sakaci'dilaw￺希望有亮澤。",
+        "sakaci'dil￺有亮澤的原因。"
+    ],
+    "rafraf": [
+        "marafrafay￺火焰旺盛，熾熱著。",
+        "marafraf￺火焰正旺，熾熱。",
+        "sarafrafsa￺火焰熊熊。"
+    ],
+    "sowasowaw": [
+        "sasowasowawen￺把…上下顛簸。",
+        "sasowasowawsa￺上下顛簸著。"
+    ],
+    "lofa": [
+        "palofaan￺關驢的地方，驢舍，驢柵",
+        "palofaay￺給驢了，把驢關了。",
+        "palofaen￺給…驢，把驢關了，請把",
+        "palofa￺給驢，把驢關起來。"
+    ],
+    "ngarawngaw": [
+        "ngarawngawsa￺處於喧鬧、喧嘩的狀態，"
+    ],
+    "cacoy": [
+        "pacacoy￺纏腰布，男人的三角褲，"
+    ],
+    "rir": [
+        "rarirrir￺蚱蜢類統稱。",
+        "ririk￺蜻蜓。"
+    ],
+    "tataliw": [
+        "tatalitaliwsa￺杵聲一陣一陣地呈有節奏"
+    ],
+    "cernoh": [
+        "macernohay￺感到毛骨悚然，不寒而慄",
+        "macernoh￺(因寒冷或恐懼引起)毛"
+    ],
+    "kaolah": [
+        "kaolahan￺所喜歡的，愛好。"
+    ],
+    "panamor": [
+        "panamoray￺更進一步了，尤其厲害了",
+        "panamoren￺讓…更進一步、尤其厲害"
+    ],
+    "dimat": [
+        "dimaten￺把魚網縫補。",
+        "midimat￺補網，修補漁網。"
+    ],
+    "hidhid": [
+        "malamihidhiday￺指導者，引導者。",
+        "mihidhid￺要勾引、引導。"
+    ],
+    "pidah": [
+        "mapidahay￺被打敗了，被戰勝了。",
+        "mapidah￺被打敗，被戰勝。",
+        "pidahen￺把…打贏、戰勝。"
+    ],
+    "rawac": [
+        "rawacen￺把（房子四周）固定好。"
+    ],
+    "ko'engel": [
+        "ko'enge'engelay￺細嫩細嫩的，很細嫩。",
+        "ko'enge'engel￺細嫩細嫩的，很細嫩。",
+        "ko'engelay￺幼嫩，細嫩，細膩。"
+    ],
+    "podoh": [
+        "karapodohay￺天性吝嗇、小氣，嫉妒，",
+        "karapodoh￺天性嫉妒、天性吝嗇、小"
+    ],
+    "kakoyol": [
+        "sakakoyokoyolsa￺成群結隊地。",
+        "sakakoyolen￺把（人群）聚集在一起吧",
+        "sakakoyol￺人群聚集、簇擁。"
+    ],
+    "cihak": [
+        "sapicihak￺巫師的法器。"
+    ],
+    "fanglih": [
+        "fanglihay￺有腥味的。"
+    ],
+    "tapar": [
+        "tataparan￺看遠的地方，眺望的地方"
+    ],
+    "ceker": [
+        "cacekeren￺要支架、支撐的。",
+        "cekeren￺把某物支撐起來。",
+        "macekeray￺挺立著，支撐著，支立起",
+        "maceker￺挺立，支撐，支立。",
+        "miceker￺要支撐、要挺住。"
+    ],
+    "parono": [
+        "paronoen￺給（客人）吃飽喝足。"
+    ],
+    "cokay": [
+        "cacokayen￺要踢、踹、踩，要踢、踹",
+        "cokayen￺踹，踩踏。"
+    ],
+    "feloh": [
+        "kinafeloh￺自焚。"
+    ],
+    "cacopi": [
+        "cicacopiay￺生蛆了，生蟲子了。",
+        "cicacopi￺生蛆，生蟲。"
+    ],
+    "'elel": [
+        "'a'elelen￺要自殺。〔疊 2〕。",
+        "'elelen￺把…自刎、自殺，去自刎"
+    ],
+    "cokcok": [
+        "cacokcoken￺要用器物塞進去的、去搗",
+        "cokcoken￺要用器物把管子或瓶子捅",
+        "sacokcok￺捅管子的工具。"
+    ],
+    "'atekiw": [
+        "ma'atekiw￺長痣瘡、癤子、癰。 "
+    ],
+    "la^ed": [
+        "cila^eday￺有間隔，有距離，隔開了",
+        "cila^ed￺有間隔，有一段距離。"
+    ],
+    "porahaw": [
+        "maporahaway￺眼花了，視力模糊了，目",
+        "maporahaw￺眼花，視力模糊，目眩。"
+    ],
+    "cohcoh": [
+        "cacohcohen￺要用嘴唇的收縮吮吸、要",
+        "cohcohen￺把某物吮吸、嘬食。"
+    ],
+    "capos": [
+        "kakicaposen￺要省略，忽略，要省略、",
+        "makicaposay￺被忽略、省略了。",
+        "makicapos￺被忽略、省略、來不及。",
+        "sapicaposaw￺想省略、刪減。",
+        "sapicapos￺用於省略、刪減的工具。"
+    ],
+    "yangci": [
+        "yangcien￺吸氧吧！",
+        "yayangcien￺要吸氧氣。"
+    ],
+    "tangila": [
+        "palangilan￺提把。",
+        "patangilaan￺提把。"
     ],
     "feker": [
         "kafekeran￺抽筋的時間或部位。",
         "mafekeray￺抽筋了。",
         "mafeker￺抽筋。"
     ],
-    "langal": [
-        "malangalay￺（嚼食檳榔時）嘴唇、舌",
-        "malangal￺（嚼食檳榔時）嘴唇、舌"
+    "kamicay": [
+        "sakamicaysa￺衣衫襤褸、穿得破坡爛爛"
     ],
-    "coperak": [
-        "macoperak￺晦澀、粗魯的。"
+    "farsiw": [
+        "mifarsiwan￺把棍棒…橫向甩了",
+        "mifarsiway￺在橫向扔東西。",
+        "mifarsiw￺橫向甩棍棒抽打，橫向扔"
     ],
-    "'min": [
-        "'eminhan￺就全部吧。"
+    "sopi'": [
+        "masopi'ay￺`Masopi'~。",
+        "masopi'￺倒伏，平伏在地上。"
     ],
-    "tapelok": [
-        "tapeloken￺把…洗淨。"
+    "kaxkax": [
+        "tadikaxkaxay￺仰翻了，往上翻了。",
+        "tadikaxkax￺仰翻，往上翻。"
     ],
-    "ataneng": [
-        "atanengay￺寬廣的、廣闊的。"
+    "'atipal": [
+        "'atipalan￺白頭翁的種類，有白頭翁"
     ],
-    "tales": [
-        "matalesay￺鈍了，不利了。",
-        "matales￺，不利。"
+    "ngecep": [
+        "ngangecepan￺煙嘴，吸管。",
+        "tangecepan￺煙嘴，煙鍋。"
     ],
-    "'apekpek": [
-        "'apekpekay￺又粗又短了，又矮又胖了"
+    "saho": [
+        "sahosaho￺（正在思考事情時，另一"
     ],
-    "'ofecang": [
-        "'ofecangay￺僵硬了、僵化了。"
+    "hinapec": [
+        "hinapecay￺懷疑，猶豫。"
     ],
-    "tao'": [
-        "mamitao'￺執政，管理，統治。",
-        "mitao'￺執政，統治，管理，領導",
-        "tao'en￺把…管理。"
+    "'apalo": [
+        "'apaloay￺菠蘿蜜的種類。"
     ],
-    "cadiway": [
-        "sacadiwayen￺把（手網）編織起來、編",
-        "sacadiway￺編織手網（漁網）。"
+    "kohepic": [
+        "kohepicay￺薄，淡薄。"
     ],
-    "riyo": [
-        "riyoan￺女性手臂環的種類。"
+    "rekoh": [
+        "morekohay￺靜坐沈思著。",
+        "morekoh￺固定的，不動的，停留。"
     ],
-    "taniktik": [
-        "taniktikay￺活潑、敏捷了，生氣勃勃"
+    "kowas": [
+        "cikowasay￺腳痙攣的，腳痙攣的人，",
+        "cikowas￺腳痙攣、麻木。"
     ],
-    "taperoc": [
-        "taperocen￺給…貪婪者起外號。"
+    "'ekim": [
+        "ci'ekimay￺攜帶金子的 ",
+        "ci'ekim￺有金子，帶金子，產金子",
+        "kaci'ekim￺帶金子、銀子的。",
+        "sakaci'ekimaw￺想有金、有銀。",
+        "sakaci'ekim￺有金、有銀的原因。"
     ],
-    "ladiw": [
-        "ladiwsa￺唱著，唱起來。"
+    "roen": [
+        "roenen￺把…摁壓。"
     ],
-    "lahekel": [
-        "kalahekelan￺令人愉快、興奮的。",
-        "masakalahekelan￺令人愉快、歡悅。",
-        "salahekelsa￺那麼快活、痛快、興奮。"
+    "kahkah": [
+        "makahkahay￺性急起來，急躁起來。",
+        "makahkah￺性急，急躁。"
     ],
-    "'iw'iw": [
-        "'iw'iwsa￺餓得咕嚕咕嚕叫、處於極"
+    "caniker": [
+        "micaniker￺要鎖住、要上鎖。"
     ],
-    "ca'or": [
-        "caca'oren￺要立刻、迅速做出反應。"
+    "kolemi": [
+        "makolemiay￺（樹皮）皺巴巴的了，凹",
+        "makolemi￺（樹皮）皺巴巴的，凹凸"
     ],
-    "ngeri'": [
-        "ngeringeri'sa￺吱啞吱啞地響著。"
+    "caraycay": [
+        "sacaraycaysa￺一串，果實累累或衣服殘"
     ],
-    "temtem": [
-        "tatemtemen￺要咬，要啃。",
-        "temtemen￺把…咬、啃。"
+    "paricapic": [
+        "paricapicen￺讓…饒舌、多嘴。",
+        "paricaricay￺饒舌了、多嘴了。"
     ],
-    "rayic": [
-        "rayican￺鐵絲的品種。"
+    "ngangool": [
+        "ngangoolay￺嫩芽初生了。"
     ],
-    "cinam": [
-        "macinamay￺沾染了陋習，表現出風氣",
-        "macinam￺沾染陋習，沾染不良行為",
-        "malacinam￺彼此沾染陋習，彼此沾染"
+    "hipeloc": [
+        "hipelocen￺把（葉、穗）摘取下來。"
     ],
-    "tongol": [
-        "'atongol￺高額頭。"
+    "la'oteng": [
+        "mala'otengay￺淋濕了，浸透了。",
+        "mala'oteng￺被淋濕，濕透，浸透。"
     ],
-    "dayaday": [
-        "dayadaysa￺舌頭拉長著下來。",
-        "madayadayay￺舌頭下垂申展著。",
-        "madayaday￺舌頭下垂申展。"
+    "sarao'": [
+        "sarao'en￺舉行小米播種祭吧。"
     ],
-    "ngohngoh": [
-        "ngangohngoh￺擁抱，接吻，靠攏。",
-        "pingohngohan￺接吻，擁抱的時間、地點",
-        "pingohngoh￺請接吻，擁抱。"
+    "‘ikos": [
+        "ma'ikos￺賭氣，生氣，忸怩作態。"
     ],
-    "caremcem": [
-        "caremcemen￺感到擔心憂慮。"
-    ],
-    "tapedak": [
-        "tapedakay￺發霉的，發霉了。"
-    ],
-    "toya'": [
-        "matoya'ay￺溫熱的，不太熱的。"
-    ],
-    "kimo'od": [
-        "misakimo'odan￺做成圓的了。",
-        "misakimo'oday￺正在做成圓的了。",
-        "misakimo'od￺做成圓的。"
-    ],
-    "ca'efon": [
-        "ca'efonen￺撒灰，揚灰。",
-        "mica'efon￺撒灰，揚撒。"
-    ],
-    "liding": [
-        "lalidingan￺蒸煮食物的工具，蒸蘢，",
-        "paliding￺車，牛車。",
-        "pipalidingan￺運載、運輸的地點、時間",
-        "pipaliding￺請用車運載吧。"
-    ],
-    "samolal": [
-        "masamolal￺顯露，顯現，出現。"
-    ],
-    "talolong": [
-        "talolongay￺深了。"
-    ],
-    "kandaw": [
-        "kandaway￺青蛙。",
-        "sakakandaw￺發綠的緣故。"
-    ],
-    "salo^so'": [
-        "sasalo^so'sa￺嘩啦啦地流。"
-    ],
-    "kangcoh": [
-        "makangcohay￺有尿臭味了，散發出尿臭",
-        "makangcoh￺有尿臭味。"
-    ],
-    "tanifay": [
-        "tatanifaynifay￺如同隨風飄飛的花絮一樣"
-    ],
-    "taped": [
-        "mitaped￺修補，縫補。"
-    ],
-    "felok": [
-        "felokhan￺攪拌成污濁。"
-    ],
-    "ora": [
-        "oraan￺(指示代詞)。"
-    ],
-    "amah": [
-        "amahay￺輕的，",
-        "amahen￺放輕點。"
-    ],
-    "'etot": [
-        "ma'etot￺放屁(有聲)。"
-    ],
-    "kalasal": [
-        "kalasalay￺（指農作物株距、編織物"
-    ],
-    "ito": [
-        "aitoen￺要打發、差遣的（對像）"
-    ],
-    "cihi": [
-        "micihi￺指責，追究。"
-    ],
-    "pingo'": [
-        "pingo'en￺把…拽倒、翻倒。"
-    ],
-    "fek": [
-        "fekhan￺於是猛力打擊。"
-    ],
-    "ceroh": [
-        "cacerohen￺要添加的、加水的。",
-        "cerohen￺給某物加水、添水。",
-        "miceroh￺加水，加湯，加油。"
-    ],
-    "fohecal": [
-        "fohecalay￺白色的 "
-    ],
-    "'atol": [
-        "ma'atolay￺用石頭砌成墻了。",
-        "ma'atol￺用石頭砌墻。",
-        "masa'atolay￺壘砌起來了，砌起來了。",
-        "masa'atol￺壘砌起來，砌起來。"
-    ],
-    "koni": [
-        "konika￺像…那樣，如此。"
-    ],
-    "kacica'": [
-        "misakacica'ay￺採橡樹汁，開發橡樹園。"
-    ],
-    "tarifaso": [
-        "tarifasoen￺用盛衣籃把衣服裝起來吧"
-    ],
-    "ci'elis": [
-        "saci'elisen￺把…弄斜、搞成斜坡。",
-        "saci'elis￺弄斜、搞成斜坡。"
-    ],
-    "ketoc": [
-        "miketoc￺摘取穀穗。"
-    ],
-    "cepit": [
-        "cacepiten￺（蚊、蟲）要叮的、咬的"
+    "'apilis": [
+        "'apilipilisan￺山坡地。",
+        "masa'apilisay￺成坡地了，被弄成傾斜狀",
+        "masa'apilis￺形成坡地，被弄成傾斜狀"
     ],
     "riyar": [
         "riyariyaran￺海洋。",
@@ -43369,9 +43835,8 @@
         "macapasay￺有分岔、分歧了。",
         "macapas￺分岔，分歧。"
     ],
-    "kelingkeling": [
-        "pikelingkelingan￺搖鈴、打鍾的地點、時間",
-        "pikelingkeling￺請搖鈴、請打鍾。"
+    "perex": [
+        "kinaperex￺破碎的東西，碴兒。"
     ],
     "simelang": [
         "kasimelangan￺感到難為情的，令人可恥",
@@ -44416,8 +44881,9 @@
     "ma'ax'ax": [
         "ma'ax'axay￺肚子發脹了，鼓脹起來。"
     ],
-    "lapitpit": [
-        "salapitpit￺刺痛的癢，奇癢。"
+    "hingat": [
+        "cihingatay￺有殘留糞跡的 ",
+        "cihingat￺殘留糞跡，有糞渣。"
     ],
     "ngocih": [
         "mangocihay￺缺口了，殘缺了，豁嘴了",
@@ -44949,8 +45415,8 @@
         "songideten￺把鼻涕擤掉。",
         "songidet￺擤鼻涕。"
     ],
-    "ngisngis": [
-        "salingisngis￺刮鬍刀、拔鬍子的器具、"
+    "tapilac": [
+        "tapilacen￺把…一刀削掉。"
     ],
     "falisan": [
         "falisanan￺高粱的種類。"
@@ -45148,8 +45614,8 @@
     "para'": [
         "sapara'an￺肛門。"
     ],
-    "tadekan": [
-        "patadekan￺砧板。"
+    "papeng": [
+        "papengpapengsa￺呈嘭嘭響的狀態，嘭嘭作"
     ],
     "modikoh": [
         "samodikohsa￺畏畏縮縮的樣子。",
@@ -45419,9 +45885,8 @@
         "mararoongay￺聚集的，合併的，連接的",
         "mararoong￺聚集，合併，連接。"
     ],
-    "katar": [
-        "makataray￺蠻橫了，橫行霸道了。",
-        "makatar￺蠻橫，蠻不講理。"
+    "m^ecel": [
+        "mo^ecelay￺直了，正直的。"
     ],
     "'olem": [
         "ma'olemay￺（皮膚）曬黑了，黝黑的",
@@ -45439,8 +45904,8 @@
         "sakamiten￺把…做小鐮刀。",
         "sakamit￺做小鐮刀。"
     ],
-    "homawad": [
-        "homawaday￺（吃飽飯後）起來，起座"
+    "lafaw": [
+        "kalafaw￺田鼠，野鼠。"
     ],
     "hakhak": [
         "masahakhakay￺糯米糕被做成了。",
@@ -45578,8 +46043,8 @@
         "sapipecpecaw￺想把東西擠壓、壓制。",
         "sapipecpec￺把東西擠壓、壓扁的用具"
     ],
-    "tanestes": [
-        "tanestesay￺樣式整潔、美觀了。"
+    "molohok": [
+        "molohokay￺（動物屍體）膨脹了，臃"
     ],
     "cokdap": [
         "micokdap￺延伸。"
