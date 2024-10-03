@@ -2438,7 +2438,7 @@
 ￺colal￻￹`Caay~ `ko~ `kafana'an~ `co~`la~`l~ `sa~ `a~ `tayni~ `cingra~.￺￻未料中他突然來到。￹`Co~`la~`l~ `sa~ `ko~ `d~`in~`wa~ `ni~ `panay~ `to~ `herek~ `no~ `lahok~.￺￻下午突然接到`Panay~ 的電話。
 ￺colalen￻￹`Colal~`e~`n~ `no~ `fafoy~.￺￻山豬突然出現。
 ￺colcol￻
-￺colcolen￻￹`Colcol~`e~`n~ `no~ `ka~`kita~`a~`n~ `kami~ `a~ `milood~.￺￻頭目驅使我們去打仗。￹`colcol~`e~`n~ `cingra~ `a~ `miliyas~.￺￻打發他離開。
+￺colcolen￻￹`Colcol~`e~`n~ `no~ `ka~`kita~`a~`n~ `kami~ `a~ `milo'od~.￺￻頭目驅使我們去打仗。￹`colcol~`e~`n~ `cingra~ `a~ `miliyas~.￺￻打發他離開。
 ￺coled￻
 ￺coleden￻￹`Coled~`e~`n~ `i~ `'alofo~ `ko~ `'odax~.￺￻把糖塞進帶裡。￹`Calohsa~ `cingra~ `a~ `micoled~ `i~ `'alofo~.￺￻他慌忙塞進口袋。
 ￺colek￻
@@ -4480,7 +4480,7 @@
 ￺hasapaloma￻￹`Hawikiden~ `ako~ `ko~ `la~`m~`l~`o~ `a~ `ha~`sapaloma~.￺￻我帶上小米準備做種子。
 ￺hasapariko'￻￹`Mi'aca~ `to~ `kiradom~ `hasa~`pariko'~ `to~ `wawa~.￺￻買布準備給孩子做衣服。
 ￺hasapatayra￻￹`Hasapa~`tayra~ `i~ `loma'~ `iso~ `kora~ `maamaan~.￺￻那些物品準備送到你家用的。
-￺hasapawsa￻￹`Ha~`sapawsa~ `to~ `milooday~.￺￻準備給打仗的人當乾糧用的。
+￺hasapawsa￻￹`Ha~`sapawsa~ `to~ `milo'oday~.￺￻準備給打仗的人當乾糧用的。
 ￺hasapi'atep￻￹`Oni~ `a~ `'aol~ `hasa~`pi'atep~ `to~ `fadahong~.￺￻這些竹子是準備用來挾緊茅屋頂的。
 ￺hasasa￻￹`hasa~`sa~ `a~ `tayya~.￺￻備胎。
 ￺hasasariko'en￻￹`Pafelien~ `ni~ `ina~ `kako~ `to~ `ha~`sasariko'en~ `a~ `fodoy~.￺￻母親送給我毛線準備編織衣服。
@@ -5638,7 +5638,7 @@
 ￺kakadotan￻
 ￺kakadoten￻￹`Taha~`cahcah~ `ko~ `tamina~ `niyam~ `o~ `ka~`kadoten~.￺￻我們的船觸礁了須划槳。
 ￺kakaen￻￹`Kaka~`e~`n~ `saan~ `caay~`ka~ `tayal~.￺￻好吃懶做。
-￺kakaenen￻￹`O~ `ka~`kaenen~ `ako~ `koni~ `a~ `toron~.￺￻這塊糯米糕是我的食品。￹`O~ `maan~ `ko~ `ka~`kaenen~ `no~ `sufitay~ `a~ `milood~?￺￻士兵打仗時要吃什麼？
+￺kakaenen￻￹`O~ `ka~`kaenen~ `ako~ `koni~ `a~ `toron~.￺￻這塊糯米糕是我的食品。￹`O~ `maan~ `ko~ `ka~`kaenen~ `no~ `sufitay~ `a~ `milo'od~?￺￻士兵打仗時要吃什麼？
 ￺kakafana'￻￹`Caay ka~ `ka~`kafana'~ `kami~.￺￻我們沒什麼深交。
 ￺kakafit￻￹`Ma~`l~`ca~`d~ `ko~ `harateng~ `niyam~ `a~ `tatosa~ , `matiya~ `o~ `ka~`kafit~ `sanay~ `ko~ `faloco'~.￺￻我們意念相同，宛如心相連。
 ￺kakafiten￻
@@ -5964,8 +5964,8 @@
 ￺kalaliyaw￻￹`Kala~`liyaw~ `ko~ `cengel~ `no~ `riko'~ `ako~.￺￻我的衣服是黃色的。
 ￺kalaliyaway￻￹`Kalaliyaw~`ay~ `ko~ `cengel~ `no~ `fokes~ `ningra~.￺￻她的頭髮染黃色的。
 ￺kalalok￻￹`Ka~`lalok~ `a~ `matayal~ `ato~ `mi~`cudad~ !￺￻必須用功工作與學習！
-￺kalalood￻
-￺kalaloodan￻￹`Mipanay~ `i~ `kalalood~`a~`n~.￺￻秋天收割。
+￺kalalo'od￻
+￺kalalo'odan￻￹`Mipanay~ `i~ `kalalo'od~`a~`n~.￺￻秋天收割。
 ￺kalalotoman￻￹`Kala~`l~`o~`to~`ma~`n~ `saan~ `kako~ `to~ `sowal~ `iso~.￺￻我對你的話雞皮疙瘩。
 ￺kalamkam￻￹`Kala~`m~`ka~`m~ `cingra~ `a~ `dademak~.￺￻他工作勤快。
 ￺kalamkamay￻￹`Kalamkam~`ay~ `koya~ `tamdaw~ `a~ `milaliw~.￺￻那人溜的可快了。￹`Kalamkam~`ay~ `a~ `wawa~.￺￻勤快的孩子。
@@ -7936,9 +7936,9 @@
 ￺lalongeden￻￹`La~`longeden~ `a~ `kasoy~.￺￻要點燃的木材。
 ￺lalonohen￻￹`La~`lonohen~ `a~ `waco~.￺￻要脫毛的狗。
 ￺lalonolen￻￹`La~`lonolen~ `a~ `demak~.￺￻要接下去及時做的工作。
-￺laloodan￻￹`Midangoy~ `ko~ `ka~^`e~`ma~`ng~`ay~ `i~ `r~`i~`ya~`l~ `to~ `lalood~.￺￻夏天孩子們在海裡游泳。￹`Macahiw~ `ko~ `tamdaw~ `i~ `kalaloodan~.￺￻戰爭時期人們很饑餓。
-￺lalood￻￹`Malalood~ `ko~ `Kowaping~ `ato~ `Dipong~.￺￻中國與日本交戰。
-￺lalooden￻￹`La~`looden~ `niyam~ `a~ `niyaro'~.￺￻我們要討伐的部落。
+￺lalo'odan￻￹`Midangoy~ `ko~ `ka~^`e~`ma~`ng~`ay~ `i~ `r~`i~`ya~`l~ `to~ `lalo'od~.￺￻夏天孩子們在海裡游泳。￹`Macahiw~ `ko~ `tamdaw~ `i~ `kalalo'odan~.￺￻戰爭時期人們很饑餓。
+￺lalo'od￻￹`Malalo'od~ `ko~ `Kowaping~ `ato~ `Dipong~.￺￻中國與日本交戰。
+￺lalo'oden￻￹`La~`lo'oden~ `niyam~ `a~ `niyaro'~.￺￻我們要討伐的部落。
 ￺lalopela'￻￹`Mipodpod~ `to~ `lalo~`pela'~.￺￻揀地衣菜。
 ￺lalosida'en￻￹`La~`losida'en~ `a~ `matayal~.￺￻並肩工作。
 ￺lalosidan￻￹`Aka~ `sidayen~ `ko~ `la~`losid~`a~`n~.￺￻不要遺失行李。￹`Cecay~ `a~ `la~`losid~`a~`n~ `no~ `tatirengan~.￺￻身體的一部分。
@@ -8512,8 +8512,8 @@
 ￺lonolen￻￹`Lonol~`e~`n~ `no~ `mipacpacay~ `a~ `tamdaw~ `ko~ `miritritan~ `a~ `panay~ `a~ `mipacpac~.￺￻打稻穀的人緊接著把割下來的稻子打好了。
 ￺lonolhan￻￹`Lonol~`han~ `ningra~ `a~ `milaheci~ `ko~ `tayal~.￺￻他認真完成工作。
 ￺lo'od￻
-￺lood￻￹`Tata'ang~ `ko~ `l~`o~`o~`d~ `i~ `ka~`Dipong~`a~`n~.￺￻日據時代有大戰爭。
-￺looden￻￹`Lood~`e~`n~ `niyam~ `cangra~ !￺￻我們一定討伐他們！
+￺lo'od￻￹`Tata'ang~ `ko~ `l~`o~`o~`d~ `i~ `ka~`Dipong~`a~`n~.￺￻日據時代有大戰爭。
+￺lo'oden￻￹`Lood~`e~`n~ `niyam~ `cangra~ !￺￻我們一定討伐他們！
 ￺looh￻￹`Mikalic~ `to~ `l~`o~`oh~ `ko~ `lotong~.￺￻猴子爬上香蕉樹。
 ￺loohloohan￻￹`Mala~`lafa'~ `ko~ `lotong~ `i~ `looh~`looh~`a~`n~.￺￻猴子在芭蕉園裡相追逐。
 ￺lopas￻￹`Ko~^`e~`sa~`ng~ `ko~ `heci~ `no~ `l~`o~`pa~`s~.￺￻桃果很甜。
@@ -9303,7 +9303,7 @@
 ￺macoco'ay￻
 ￺macocok￻￹`Ma~`cocok~ `noya~ `ce'er~ `ci~ `Ma~`'awid~.￺￻`Ma~`'awid~被埋下的竹尖刺中。
 ￺macocokay￻￹`Macocok~`ay~ `no~ `ceka~ `ko~ `kamay~ `ako~.￺￻我的手被刺兒刺傷了。
-￺macodah￻￹`Ma~`codah~ `a~ `milood~.￺￻打仗勇敢。￹`Ma~`codah~ `cangra~ `a~ `mi'adop~.￺￻他們打獵很勇敢。
+￺macodah￻￹`Ma~`codah~ `a~ `milo'od~.￺￻打仗勇敢。￹`Ma~`codah~ `cangra~ `a~ `mi'adop~.￺￻他們打獵很勇敢。
 ￺macodahay￻
 ￺macoenek￻
 ￺macoenekay￻
@@ -9613,7 +9613,7 @@
 ￺mafila'￻
 ￺mafila'ay￻
 ￺mafilo￻￹`Ma~`filo~ `niyam~ `ko~ `salifet~.￺￻我們能通過考試。￹`Ma~`filo~ `koni~ `a~ `demak~ `haw~?￺￻這件事能勝任吧？
-￺mafiloay￻￹`Mafilo~`ay~ `ako~ `ko~ `s~`i~^`e~`naw~.￺￻我戰勝了寒冷。￹`Mafilo~`ay~ `niyam~ `cangra~ `a~ `milood~ `i~ `Cepo'~.￺￻大港口事件打仗時我們打敗了他們。
+￺mafiloay￻￹`Mafilo~`ay~ `ako~ `ko~ `s~`i~^`e~`naw~.￺￻我戰勝了寒冷。￹`Mafilo~`ay~ `niyam~ `cangra~ `a~ `milo'od~ `i~ `Cepo'~.￺￻大港口事件打仗時我們打敗了他們。
 ￺mafinor￻￹`Ma~`finor~ `koni~ `a~ `nanom~.￺￻這個水被攪混。
 ￺mafinoray￻￹`Mafinor~`ay~ `ko~ `nemnem~.￺￻泉水渾濁。
 ￺mafirang￻￹`Ma~`firang~ `ci~`wama~ `i~ `takowanan~.￺￻父親對我發脾氣。
@@ -10484,7 +10484,7 @@
 ￺mala'axenanay￻
 ￺mala'ayam￻
 ￺mala'ayamay￻￹`Mala'ayam~`ay~ `koya~ `matokaay~ `a~ `tamdaw~ `ko~ `pakimad~ `no~ `faki~.￺￻伯伯講人變鳥的故事，他說那個懶人變成鳥了。
-￺mala'ayaw￻￹`Mala~`'ayaw~ `kiso~ `a~ `mikerid~ `tona~ `sufitay~ , `tala'ayaw~ `a~ `milood~.￺￻你要做先鋒率領這些兵，向前戰鬥。
+￺mala'ayaw￻￹`Mala~`'ayaw~ `kiso~ `a~ `mikerid~ `tona~ `sufitay~ , `tala'ayaw~ `a~ `milo'od~.￺￻你要做先鋒率領這些兵，向前戰鬥。
 ￺mala'ayaway￻￹`Mala'ayaw~`ay~ `cingra~ `a~ `milaliw~.￺￻他帶頭逃跑了。
 ￺mala'ecaan￻￹`Ma~`la'ecaan~ `ci~ `N~`aka~`w~.￺￻娜高小姐得了不治之症。
 ￺mala'ecaanay￻￹`Mala'ecaan~`ay~ `ko~ `adada~ `ni~ `wama~.￺￻父親的病不好治了。
@@ -10666,7 +10666,7 @@
 ￺malalikiday￻
 ￺malalikilikid￻￹`Ma~`l~`aliki~`likid~ `ko~ `kapah~ `ato~ `kaying~ `a~ `masakero~`'~.￺￻男女青年彼此互相手拉手跳舞。
 ￺malalikilikiday￻
-￺malalikowat￻￹`Mala~`likowat~ `ko~ `kapah~ `no~ `'Amis~ `i~ `Cepo'~ `a~ `milood~ `to~ `Ci~`ng~`pi~`ng~.￺￻秀姑巒溪河口附近的阿美族青年聯合起來攻打清兵。
+￺malalikowat￻￹`Mala~`likowat~ `ko~ `kapah~ `no~ `'Amis~ `i~ `Cepo'~ `a~ `milo'od~ `to~ `Ci~`ng~`pi~`ng~.￺￻秀姑巒溪河口附近的阿美族青年聯合起來攻打清兵。
 ￺malalilid￻￹`Ma~`lalilid~ `kita~ `a~ `mi'orong~ `toni~ `a~ `kilang~.￺￻我們一起扛這根木頭。
 ￺malaliliday￻￹`Malalilid~`ay~ `ko~ `finawlan~ `to~ `fokeloh~.￺￻鄉親在抬著石頭。
 ￺malalimek￻
@@ -10700,8 +10700,8 @@
 ￺malalodisay￻
 ￺malalok￻￹`Malalo~`k~ `cingra~ `a~ `matayal~.￺￻他工作很認真。
 ￺malalokay￻￹`Malalok~`ay~ `kako~ `a~ `mitilid~.￺￻我在認真地學習著。
-￺malalood￻￹`Siwa~ `a~ `mihecaan~ `kita~ `a~ `malalo~`o~`d~.￺￻我們交戰九年。
-￺malalooday￻￹`Malalood~`ay~ `ko~ `tosaay~ `a~ `kitakit~ `i~ `r~`i~`ya~`l~.￺￻兩國在海上打起仗來了。
+￺malalo'od￻￹`Siwa~ `a~ `mihecaan~ `kita~ `a~ `malalo~`o~`d~.￺￻我們交戰九年。
+￺malalo'oday￻￹`Malalo'od~`ay~ `ko~ `tosaay~ `a~ `kitakit~ `i~ `r~`i~`ya~`l~.￺￻兩國在海上打起仗來了。
 ￺malalosid￻
 ￺malalosiday￻
 ￺malamihidhiday￻￹`Ala~`mihidhid~`ay~ `to~ `kora~ `makakaay~ `a~ `kapot~.￺￻年長的年齡階級已成了指導者。
@@ -11136,8 +11136,8 @@
 ￺malonokay￻
 ￺malonol￻
 ￺malonolay￻￹`Malonol~`ay~ `no~ `mi'anipay~ `ko~ `mikaraan~ `niyam~ `a~ `omah~.￺￻我們耙平的農田正供上插秧的人（插秧）。
-￺malood￻
-￺malooday￻￹`Malood~`ay~ `no~ `kaka~ `ningra~ `ci~ `safa~.￺￻弟弟被他哥哥打敗了。￹`Malood~`ay~ `kako~.￺￻我輸了。
+￺malo'od￻
+￺malo'oday￻￹`Malo'od~`ay~ `no~ `kaka~ `ningra~ `ci~ `safa~.￺￻弟弟被他哥哥打敗了。￹`Malo'od~`ay~ `kako~.￺￻我輸了。
 ￺malopisak￻
 ￺malopisakay￻￹`Malopisak~`ay~ `ko~ `hana~.￺￻花朵四處散落。
 ￺maloriko'￻
@@ -11362,7 +11362,7 @@
 ￺manayar￻￹`Ma~`nayar~ `ko~ `pisekingan~ `a~ `romi'ad~.￺￻考試日期會延期。
 ￺manayaray￻
 ￺manayat￻￹`Ma~`nayat~ `ko~ `ko~`mo~ `a~ `tengtengen~.￺￻橡皮筋拉起來會伸長。
-￺manayatay￻￹`Manayat~`ay~ `ko~ `romi'ad~ `no~ `lalood~.￺￻夏季的白天長起來了。
+￺manayatay￻￹`Manayat~`ay~ `ko~ `romi'ad~ `no~ `lalo'od~.￺￻夏季的白天長起來了。
 ￺mancelan￻
 ￺maneker￻
 ￺manekeray￻￹`Maneker~`ay~ `no~ `fakeloh~ `ko~ `kayam~ `ako~.￺￻我的手被石頭壓下。
@@ -12139,7 +12139,7 @@
 ￺mapapipacafayay￻￹`Ma~`papipacafayay~ `ciwidang~ `ako~ `takowanan~.￺￻我的朋友被吩咐跟我一起了。
 ￺mapapipacakat￻￹`Ma~`papipacakat~ `kako~ `anini~ `a~ `mihecaan~.￺￻今年我會被提拔。￹`Ma~`papipacakat~ `kami~ `to~ `fayfay~.￺￻我們被派去升旗幟。
 ￺mapapipacakatay￻￹`Ma~`papipacakatay~ `ko~ `wawa~ `ningra~ `i~ `pieneng~`a~`n~.￺￻孩子被叫去上看台上。
-￺mapapipacanor￻￹`Ma~`papipa~`canor~ `ko~ `so~`fitay~ `no~ `kowaping~ `i~ `lalood~ `no~ `cepo'~.￺￻在大港口戰役中清兵被派去插竹尖。
+￺mapapipacanor￻￹`Ma~`papipa~`canor~ `ko~ `so~`fitay~ `no~ `kowaping~ `i~ `lalo'od~ `no~ `cepo'~.￺￻在大港口戰役中清兵被派去插竹尖。
 ￺mapapipacanoray￻
 ￺mapapipacomod￻
 ￺mapapipacomoday￻￹`Ma~`papipacomoday~ `ako~ `ci~ `Omah~.￺￻`Omah~被我傳喚進來了。
@@ -12209,7 +12209,7 @@
 ￺mapapitinooyay￻￹`Mapapitinooy~`ay~ `kako~ `to~ `farawfawan~.￺￻我被要求織連衣裙了。
 ￺mapapiteki'￻￹`Ma~`papiteki'~ `cingra~ `to~ `fongoh~ `iso~.￺￻他被人支使敲打你的頭。
 ￺mapapiteki'ay￻
-￺mapapolong￻￹`Ma~`papolong~ `kami~ `a~ `milood~ `to~ `'ada~.￺￻我們要團結起來共同打敵人。
+￺mapapolong￻￹`Ma~`papolong~ `kami~ `a~ `milo'od~ `to~ `'ada~.￺￻我們要團結起來共同打敵人。
 ￺mapapolongay￻
 ￺mapapro￻
 ￺mapaproay￻
@@ -14434,7 +14434,7 @@
 ￺matesi'ay￻￹`Matesi'~`ay~ `no~ `sota'~ `ko~ `tireng~ `ako~.￺￻我身上濺上泥巴了。
 ￺matesok￻
 ￺matesokay￻
-￺matefad￻￹`Ma~`tefad~ `ko~ `lalood~ `a~ `panay~.￺￻夏稻收成了。￹`Ma~`tefad~ `ko~ `'ayam~ `nani~ `kilang~.￺￻鳥從樹上掉落。￹`Ma~`tefad~ `ko~ `namal~ `no~ `fitili'~.￺￻霹靂打下來。
+￺matefad￻￹`Ma~`tefad~ `ko~ `lalo'od~ `a~ `panay~.￺￻夏稻收成了。￹`Ma~`tefad~ `ko~ `'ayam~ `nani~ `kilang~.￺￻鳥從樹上掉落。￹`Ma~`tefad~ `ko~ `namal~ `no~ `fitili'~.￺￻霹靂打下來。
 ￺matefaday￻￹`Matefad~`ay~ `ko~ `lamelo~.￺￻小米成熟了。￹`Matefad~`ay~ `ko~ `paro~ `na~`ra~ `tosiya~ `i~ `fatad~ `no~ `lalan~.￺￻那輛汽車的貨物半路上掉下來了。
 ￺matefafac￻￹`Ma~`tefafac~ `ko~ `fanges~.￺￻皮膚被扯破。
 ￺matefafacay￻
@@ -15965,7 +15965,7 @@
 ￺mihadakay￻￹`Mihadak~`ay~ `ci~`ina~ `to~ `kohaw~ `i~ `kaysing~.￺￻媽媽在碗裡倒湯了。￹`Mihadak~`ay~ `kako~ `to~ `nanom~.￺￻我在倒水了。￹`Mihadak~`ay~ `to~ `felac~ `a~ `tamdaw~.￺￻倒出米的人。
 ￺mihadefek￻￹`Mi~`hadefek~ `to~ `'ada~.￺￻殲滅敵人。
 ￺mihadefekan￻￹`Mihadefek~`a~`n~ `niyam~ `ko~ `aca~`c~`ina~`l~.￺￻我們把蜂徹底消滅了。￹`Mihadefek~`a~`n~ `a~ `kowaping~.￺￻全軍覆沒的士兵。
-￺mihadefekay￻￹`Mihadefek~`ay~ `kora~ `ada~ `to~ `niya~`r~`o~ `i~ `kara~`lood~`a~`n~.￺￻戰爭時那個部落被消滅了。￹`Ora~ `kapot~ `niyam~ `ko~ `mi~`ha~`d~`fek~`ay~ `toya~ `futing~.￺￻是我們的團體全部吃完那些魚。
+￺mihadefekay￻￹`Mihadefek~`ay~ `kora~ `ada~ `to~ `niya~`r~`o~ `i~ `kara~`lo'od~`a~`n~.￺￻戰爭時那個部落被消滅了。￹`Ora~ `kapot~ `niyam~ `ko~ `mi~`ha~`d~`fek~`ay~ `toya~ `futing~.￺￻是我們的團體全部吃完那些魚。
 ￺mihadidi￻￹`Mi~`hadidi~ `kako~ `a~ `dademak~.￺￻我堅持工作。￹`Mi~`hadidi~ `to~ `lolay~.￺￻強忍著辛苦。
 ￺mihadidian￻￹`Mihadidi~`a~`n~ `niyam~ `ko~ `pitilid~`a~ `maherek~.￺￻我們堅持完成了學業。￹`Mihadidi~`a~`n~ `a~ `demak~.￺￻所堅持的工作。
 ￺mihadidiay￻￹`Mihadidi~`ay~ `kora~ `kapah~ `a~ `mitamorong~ `to~ `'~`sapipa'orip~ `a~ `'inorong~.￺￻那個青年在堅持著挑養家活口的擔子。￹`Mihadidi~`ay~ `a~ `kapah~ `to~ `demak~.￺￻堅持工作的青年。
@@ -16503,8 +16503,8 @@
 ￺mikasasowal￻￹`Awaay~ `ho~ `ko~ `pinang~ `no~ `mi~`kasasowal~.￺￻商量還沒有結果。
 ￺mikasasowalan￻￹`Mikasasowal~`a~`n~ `naira~ `a~ `tatosa~.￺￻他們雙方談好了。￹`Sowal~`e~`n~ `ira~ `kako~ `toya~ `mikasasowal~`a~`n~ `naira~.￺￻他把他們之間商量的告訴我。
 ￺mikasasowalay￻￹`Mikasasowal~`ay~ `a~ `malikaka~.￺￻兄弟彼此商量。
-￺mikasila'is￻￹`Mika~`s~`i~`la'is~ `ko~ `malalooday~.￺￻戰爭讓人彼此結仇。
-￺mikasila'isan￻￹`Mikasila'is~`a~`n~ `a~ `tamdaw~ `i~ `kalaloodan~.￺￻戰爭時結仇的人。
+￺mikasila'is￻￹`Mika~`s~`i~`la'is~ `ko~ `malalo'oday~.￺￻戰爭讓人彼此結仇。
+￺mikasila'isan￻￹`Mikasila'is~`a~`n~ `a~ `tamdaw~ `i~ `kalalo'odan~.￺￻戰爭時結仇的人。
 ￺mikasini'ada￻￹`Mi~`kasini'ada~ `to~ `ta~`m~`dawdaw~.￺￻同情他人。
 ￺mikasini'adaan￻￹`Mika~`s~`in~`'ada~`a~`n~ `a~ `mipakaen~ `a~ `malitengay~.￺￻關懷服侍的老人。
 ￺mikasini'adaay￻￹`Mika~`s~`ini~`a~`'ada~`ay~ `to~ `ta~`m~`dawdaw~.￺￻對他人具有同情心的人。
@@ -17104,7 +17104,7 @@
 ￺milengac￻￹`Hamaan~ `a~ `mi~`lengac~ `saw~?￺￻採集月桃做什麼用？
 ￺milengacan￻￹`Milengac~`a~`n~ `ira~.￺￻他把月桃草采來了。￹`Adihayay~ `ko~ `milengac~`a~`n~ `ako~.￺￻我採集的月桃草很多。
 ￺milengacay￻￹`Milengac~`ay~ `kako~.￺￻我在採集月桃草。￹`O~ `fafahiyan~ `ko~ `milengac~`ay~ `a~ `ma~`e~`mi~`n~ `anini~.￺￻今天採集月桃草的全是女的。
-￺milengat￻￹`Mi~`lengat~ `a~ `milood~.￺￻挑起戰爭，挑起事端。￹￺￻`Mi~`lengat~ `to~ `demak~發起開始做事。
+￺milengat￻￹`Mi~`lengat~ `a~ `milo'od~.￺￻挑起戰爭，挑起事端。￹￺￻`Mi~`lengat~ `to~ `demak~發起開始做事。
 ￺milengatan￻￹`Milengat~`a~`n~ `nira~ `ko~ `kala~`'~`o~`d~`o~`'odot~.￺￻他挑起了打群架。￹`Ca~`nira~ `ko~ `milengat~`a~`n~ `niyam~ `a~ `malalifet~.￺￻我們挑戰競賽的對象是他們。
 ￺milengatay￻￹`Milengat~`ay~ `ca~`nira~ `kami~`ana~`n~.￺￻他們向我們挑戰了。￹`Milengat~`ay~ `a~ `tamdaw~.￺￻挑釁者，挑戰者。
 ￺milengel￻￹`Mi~`lengel~ `to~ `kodasing~.￺￻浸花生，泡花生。
@@ -17388,9 +17388,9 @@
 ￺milonol￻￹`Mi~`lonol~ `to~ `kakaenen~.￺￻及時供給食品。￹`Mi~`lonol~ `a~ `milaheci~ `to~ `tayal~.￺￻工作一直到完成。
 ￺milonolan￻￹`Milonol~`a~`n~ `a~ `e~`pa~`ng~.￺￻所及時供應的麵包。
 ￺milonolay￻￹`Milonol~`ay~ `ca~`nira~ `to~ `capox~ `a~ `mi'anip~.￺￻插秧時，他們及時供應秧苗了。￹`Ora~ `tamdaw~ `ko~ `milonol~`ay~ `to~ `na~`nanom~`e~`n~ `niyam~.￺￻及時供應我們飲水的是那一個人。
-￺milood￻￹`Mi~`lood~ `to~ `'ada~.￺￻討伐敵人。
-￺miloodan￻￹`Milood~`a~`n~ `to~ `naira~ `koya~ `niyaro'~.￺￻他們把那個部落討伐了。￹`Milood~`a~`n~ `niyam~ `a~ `'ada~.￺￻我們所征討的敵人。
-￺milooday￻￹`Milood~`ay~ `ci~ `Ali~`mika~ `tora~ `A~`f~`o~`han~.￺￻美國正在征討阿富汗。￹`Milood~`ay~ `a~ `kapah~.￺￻打仗的青年。
+￺milo'od￻￹`Mi~`lo'od~ `to~ `'ada~.￺￻討伐敵人。
+￺milo'odan￻￹`Milo'od~`a~`n~ `to~ `naira~ `koya~ `niyaro'~.￺￻他們把那個部落討伐了。￹`Milo'od~`a~`n~ `niyam~ `a~ `'ada~.￺￻我們所征討的敵人。
+￺milo'oday￻￹`Milo'od~`ay~ `ci~ `Ali~`mika~ `tora~ `A~`f~`o~`han~.￺￻美國正在征討阿富汗。￹`Milo'od~`ay~ `a~ `kapah~.￺￻打仗的青年。
 ￺milosida'￻￹`Milosid~`a~`'~ `tora~ `tatosaay~ `a~ `wawa~ `a~ `maro'~.￺￻讓那兩位小孩並排坐下。
 ￺milosid￻￹`Ma~`harek~ `to~ `kora~ `fafahiyan~ `a~ `mi~`losid~.￺￻女人打扮完了。
 ￺milosidan￻￹`Milosid~`a~`n~ `kora~ `kaying~.￺￻那些小姐打扮了。￹`Milosid~`a~`n~ `a~ `kaying~.￺￻被打扮的小姐。
@@ -17553,7 +17553,7 @@
 ￺minawnaway￻￹`Minawnaw~`ay~ `ko~ `'alo~ `to~ `niyaro'~.￺￻河水正在淹沒村子了。￹`Minawnaw~`ay~ `a~ `nanom~.￺￻浸入的水。
 ￺minayar￻￹`Mi~`nayar~ `to~ `romi'ad~.￺￻日期延
 ￺minayat￻￹`Mi~`nayat~ `to~￺￻
-￺minayatan￻￹`Minayat~`a~`n~ `ko~ `kalaloodan~ `naira~.￺￻他們打仗的時間延長了。￹`Minayat~`a~`n~ `a~ `lalan~.￺￻延長的道路。
+￺minayatan￻￹`Minayat~`a~`n~ `ko~ `kalalo'odan~ `naira~.￺￻他們打仗的時間延長了。￹`Minayat~`a~`n~ `a~ `lalan~.￺￻延長的道路。
 ￺minayatay￻￹`Minayat~`ay~ `ko~ `tawki~ `to~ `katayalan~ `no~ `koli~.￺￻老闆在延長工人的工作時間。
 ￺minecnec￻￹`Mi~`necnec~ `to~ `mata~.￺￻揉眼睛。
 ￺minecnecan￻￹`Minecnec~`a~`n~ `ira~ `ko~ `riko'~ `a~ `mifaca'~.￺￻她把衣服揉拭著洗了。￹`Minecnec~`a~`n~ `a~ `mata~.￺￻所揉拭的眼睛。
@@ -17752,7 +17752,7 @@
 ￺mipa'alyay￻￹`M~`ipa~`'~`a~`l~`ya~`y~ `kako~ `to~ `dofot~.￺￻我在挎佩袋。￹`O~ `kapah~ `ko~ `m~`ipa~`'~`a~`l~`ya~`y~ `to~ `f~`a~`e~`l~`o~`hay~ `a~ `dofot~.￺￻挎著新袋子的是小夥子。
 ￺mipa'angi￻￹`Kowangen~ `niyam~ `ca~`nira~ `a~ `mi~`pa'angi~.￺￻我們開槍讓他們覺得害怕。
 ￺mipa'angian￻￹`Mipa'angi~`a~`n~ `no~ `'ada~ `kita~.￺￻敵人讓我們覺得害怕了。￹`O~ `ci~ `widang~ `ako~ `ko~ `mipa'angi~`a~`n~ `ira~.￺￻他所恐嚇的是我的朋友。
-￺mipa'angiay￻￹`Mipa'angi~`ay~ `ca~`nira~ `kamiyanan~ `a~ `milood~.￺￻他們向我們挑釁打仗了。￹`Ca~`nira~ `ko~ `mipa'angi~`ay~ `a~ `tamdaw~.￺￻他們是恐嚇者。
+￺mipa'angiay￻￹`Mipa'angi~`ay~ `ca~`nira~ `kamiyanan~ `a~ `milo'od~.￺￻他們向我們挑釁打仗了。￹`Ca~`nira~ `ko~ `mipa'angi~`ay~ `a~ `tamdaw~.￺￻他們是恐嚇者。
 ￺mipa'araw￻￹`Mi~`pa'araw~ `to~ `wawa~ `hena~.￺￻叫孩子去看一下。
 ￺mipa'arawan￻￹`Mipa'araw~`a~`n~ `ako~ `ci~`nira~ `to~ `kacipinangan~ `ako~.￺￻我給他展示了我所掌握的證據。
 ￺mipa'araway￻￹`Mipa'araw~`ay~ `kako~ `to~ `wawa~ `to~ `lotong~.￺￻我讓孩子去看猴了。￹`Ci~`nira~ `ko~ `mipa'araw~`ay~ `takowanan~.￺￻是他叫我去看的。
@@ -17811,7 +17811,7 @@
 ￺mipaca'ofan￻
 ￺mipacacorakay￻￹`M~`ipa~`ca~`co~`raka~`y~ `ci~ `k~`aka to~`ra~ `tamdaw~ `a~ `pasela'~.￺￻哥哥讓那些人輪流休息了。￹`Ci~ `kakeridan~ `ko~ `m~`ipa~`ca~`co~`raka~`y~ `kamowanan~ `a~ `tayra~.￺￻派你們輪流去的是領導。
 ￺mipacacorok￻￹`Mi~`pacacorok~ `to~ `kamiyanan~ `a~ `mi'adop~.￺￻允許我們輪流去打獵了。
-￺mipacacorokan￻￹`Mipacacorok~`a~`n~ `kita~ `a~ `tayra~.￺￻我們被批准輪流去了。￹`O~ `kapah~ `ko~ `mipacacorok~`a~`n~ `a~ `milood~.￺￻被允許輪流去打仗的是青年人。
+￺mipacacorokan￻￹`Mipacacorok~`a~`n~ `kita~ `a~ `tayra~.￺￻我們被批准輪流去了。￹`O~ `kapah~ `ko~ `mipacacorok~`a~`n~ `a~ `milo'od~.￺￻被允許輪流去打仗的是青年人。
 ￺mipacafay￻￹`Mi~`pacafay~ `ci~`nira~ `takowanan~.￺￻他讓我陪伴。
 ￺mipacafayan￻￹`Mipacafay~`a~`n~ `ni~ `kaka~ `ako~ `kora~ `kaying~.￺￻我姐姐叫那位小姐作陪了。￹`O~ `cima~ `ko~ `mipacafay~`a~`n~ `iso~ `ci~`nira~`a~`n~?￺￻你是叫誰她陪伴他呢？
 ￺mipacafayay￻￹`Mipacafay~`ay~ `ci~ `kaka~ `takowanan~ `kisowanan~.￺￻哥哥叫我跟你做伴。￹`O~ `ci~`nira~ `ko~ `mipacafay~`ay~ `takowanan~ `to~ `lafang~.￺￻是他叫我陪伴客人的。
@@ -18006,7 +18006,7 @@
 ￺mipahafayan￻￹`Mipahafay~`a~`n~ `ako~ `ciwidang~ `ako~.￺￻我給我的朋友送小米了。￹`Pinaay~ `ko~ `mipahafay~`a~`n~ `iso~?￺￻你送多少小米？
 ￺mipahafayay￻￹`Mipahafay~`ay~ `to~ `kami~ `to~ `salawinawina~.￺￻我們饋贈小米給親戚了。￹`Ci~ `Kolas~ `ko~ `mipahafay~`ay~ `kisowanan~, `cowa~ `kako~.￺￻送小米的是`Kolas~，不是我。
 ￺mipahakelong￻￹`Mi~`pahakelong~ `a~ `tayra~.￺￻跟著去。￹`Mi~`pahakelong~ `ca~`nira~`a~`n~ `a~ `makero~.￺￻隨同她們一起跳舞。
-￺mipahakelongan￻￹`Mipahakelong~`a~`n~ `ita~ `ci~`nira~ `a~ `milood~.￺￻我們跟隨過他打仗。￹`O~ `mipahakelong~`a~`n~ `ako~ `a~ `widang~.￺￻我所跟隨的朋友。
+￺mipahakelongan￻￹`Mipahakelong~`a~`n~ `ita~ `ci~`nira~ `a~ `milo'od~.￺￻我們跟隨過他打仗。￹`O~ `mipahakelong~`a~`n~ `ako~ `a~ `widang~.￺￻我所跟隨的朋友。
 ￺mipahakelongay￻￹`O~ `cima~ `ko~ `mipahakelong~`ay~ `takowanan~ `a~ `tayra~?￺￻是誰跟我去？
 ￺mipahalineknek￻￹`M~`ipa~`halineknek~ `to~ `'epah~.￺￻使酒沉澱。
 ￺mipahalineknekan￻￹`Mipahalineknek~`a~`n~ `ako~ `ci~`nira~ `to~ `na~`nanom~`e~`n~.￺￻我給他們把飲水澄清了。￹`O~ `mipahalineknek~`a~`n~ `a~ `sangasif~.￺￻被沉澱下來的茶。
@@ -18344,7 +18344,7 @@
 ￺mipalefoday￻￹`Mipalefod~`ay~ `kako~ `ci~`nira~`a~`n~ `a~ `comikay~.￺￻我正跑著追趕他。￹`Mipalefod~`ay~ `a~ `kapah~.￺￻競走的青年。
 ￺mipalemed￻￹`Sanga'ayen~ `a~ `m~`ipa~`lemed~!￺￻好好地夢占吧！
 ￺mipalemedan￻￹`Mipalemed~`a~`n~ `ako~ `ca~`nira~ `pi'adop~ `i~ `dadaya~.￺￻我昨夜給他們夢占打獵了。￹`O~ `cima~ `ko~ `mipalemed~`a~`n~ `iso~?￺￻你為誰夢占？
-￺mipalemeday￻￹`Mipalemed~`ay~ `ci~`nira~ `to~ `kalalood~ `niyam~.￺￻他正在夢占我們打仗的情景。￹`Mipalemed~`ay~ `a~ `tamdaw~.￺￻為人夢占的人。￹`Mipalemed~`ay~ `ko~ `wina~ `ako~ `i~ `dadaya~.￺￻昨夜我媽媽託夢給我。
+￺mipalemeday￻￹`Mipalemed~`ay~ `ci~`nira~ `to~ `kalalo'od~ `niyam~.￺￻他正在夢占我們打仗的情景。￹`Mipalemed~`ay~ `a~ `tamdaw~.￺￻為人夢占的人。￹`Mipalemed~`ay~ `ko~ `wina~ `ako~ `i~ `dadaya~.￺￻昨夜我媽媽託夢給我。
 ￺mipalengel￻￹`Tangsolhan~ `ira~ `ko~ `toko~ `a~ `mi~`palengel~ `i~ `ciwkeciwkengan~.￺￻他馬上把田螺浸泡在水缸裡。
 ￺mipalengelan￻￹`Mi~`palengelan~ `ni~ `wina~ `ko~ `felac~.￺￻母親把米浸泡了。￹`Mi~`palengelan~ `a~ `riko'~.￺￻浸泡的衣服。
 ￺mipalengelay￻￹`Mi~`palengelay~ `kako~ `to~ `riko'~ `i~ `fintang~.￺￻我在臉盆裡泡衣服了。￹`O~ `safa~ `ako~ `ko~ `mi~`palengelay~ `to~ `han~`ka~`ci~.￺￻是妹妹在泡手帕。
@@ -20947,7 +20947,7 @@
 ￺mislak￻
 ￺miso'acan￻
 ￺miso'acay￻
-￺miso'ayaw￻￹`Mi~`so'ayaw~ `a~ `milood~.￺￻以戰鬥抗衡，抵抗。
+￺miso'ayaw￻￹`Mi~`so'ayaw~ `a~ `milo'od~.￺￻以戰鬥抗衡，抵抗。
 ￺miso'ayawan￻
 ￺miso'ayaway￻
 ￺miso'ec￻
@@ -21602,7 +21602,7 @@
 ￺mitokenih￻
 ￺mitokenihan￻
 ￺mitokenihay￻
-￺mitoker￻￹`Mi~`toker~ `a~ `milood~ `to~ `ada~`'~.￺￻抵抗敵人。
+￺mitoker￻￹`Mi~`toker~ `a~ `milo'od~ `to~ `ada~`'~.￺￻抵抗敵人。
 ￺mitokeran￻
 ￺mitokeray￻
 ￺mitokod￻
@@ -22018,7 +22018,7 @@
 ￺nakilangan￻
 ￺nakodasingan￻￹`O~ `na~`kodasing~`a~`n~ `no~ `niyam~ `kona~ `omah~.￺￻這塊田是我們種植過花生的田地。
 ￺nalacolan￻￹`Salimelaen~ `no~ `mita~ `ko~ `n~`ala~`co~`la~`n~，`nawhani~ `o~ `lamit~ `no~ `nano~`to'asan~ `a~ bu`ng~`ka~ `itira~.￺￻我們要珍部落遺址因為那裡是傳統文化的根源。
-￺nalaloodan￻
+￺nalalo'odan￻
 ￺nalameloan￻￹`Na~`lamelo~`a~`n~ `a~ `omah~ `konini~.￺￻這裡是種植過小米的田地。
 ￺nalaplapan￻￹`Na~`laplap~`a~`n~ `iso~ `koya~ `'ayam~ `i~, `makapah~ `to~ `ko~ `lengaw~ `no~ `panay~.￺￻自從你趕走那些鳥之後稻子長的很好。
 ￺nalemedan￻￹`Na~`lemed~`a~`n~ `to~ `ko~ `saka~`ala~ `ningra~ `a~ `mi~`singkiw~.￺￻他在夢中已經夢到自己當選。
@@ -22102,7 +22102,7 @@
 ￺naniwaniwen￻
 ￺naniyani'en￻
 ￺nano￻￹￺￻如`n~`ano~`kafana'an~ 從懂事起。￹￺￻`n~`anopapacem~`ay~ 從早上開始。￹）`O~ `n~`ano~ `loma'~ `niyam~ `konini~.￺￻這是我們原來的家。￹`O~ `n~`ano~ `nima~ `konini~ `a~ `demak~?￺￻這事原是誰引起的？￹）`N~`ano~ `to'as~.￺￻自古以來。￹`N~`ano~ `papacem~.￺￻從早晨開始。￹`N~`ano~ `ka~`e~`ma~`ng~`ay~.￺￻從少年時代。￹`N~`ano~ `kafana'an~ `ako~ `to~ `demak~ `a~ `romi'ad~.￺￻從我懂事那一天起。￹`N~`ano~ `ka'oripan~ `no~ `tamdaw~ `awa~ `ho~ `matengil~.￺￻聞所未聞。
-￺nano…taha…￻￹￺￻從…至…，自從…到 …。￹`Nano~ `lalood~ `taha~ `tiposan~.￺￻從春到冬。￹`Nano~ `papacem~ `taha~ `dadaya~ `a~ `maomah~, `ca~ `ka~`pahanhan~ `ko~ `kayam~ `a~ `dademak~.￺￻從早忙到晚，手裏的工作從來沒有停過。
+￺nano…taha…￻￹￺￻從…至…，自從…到 …。￹`Nano~ `lalo'od~ `taha~ `tiposan~.￺￻從春到冬。￹`Nano~ `papacem~ `taha~ `dadaya~ `a~ `maomah~, `ca~ `ka~`pahanhan~ `ko~ `kayam~ `a~ `dademak~.￺￻從早忙到晚，手裏的工作從來沒有停過。
 ￺nanoanini￻￹`Sainanengen~ `ita~ `a~ `maomah~ `nano~`anini~ `haw~ !￺￻從今以後我們要好好工作啊！
 ￺nanocamol￻￹￺￻`N~`anoca~`mo~`l~ `a~ `wawa~．混血兒。
 ￺nanociken￻
@@ -22571,7 +22571,7 @@
 ￺ngric￻￹`Caay~ `ko~ `ngoyos~ `aca~ `ko~ `kafana'an~ `ningra~.￺￻他不是只是嘴巴會說而已。
 ￺o￻￹￺￻屬舌面圓唇母音，音值為[ o ~ u ]，有[ u、o ]等變體。
 ￺o honi to noyanan￻￹`O~ `honi to~ `n~`oyanan~ `ira~ `koya~ `siri~ `paka~`y~`ni~ `a~ `romakat~.￺￻過了一會兒，有隻羊經過這裏。
-￺o roma sato￻￹`O~ `roma~ `sato~　 `icowaay~ `ko~ `kofa~ `namo~ `itini~?￺￻另外，你們的鎮公所在哪裡呢？￹`O~ `roma~ `sato~ `ano~ `maro'~ `icowacowa~ `'i~ , `caay ka~`nga'ay~ `a~ `miki'ayaw~ `to~ `kamaro'an~ `no~ `tao~.￺￻舉例說吧，不管在哪裡坐，都不能去搶他人的座位。￹`Onini~ `a~ `Malataw~ `i~, `o~ `mi~`'ada~`hay~ `to~ `adada~ `a~ `kawas~, `o~ `milooday~ `a~ `kawas~, `o~ `roma~ `sato~ `o~ `pinokayan~ `no~`'orip~ `no~ `tamdaw~ `sanay~ `ko~ `latoh~ `no~ `to'as~.￺￻根據神話傳說這位`Malataw~（瑪拉道）神，是治病之神，是戰鬥之神，而且是人生的歸宿所在。
+￺o roma sato￻￹`O~ `roma~ `sato~　 `icowaay~ `ko~ `kofa~ `namo~ `itini~?￺￻另外，你們的鎮公所在哪裡呢？￹`O~ `roma~ `sato~ `ano~ `maro'~ `icowacowa~ `'i~ , `caay ka~`nga'ay~ `a~ `miki'ayaw~ `to~ `kamaro'an~ `no~ `tao~.￺￻舉例說吧，不管在哪裡坐，都不能去搶他人的座位。￹`Onini~ `a~ `Malataw~ `i~, `o~ `mi~`'ada~`hay~ `to~ `adada~ `a~ `kawas~, `o~ `milo'oday~ `a~ `kawas~, `o~ `roma~ `sato~ `o~ `pinokayan~ `no~`'orip~ `no~ `tamdaw~ `sanay~ `ko~ `latoh~ `no~ `to'as~.￺￻根據神話傳說這位`Malataw~（瑪拉道）神，是治病之神，是戰鬥之神，而且是人生的歸宿所在。
 ￺'oca'ocay￻
 ￺ocekoy￻
 ￺'ocidix￻
@@ -22764,7 +22764,7 @@
 ￺'otit￻
 ￺'otekok￻
 ￺'otekoy￻
-￺'otoc￻￹`Mapatirengay~ `to~ `ko~ ‘`o~`to~`c~ `no~ `lalood~ `i~ `Cepo'~.￺￻已樹立大港口戰役的紀念碑。
+￺'otoc￻￹`Mapatirengay~ `to~ `ko~ ‘`o~`to~`c~ `no~ `lalo'od~ `i~ `Cepo'~.￺￻已樹立大港口戰役的紀念碑。
 ￺otofay￻
 ￺'ot'ot￻
 ￺'ot'oten￻￹`'Ot'ot~`e~`n~ `ira~ `ko~ `ha~`satamina~ `a~ `kilang~.￺￻他把要做船的木頭刳掉。
@@ -25317,7 +25317,7 @@
 ￺papatapal￻
 ￺papatapalen￻
 ￺papatapatay￻
-￺papatapataysa￻￹`Papatapatay~`sa~ `ca~`nira~ `a~ `milood~.￺￻他們進行著相互殘殺的戰爭。
+￺papatapataysa￻￹`Papatapatay~`sa~ `ca~`nira~ `a~ `milo'od~.￺￻他們進行著相互殘殺的戰爭。
 ￺papatarohen￻
 ￺papatawsien￻
 ￺papatawiwen￻
@@ -28182,8 +28182,8 @@
 ￺pilali'opan￻
 ￺pilaliw￻
 ￺pilaliwan￻
-￺pilalood￻
-￺pilaloodan￻￹`Pilalood~`a~`n~ `ho~ `to~ `Dipong~.￺￻抗日時期。
+￺pilalo'od￻
+￺pilalo'odan￻￹`Pilalo'od~`a~`n~ `ho~ `to~ `Dipong~.￺￻抗日時期。
 ￺pilanang￻
 ￺pilanangan￻
 ￺pilaoc￻
@@ -31782,7 +31782,7 @@
 ￺sakacikowa'aw￻￹`Sakacikowa'~`aw~ `niyam~ `to~ `adihayay~.￺￻我們希望長許多木瓜。
 ￺sakacila'ed￻￹`Maraayay~ `ko~ `kamaro'an~ `niyam~, `oya~ `ko~ `sa~`kacila'ed~ `no~ `niyaro'~（`niyaro'~）.￺￻我們住的地方很遠，因此村子間有間隔。
 ￺sakacila'edaw￻￹`Sakacila'ed~`aw~ `no~ `loma'~ `niyam~.￺￻我們希望我們的房子有隔開。
-￺sakacila'is￻￹`Itiya~ `ho~ `malalooday~ `to~ `ko~ `niyaro'~ `niyam~ `a~ `toya~ `niyaro'~ `naira~, `oya~ `ko~ `sa~`kacila'is~.￺￻過去，我們村和他們村彼此攻戰，因此產生仇恨。
+￺sakacila'is￻￹`Itiya~ `ho~ `malalo'oday~ `to~ `ko~ `niyaro'~ `niyam~ `a~ `toya~ `niyaro'~ `naira~, `oya~ `ko~ `sa~`kacila'is~.￺￻過去，我們村和他們村彼此攻戰，因此產生仇恨。
 ￺sakacila'isaw￻￹`Sakacila'is~`aw~ `naira~ `takowanan~.￺￻他們想跟我們結仇。
 ￺sakacilaheci￻￹`Sainanengsa~ `a~ `matayal~, `oya~ `ko~ `saka~`cilaheci~ .￺￻辛勤的工作，那是成就之源。
 ￺sakacilaheciaw￻￹`Sakacilaheci~`aw~ `dademak~ `namo~.￺￻希望你們的工作有成就。
@@ -31843,7 +31843,7 @@
 ￺sakacingala'aw￻
 ￺sakacingalay￻￹`Halikaenay~ `ci~`nira~, `oya~ `ko~ `saka~`cingalay~ `ira~.￺￻他貪吃，所以流口水。
 ￺sakacingalayaw￻￹`Sakacingalay~`aw~ `na~ `wawa~ `ira~.￺￻他的孩子想流口水。
-￺sakacingangan￻￹`Tadamaanay~ `ci~`nira~ `a~ `ni~`lood~, `oya~ `ko~ `saka~`cingangan~ `ira~.￺￻他作戰很勇敢，因此很有名氣。
+￺sakacingangan￻￹`Tadamaanay~ `ci~`nira~ `a~ `ni~`lo'od~, `oya~ `ko~ `saka~`cingangan~ `ira~.￺￻他作戰很勇敢，因此很有名氣。
 ￺sakacinganganaw￻￹`Sakacingangan~`aw~ `ira~.￺￻他想出名。
 ￺sakacingangiw￻￹`Makaditay~ `ko~ `ni~`kaen~`a~`n~ `ira~, `oya~ `ko~ `saka~`cingangiw~ `ira~.￺￻他吃的東西髒，所以生蛔蟲。
 ￺sakacingangiwaw￻
@@ -31873,7 +31873,7 @@
 ￺sakacipangkiwaw￻￹`Sakacipangkiw~`aw~ `niyam~.￺￻我們希望達到一半的餘額。
 ￺sakacipaodo'￻￹`Oni~ `ko~ `ni~`pa'aca~`a~`n~ `ako~ `i~ `Na~`n~`f~`i~ `a~ `odo'~, `oni ko saka~`cipaodo'~ `ira~.￺￻這是我在南非買下的珠寶，因此鑲有瑪瑙。
 ￺sakacipaodo'aw￻￹`Sakacipaodo'~`aw~ `ira~ `to~ `fati~ `ako~.￺￻他想給我的戒指鑲上瑪瑙。
-￺sakacipapah￻￹`Ta~`ini~`ay~ `ko~ `lalood~, `oni ko saka~`cipapah~ `no~ `k~`i~`la~`kilang~.￺￻春天來了，樹木因此長葉子。
+￺sakacipapah￻￹`Ta~`ini~`ay~ `ko~ `lalo'od~, `oni ko saka~`cipapah~ `no~ `k~`i~`la~`kilang~.￺￻春天來了，樹木因此長葉子。
 ￺sakacipapahaw￻￹`Sakacipapah~`aw~ `no~ `kilang~ `ato~ `rengos~.￺￻樹木和青草要長葉子。
 ￺sakaciparo￻￹`O~ `maan~ `ko~ `saka~`ciparo~ `no~ `paetang~ `to~ `nanom~?￺￻桶裡裝有水的原因是什麼？
 ￺sakaciparoaw￻￹`Sakaciparo~`aw~ `ako~ `to~ `safak~ `i~ `faroro~`'~.￺￻我想在背簍裡裝穀粒。
@@ -31917,7 +31917,7 @@
 ￺sakaciremesaw￻
 ￺sakacirengos￻
 ￺sakacirengosaw￻￹`Ta'angayay~ `ko~ `cidal~, `sakacirengos~`aw~ `ako~.￺￻太陽很大，我想戴草帽。
-￺sakacirihaday￻￹`Awaay~ `ko~ `lood~ `itini~, `oya~ `ko~ `saka~`cirihaday~ `niyam~.￺￻我這裡沒有戰爭，因此安逸。
+￺sakacirihaday￻￹`Awaay~ `ko~ `lo'od~ `itini~, `oya~ `ko~ `saka~`cirihaday~ `niyam~.￺￻我這裡沒有戰爭，因此安逸。
 ￺sakacirihadayaw￻￹`Sakacirihaday~`aw~ `niyam~ `to~ `romi'ami'ad~.￺￻我們盼望天天安逸。
 ￺sakaciriko'￻￹`Mangodoen~ `ko~ `tamdaw~, `oya~ `to~ `ko~ `sa~`kaciriko'~ `naira~.￺￻因人有羞恥感，所以穿戴衣服。
 ￺sakaciriko'aw￻￹`Sakaciriko'~`aw~ `ira~ `to~ `kahengangay~.￺￻她想穿紅衣服。
@@ -32143,8 +32143,8 @@
 ￺sakalali'op￻￹`O~ `safon~ `ko~ `saka~`lali'op~ `niyam~.￺￻我們用肥皂洗臉。
 ￺sakalalicay￻￹`O~ `sa~`kalalicay~ `ako~ `ko~ `widang~.￺￻朋友是我聆聽意見的對象。
 ￺sakalalilid￻
-￺sakalalood￻￹`Sa~`kalalood~ `naira~, `mala~`'ada~`ay~ `ca~`nira~.￺￻他們之所以交戰，是因為他們彼此敵視。
-￺sakalaloodsa￻￹`Sakalalood~`sa~ `ko~ `Amirika~ `a~`toya~ `Ta~`r~`ipa~`n~.￺￻美國和塔利班正處在戰爭狀態。
+￺sakalalo'od￻￹`Sa~`kalalo'od~ `naira~, `mala~`'ada~`ay~ `ca~`nira~.￺￻他們之所以交戰，是因為他們彼此敵視。
+￺sakalalo'odsa￻￹`Sakalalo'od~`sa~ `ko~ `Amirika~ `a~`toya~ `Ta~`r~`ipa~`n~.￺￻美國和塔利班正處在戰爭狀態。
 ￺sakalanga￻
 ￺sakalangaen￻
 ￺sakalapo'i￻
@@ -32782,7 +32782,7 @@
 ￺salomaingsa￻￹`O~ `kaadah~ `ho~ `no~ `adada~ `ira~ `sa~`lomaing~`sa~ `ko~ `tireng~ `ira~.￺￻他的病剛好，身體軟弱無力的樣子。
 ￺salonan￻
 ￺salong￻
-￺salongan￻￹`Salong~`a~`n~ `lima~ `a~ `patek~ `koya~ `sufitay~ `no~ `Aping~ `a~ `milood~ `to~ `i~ `Cepo'~`ay~ `a~ `'Amis~.￺￻大約有五千人兵力攻打靜埔地區的阿美族。￹`Salong~`a~`n~ `kiso~ `a~ `ciriko'~ `to~ `riko'~ `no~ `ising~.￺￻你穿醫生白服很有精神。
+￺salongan￻￹`Salong~`a~`n~ `lima~ `a~ `patek~ `koya~ `sufitay~ `no~ `Aping~ `a~ `milo'od~ `to~ `i~ `Cepo'~`ay~ `a~ `'Amis~.￺￻大約有五千人兵力攻打靜埔地區的阿美族。￹`Salong~`a~`n~ `kiso~ `a~ `ciriko'~ `to~ `riko'~ `no~ `ising~.￺￻你穿醫生白服很有精神。
 ￺salonganay￻￹`Salongan~`ay~ `ko~ `ka~`kapahan~ `ira~.￺￻她的漂亮是很標致的。￹`Salongan~`ay~ `a~ `kaying~.￺￻標致的小姐。
 ￺salongasong￻￹`O~ `salong~`so~`ng~ `ko~ `sakalafi~.￺￻晚餐吃海菜。
 ￺salongasongen￻￹`Salongasong~`e~`n~ `ha~`sapakaen~ `to~ `fafoy~.￺￻把海草收集起來準備餵養豬。
@@ -33042,7 +33042,7 @@
 ￺sapakaen￻￹`Sa~`pakaen~ `to~ `kawas~.￺￻供神吃的，供品。￹`O~ `'adidem~ `ko~ `sa~`pakaen~ `to~ `kayko~.￺￻餵蠶用桑葉。￹`Ira~ `ko~ `'asisiw~ `niyam~ `sa~`pakaen~ `to~ `kolong~.￺￻我們有稻草給牛做飼料。
 ￺sapaka^eso'￻￹`sapa~`ka~^`e~`so~`'~ `ko~ `cinah~.￺￻放一點鹽巴增加味道。
 ￺sapaka^eso'an￻￹`Sapa~`ka~^`e~`so~`'~`a~`n~ `koni~ `a~ `titi~ `a~ `kaenen~.￺￻這個肉吃起來可口的樣子。
-￺sapakalowid￻￹`Sapa~`ka~`lowid~ `a~ `milood~ `to~ `'ada~.￺￻能抵抗打勝敵人的方法。
+￺sapakalowid￻￹`Sapa~`ka~`lowid~ `a~ `milo'od~ `to~ `'ada~.￺￻能抵抗打勝敵人的方法。
 ￺sapakaolah￻￹`Sa~`pakaolah~ `to~ `i~`loma'~`ay~ `a~ `tamdaw~.￺￻饋贈家人的禮物。
 ￺sapakimad￻￹`Nga'ayay~ `to~ `ko~ `sa~`pakimad~ `ira~.￺￻他的講稿很好。
 ￺sapakipat￻
@@ -34146,7 +34146,7 @@
 ￺sapikarkar￻￹`Sapi~`karkar~ `to~ `kali~.￺￻挖溝的工具。
 ￺sapikarkaraw￻￹`Sapikarkar~`aw~ `no~ `wawa~ `to~ `konga~.￺￻孩子想挖蕃薯。
 ￺sapikarong￻￹`Adihay~ `to~ `ko~ `sa~`pikarong~ `anini~.￺￻現在傳訊手段很多的。￹`Sa~`pikarong~ `a~ `kikay~.￺￻傳遞訊息的機器。
-￺sapikarongaw￻￹`Sapikarong~`aw~ `ako~ `tora~ `kapah~.￺￻我想給年輕人教信。￹`Sapikarong~`aw~ `ira~ `to~ `kalaloodan~ `a~ `demak~.￺￻他想傳戰況。
+￺sapikarongaw￻￹`Sapikarong~`aw~ `ako~ `tora~ `kapah~.￺￻我想給年輕人教信。￹`Sapikarong~`aw~ `ira~ `to~ `kalalo'odan~ `a~ `demak~.￺￻他想傳戰況。
 ￺sapikarot￻
 ￺sapikarotaw￻
 ￺sapikasoy￻￹`Iraay~ `ko~ `sa~`pikasoy~ `ako~ `a~ `f~u`n~u`s~.￺￻我有砍柴刀了。
@@ -34654,8 +34654,8 @@
 ￺sapilonokaw￻
 ￺sapilonol￻
 ￺sapilonolaw￻
-￺sapilood￻￹`Sapi~`lood~ `a~ `tamina~.￺￻戰艦。￹`misafaloco'~ `to~ `sapi~`lood~.￺￻研究打仗的策略。
-￺sapiloodaw￻￹`Sapilood~`aw~ `no~ `Amirika~ `to~ `A~`f~`o~`han~.￺￻美國想攻打阿富汗。
+￺sapilo'od￻￹`Sapi~`lo'od~ `a~ `tamina~.￺￻戰艦。￹`misafaloco'~ `to~ `sapi~`lo'od~.￺￻研究打仗的策略。
+￺sapilo'odaw￻￹`Sapilo'od~`aw~ `no~ `Amirika~ `to~ `A~`f~`o~`han~.￺￻美國想攻打阿富汗。
 ￺sapilosid￻￹`O~ `makapahay~ `a~ `riko'~ `ko~ `sa~`pilosid~ `ira~.￺￻他以漂亮的衣服裝飾自己。
 ￺sapilosidaw￻￹`Sapilosid~`aw~ `ako~ `to~ `kafuti'~`a~`n~ `ako~ `a~ `loma'~.￺￻我想美化我的臥室。
 ￺sapilosimet￻￹`Sa~`pilosimet~ `to~ `laloma'~.￺￻收拾屋裡的工具。
@@ -35627,7 +35627,7 @@
 ￺sapirangi￻￹`Sapi~`rangi~ `to~ `sasing~.￺￻仿製相片用的。￹`Sapi~`rangi~ `kikay~.￺￻仿真機。
 ￺sapirangiaw￻￹`Sapirangi~`aw~ `ira~ `to~ `demak~ `ako~.￺￻他想模仿我的行為。
 ￺sapiraod￻￹`O~ `maan~ `ko~ `sa~`piraod~ `kami~`ana~`n~?￺￻通過什麼接近我們？
-￺sapiraodaw￻￹`Sapiraod~`aw~ `ako~ `tora~ `kalaloodan~.￺￻我想靠近那個戰場。
+￺sapiraodaw￻￹`Sapiraod~`aw~ `ako~ `tora~ `kalalo'odan~.￺￻我想靠近那個戰場。
 ￺sapirapot￻￹`Sa~`pirapot~ `a~ `kowang~.￺￻瞄準目標的槍。￹`O~ `f~`oy~`ta~`n~ `ko~ `sa~`pirapot~ `ca~`nira~`a~`n~.￺￻用飛彈對準他們。
 ￺sapirapotaw￻￹`Sapirapot~`aw~ `ako~ `tora~ `fafoy~ `a~ `ni~`pana'~.￺￻我想瞄準野豬射箭。
 ￺sapirarakat￻￹`O~ `tosiya~ `ko~ `sa~`pirarakat~ `ira~.￺￻他用汽車遊行。
@@ -35809,7 +35809,7 @@
 ￺sapisa'onoc￻￹`Sapi~`sa'onoc~ `a~ `'aol~.￺￻做扁擔用的竹子。
 ￺sapisa'onocaw￻￹`Sapisa'onoc~`aw~ `ako~ `to~ `'aol~.￺￻我想做竹扁擔。
 ￺sapisa'opo￻￹`O~ `la~`p~`pa~ `ko~ `sapi~`sa'opo~ `niyam~ `to~ `ka~`e~`ma~`ng~`ay~.￺￻我們用廣播器召集青少年。
-￺sapisa'opoaw￻￹`Sapisa'opo~`aw~ `niyam~ `to~ `so~`fitay~ `a~ `lalooden~.￺￻我們想召集要打仗的兵士。
+￺sapisa'opoaw￻￹`Sapisa'opo~`aw~ `niyam~ `to~ `so~`fitay~ `a~ `lalo'oden~.￺￻我們想召集要打仗的兵士。
 ￺sapisa'orad￻￹`Sa~`pisa'orad~ `a~ `e~`x~`i~`w~.￺￻祈求下雨用的香火。
 ￺sapisa'oradaw￻￹`Sapisa'orad~`aw~ `nikaw~`as~`ay~ `itira~.￺￻巫師想在那裡求雨。
 ￺sapisa'osi￻￹`Sapi~`sa'osi~ `a~ `kikay~.￺￻計算器。￹`Sa~`pisa~`'osi to~ `tilid~.￺￻朗讀用的（工具）。
@@ -35988,7 +35988,7 @@
 ￺sapisahakhak￻￹`Sa~`pisahakhak~ `a~ `'odax~.￺￻做糯米糕用的糖。
 ￺sapisahakhakaw￻￹`Sapisahakhak~`aw~ `naira~ `toya~ `kiloma'an~.￺￻他們想在收割節裡做糯米糕。
 ￺sapisahalafin￻￹`Sapi~`sahalafin~ `to~ `demak~.￺￻持久做事的方式。￹`Sapi~`sahalafin~ `to~ `demak~.￺￻使工作持久的方法。
-￺sapisahalafinaw￻￹`Sapisahalafin~`aw~ `ako~ `a~ `mitilid~ `to~ `no~ `'Amis~ `a~ `sowal~.￺￻我想堅持學習阿美族語言。￹`Sapisahalafin~`aw~ `ako~ `a~ `mitilid~ `to~ `no~ `'Amis~ `a~ `sowal~.￺￻我想用久一點的時間學阿美語。￹`Sapisahalafin~`aw~ `niyam~ `a~ `milood~.￺￻我們想打持久戰。
+￺sapisahalafinaw￻￹`Sapisahalafin~`aw~ `ako~ `a~ `mitilid~ `to~ `no~ `'Amis~ `a~ `sowal~.￺￻我想堅持學習阿美族語言。￹`Sapisahalafin~`aw~ `ako~ `a~ `mitilid~ `to~ `no~ `'Amis~ `a~ `sowal~.￺￻我想用久一點的時間學阿美語。￹`Sapisahalafin~`aw~ `niyam~ `a~ `milo'od~.￺￻我們想打持久戰。
 ￺sapisahalaka￻￹`Sa~`pisahalaka~ `a~ `kikay~.￺￻事前備用的機器。
 ￺sapisahalakaaw￻￹`Sapisahalaka~`aw~ `ako~ `a~ `taira~.￺￻我想按計劃去。
 ￺sapisahalifet￻￹`O~ `maan~ `ko~ `sapi~`sahalifet~ `iso~ `saw~?￺￻你用什麼發力呢？
@@ -38278,7 +38278,7 @@
 ￺tadakalolayan￻￹`O~ `tada~`kalolayan~ `ko~ `demak~ `ako~.￺￻我的工作非常辛苦。
 ￺tadakolongay￻
 ￺tadalaloma'￻
-￺tadamaan￻￹`Tada~`maan~ `ko~ `kaolah~ `no~ `kawas~.￺￻神明的關愛是偉大的。￹`Tada~`maan~ `ko~ `fana'~ `ni~ `Saw~`ra~`m~ `to~ `co~`da~`d~.￺￻`Saw~`ra~`m~（沙拉姆）的知識淵博。￹`Tada~`maan~ `ko~ `kapah~ `no~ `A~`mi~`s~ `milood~.￺￻阿美族的小夥子打仗很勇敢。
+￺tadamaan￻￹`Tada~`maan~ `ko~ `kaolah~ `no~ `kawas~.￺￻神明的關愛是偉大的。￹`Tada~`maan~ `ko~ `fana'~ `ni~ `Saw~`ra~`m~ `to~ `co~`da~`d~.￺￻`Saw~`ra~`m~（沙拉姆）的知識淵博。￹`Tada~`maan~ `ko~ `kapah~ `no~ `A~`mi~`s~ `milo'od~.￺￻阿美族的小夥子打仗很勇敢。
 ￺tadamaanay￻￹`Tadamaan~`ay~ `ko~ `ngangan~ `ningra~.￺￻他的聲明卓著。￹`Tadamaan~`ay~ `ko~ `t~`e~`d~`i~ `no~ `cidal~.￺￻太陽的光芒多麼壯麗了。￹`Tadamaan~`ay~ `ko~ `pi~`patahka~ `niyam~.￺￻我們的會宴盛況空前。￹`O~ `tadamaan~`ay~ `a~ `tamdaw~ `kiso~.￺￻你是了不起的人。￹`Tadamaan~`ay~ `a~ `demak~.￺￻偉大的事業。￹`Tadamaan~`ay~ `a~ `romi'ad~.￺￻莊嚴的日子。
 ￺tadamafana'ay￻￹`Tada~`mafana'ay~ `cingra~ `to~ `no~ `'Amis~ `a~ `sowal~.￺￻他非常精通阿美語。￹`Tada~`mafana'ay~ `a~ `malitengay~.￺￻非常聰明的老人。
 ￺tadanca￻￹￺￻(否定詞的最高級)`Tada~`n~`ca~ `ko~ `faloco'~ `niyam~.我們的心太軟弱。￹`Tada~`n~`ca~ `to~ `ko~ `tireng~ `ni~ `ina~.￺￻媽媽的身體很虛弱了。￹`Tada~`n~`ca~ `ko~ `tayal~ `ako~, `ca~ `pakafilo~ `kako~ `toni~ `a~ `demak~.￺￻我的能力差，難以勝任這項工作。
@@ -38309,7 +38309,7 @@
 ￺tadi￻￹￺￻`tadipangpang~ 蝴蝶，同`'adipangpang~。￹￺￻`tadipana'~ 海膽，毛蟲。￹￺￻`tadikangkang~ 仰翻，向上翻起來。￹￺￻`Tadipohaw~ 朦朦朧朧。
 ￺tadi'ec￻
 ￺tadi'ecan￻￹`O~ `cima~ `ko~ `ma~^`e~`denga~`y~ `a~ `tadi'ec~`a~`n~ `iso~ `anini~?￺￻你現在能夠依靠誰？
-￺tadi'ecen￻￹`Itiyaho~ `ta~`di'ecen~ `niyam~ `ko~ `Kawas~ `a~ `milood~.￺￻過去，我們打仗必須依賴神明。
+￺tadi'ecen￻￹`Itiyaho~ `ta~`di'ecen~ `niyam~ `ko~ `Kawas~ `a~ `milo'od~.￺￻過去，我們打仗必須依賴神明。
 ￺tadifaso￻￹`Mihawikid~ `to~ `tadi~`faso~ `a~ `mi~`f~`o~`t~`i~`ng~.￺￻捕撈魚要攜帶漁具筐。
 ￺tadifasoen￻￹`Tadifaso~`e~`n~ `ko~ `futing~.￺￻用漁筐捕魚。
 ￺tadihang￻
@@ -39364,7 +39364,7 @@
 ￺tatomadawen￻￹`Ta~`tomadawen~ `no~ `kakeridan~ `ko~ `midemakan~ `niyam~.￺￻領導即將檢查我們的工作情況。￹`Ta~`tomadawen~ `a~ `demak~.￺￻要被檢查的工作。
 ￺tatomesen￻￹`Ta~`tomesen~ `no~ `wawa~ `ko~ `nanom~ `i~ `wakong~.￺￻孩子要把水灌滿大碗裡。￹`Ta~`tomesen~ `a~ `felac~.￺￻要放滿大米。
 ￺tatomtomen￻￹`Ta~`tomtomen~ `ako~ `kora~ `safak~ `no~ `panay~.￺￻我要補舂那稻穀。￹`Ta~`tomtomen~ `a~ `panay~.￺￻要補舂的稻子。
-￺tatoneken￻￹`O~ `ta~`toneken~ `naira~ `ko~ `pi~`lood~`a~`n~ `to~ `'ada~.￺￻他們要制訂征服敵人的計劃。￹`Ta~`toneken~ `a~ `sowal~.￺￻要約定的規則。
+￺tatoneken￻￹`O~ `ta~`toneken~ `naira~ `ko~ `pi~`lo'od~`a~`n~ `to~ `'ada~.￺￻他們要制訂征服敵人的計劃。￹`Ta~`toneken~ `a~ `sowal~.￺￻要約定的規則。
 ￺tatonelen￻￹`O~ `ta~`tonelen~ `kora~ `tafedo'~.￺￻要把那些菜心用開水煮燙一下。￹`Ta~`tonelen~ `a~ `dateng~.￺￻要燙一下的青菜。
 ￺tatongalen￻￹`Ta~`tongalen~ `a~ `kasoy~.￺￻要添加的柴火。
 ￺tatonganganen￻￹`Ta~`tonganganen~ `ira~ `kako~.￺￻他要詆誹我。￹`O~ `ta~`tonganganen~ `a~ `tamdaw~.￺￻要詆誹的對象。
@@ -39490,7 +39490,7 @@
 ￺tefoy￻
 ￺teka￻
 ￺tekaan￻
-￺tekaen￻￹`Teka~`e~`n~ `ko~ `laloodan~.￺￻開闢戰場吧。
+￺tekaen￻￹`Teka~`e~`n~ `ko~ `lalo'odan~.￺￻開闢戰場吧。
 ￺tekal￻
 ￺tekang￻
 ￺tekateka￻￹`Teka~`teka~ `aca~ `ci~`nira~ `a~ `dademak~, `caay~ `sa~ `ka~ `paka~`l~`e~`heci~.￺￻他又重做起一直没完成工作。
@@ -40129,7 +40129,7 @@
 ￺tomiyac￻
 ￺tomiyacay￻
 ￺tomokol￻
-￺tomokolay￻￹`Maraod~ `to~ `ko~ `la~`o~`o~`d~（`lalood~）, `tomokol~`ay~ `ko~ `sapaloma~.￺￻春天到了，種子發芽了。￹`Tomokol~`ay~ `a~ `ca'ang~.￺￻發芽的枝椏。
+￺tomokolay￻￹`Maraod~ `to~ `ko~ `la~`o~`o~`d~（`lalo'od~）, `tomokol~`ay~ `ko~ `sapaloma~.￺￻春天到了，種子發芽了。￹`Tomokol~`ay~ `a~ `ca'ang~.￺￻發芽的枝椏。
 ￺tomos￻
 ￺tomtom￻
 ￺tomtomen￻￹`Tomtom~`e~`n~ `ko~ `safak~.￺￻把穀子舂一舂。

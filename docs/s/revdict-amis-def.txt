@@ -5964,8 +5964,8 @@
 ￺kalaliyaw￻黃，黃色。
 ￺kalaliyaway￻黃，黃色。指黃的，黃色的。
 ￺kalalok￻勤奮的，努力的，認真的。（表促使、命令）必須勤奮、努力。
-￺kalalood￻交戰的（戰況）。（表促使、命令）彼此打仗吧。
-￺kalaloodan￻戰場，戰爭時期。指秋天，夏季。
+￺kalalo'od￻交戰的（戰況）。（表促使、命令）彼此打仗吧。
+￺kalalo'odan￻戰場，戰爭時期。指秋天，夏季。
 ￺kalalotoman￻（困寒冷而起的）雞皮疙瘩。
 ￺kalamkam￻勤快，手腳動作快。
 ￺kalamkamay￻勤快。指勤快的、手腳麻利的。
@@ -7936,9 +7936,9 @@
 ￺lalongeden￻要點燃，要點燃的（東西，如火把）。
 ￺lalonohen￻要脫毛、褪毛，要脫毛、褪毛的（對象）。
 ￺lalonolen￻即將趕上、及時做，即將趕上、及時做的（對象）。
-￺laloodan￻夏天。戰爭時期。
-￺lalood￻交戰，彼此相互攻擊。
-￺lalooden￻〔疊〕即將討伐、進攻，即將討伐的（對象）。
+￺lalo'odan￻夏天。戰爭時期。
+￺lalo'od￻交戰，彼此相互攻擊。
+￺lalo'oden￻〔疊〕即將討伐、進攻，即將討伐的（對象）。
 ￺lalopela'￻一種地衣名稱。可食用。
 ￺lalosida'en￻即將並肩並立，即將並肩並立的（對象）。
 ￺lalosidan￻行李，日常用品。
@@ -8512,8 +8512,8 @@
 ￺lonolen￻緊接著把某事做好。
 ￺lonolhan￻就緊接著把某做了，就把事做好了。
 ￺lo'od￻公牛壯碩的頸背。
-￺lood￻戰爭，打仗，攻擊，攻伐。
-￺looden￻對某某實施征伐、攻擊。
+￺lo'od￻戰爭，打仗，攻擊，攻伐。
+￺lo'oden￻對某某實施征伐、攻擊。
 ￺looh￻香蕉樹，香蕉樹斡。
 ￺loohloohan￻香蕉園。
 ￺lopas￻桃子，桃子樹。
@@ -10700,8 +10700,8 @@
 ￺malalodisay￻事先準備好了，布置好了，籌備停當了。指事先準備的（對象）。
 ￺malalok￻認真，勤奮，努力。
 ￺malalokay￻認真起來，勤奮起來。指認真、勤奮的（人）。
-￺malalood￻彼此攻伐，交戰，戰鬥。
-￺malalooday￻雙方處於戰爭狀態，交戰起來。指交戰的（對象）。
+￺malalo'od￻彼此攻伐，交戰，戰鬥。
+￺malalo'oday￻雙方處於戰爭狀態，交戰起來。指交戰的（對象）。
 ￺malalosid￻當做日常用品、裝飾品。
 ￺malalosiday￻當做日常用品了。指可當日常用品的（東西）。
 ￺malamihidhiday￻指導者，引導者。
@@ -11136,8 +11136,8 @@
 ￺malonokay￻在自覺做事了，默默耕耘著。指自覺做事的人。
 ￺malonol￻工作及時趕上、供上。
 ￺malonolay￻工作及時趕上、供上了。指及時供應他人使用的（工作）。
-￺malood￻被打敗，輸了。
-￺malooday￻被打敗了，輸了。指被打敗的（對象），輸方。
+￺malo'od￻被打敗，輸了。
+￺malo'oday￻被打敗了，輸了。指被打敗的（對象），輸方。
 ￺malopisak￻遍地開花，撒落各地，四處散落。
 ￺malopisakay￻遍地開花了，撒落各地了。指四處散落的（東西）。
 ￺maloriko'￻可做衣服，有製造衣服用途。
@@ -14376,7 +14376,7 @@
 ￺matedi'￻照射，發光。
 ￺matedi'ay￻照耀著，發光著。指發光、照耀的（東西）。
 ￺mateked￻獨自，獨佔，自私。獨自承受、承當。
-￺matekop￻全軍覆沒、滅亡、毀滅。`Ana~`ma~`tekop~ `ko~ `niyaro'~ `no~ `cepo'~`i~ `kalaloodan~ `no~ `Cepo'~.在大港口戰爭中`cepo'~部落幾乎被毀滅。滅亡、毀滅。
+￺matekop￻全軍覆沒、滅亡、毀滅。`Ana~`ma~`tekop~ `ko~ `niyaro'~ `no~ `cepo'~`i~ `kalalo'odan~ `no~ `Cepo'~.在大港口戰爭中`cepo'~部落幾乎被毀滅。滅亡、毀滅。
 ￺matektek￻被拍打、拍擊。
 ￺matektekay￻啪啪啪地被拍打起來了。指被拍打的（東西）。
 ￺matelang￻舊，古老、陳舊。舊，陳舊。
@@ -17388,9 +17388,9 @@
 ￺milonol￻及時供應、供給。一開始做事就一直做到底。
 ￺milonolan￻及時把…供應了、供給了。`Milonol~`a~`n~ `ko~ `na~`nanom~`e~`n~ `namo~.已供應上你們的飲水了。指及時供應的、供給的（東西）。
 ￺milonolay￻及時供應、供給了。指及時供應、供給東西的人。
-￺milood￻打仗，征討，討伐。
-￺miloodan￻把…征討了、討伐了。指所征討的、討伐的（對象）。
-￺milooday￻在征討著，討伐著。指征討者，討伐者。
+￺milo'od￻打仗，征討，討伐。
+￺milo'odan￻把…征討了、討伐了。指所征討的、討伐的（對象）。
+￺milo'oday￻在征討著，討伐著。指征討者，討伐者。
 ￺milosida'￻使之並肩，並立，並行，並排。
 ￺milosid￻裝飾、打扮服飾。
 ￺milosidan￻用裝飾品把…打扮了。指所裝飾的、打扮的（物件）。
@@ -22018,7 +22018,7 @@
 ￺nakilangan￻部落名稱，今台灣花蓮縣鳳林鄉地區。
 ￺nakodasingan￻種植過花生的園地。
 ￺nalacolan￻故居，遺址，舊社。
-￺nalaloodan￻經歷戰爭的地方，古戰場，舊戰場。
+￺nalalo'odan￻經歷戰爭的地方，古戰場，舊戰場。
 ￺nalameloan￻種植過小米的地方。
 ￺nalaplapan￻驅趕、趕走之後。
 ￺nalemedan￻夢中所經歷，夢兆。
@@ -28182,8 +28182,8 @@
 ￺pilali'opan￻盥洗、洗臉的地點、時間、盥洗室、洗手間。
 ￺pilaliw￻請逃離、滾開。逃離的、滾開的。
 ￺pilaliwan￻逃離的地點、時間。
-￺pilalood￻發動戰爭吧。發動戰爭的。
-￺pilaloodan￻打仗的地方、時間。
+￺pilalo'od￻發動戰爭吧。發動戰爭的。
+￺pilalo'odan￻打仗的地方、時間。
 ￺pilanang￻去騷擾、干擾吧。騷擾的、干擾的。
 ￺pilanangan￻騷擾、干擾的地點、時間。
 ￺pilaoc￻請聚眾守衛。聚衆守衛的。
@@ -32143,8 +32143,8 @@
 ￺sakalali'op￻盥洗的用具。
 ￺sakalalicay￻論戰答辯的物件、原因，討論的對象。
 ￺sakalalilid￻一起擡東西的物件、原因。
-￺sakalalood￻交戰的物件、原因。
-￺sakalaloodsa￻處於交戰狀態。
+￺sakalalo'od￻交戰的物件、原因。
+￺sakalalo'odsa￻處於交戰狀態。
 ￺sakalanga￻做支架、三腳架。
 ￺sakalangaen￻把…做支架、三腳架、做支架、三腳架吧！
 ￺sakalapo'i￻互相謾駡吵架的對手、原因。
@@ -34654,8 +34654,8 @@
 ￺sapilonokaw￻想自覺做、想默默耕耘。
 ￺sapilonol￻及時供應某物使用的器具。
 ￺sapilonolaw￻想及時供應。想及時不拖延。
-￺sapilood￻打仗、征戰使用的器具、武器、戰略、戰術。
-￺sapiloodaw￻想打仗、征戰。
+￺sapilo'od￻打仗、征戰使用的器具、武器、戰略、戰術。
+￺sapilo'odaw￻想打仗、征戰。
 ￺sapilosid￻打扮、裝飾的用具。
 ￺sapilosidaw￻想打扮、裝飾。
 ￺sapilosimet￻整理、收拾東西的用具。
