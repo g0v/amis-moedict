@@ -22,6 +22,12 @@ export default class Nav extends React.Component { render() {
                     <span className="hidden-xs">字詞紀錄簿</span>
                 </a>
             </li>
+            <li id="new-site" title="體驗新版">
+                <a href="https://new-amis.moedict.tw/" target="_blank" style={{ paddingLeft: "5px", paddingRight: "5px" }}>
+                    <i className="icon-hand-right" style={{ display: "inline" }} />
+                    <span>體驗新版</span>
+                </a>
+            </li>
             <li className="resize-btn app-only" style={{
                 position: "absolute", top: "2px", left: "8em", padding: "3px"
             }}>

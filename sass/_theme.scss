@@ -539,6 +539,13 @@ body.lang-a.web #lookback {
     }
 }
 
+// 體驗新版按鈕
+@media only screen and (max-width: 767px) {
+  .nav > li {
+    float: left;
+  }
+}
+
 // 字詞紀錄簿按鈕
 @media only screen and (max-width: 767px) {
     body #btn-starred {

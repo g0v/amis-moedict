@@ -13,6 +13,22 @@
       return false;
     }
   };
+  $('body').on('click', '#new-site a', function(){
+    var hash = window.location.hash,
+        match = hash.match(/[#][!|:|~]('?[\w]+)/);
+
+        console.log(hash);
+        console.log('https://new-amis.moedict.tw/terms/' + match[1]);
+
+
+    if (match) {
+      window.open('https://new-amis.moedict.tw/terms/' + match[1]);
+    } else {
+      window.open('https://new-amis.moedict.tw/');
+    }
+
+    return false;
+  });
   ref$ = React.DOM, p = ref$.p, i = ref$.i, a = ref$.a, b = ref$.b, form = ref$.form, h1 = ref$.h1, div = ref$.div, main = ref$.main, span = ref$.span, br = ref$.br, h3 = ref$.h3, h4 = ref$.h4, button = ref$.button, label = ref$.label, table = ref$.table, nav = ref$.nav, tr = ref$.tr, td = ref$.td, th = ref$.th, input = ref$.input, hr = ref$.hr, meta = ref$.meta, ul = ref$.ul, ol = ref$.ol, li = ref$.li, small = ref$.small;
   ref$ = require('prelude-ls'), any = ref$.any, map = ref$.map;
   createClass = compose$(React.createClass, React.createFactory);
