@@ -13,20 +13,20 @@ deps ::
 
 js/deps.js ::
 	gulp webpack:build
-	cp js/deps.js amis-deploy/js
-	cp styles.css amis-deploy/
+	cp js/deps.js docs/js
+	cp styles.css docs/
 
 manifest :: js/deps.js
 	ruby -e 'filepath=ARGV[0];IO.write(filepath, File.open(filepath) {|f| f.read.gsub(/# 20.*\n/, "# #{Time.now.to_s}\n")})' -i manifest.appcache
-	ruby -e 'filepath=ARGV[0];IO.write(filepath, File.open(filepath) {|f| f.read.gsub(/# 20.*\n/, "# #{Time.now.to_s}\n")})' -i amis-deploy/manifest.appcache
+	ruby -e 'filepath=ARGV[0];IO.write(filepath, File.open(filepath) {|f| f.read.gsub(/# 20.*\n/, "# #{Time.now.to_s}\n")})' -i docs/manifest.appcache
 
 amis-static:
-	cp -r styles.css icon.png 2017-Amis-Logo.png *.html js css images fonts p m s dict-amis*.json amis-deploy/
-	cp ../amis-safolu/txt/amis-ch-mapping.json amis-deploy/s/ch-mapping.json
-	cp ../amis-safolu/tmp/amis-stem-words.json amis-deploy/s/stem-words.json
+	cp -r styles.css icon.png 2017-Amis-Logo.png *.html js css images fonts p m s dict-amis*.json docs/
+	cp ../amis-safolu/txt/amis-ch-mapping.json docs/s/ch-mapping.json
+	cp ../amis-safolu/tmp/amis-stem-words.json docs/s/stem-words.json
 
 amis:
-	cp -r amis-deploy/images amis-deploy/fonts amis-deploy/p amis-deploy/m amis-deploy/s .
+	cp -r docs/images docs/fonts docs/p docs/m docs/s .
 
 amis-build :: amis-fey amis-poinsot amis-safolu
 
