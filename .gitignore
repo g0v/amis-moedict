@@ -5,6 +5,13 @@
 *.swp
 *.swo
 
+# ignore docker consistant data
+/.docker-sync/**
+
+# ignore node
+node_modules/
+npm-debug.log
+
 /m
 /p
 /s
@@ -13,8 +20,6 @@ m.txt
 p.txt
 s.txt
 ios/MoeDict.xcodeproj/project.xcworkspace/xcuserdata
-node_modules/
-npm-debug.log
 lenToRegex.*.json
 prefix.json
 /dict-amis-mp.json

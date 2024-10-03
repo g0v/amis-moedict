@@ -38,7 +38,7 @@
   gulp.task('webpack:dev', function(){
     process.env.NODE_ENV = 'development';
     process.argv = split$.call(process.argv, 'dev');
-    process.argv = process.argv.concat(['--hot', '--port', '8888']);
+    process.argv = process.argv.concat(['--hot', '--port', '8888', '--host', '0.0.0.0']);
     return require('./node_modules/webpack-dev-server/bin/webpack-dev-server.js');
   });
   gulp.task('default', gulp.series('sass'));
