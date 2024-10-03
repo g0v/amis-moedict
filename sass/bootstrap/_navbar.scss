@@ -1,3 +1,5 @@
+@use "sass:color";
+@use "sass:math";
 //
 // Navbars
 // --------------------------------------------------
@@ -216,7 +218,7 @@
 // the nav the full height of the horizontal nav (above 768px).
 
 .navbar-nav {
-  margin: ($navbar-padding-vertical / 2) (-$navbar-padding-horizontal);
+  margin: math.div($navbar-padding-vertical, 2) (-$navbar-padding-horizontal);
 
   > li > a {
     padding-top:    10px;
@@ -308,7 +310,9 @@
   }
 
   // Vertically center in expanded, horizontal navbar
-  @include navbar-vertical-align($input-height-base);
+  & {
+    @include navbar-vertical-align($input-height-base);
+  }
 
   // Undo 100% width for pull classes
   @media (min-width: $grid-float-breakpoint) {
@@ -573,7 +577,7 @@
 
   .navbar-collapse,
   .navbar-form {
-    border-color: darken($navbar-inverse-bg, 7%);
+    border-color: color.adjust($navbar-inverse-bg, $lightness: -7%);
   }
 
   // Dropdowns
