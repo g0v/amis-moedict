@@ -1,0 +1,19 @@
+volumes:
+  amis-v1-app-sync: { external: true }
+  config: { driver: local }
+services:
+  app:
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - ${WEB_PORT}:${WEB_PORT}
+    volumes:
+      # - /etc/localtime:/etc/localtime:ro
+      - amis-v1-app-sync:/srv/web:nocopy
+      - config:/config
+    networks:
+      default:
+        aliases:
+          - amis-v1
