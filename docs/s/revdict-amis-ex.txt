@@ -15138,7 +15138,7 @@
 ￺mianakex￻￹`Cowa~ `ka~`'em'emen~ `ako~ `ko~ `adada~ , `mi~`anakex~ `kako~.￺￻我忍不住疼痛，我要喊“啊喲”了。
 ￺mianakexan￻
 ￺mianakexay￻
-￺mianapal￻￹`Mi~`anapal~ `kami~ `to~ `a~`d~á.￺￻我們去埋伏迎戰敵人。￹`Mi~`anapal~ `kami~ `to~ `ada~`'~.￺￻我們去埋伏迎戰敵人。
+￺mianapal￻￹`Mi~`anapal~ `kami~ `to~ `a~`d~a.￺￻我們去埋伏迎戰敵人。￹`Mi~`anapal~ `kami~ `to~ `ada~`'~.￺￻我們去埋伏迎戰敵人。
 ￺miangi￻￹`Kowangen~ `no~ `sufitay~ `a~ `mi~`a~`ng~`i~ `ko~ `'ada~.￺￻士兵放槍嚇唬敵人。
 ￺miangian￻
 ￺miangiay￻￹`Miangi~`ay~ `cingra~ `to~ `kaying~.￺￻他在嚇唬小姐。
@@ -40185,7 +40185,7 @@
 ￺topi￻
 ￺topida'￻
 ￺topida'en￻￹`Topida'~`e~`n~ `ira~ `ko~ `sota'~ `i~ `tatirengan~ `ako~.￺￻他把污泥濺在我身上。
-￺topidápida'han￻￹`Topi~`d~á`pida~`'~`han~ `no~ `tao~ `ko~ `laway~ `ningra~.￺￻人往他臉上連吐唾沫。
+￺topidapida'han￻￹`Topi~`d~a`pida~`'~`han~ `no~ `tao~ `ko~ `laway~ `ningra~.￺￻人往他臉上連吐唾沫。
 ￺topin￻
 ￺topinen￻￹`Topin~`e~`n~ `koya~ `ma~`'~`adang~`ay~ `a~ `tamdaw~.￺￻要加重處罰那個違法亂紀的人。
 ￺topli'￻
