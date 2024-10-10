@@ -106,6 +106,9 @@ if __name__ == '__main__':
     generate_stem_tags()
 
     for fn in fnx:
+        if not fn.endswith('.json'):
+            print('* Skip', fn)
+            continue
         try:
             pro = json.load(open(fn))
         except FileNotFoundError:
