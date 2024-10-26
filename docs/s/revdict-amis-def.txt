@@ -10221,8 +10221,7 @@
 ￺maki'ading￻被遮擋，被隱蔽，被掩護。
 ￺maki'adingay￻被遮擋了，被隱蔽了，被掩護了。
 ￺makiara'aw￻被認為無聊。
-￺makiara'away￻被認為無所事事了。
-￺maki'ayaw￻被搶先，被超過去。
+￺￺maki'ayaw￻被搶先，被超過去。
 ￺maki'ayaway￻被搶先了，被超過去了。指被搶先、超越的（對象）。
 ￺maki'orad￻被雨淋，雨中淋。
 ￺maki'oraday￻被雨淋了，在雨中淋濕。指被雨淋濕的（對象）。
@@ -10358,11 +10357,9 @@
 ￺makolepetay￻長腳癬了，因梅雨天腳趾糜爛了或長著雨蟲了。指長腳癬或雨蟲的（對象）。
 ￺makoli￻瘦，消瘦。
 ￺makoliay￻ 瘦的，消瘦的。瘦的人，消瘦者。
-￺makoli'ong￻小鹿。
-￺makoliyol￻繞行，繞彎，拐彎抹角。
+￺￺makoliyol￻繞行，繞彎，拐彎抹角。
 ￺makoliyolay￻繞行了，繞彎了，拐彎抹角了。指繞行、繞彎的（對象），或拐彎抹角的（地方）。
-￺makoliyong￻小鹿。
-￺makoledot￻起皺紋。
+￺￺makoledot￻起皺紋。
 ￺makolemi￻（樹皮）皺巴巴的，凹凸，乾癟，萎縮。
 ￺makolemiay￻（樹皮）皺巴巴的了，凹凸了，乾癟了，萎縮了。指皺巴巴的、乾癟的（樹木等）。
 ￺makomod￻被統治、統轄，受統治、統轄。
@@ -14837,8 +14834,7 @@
 ￺mi'afofoay￻懷抱著，抱在腿上了。指懷抱者。
 ￺mi'alad￻阻擋，阻攔，攔住。去阻擋、攔住。
 ￺mi'aladan￻把…阻擋了、阻攔了。`Mi'alad~`a~`n~`ira~ `ko~ `comikayay~ `a~ `'efa~.他把跑著的馬攔住了。指所阻擋的、阻攔的（對象）。
-￺mi'aladay￻阻擋著，阻攔著。指阻擋者，阻攔者。
-￺mi'alafang￻用手抱著扛在肩上。
+￺￺mi'alafang￻用手抱著扛在肩上。
 ￺mi'alafangan￻把…扛在肩上了。指扛在肩上的（東西）。
 ￺mi'alafangay￻扛在肩上了，扛著。指肩扛東西的人。
 ￺mi'alang￻嫌棄，排斥，阻止。
@@ -21009,8 +21005,7 @@
 ￺misomad￻改變，翻譯。`no~ `kaping~ `p~`asi~`no~`'amis~.漢語翻成阿美族語。`tona~ `tilid~.這文章沒有可修改的。
 ￺misongalad￻狙擊。
 ￺misongaladan￻把…狙擊了。指所狙擊的（物件）。
-￺misongaladay￻正在狙擊了。指狙擊者，狙擊手。
-￺misongila'￻加工，修飾，使之更加完善。
+￺￺misongila'￻加工，修飾，使之更加完善。
 ￺misongila'an￻把…加工了、修飾了、使之更完善了。指加工、修飾的（物件、東西）。
 ￺misongila'ay￻正在加工、修飾了。指加工者，修飾者。
 ￺misolinga'￻加工，修飾，使之更完善。

@@ -10221,8 +10221,7 @@
 ￺maki'ading￻
 ￺maki'adingay￻￹`Maki'ading~`ay~ `no~ `wawa~ `i~ `kaikor~ `no~ `kilang~.￺￻孩子被隱藏在樹後頭了。
 ￺makiara'aw￻￹`M~`aki~`a~`ra~`'~`aw~ `kona~ `demak~.￺￻這件事很無聊。
-￺makiara'away￻￹`Makiara'aw~`ay~ `a~ `romi'ad~.￺￻無所事事的一天。
-￺maki'ayaw￻￹`Ma~`ki'ayaw~ `to~ `no~ `tao~ `kako~.￺￻我被別人超過去。
+￺￺maki'ayaw￻￹`Ma~`ki'ayaw~ `to~ `no~ `tao~ `kako~.￺￻我被別人超過去。
 ￺maki'ayaway￻￹`Maki'ayaw~`ay~ `ako~ `ci~ `May~`aw~.￺￻`May~`aw~被我超過去了。
 ￺maki'orad￻
 ￺maki'oraday￻￹`Maki'orad~`ay~ `cangra~ `i~ `pa~`p~u`ta~`l~.￺￻他們在屋外淋雨了。
@@ -10358,11 +10357,9 @@
 ￺makolepetay￻
 ￺makoli￻
 ￺makoliay￻
-￺makoli'ong￻
-￺makoliyol￻
+￺￺makoliyol￻
 ￺makoliyolay￻
-￺makoliyong￻
-￺makoledot￻￹`Ma~`koledot~ `ko~ `laway~ `ni~ `faki~.￺￻叔公的臉起皺紋了。
+￺￺makoledot￻￹`Ma~`koledot~ `ko~ `laway~ `ni~ `faki~.￺￻叔公的臉起皺紋了。
 ￺makolemi￻
 ￺makolemiay￻￹`Makolemi~`ay~ `ko~ `totang~ `a~ `fadahong~.￺￻鐵皮屋頂凹凸了。
 ￺makomod￻￹`Ma~`komod~ `ira~ `ko~ `niyaro'~ `niyam~.￺￻我們村由他管轄。
@@ -14837,8 +14834,7 @@
 ￺mi'afofoay￻￹`Mi'afofo~`ay~ `kako~ `to~ `safa~.￺￻我懷抱著弟妹。
 ￺mi'alad￻￹`Mi~`'alad~ `to~ `paliding~.￺￻攔車。￹`Mi~`'alad~ `kako~ `to~ `to~`s~`ya~.￺￻我去攔一部車。
 ￺mi'aladan￻￹`Mi'alad~`a~`n~ `a~ `tosiya~.￺￻所攔截的汽車。
-￺mi'aladay￻￹`Mi'alad~`ay~ `kako~ `ci~ `Kolas~`a~`n~.￺￻我攔住`Kolas~（古拉斯）了。￹`O~ `kincac~ `ko~ `mi'alad~`ay~ `to~ `paliding~.￺￻是員警攔車。
-￺mi'alafang￻
+￺￺mi'alafang￻
 ￺mi'alafangan￻
 ￺mi'alafangay￻
 ￺mi'alang￻￹`Mana~ `mi~`'alang~ `kiso~ `ci~`nira~`a~`n~ `saw~ ?￺￻你為什麼嫌棄他呢？￹`Mi~`'alang~ `to~ `tao~.￺￻排斥他人。
@@ -21009,8 +21005,7 @@
 ￺misomad￻￹`Mi~`somad~ `to~ `sowal~￺￻￹`Awaay~ `ko~ `sasomaden~￺￻
 ￺misongalad￻
 ￺misongaladan￻
-￺misongaladay￻
-￺misongila'￻
+￺￺misongila'￻
 ￺misongila'an￻
 ￺misongila'ay￻
 ￺misolinga'￻
