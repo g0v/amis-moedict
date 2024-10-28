@@ -2434,7 +2434,6 @@
 ￺coladaf￻
 ￺coladafen￻￹`Coladaf~`e~`n~ `ko~ `namal~ `a~ `milikat~.￺￻加大火勢。￹`Co~`l~`afa~`d~`e~`n~ `ko~ `la~`h~`ka~`d~.￺￻加火煮飯。
 ￺coladafhan￻￹`Coladaf~`han~ `a~ `milefoh~ `ko~ `namal~.￺￻就加大火勢燒起來。
-￺colacol￻
 ￺colal￻￹`Caay~ `ko~ `kafana'an~ `co~`la~`l~ `sa~ `a~ `tayni~ `cingra~.￺￻未料中他突然來到。￹`Co~`la~`l~ `sa~ `ko~ `d~`in~`wa~ `ni~ `panay~ `to~ `herek~ `no~ `lahok~.￺￻下午突然接到`Panay~ 的電話。
 ￺colalen￻￹`Colal~`e~`n~ `no~ `fafoy~.￺￻山豬突然出現。
 ￺colcol￻
@@ -15517,8 +15516,6 @@
 ￺micokiwat￻￹`Mi~`cokiwat~ `to~ `kafong~ `i~ `lalan~ `no~ `cinamalay~.￺￻用竹竿挑取掉在鐵軌上的東西。
 ￺micokon￻￹`Mi~`cokon~ `kora~ `wawa~ `to~ `kowa'~.￺￻那小孩去捅木瓜下來。
 ￺micokong￻
-￺micolacol￻￹`Mi~`colacol~ `to~ `toya~`l~ `ko~ `tawki~.￺￻老闆催促趕工。
-￺micolacolen￻￹`Micolacol~`e~`n~ `no~ `niyam~ `ko~ `tawki~ `to~ `l~`i~`f~`o~`n~.￺￻我們要求老闆趕快發薪水。
 ￺micoladaf￻￹`Mi~`coladaf~ `to~ `namal~.￺￻增加火力（燒）。￹`Mi~`coladaf~ `cingra~ `to~ `s~`e~`mo~`semot~`a~`n~ `a~ `mitodoh~.￺￻他加大火勢燒雜草。
 ￺micoladafan￻￹`Micoladaf~`a~`n~ `ira~ `ko~ `namal~ `no~ `parod~.￺￻他把灶火加大火力了。￹`Micoladaf~`a~`n~ `a~ `namal~.￺￻被加大火力。
 ￺micoladafay￻￹`Micoladaf~`ay~ `kako~ `to~ `namal~.￺￻我在加大火勢了。￹`Ci~`nira~ `ko~ `micoladaf~`ay~ `i~ `parod~.￺￻在增加灶火的是他。￹`Micoladaf~`ay~ `ko~ `iloh~.￺￻火災的火勢越來越旺。

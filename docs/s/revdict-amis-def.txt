@@ -2434,7 +2434,6 @@
 ￺coladaf￻添加木柴加大火燒，火勢漫延。添加木柴加大火燒，火勢漫延。`toror~、`tolol~。
 ￺coladafen￻把火勢加大。
 ￺coladafhan￻就把火加大。
-￺colacol￻催促。
 ￺colal￻突然出現，接到。參見`micolal~。
 ￺colalen￻使之…突然出現。
 ￺colcol￻打發，驅使，使喚。
@@ -15517,8 +15516,6 @@
 ￺micokiwat￻用竹竿、棍子等物鈎起來。
 ￺micokon￻捅。
 ￺micokong￻捅。
-￺micolacol￻要催促、趕緊。
-￺micolacolen￻要在催促的、要趕緊做的。
 ￺micoladaf￻加大火力，增強火力。加木柴使火勢旺盛。
 ￺micoladafan￻把…加大火力（燒）了。指加大火力燒的（對象、地方）。
 ￺micoladafay￻在加大火力了。指加大火力的（人）。
