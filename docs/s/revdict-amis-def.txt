@@ -6597,7 +6597,7 @@
 ￺kasaw￻粥。
 ￺kasenngan￻令人榮耀、誇耀、自豪的、有尊嚴的。
 ￺kasi￻糖果，糖。（日語借詞）。糖果〈日語借詞〉。
-￺kasi'enawan￻寒冷的季節、時間，冬天，冬季。冬天，冬季。`r~`omi'~`ra~`d~ `i~ `ka~`si'enawan~.
+￺kasi^enawan￻寒冷的季節、時間，冬天，冬季。冬天，冬季。`r~`omi'~`ra~`d~ `i~ `ka~`si^enawan~.
 ￺kasid￻浮木，漂浮的流木。黑潮。
 ￺kasida'itan￻令人掛慮、擔憂、關注的。
 ￺kasifawan￻大刀、長刀。
@@ -19512,7 +19512,7 @@
 ￺misa'atekak￻增加硬度，弄硬，硬化。提高價格，提高物價。
 ￺misa'atekakan￻把…增加硬度了、弄硬了、硬化了。指增加硬度的。把…提價了。提高加格的（東西）。
 ￺misa'atekakay￻增加硬度了，弄硬了，硬化了。指給東西增加硬度的人。提高物價了。提高物價的人。
-￺misa'atekok￻靜坐不動，呆坐。`Misa~`'~`a~`toko~`k~`ci~`nira~ `a~ `maro'~ `to~ `ni~`ka~`si'enaw~.他因寒冷而靜坐不動。`misa'otokok~。
+￺misa'atekok￻靜坐不動，呆坐。`Misa~`'~`a~`toko~`k~`ci~`nira~ `a~ `maro'~ `to~ `ni~`ka~`si^enaw~.他因寒冷而靜坐不動。`misa'otokok~。
 ￺misa'atingay￻打鐵匠，煉鐵屋。
 ￺misa'ayam￻殺鳥，殺雞。
 ￺misa'ayaman￻把（鳥、雞）殺了。指所殺的（鳥、雞）。
@@ -37792,10 +37792,10 @@
 ￺si'owayen￻把…做細篾吧。
 ￺si^emel￻涼爽、清涼。
 ￺si^emelay￻涼爽了、清涼了。涼爽的、清涼的。
-￺si'enaw￻天氣冷。
-￺si'enawan￻冷的日子、季節。冷的。
-￺si'enaway￻冷了。
-￺si'enawen￻感到發冷。
+￺si^enaw￻天氣冷。
+￺si^enawan￻冷的日子、季節。冷的。
+￺si^enaway￻冷了。
+￺si^enawen￻感到發冷。
 ￺si^erod￻整齊、整理。整齊，梳理。
 ￺si^eroden￻把…弄整齊。
 ￺sici￻政治。〔日語借詞〕

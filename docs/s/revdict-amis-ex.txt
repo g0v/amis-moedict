@@ -4580,7 +4580,7 @@
 ￺hekakan￻￹`H~`e~`kaka~`n~ `a~ `maro'~.￺￻蹲坐。
 ￺hekakanan￻
 ￺helek no lahok￻￹`H~`e~`l~`e~`k~ `no~ `lahok~ `ta~ `minokay~.￺￻到下午就回去。
-￺helet￻￹`Ano~ `si'enaw~￺￻
+￺helet￻￹`Ano~ `si^enaw~￺￻
 ￺hemhem￻￹`Mi~`h~`e~`m~`h~`e~`m~ `to~ `fasaw~.￺￻把剩飯保溫。
 ￺hena￻￹`H~`e~`na~ `kora~ `paya~ `namo~ !￺￻你們的票拿出來查看一下！￹`Oni~ `a~ `f~`a~`'~`l~`o~`hay~ `a~ `riko'~ `ca~^`e~`d~`o~`ng~`e~`n~ `h~`e~`na~ !￺￻這件新衣服，（你）穿看看怎麼樣！
 ￺henek￻
@@ -5731,7 +5731,7 @@
 ￺kakidefeten￻￹`Ka~`kidefeten~ `ko~ `pi~`torik~ `to~ `sikal~.￺￻編草席要稠密。
 ￺kakidihingen￻￹`Ka~`kidihingen~ `a~ `dihing~.￺￻要遮避的洞。
 ￺kakidkiden￻￹`Ka~`kidkiden~ `niyam~ `a~ `tamina~.￺￻我們要拖走的船隻。
-￺kakifetol￻￹￺￻`Matolemay~ `ko~ `toros~ `to~ `ka~`kifetol~ `no~ `so~`'~`da~ `to~ `kasi'enawan~ 冬天，雪的厚度可以掩沒膝蓋了。
+￺kakifetol￻￹￺￻`Matolemay~ `ko~ `toros~ `to~ `ka~`kifetol~ `no~ `so~`'~`da~ `to~ `kasi^enawan~ 冬天，雪的厚度可以掩沒膝蓋了。
 ￺kakihakihen￻￹`O~ `sawihawih~ `no~ `tamina~ `ko~ `ka~`kihakihen~.￺￻要輕輕搖擺船槳。
 ￺kakihamonen￻￹`Ka~`kihamonen~ `niyam~ `a~ `kapot~ `cangra~.￺￻我們要加入的團隊。
 ￺kakiharen￻￹`Caay~ `ko~ `ka~`kiharen~ `ako~ `a~ `demak~ `koni~.￺￻這不是我要牽扯的事情。
@@ -6597,7 +6597,7 @@
 ￺kasaw￻￹`O~ `kasa~`w~ `ko~ `sakaranam~.￺￻早餐準備粥。
 ￺kasenngan￻￹`O~ `ka~`seneng~`a~`n~ `ita~ `ko~ `mikatadamaan~ `no~ `tapang~ `ita~.￺￻我們頭目的業績令我們深感榮耀。
 ￺kasi￻￹`Maolah~ `ko~ `wawa~ `a~`komaen~ `to~ `k~`asi~.￺￻小孩愛吃糖。
-￺kasi'enawan￻￹`Ci~ `riko'~ `ko~ `tamdaw~ `to~ `k~`i~`f~`tora~`y~ `a~ `riko'~ `i~ `ka~`si'enawan~.￺￻冬天人們都穿厚衣服。￹`Tada~`si'enaway~ `ko~￺￻
+￺kasi^enawan￻￹`Ci~ `riko'~ `ko~ `tamdaw~ `to~ `k~`i~`f~`tora~`y~ `a~ `riko'~ `i~ `ka~`si^enawan~.￺￻冬天人們都穿厚衣服。￹`Tada~`si^enaway~ `ko~￺￻
 ￺kasid￻￹`Mipodpod~ `to~ `kasi~`d~ `ko~ `mato'asay~ `to~ `hakasoy~.￺￻老人撿浮木當柴火。
 ￺kasida'itan￻￹`O~ `ka~`sida'itan~ `ako~ `a~ `wawa~ `ci~ `La~`m~`l~`o~.￺￻`La~`m~`l~`o~是我最牽掛、關心的孩子。
 ￺kasifawan￻￹`Aka~ `pi~`tatoy~ `to~ `kasi~`fawa~`n~.￺￻不要帶大刀。
@@ -19585,7 +19585,7 @@
 ￺misa'osi'osian￻
 ￺misa'osi'osiay￻
 ￺misa'ot￻
-￺misa'otokok￻￹`Misa'ot~`o~`ko~`k~ `ci~`nira~ `a~ `maro'~ `to~ `ni~`ka~`si'enaw~.￺￻他因寒冷而靜坐不動。
+￺misa'otokok￻￹`Misa'ot~`o~`ko~`k~ `ci~`nira~ `a~ `maro'~ `to~ `ni~`ka~`si^enaw~.￺￻他因寒冷而靜坐不動。
 ￺misa'otekokan￻￹`Misa'ot~`ko~`ka~`n~ `ira~ `itira~ `ta~ `kamaro'an~.￺￻他在那個座位呆坐著。￹`O~ `mi~`sa'otekok~`a~`n~ `ira~ `a~ `fokeloh~.￺￻他所呆坐的石頭。
 ￺misa'otekokay￻￹`Mi~`sa'otekok~`ay~ `kora~ `malitengay~ `itira~.￺￻老人在那裡一聲不響地坐著。￹`Mi~`sa'otekok~`ay~ `a~ `faki~.￺￻靜坐不動的老爺爺。
 ￺misaakoako￻
@@ -31426,7 +31426,7 @@
 ￺sairen￻￹`Sair~`e~`n~ `cikawasay~ `ko~ `ma~`adadaay~ `a~ `tamdaw~.￺￻祭司要為病人除邪魔。
 ￺sait￻
 ￺saiten￻￹`Sait~`e~`n~ `ko~ `'opir~ `ira~.￺￻把她的辮子剪掉。
-￺saka￻￹`Mapa'el~ `no~ `sapaiyo~ `ci~`nira~, `s~`aka~ `mafuti'~ `to~ `ci~`nira~.￺￻因為他被藥所麻醉，所以入睡了。￹`Ma'oraday~ `inacila~, `s~`aka~ `si'enaw~ `to~ `ko~ `romi'ad~ `anini~.￺￻昨天下雨了，所以今天天氣冷。￹`Adihayay~ `ko~ `mikaenan~ `ako~, `s~`aka~ `adada~ `ko~ `tiyad~ `ako~.￺￻我吃得太多了，所以我肚子痛。￹￺￻`sakafuti'~ 睡覺所￹￺￻`sakamaomah~ 工作￹￺￻`sakakomaen~ 吃飯用具，食￹￺￻`sakafana'~ 證據。￹￺￻`Sakacaciyaw~ 講話、交談的對手。￹￺￻`sakacecay~ 第一。￹`sa~`kala~^`e~`no~.￺￻最
+￺saka￻￹`Mapa'el~ `no~ `sapaiyo~ `ci~`nira~, `s~`aka~ `mafuti'~ `to~ `ci~`nira~.￺￻因為他被藥所麻醉，所以入睡了。￹`Ma'oraday~ `inacila~, `s~`aka~ `si^enaw~ `to~ `ko~ `romi'ad~ `anini~.￺￻昨天下雨了，所以今天天氣冷。￹`Adihayay~ `ko~ `mikaenan~ `ako~, `s~`aka~ `adada~ `ko~ `tiyad~ `ako~.￺￻我吃得太多了，所以我肚子痛。￹￺￻`sakafuti'~ 睡覺所￹￺￻`sakamaomah~ 工作￹￺￻`sakakomaen~ 吃飯用具，食￹￺￻`sakafana'~ 證據。￹￺￻`Sakacaciyaw~ 講話、交談的對手。￹￺￻`sakacecay~ 第一。￹`sa~`kala~^`e~`no~.￺￻最
 ￺saka'akawang￻￹`Sa~`ka'akawang~ `ira~, `o~ `iraay~ `to~ `ko~ `nga'ayay~ `a~ `tireng~ `ira~.￺￻他之所以高大，是因為他有好的體魄。
 ￺saka'akawangaw￻￹`Saka'akawang~`aw~ `kako~.￺￻我想長高。
 ￺saka'aloman￻￹`Itira i~ `pipaliwalan~ `iraay~ `ko~ `patiyamay~ `iraay~ `ko~ `matayalay~, `oya~ `to~ `ko~ `sa~`ka'aloman~.￺￻在那裡商業區，有商人，有工人，所以人多。
@@ -37792,10 +37792,10 @@
 ￺si'owayen￻￹`Si'oway~`e~`n~ `kora~ `'aol~ `ha~`safak~`a~`r~.￺￻把竹子做成細蔑，要做簍筐用。
 ￺si^emel￻
 ￺si^emelay￻
-￺si'enaw￻￹`S~`i~`'ena~`w~ `ko~ `romi'ad~ `han~?￺￻天氣冷嗎？
-￺si'enawan￻
-￺si'enaway￻￹`Si'enaw~`ay~ `anini~.￺￻今天寒冷了。
-￺si'enawen￻￹`Si'enaw~`e~`n~ `kako~ `to~ `k~`i~`e~`t~`e~`ca~`y~ `a~ `fali~.￺￻對著寒風我感到冷。￹`Si'enaw~`e~`n~ `ci~`nira~, `takokonghan~ `ira~ `ko~ `saw~`f~`a~`n~ `a~ `mafuti'~.￺￻他感到冷於是就蒙頭大睡。
+￺si^enaw￻￹`S~`i~`'ena~`w~ `ko~ `romi'ad~ `han~?￺￻天氣冷嗎？
+￺si^enawan￻
+￺si^enaway￻￹`Si'enaw~`ay~ `anini~.￺￻今天寒冷了。
+￺si^enawen￻￹`Si'enaw~`e~`n~ `kako~ `to~ `k~`i~`e~`t~`e~`ca~`y~ `a~ `fali~.￺￻對著寒風我感到冷。￹`Si'enaw~`e~`n~ `ci~`nira~, `takokonghan~ `ira~ `ko~ `saw~`f~`a~`n~ `a~ `mafuti'~.￺￻他感到冷於是就蒙頭大睡。
 ￺si^erod￻
 ￺si^eroden￻￹`S~`i~^`e~`r~`o~`d~`e~`n~ `ko~ `tapang~ `no~ `'aol~ `a~ `miketon~.￺￻切斷竹子時竹子頭兒要弄整齊。
 ￺sici￻
@@ -38606,7 +38606,7 @@
 ￺tala'al￻
 ￺tala'amis￻￹`Tala~`'amis~ `kora~ `ka~`s~`olin~, `o~ `Piking~ `ko~ `katahiraan~ `ira~.￺￻那趟火車要往北，目的地是北京市。
 ￺tala'amisay￻￹`Tala'amis~`ay~ `ko~ `tosiya~ `a~ `miparakat~.￺￻汽車往北走了。￹`Tala'amis~`ay~ `a~ `tamdaw~.￺￻到北方的人。
-￺tala'amisen￻￹`Tala'amis~`e~`n~ `iso~ `ko~ `rakat~, `ca~ `ka~`talaw~ `to~ `kasi'enawan~ `han~ ?￺￻你決心去北方，不怕冷嗎？
+￺tala'amisen￻￹`Tala'amis~`e~`n~ `iso~ `ko~ `rakat~, `ca~ `ka~`talaw~ `to~ `kasi^enawan~ `han~ ?￺￻你決心去北方，不怕冷嗎？
 ￺tala'ayaw￻￹`Caay ka~ `tala~`'ayaw~ `ko~ `rakat~ `no~ `kalang~.￺￻螃蟹行走不向前。
 ￺tala'ayaway￻￹`Tala'ayaw~`ay~ `cingra~ `a~ `comikay~.￺￻他往前面跑了。￹`Tala'ayaw~`ay~ `a~ `kapah~.￺￻向前進的青年人。
 ￺tala'ayawen￻￹`Aka~ `tala'ayaw~`e~`n~ `a~ `miraod~ !￺￻不要向前靠近！
