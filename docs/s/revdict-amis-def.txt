@@ -2982,7 +2982,7 @@
 ￺'efekhan￻就把某對象狠揍、狠打。
 ￺'efeng￻拋棄，遺棄，丟棄。拋棄，遺棄，丟棄。
 ￺'efengen￻把…拋棄、遺棄、丟棄。把東西拋棄、丟掉。把…拋棄、遺棄、丟棄。
-￺'efer￻飛，飛翔，飛行。飛，飛翔，飛行。
+￺^efer￻飛，飛翔，飛行。飛，飛翔，飛行。
 ￺'efi'￻（因負荷過重）肩膀酸痛，酸軟。
 ￺^efid￻半截煙，抽半截的香煙。
 ￺^efiden￻把（香煙）抽半截。
@@ -5156,7 +5156,7 @@
 ￺ka'ca￻不如不…，莫如不…。
 ￺ka'ecak￻煮熟的，成熟的。
 ￺ka'ecakan￻煮熟、成熟的時間或地方。
-￺ka'eferan￻飛行的時間或地方。
+￺ka^eferan￻飛行的時間或地方。
 ￺ka'emi￻柔軟，心慈善。
 ￺ka^eped￻鬆軟，柔軟。花很鬆軟。
 ￺ka^epeday￻鬆軟的，柔軟的。
@@ -16258,9 +16258,9 @@
 ￺miingiran￻向…側頭了，歪著腦袋了。`Miingir~`a~`n~`naira~ `kako~ `a~ `mieneng~.他們歪著腦袋對著我看了。側頭相向的（對象）。
 ￺miingiray￻側頭了，歪著腦袋了。`Miingir~`ay~`ko~ `malitengay~ `a~ `miharateng~.老人在歪頭思考。側頭者，歪著腦袋的人。
 ￺mika'alang￻拒絕、排斥對方的要求。
-￺mika'efer￻（關於）飛行、飛翔的情況、程度。
-￺mika'eferan￻使…飛行、飛翔了。指飛行、飛翔的（對象）。
-￺mika'eferay￻正在飛行、飛翔。指因某種原因而飛行、飛翔的（鳥、人等）。
+￺mika^efer￻（關於）飛行、飛翔的情況、程度。
+￺mika^eferan￻使…飛行、飛翔了。指飛行、飛翔的（對象）。
+￺mika^eferay￻正在飛行、飛翔。指因某種原因而飛行、飛翔的（鳥、人等）。
 ￺mika'eredan￻把…擰了、絞了。指所擰、絞的（對象）。
 ￺mikaanga'ayan￻導致良好、友好、和好的情況或結果了。指所出現的良好、友好、和好的情況或結果。
 ￺mikecaan￻把…砍削了、砍過了。指所砍削的、砍伐的（對象）。
@@ -17756,9 +17756,9 @@
 ￺mipa'efaw￻讓他人承包、承辦。
 ￺mipa'efawan￻把…給人承包了、承辦了。指所讓他人承包的、承辦的（對象）。
 ￺mipa'efaway￻正在讓他人承包著，承辦著。指給人承包者，承辦者。
-￺mipa'efer￻讓飛走，放飛，放風箏。
-￺mipa'eferan￻把…放飛了，讓…飛走了。指放飛的（對象）。
-￺mipa'eferay￻讓飛走了，正在放飛了。指放飛者。
+￺mipa^efer￻讓飛走，放飛，放風箏。
+￺mipa^eferan￻把…放飛了，讓…飛走了。指放飛的（對象）。
+￺mipa^eferay￻讓飛走了，正在放飛了。指放飛者。
 ￺mipa'esos￻故意放屁。
 ￺mipa'esosan￻向…放屁了。
 ￺mipa'esosay￻正在向…放屁了。指向…放屁者。
@@ -22888,9 +22888,9 @@
 ￺pa'edilen￻讓…照射、照亮；把…照射、照亮。
 ￺pa'efaw￻使之承包、承攬。
 ￺pa'efaway￻使之承包、承攬了。指承包者、承攬者。
-￺pa'efawen￻讓…承包、承攬、把…承包、承攬。`pa~`'efer~（`'efer~）讓飛行、放飛。
-￺pa'eferay￻讓飛了、放飛了。指放飛者。
-￺pa'eferen￻讓…放飛、把…放飛。
+￺pa'efawen￻讓…承包、承攬、把…承包、承攬。`pa~`^efer~（`^efer~）讓飛行、放飛。
+￺pa^eferay￻讓飛了、放飛了。指放飛者。
+￺pa^eferen￻讓…放飛、把…放飛。
 ￺pa'efid￻給半截香煙抽。
 ￺pa'efiday￻給半截香煙抽了。指給半截香煙抽的人。
 ￺pa'efiden￻給…半截香煙抽、讓…抽半截香煙。
@@ -23896,7 +23896,7 @@
 ￺pakaira￻經過那裏。
 ￺pakairaan￻信仰、宗教。
 ￺pakairaaw￻經過那裏啦。
-￺pakairaay￻經過那裏了。`Pakaira~`ay~`kora~ `'ayam~ `a~ `ma~`'efer~. 那隻鳥從那裏飛行了。指經過那裏的（人）。
+￺pakairaay￻經過那裏了。`Pakaira~`ay~`kora~ `'ayam~ `a~ `ma~`^efer~. 那隻鳥從那裏飛行了。指經過那裏的（人）。
 ￺pakairaen￻使…經過那裏，把…放在那裏。
 ￺pakaka'araw￻使之互相見面、會面。
 ￺pakaka'araway￻使之互相見面、會面了。指促使互相見面、會面的人。
@@ -24985,7 +24985,7 @@
 ￺papa'axenanen￻要給座位。指要給座位坐的（物件）。
 ￺papa'edawen￻要舉行祭祀儀式。指要舉行的祭祀儀式。
 ￺papa'edilen￻要照射、照耀。指要照射、照耀的（物件）。
-￺papa'eferen￻要放飛。指要放飛的（鳥）。
+￺papa^eferen￻要放飛。指要放飛的（鳥）。
 ￺papa'esosen￻要遠擲。指要遠擲的（物件、東西）。
 ￺papa'icelen￻要出力施予。指要出力施予的（物件）。
 ￺papa'icepen￻要給檳榔。指要給予的檳榔。
@@ -28497,8 +28497,8 @@
 ￺pipa'edapan￻舉行祭祀儀式的地點、時間。
 ￺pipa'edil￻請照射、照耀吧。照射、照耀的。
 ￺pipa'edilan￻照射、照耀的地點、時間。
-￺pipa'efer￻請讓它飛、放它飛吧。讓它飛的、 放它飛的。
-￺pipa'eferan￻讓它飛、放它飛的地點、時間。
+￺pipa^efer￻請讓它飛、放它飛吧。讓它飛的、 放它飛的。
+￺pipa^eferan￻讓它飛、放它飛的地點、時間。
 ￺pipa'esol￻請遠擲、遠投吧。遠擲的、 遠投的。
 ￺pipa'esolan￻遠擲、遠投的地點、時間。
 ￺pipa'icel￻請使勁、出力吧。使勁、出力的。
@@ -31432,7 +31432,7 @@
 ￺saka'aloman￻人多的原因。
 ￺saka'alomanaw￻希望人多。
 ￺saka'eca￻不致於…。`ka~ `samangah~ `no~ `tao~. 我學習知識是為了不被欺騙。
-￺saka'efer￻飛行、飛翔的工具、原因。
+￺saka^efer￻飛行、飛翔的工具、原因。
 ￺saka'feraw￻想飛行、飛翔。
 ￺saka'idi￻吝嗇、小氣的原因。
 ￺saka'idiaw￻希望吝嗇、小氣。

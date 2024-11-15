@@ -2982,7 +2982,7 @@
 ￺'efekhan￻￹`'~`E~`fekhan~ `noya~ `wawa~ `to~ `kasoy~ `koya~ ‘`e~`d~`o~ , `'iksa~ `maco'iyal~ `a~ `mapatay~.￺￻小孩用木頭狠打那隻老鼠，老鼠“哎”地一聲伸腿就死了。
 ￺'efeng￻
 ￺'efengen￻￹`'Efeng~`e~`n~ `ko~ `'atang~.￺￻把木屑扔掉。￹`'Efeng~`e~`n~ `ako~ `i~ `tafalahan~ `ko~ `lakaw~.￺￻我把垃圾拋在垃圾場。￹`'Efeng~`e~`n~ `ko~ `'atang~.￺￻把木屑扔掉。
-￺'efer￻
+￺^efer￻
 ￺'efi'￻￹`'~`E~`f~`i~`'~ `saan~ `kora~ `wawa~ `a~ `mifafa~.￺￻那孩子背孩子累了。
 ￺^efid￻
 ￺^efiden￻￹^`E~`f~`i~`d~`e~`n~ `to~ `ako~ `ko~ `tamako~.￺￻我抽半截煙吧！
@@ -3726,7 +3726,7 @@
 ￺felat￻￹`F~`e~`la~`t~ `sa~ `ko~ `fu'is~.￺￻星星閃爍。
 ￺felay￻
 ￺feleng￻￹`F~`e~`l~`e~`ng~ `sa~ `ko~ `f~`aca~`c~`ina~`r~.￺￻蜜蜂蜂擁來襲。
-￺felengsa￻￹`Tado~ `feleng~`sa~ `a~ `ma~`'efer~ `ko~ `'ayam~.￺￻鳥突然一窩蜂地飛走了。
+￺felengsa￻￹`Tado~ `feleng~`sa~ `a~ `ma~`^efer~ `ko~ `'ayam~.￺￻鳥突然一窩蜂地飛走了。
 ￺feli￻
 ￺felih￻￹`O~ `feli~`h~ `no~ `payci~.￺￻銀幣的反面。
 ￺felihen￻￹`Felih~`e~`n~ `ko~ `sera~.￺￻把土翻一下。￹`Felih~`e~`n~ `niyam~ `ko~ `defak~ `no~ `konga~.￺￻我們去把番薯壟翻耕一下。
@@ -4464,7 +4464,7 @@
 ￺hasa￻￹￺￻`hasapa~`na~`'~ 準備做弓箭。￹￺￻`ha~`sacengel~ 準備做染料用。
 ￺hasa'iwas￻￹`Ha~`sa'iwas~ `to~ `tamina~.￺￻準備做搖船的（槳、櫓）。
 ￺hasafalod￻￹`Ha~`safalod~ `ko~ `'oway~.￺￻籐條用來捆東西。
-￺hasaka￻￹￺￻`hasakaranam~ 準備早餐吃的。￹￺￻`hasakalafi~ 準備晚餐吃的。￹￺￻`ha~`saka'efer~ 準備飛行用的（器具）。￹￺￻`ha~`sakacidal~ 準備祭祀太陽用的（東西）。
+￺hasaka￻￹￺￻`hasakaranam~ 準備早餐吃的。￹￺￻`hasakalafi~ 準備晚餐吃的。￹￺￻`ha~`saka^efer~ 準備飛行用的（器具）。￹￺￻`ha~`sakacidal~ 準備祭祀太陽用的（東西）。
 ￺hasakaen￻￹`Hasaka~`e~`n~ `niyam~ `koni~ `a~ `takora'ay~.￺￻這些田雞是我們的小菜。
 ￺hasakalafi￻￹`Midateng~ `kako~ `to~ `ha~`sakalafi~.￺￻我去摘菜準備晚飯吃。
 ￺hasakalahok￻￹`Ha~`sakalahok~ `ko~ `holo~ `ato~ `titi~.￺￻午餐準備的是米飯和肉。
@@ -5156,7 +5156,7 @@
 ￺ka'ca￻￹`Ano~ `mafana'ay~ `to~ `hatiniay~, `o~ `ka~`'~`ca~ `ka~`pita'ong~ `to~ `makakaay~ `ko~ `nga'ay~.￺￻早知道這樣，還不如尊崇老大哥的好。
 ￺ka'ecak￻￹`F~`a~`'~`d~`e~`ta~`y~ `koni~ `a~ `kohaw~ `no~ `da~`heci~ , `o~ `ka~`'ecak~ `ho~ `isawni~.￺￻這箭筍湯很熱，是剛煮熟的。
 ￺ka'ecakan￻￹`O~ `ka'ecak~`a~`n~ `no~ `panay~ `ina~`tini~.￺￻現在是稻子的成熟期。
-￺ka'eferan￻￹`Ka~`'efer~`a~`n~ `no~ `hikoki~.￺￻飛機場。
+￺ka^eferan￻￹`Ka~`^efer~`a~`n~ `no~ `hikoki~.￺￻飛機場。
 ￺ka'emi￻￹`Ka~`'emi~ `ko~ `faloco'~ `ni~ `ina~.￺￻母親心軟。
 ￺ka^eped￻￹`Ka~^`e~`p~`e~`d~ `ko~ `parok~.￺￻棉
 ￺ka^epeday￻￹`Ka~^`e~`p~`e~`da~`y~ `ko~ `parok~.￺￻棉花是柔軟的。
@@ -5429,7 +5429,7 @@
 ￺kadafas￻￹Makadafas no fadisaw cingra.￺￻他被`熱水燙到。
 ￺kadafo￻￹`Inanengay~ `a~ `matayal~ `ko~ `k~`ada~`f~`o~ `niyam~.￺￻我們的媳婦滿認真的。
 ￺kadafoen￻￹`Kadafo~`e~`n~ `iso~ `ko~ `loma'~ `niyam~ !￺￻你來我們家當女婿吧！
-￺kadafowangay￻￹`Ma~`sa~`f~`lenga~`n~ `a~ `ma~`'efer~ `ko~ `kadafo~`wa~`ng~`ay~.￺￻白鷺齊飛翔。
+￺kadafowangay￻￹`Ma~`sa~`f~`lenga~`n~ `a~ `ma~`^efer~ `ko~ `kadafo~`wa~`ng~`ay~.￺￻白鷺齊飛翔。
 ￺kadahkat￻￹`K~`adah~`ka~`t~ `i~ `cingraan~ !￺￻要對他寄托希望！
 ￺kadakawan￻￹`Ka~`dakaw~`a~`n~ `a~ `paliding~.￺￻乘載的交通工具。
 ￺kadamat￻￹`Ma~`'~`co~ `no~ `ka~`dama~`t~ `ko~ `lengaw~ `no~ `dateng~.￺￻菜都被荊棘擠了。
@@ -9281,7 +9281,7 @@
 ￺maco^ekoyay￻￹`Ma~`co~^`e~`koya~`y~ `ko~ `ma~^`e~`pina~`y~ `a~ `tamdaw~.￺￻被指控的人泄氣了。
 ￺maco^erong￻￹`Ma~`co~^`e~`r~`o~`ng~ `ko~￺￻￹`Ma~`co~^`e~`r~`o~`ng~ `ko~ `kasoy~ `iso~ `i~ `cawka~.￺￻你的木柴要倒放在廚房。
 ￺micikcik￻￹`Mi~`cikcik~ `ci~ `k~`aka to~ `sakalafi~ `a~ `futing~.￺￻哥哥在切晚餐要煮的魚。￹`Mi~`cikcik~ `to~ `sait~`aw~ `ci~ `ina~ `ako~.￺￻我媽媽正在切蘿蔔。￹`Mi~`cikcik~ `to~ `konga~.￺￻切番薯塊。
-￺micolal￻￹`Mi~`colal~ `ko~ `kakahong~ `a~ `ma~`'efer~.￺￻飛魚突然飛出來。￹`Mi~`colal~ `ko~ `kado~`d~`i~ `I~ `sena'~`sena'~`a~`n~.￺￻泥鰍會在沼澤地突然出現。
+￺micolal￻￹`Mi~`colal~ `ko~ `kakahong~ `a~ `ma~`^efer~.￺￻飛魚突然飛出來。￹`Mi~`colal~ `ko~ `kado~`d~`i~ `I~ `sena'~`sena'~`a~`n~.￺￻泥鰍會在沼澤地突然出現。
 ￺micoled￻￹`Mi~`coled~ `to~ `sata~`'~`ta~ `i~ `'alofo~ `no~ `kafer~.￺￻把鑰鎖塞進褲袋。
 ￺micolipes￻￹`Mi~`colipes~ `ko~ `faki~ `to~ `^epah~ `mi~`paini~ `to~ `to'as~.￺￻舅舅口含著酒噴灑來祭祖。
 ￺micolok￻￹`Mi~`colok~ `ko~ `kapah~ `a~`mi~`o~`l~`o~`ng~ `to~ `datong~.￺￻年青人一個接一個的搬運大樹幹。
@@ -10896,7 +10896,7 @@
 ￺malidongay￻￹`Malidong~`ay~ `ko~ `mipawalian~ `a~ `kodasing~.￺￻曬好的花生收拾起來了。
 ￺mali'emi￻￹`Ma~`li'emi~ `ko~ `f~`o~`i~`s~ `i~ `kakarayan~.￺￻星光閃閃。
 ￺mali'emiay￻￹`Mali'emi~`ay~ `ko~ `iraayay~ `a~ `maamaan~.￺￻在遠處有什麼東西在爆光閃爍著。
-￺malifa'ecid￻￹`Mali~`fa'ecid~ `ko~ `a~ `'ayam~ `a~ `ma~`'efer~.￺￻鳥受到驚嚇飛走了。
+￺malifa'ecid￻￹`Mali~`fa'ecid~ `ko~ `a~ `'ayam~ `a~ `ma~`^efer~.￺￻鳥受到驚嚇飛走了。
 ￺malifanges￻
 ￺malifangesay￻
 ￺malifawa￻￹`Ma~`lifawa~ `ko~ `li'el~ `ako~.￺￻我的脖子會腫起來。
@@ -16258,9 +16258,9 @@
 ￺miingiran￻
 ￺miingiray￻￹`Miingir~`ay~ `a~ `tamdaw~.￺￻側頭者。
 ￺mika'alang￻
-￺mika'efer￻￹￺￻`Cowa~ `ka'akawang~ `ko~ `mika~`'efer~ `no~ `fasiyaw~風箏飛的不高。
-￺mika'eferan￻￹`Mika'efer~`a~`n~ `i~ `kakarayan~ `a~ `hikoki~.￺￻天上飛行的飛機。
-￺mika'eferay￻￹`Mika'efer~`ay~ `ko~ `'ayam~ `a~ `pasitimol~.￺￻鳥兒朝向南邊飛行著。
+￺mika^efer￻￹￺￻`Cowa~ `ka'akawang~ `ko~ `mika~`^efer~ `no~ `fasiyaw~風箏飛的不高。
+￺mika^eferan￻￹`Mika^efer~`a~`n~ `i~ `kakarayan~ `a~ `hikoki~.￺￻天上飛行的飛機。
+￺mika^eferay￻￹`Mika^efer~`ay~ `ko~ `'ayam~ `a~ `pasitimol~.￺￻鳥兒朝向南邊飛行著。
 ￺mika'eredan￻￹`Mika'ered~`a~`n~ `to~ `ko~ `keliw~.￺￻麻線已經捻好了。￹`Mika'ered~`a~`n~ `a~ `ka~`e~`r~`e~`d~.￺￻捻繩。
 ￺mikaanga'ayan￻￹`Mika~`a~`nga'ay~`a~`n~ `ca~`nira~.￺￻他們和好了。￹`Pa~`licayen~ `ho~ `ko~ `mika~`'anga~`ya~`n~ `naira~.￺￻問一下他們和好的事情。
 ￺mikecaan￻￹`Mikeca~`a~`n~ `koya~ `kilang~.￺￻那棵樹砍了。￹`Ta'angayay~ `ko~ `mikeca~`a~`n~ `iso~ `kilang~.￺￻你砍的樹很大棵。
@@ -17756,9 +17756,9 @@
 ￺mipa'efaw￻￹`Mi~`pa'efaw~ `to~ `pa~`palalanen~.￺￻讓他人承包要修建的道路。
 ￺mipa'efawan￻￹`mipa'efaw~`a~`n~ `niyam~ `kora~ `pi~`o~`n~`toka~`n~.￺￻我們把那個運動場給人承包了。￹`Mipa'efaw~`a~`n~ `a~ `demak~.￺￻讓他人承辦的事情。
 ￺mipa'efaway￻￹`Mipa'efaw~`ay~ `kami~ `to~ `katayalan~.￺￻我們正在讓他人承包工程了。￹`Mipa'efaw~`ay~ `a~ `tawki~.￺￻給人承包工作的老闆。
-￺mipa'efer￻￹`M~`ipa~`'efer~ `to~ `topi~`'~.￺￻放鴿子。￹`M~`ipa~`'efer~ `to~ `'ayam~.￺￻放鳥。￹`M~`ipa~`'efer~ `kami~ `to~ `fasiyaw~.￺￻我們在放風箏。
-￺mipa'eferan￻￹`Mipa'efer~`a~`n~ `no~ `wawa~ `ko~ `topi~`'~ `iso~.￺￻子把你的鴿子放飛了。￹`Mipa'efer~`a~`n~ `a~ `'ayam~.￺￻放飛了的鳥。
-￺mipa'eferay￻￹`Mipa'efer~`ay~ `kako~ `to~ `hikoki~.￺￻飛機飛走了。￹`O~ `cima~ `ko~ `mipa'efer~`ay~ `to~ `'ayam~ `ako~?￺￻誰把我的鳥放飛了？
+￺mipa^efer￻￹`M~`ipa~`^efer~ `to~ `topi~`'~.￺￻放鴿子。￹`M~`ipa~`^efer~ `to~ `'ayam~.￺￻放鳥。￹`M~`ipa~`^efer~ `kami~ `to~ `fasiyaw~.￺￻我們在放風箏。
+￺mipa^eferan￻￹`Mipa^efer~`a~`n~ `no~ `wawa~ `ko~ `topi~`'~ `iso~.￺￻子把你的鴿子放飛了。￹`Mipa^efer~`a~`n~ `a~ `'ayam~.￺￻放飛了的鳥。
+￺mipa^eferay￻￹`Mipa^efer~`ay~ `kako~ `to~ `hikoki~.￺￻飛機飛走了。￹`O~ `cima~ `ko~ `mipa^efer~`ay~ `to~ `'ayam~ `ako~?￺￻誰把我的鳥放飛了？
 ￺mipa'esos￻￹`Mi~`pa'esos~ `kora~ `tamdaw~.￺￻那個人故意放屁。
 ￺mipa'esosan￻￹`Mipa'esos~`a~`n~ `ako~ `ko~ `widang~.￺￻我向朋友放屁了。
 ￺mipa'esosay￻￹`Mipa'esos~`ay~ `kora~ `ka~`e~`ma~`ng~`ay~ `to~ `widang~.￺￻那少年正在向朋友放屁了。￹`Mipa'esos~`ay~ `a~ `wawa~.￺￻故意放屁的孩子。
@@ -18771,7 +18771,7 @@
 ￺mipasifana'￻￹`Mi~`pasifana'~ `ci~`winaan~.￺￻向母親報告。￹`Mi~`pasifana'~ `to~ `ma~`malasingsiay~ `no~ `'Amis~ `a~ `sowal~.￺￻培訓阿美語的師資。
 ￺mipasifana'an￻￹`Mipasifana'~`a~`n~ `niyam~ `ko~ `tapang~ `to~ `ka~`kedalan~ `niyam~.￺￻我們向官員報告過我們所發生的旱情。￹`Mipasifana'~`a~`n~ `no~ `wama~ `ato~ `wina~ `ko~ `cimacima~ `to~ `demak~.￺￻任何人都得到了父母傳授的知識。￹`O~ `mipasifana'~`a~`n~ `ita~ `a~ `kakeridan~.￺￻我們所報告的領導。
 ￺mipasifana'ay￻￹`Mipasifana'~`ay~ `ko~ `singsi~ `to~ `mitiliday~ `to~ `demak~.￺￻老師正在給學生傳授知識。￹`O~ `kami~ `ko~ `mipasifana'~`ay~.￺￻是我們報告的。
-￺mipasifekang￻￹`Mi~`pasifekang~ `kora~ `'ayam~ `a~ `ma~`'efer~.￺￻那隻鳥向上飛行。
+￺mipasifekang￻￹`Mi~`pasifekang~ `kora~ `'ayam~ `a~ `ma~`^efer~.￺￻那隻鳥向上飛行。
 ￺mipasifekangan￻￹`Mipasifekang~`a~`n~ `ira~ `ko~ `hikoki~ `a~ `ma~`e~`f~`e~`r~.￺￻他曾讓飛機向上飛行了。￹`Mipasifekang~`a~`n~ `a~ `sapad~.￺￻朝上的板子。
 ￺mipasifekangay￻￹`Mipasifekang~`ay~ `kako~ `a~ `mafuti'~.￺￻我臉朝上睡了。￹`O~ `kaka~ `ako~ `ko~ `mipasifekang~`ay~ `a~ `mi'araw~.￺￻朝上看的是我哥哥。
 ￺mipasikaen￻￹`Mi~`pasikaen~ `ci~`nira~`a~`n~.￺￻給他配菜。￹`Mi~`pasikaen~ `to~ `kodasing~.￺￻拿花生做小菜。
@@ -22114,7 +22114,7 @@
 ￺nanoy￻
 ￺nanoya￻
 ￺nanoya ikor￻￹`Nanoya~ `ikor~, `malenak~ `ca~`nira~, `'aloman~ `sato~ `ko~ `tamdaw~ `naira~.￺￻從此，他們繁衍下來，人口多起來了。
-￺nanoyaan￻￹`Nanoya~`a~`n~ `ma~`lahad~ `to~, `ma~`'efer~ `to~ `koya~ `'ayam~ `icowacowa~.￺￻長大之後，那只鳥就到處飛翔。￹`Nanoya~`a~`n~ `awa~ `to~ `ko~ `ma~`maomah~ `no~ `i~`loma'~`ay~ `niyam~.￺￻從那天起我們家失去了勞動力。
+￺nanoyaan￻￹`Nanoya~`a~`n~ `ma~`lahad~ `to~, `ma~`^efer~ `to~ `koya~ `'ayam~ `icowacowa~.￺￻長大之後，那只鳥就到處飛翔。￹`Nanoya~`a~`n~ `awa~ `to~ `ko~ `ma~`maomah~ `no~ `i~`loma'~`ay~ `niyam~.￺￻從那天起我們家失去了勞動力。
 ￺nanoyen￻
 ￺nanpokoy￻￹`Maolah~ `a~ `komaen~ `ko~ `'Amis~ `to~ `na~`n~`p~`o~`koy~.￺￻那美族喜歡吃吳郭魚。
 ￺nansol￻
@@ -22888,9 +22888,9 @@
 ￺pa'edilen￻
 ￺pa'efaw￻
 ￺pa'efaway￻
-￺pa'efawen￻￹`Pa~`'efawen~ `ako~ `ci~`nira~ `toni~ `a~ `tayal~.￺￻我讓他承攬這個工程。￹`Pa~`'efer~ `to~ `'ayam~.￺￻把鳥放飛。
-￺pa'eferay￻
-￺pa'eferen￻￹`Pa~`'efer~`e~`n~ `ko~ `topi~ `iso~.￺￻把你的鴿子放飛吧。￹`Pa~`'efer~`e~`n~ `naira~ `ko~ `kohecalay~ `a~ `opih~ `no~ `'ayam~.￺￻他們讓白雞毛在院子裏飄飛。
+￺pa'efawen￻￹`Pa~`'efawen~ `ako~ `ci~`nira~ `toni~ `a~ `tayal~.￺￻我讓他承攬這個工程。￹`Pa~`^efer~ `to~ `'ayam~.￺￻把鳥放飛。
+￺pa^eferay￻
+￺pa^eferen￻￹`Pa~`^efer~`e~`n~ `ko~ `topi~ `iso~.￺￻把你的鴿子放飛吧。￹`Pa~`^efer~`e~`n~ `naira~ `ko~ `kohecalay~ `a~ `opih~ `no~ `'ayam~.￺￻他們讓白雞毛在院子裏飄飛。
 ￺pa'efid￻
 ￺pa'efiday￻
 ￺pa'efiden￻
@@ -23830,7 +23830,7 @@
 ￺pakaetipay￻
 ￺pakaetipen￻
 ￺pakafaed￻
-￺pakafaeday￻￹`Pakafaed~`ay~ `ko~ `hikoki~ `a~ `ma~`'efer~.￺￻飛機經過上面飛行了。
+￺pakafaeday￻￹`Pakafaed~`ay~ `ko~ `hikoki~ `a~ `ma~`^efer~.￺￻飛機經過上面飛行了。
 ￺pakafaeden￻
 ￺pakafana'￻
 ￺pakafana'an￻￹`Pa~`kafana'an~ `to~ `ako~ `ci~`nira~.￺￻我已經（把事情）通知了。
@@ -24128,7 +24128,7 @@
 ￺pakatedal￻
 ￺pakatedalay￻￹`Cima~ `ko~　`pakatedal~`ay~ `to~ `raraw~ `niyam~?￺￻誰能夠赦免我們的過失？
 ￺pakatedalen￻
-￺pakateloc￻￹`Paka~`teloc~ `no~ `kilang~ `ko~ `'ayam~ `a~ `ma~`'efer~.￺￻鳥兒從樹枝末梢飛過去。
+￺pakateloc￻￹`Paka~`teloc~ `no~ `kilang~ `ko~ `'ayam~ `a~ `ma~`^efer~.￺￻鳥兒從樹枝末梢飛過去。
 ￺pakatelocay￻
 ￺pakatelocen￻
 ￺pakatengil￻￹`Yo~ `paka~`tengil~ `ci~`nira~ `toni~ `a~ `sowal~ `'i~ `tangsolsa~ `ci~`nira~ `a~ `lomowad~.￺￻當他獲得這個消息時就立刻出發。
@@ -24985,7 +24985,7 @@
 ￺papa'axenanen￻
 ￺papa'edawen￻
 ￺papa'edilen￻
-￺papa'eferen￻
+￺papa^eferen￻
 ￺papa'esosen￻
 ￺papa'icelen￻
 ￺papa'icepen￻￹`Samaanay~ `ko~ `pa~`pa'icepen~ `iso~?￺￻你要給人家的檳榔是什麼樣的？
@@ -26109,7 +26109,7 @@
 ￺pasafonay￻
 ￺pasafonen￻￹`Pasafon~`e~`n~ `ako~ `ko~ `tireng~ `no~ `wawa~.￺￻我給孩子身上抹肥皂。
 ￺pasaini￻￹`Pasa~`ini~ `ko~ `faliyos~ `i~ `Taywan~.￺￻颱風朝向台灣地區。
-￺pasainiay￻￹`Pasaini~`ay~ `ko~ `'ayam~ `a~ `ma~`'efer~.￺￻鳥往這裏飛了。
+￺pasainiay￻￹`Pasaini~`ay~ `ko~ `'ayam~ `a~ `ma~`^efer~.￺￻鳥往這裏飛了。
 ￺pasainien￻￹`Pasaini~`e~`n~ `ko~ `pising~ `ira~.￺￻把他的臉朝向這邊。￹`Pasaini~`e~`n~ `ko~ `faloco'~ `iso~.￺￻你的心思要放在這上頭。
 ￺pasaira i￻
 ￺pasaira￻
@@ -26150,7 +26150,7 @@
 ￺pasapereperedhan￻
 ￺pasapikpik￻
 ￺pasapikpikay￻
-￺pasapikpiken￻￹`Pasapikpik~`e~`n~ `a~ `ma~`'efer~ `i~ `kakarayan~ !￺￻裝上翅膀在天上飛翔吧！
+￺pasapikpiken￻￹`Pasapikpik~`e~`n~ `a~ `ma~`^efer~ `i~ `kakarayan~ !￺￻裝上翅膀在天上飛翔吧！
 ￺pasarayaray￻
 ￺pasarayarayay￻
 ￺pasarayarayen￻￹`Pasarayaray~`e~`n~ `ca~`nira~ `a~ `tala'ayaw~ `a~ `tayra~.￺￻讓他們排隊前進。
@@ -27789,7 +27789,7 @@
 ￺pihariko'￻
 ￺pihariko'an￻
 ￺pihatatanam￻￹`Pi~`hatatanam~ `toni~ `a~ `radiw~ !￺￻請練習唱歌吧！￹`O~ `pi~`hatatanam~ `aca~ `ako~ `a~ `misasayxo~.￺￻我只是為了見習做師傅。
-￺pihatatanaman￻￹`Oni~ `a~ `loma'~ `ko~ `pihatatanam~`a~`n~ `to~ `radiw~.￺￻這是練歌房。￹`Pihatatanam~`a~`n~ `to~ `tilid~ `no~ `'Amis~ `a~ `co~`da~`d~.￺￻阿美族文字的教材。￹`Halafin~ `to~ `ko~ `romi'ad~ `to~ `pihatatanam~`a~`n~ `ako~ `a~ `ma~`'efer~.￺￻我練習飛行有很長的日子了。
+￺pihatatanaman￻￹`Oni~ `a~ `loma'~ `ko~ `pihatatanam~`a~`n~ `to~ `radiw~.￺￻這是練歌房。￹`Pihatatanam~`a~`n~ `to~ `tilid~ `no~ `'Amis~ `a~ `co~`da~`d~.￺￻阿美族文字的教材。￹`Halafin~ `to~ `ko~ `romi'ad~ `to~ `pihatatanam~`a~`n~ `ako~ `a~ `ma~`^efer~.￺￻我練習飛行有很長的日子了。
 ￺pihatefo￻
 ￺pihatefoan￻
 ￺pihater￻
@@ -28497,8 +28497,8 @@
 ￺pipa'edapan￻
 ￺pipa'edil￻
 ￺pipa'edilan￻
-￺pipa'efer￻
-￺pipa'eferan￻￹`Anocila~ `falo~ `ko~ `toki~ `a~ `pipa'efer~`a~`n~ `to~ `topi~.￺￻明天八點鐘放鴿子。
+￺pipa^efer￻
+￺pipa^eferan￻￹`Anocila~ `falo~ `ko~ `toki~ `a~ `pipa^efer~`a~`n~ `to~ `topi~.￺￻明天八點鐘放鴿子。
 ￺pipa'esol￻
 ￺pipa'esolan￻
 ￺pipa'icel￻
@@ -29967,7 +29967,7 @@
 ￺piwitawit￻
 ￺piwitawitan￻
 ￺piwpiw￻
-￺piwpiwsa￻￹`Matengil~ `noya~ `malonem~ `ko~ `honi~ `no~ `pana'~ `piwpiw~`sa~ `a~ `ma~`'efer~.￺￻鹿聽見箭的聲音颼颼地飛過來。
+￺piwpiwsa￻￹`Matengil~ `noya~ `malonem~ `ko~ `honi~ `no~ `pana'~ `piwpiw~`sa~ `a~ `ma~`^efer~.￺￻鹿聽見箭的聲音颼颼地飛過來。
 ￺piya'￻￹`Pi~`ya~`'~ `saan~ `ko~ `oo'~ `nira~ `a~ `maro'~ .￺￻他張開雙腿坐下。
 ￺piya'an￻
 ￺piyak￻
@@ -30958,7 +30958,7 @@
 ￺sacalengan￻
 ￺sacalengen￻
 ￺sacalikcik￻
-￺sacaliwaciwsa￻￹`Sa~`caliwaciw~`sa~ `ko~ `'ayam~ `a~ `ma~`'efer~ `icowacowa~.￺￻許多鳥到處上下交叉地飛行著。
+￺sacaliwaciwsa￻￹`Sa~`caliwaciw~`sa~ `ko~ `'ayam~ `a~ `ma~`^efer~ `icowacowa~.￺￻許多鳥到處上下交叉地飛行著。
 ￺sacanaatsa￻
 ￺sacangaw￻
 ￺sacangawen￻￹`Sacangaw~`e~`n~ `ko~ `makapahay~ `a~ `cangaw~ !￺￻要做個（戴著）漂亮的項鏈吧！
@@ -31432,8 +31432,8 @@
 ￺saka'aloman￻￹`Itira i~ `pipaliwalan~ `iraay~ `ko~ `patiyamay~ `iraay~ `ko~ `matayalay~, `oya~ `to~ `ko~ `sa~`ka'aloman~.￺￻在那裡商業區，有商人，有工人，所以人多。
 ￺saka'alomanaw￻￹`Saka'aloman~`aw~ `no~ `niyaro'~ `niyam~.￺￻希望我們的樣子人口多。
 ￺saka'eca￻￹`Mitilid~ `kako~ `sa~`k~`'eca~￺￻
-￺saka'efer￻￹`O~ `hikoki~ `ko~ `saka~`'efer~.￺￻飛行工具是飛機。
-￺saka'feraw￻￹`Saka'efer~`aw~ `no~ `'ayam~ `i~ `kakarayan~.￺￻鳥兒想在天空飛行。
+￺saka^efer￻￹`O~ `hikoki~ `ko~ `saka~`^efer~.￺￻飛行工具是飛機。
+￺saka'feraw￻￹`Saka^efer~`aw~ `no~ `'ayam~ `i~ `kakarayan~.￺￻鳥兒想在天空飛行。
 ￺saka'idi￻￹`Saka~`'i~`d~`i~ `o~ `ci~`payso~`ay~ `ci~`nira~.￺￻所以小氣，是因為他是有錢人。
 ￺saka'idiaw￻
 ￺saka'ilol￻￹`Saka~`'ilol~ `toya~ `malitengay~, `o~ `tada~ `nga'ayay~ `ko~ `faloco'~ `na~ `malitengay~.￺￻所以懷念那位長者，因為他心地善良。
