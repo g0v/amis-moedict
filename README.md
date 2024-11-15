@@ -174,6 +174,21 @@ make amis-poinsot
 make amis-safolu
 ```
 
+### Docker
+
+```
+$ docker-sync start
+$ docker-compose up -d
+$ docker-compose exec app bash
+```
+
+進入 docker 後
+
+```
+$ npm install gulp-cli --global # 沒有 gulp 指令可用時，跑這行
+$ gulp static-here
+```
+
 # 授權
 
 ## 字典授權
