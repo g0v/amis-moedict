@@ -3057,8 +3057,8 @@
 ￺'enoc￻咽，吞咽。嚥下，咽，吞咽。
 ￺'enocen￻把…吞咽。把…吞咽。
 ￺'enor￻坨。錨，船錨。錨、秤砣。
-￺'epah￻酒。
-￺'epahan￻酒的種類。
+￺^epah￻酒。
+￺^epahan￻酒的種類。
 ￺'epang￻麵包。〔日語借詞〕麵包。（日本語借詞）。
 ￺'epangan￻麵包的品種。麵包的品種。
 ￺'epec￻擠壓、輕視、失禮、不莊重。參見`mi'epec~。
@@ -4231,8 +4231,8 @@
 ￺hali'odaxay￻愛吃糖的。指喜歡吃糖的人等。
 ￺hali'opir￻喜歡編織（頭髮、繩子等）。
 ￺hali'opiray￻喜歡編織（頭髮、繩子等）的。指喜歡編織的人。
-￺hali'epah￻愛喝酒，嗜酒。
-￺hali'epahay￻愛喝酒的 愛喝酒的人。
+￺hali^epah￻愛喝酒，嗜酒。
+￺hali^epahay￻愛喝酒的 愛喝酒的人。
 ￺haliacang￻喜歡赴宴，嗜好請客。
 ￺haliacangay￻喜歡赴宴的，嗜好被人請客的 喜歡赴宴的人。
 ￺hali'alip￻喜歡做愛。指人男女之間的性行為。
@@ -6366,8 +6366,8 @@
 ￺kara'aw'away￻（狗）喜歡叫，愛嚎叫。指愛嚎叫的狗。
 ￺kara'eka'￻（牛車）發出的吱吱嘎嘎聲。
 ￺kara'eka'ay￻（牛車）發出吱吱嘎嘎聲。發出吱吱嘎嘎聲的（牛車）。
-￺kara'epah￻愛喝酒。
-￺kara'epahay￻愛喝酒。嗜酒者，酒鬼。
+￺kara^epah￻愛喝酒。
+￺kara^epahay￻愛喝酒。嗜酒者，酒鬼。
 ￺kara'idi￻為人吝嗇，小氣。
 ￺kara'idiay￻為人吝嗇、小氣。指文嗇鬼、小氣鬼。
 ￺kara'ilol￻特別想念、懷念。
@@ -17135,9 +17135,9 @@
 ￺milidongan￻把…回收了、回攏了、歸攏了。指所回收的、回攏的、歸攏的（物件、東西）。
 ￺milidongay￻正在回收、回攏、歸攏了。指把東西歸攏在一起的人。
 ￺mili'eda￻掃乾淨，洗淨。
-￺mili'epah￻討酒喝，赴宴席。
-￺mili'epahan￻曾經討酒喝。指討酒的、赴宴的（對象、地方）。
-￺mili'epahay￻正在討酒喝。指討酒喝的人，赴宴者。
+￺mili^epah￻討酒喝，赴宴席。
+￺mili^epahan￻曾經討酒喝。指討酒的、赴宴的（對象、地方）。
+￺mili^epahay￻正在討酒喝。指討酒喝的人，赴宴者。
 ￺milietan￻賺錢，謀取利潤，剝削。
 ￺milietanan￻曾經賺錢、剝削過。`tawki~ `ko~ `matayalay~ `a~ `tamdaw~.老闆盤剝的是幹活人的錢。指賺錢的、剝削的（對象）。
 ￺milietanay￻正在賺錢、剝削了。指賺錢的人，商人。
@@ -19529,9 +19529,9 @@
 ￺misa'emo￻做米糕。
 ￺misa'emoan￻把…研磨做米糕了。指磨碎的（東西）。
 ￺misa'emoay￻研磨做米糕了，磨成粉了。指磨碎者，磨粉的人。
-￺misa'epah￻釀造，釀酒。
-￺misa'epahan￻曾經釀酒，把酒釀造了。指所釀造的酒。
-￺misa'epahay￻正在釀造、釀酒了。指釀造者，釀酒者。
+￺misa^epah￻釀造，釀酒。
+￺misa^epahan￻曾經釀酒，把酒釀造了。指所釀造的酒。
+￺misa^epahay￻正在釀造、釀酒了。指釀造者，釀酒者。
 ￺misa'et￻去阻止、去塞住。阻塞、阻擋、封閉。
 ￺misa'icel￻出力，使勁，努力做事。我們一定下決心努力！
 ￺misa'icelan￻曾經出力、使勁、努力了。指付出力氣、力量的（物件、事情）。
@@ -29443,8 +29443,8 @@
 ￺pisa'elian￻討取、索要東西的地方、時間。
 ￺pisaeneeneng￻請仔細觀看。仔細觀看的。
 ￺pisaeneenengan￻仔細觀看的地方、時間。
-￺pisa'epah￻請釀酒吧、釀酒吧。釀酒的。
-￺pisa'epahan￻釀酒的地方、時間。
+￺pisa^epah￻請釀酒吧、釀酒吧。釀酒的。
+￺pisa^epahan￻釀酒的地方、時間。
 ￺pisafa￻必須小看、輕視（他）。小看的、輕視的。
 ￺pisafaan￻輕視（他人）的地方、時間。
 ￺pisafacal￻去造梯田吧。造梯田的。
@@ -31109,8 +31109,8 @@
 ￺saeneenengen￻把…仔細看、反復看。
 ￺saeneenenghan￻特地把…仔細看、反復看。
 ￺saeneenengsa￻往周圍觀看著，看來看去的樣子。往周圍看來看去的。
-￺sa'epah￻釀酒。
-￺sa'epahen￻把…釀酒、釀酒吧。
+￺sa^epah￻釀酒。
+￺sa^epahen￻把…釀酒、釀酒吧。
 ￺sa'epang￻做麵包。
 ￺sa'epangen￻把…做麵包、做麵包吧。
 ￺saepiepi￻打褶子、縫邊。
@@ -31229,7 +31229,7 @@
 ￺safelifelih￻翻來覆去、翻來翻去。
 ￺safelifelihen￻把…一遍一遍地翻動。
 ￺safelifelihhan￻特地把…翻來翻去。
-￺safelifelihsa￻反覆(去的樣子) 反反覆覆。`Safelifelih~`sa~ `ko~ `faloco'~ `ningra~`to~ `sapisawadaw~ `to~ `'epah~.他內心反覆着想戒酒。
+￺safelifelihsa￻反覆(去的樣子) 反反覆覆。`Safelifelih~`sa~ `ko~ `faloco'~ `ningra~`to~ `sapisawadaw~ `to~ `^epah~.他內心反覆着想戒酒。
 ￺safelifelinhan￻反覆地，特地把…反來覆去。
 ￺safelifelinsa￻反覆，反來覆去的樣子。
 ￺safelih￻翻動、翻來覆去。
@@ -34494,8 +34494,8 @@
 ￺sapili'akongaw￻想扭彎、扭曲。
 ￺sapili'ay￻諒解、和解憑藉的手段。
 ￺sapili'ayaw￻想諒解、和解。
-￺sapili'epah￻向人討酒喝使用的器具。
-￺sapili'epahaw￻想討酒喝。
+￺sapili^epah￻向人討酒喝使用的器具。
+￺sapili^epahaw￻想討酒喝。
 ￺sapili^etan￻賺錢憑藉的工具、手段。
 ￺sapili^etanaw￻想賺錢。
 ￺sapilicay￻詢問、提問使用的器具。
@@ -35814,8 +35814,8 @@
 ￺sapisa^emahaw￻想減重，減輕。
 ￺sapisa^emel￻乘涼、納涼使用的器具。
 ￺sapisa^emelaw￻想乘涼、納涼。
-￺sapisa'epah￻釀造、釀酒使用的器物。
-￺sapisa'epahaw￻想釀酒。
+￺sapisa^epah￻釀造、釀酒使用的器物。
+￺sapisa^epahaw￻想釀酒。
 ￺sapipaysinaw￻為了禁忌、忌諱，希望禁忌、忌諱。
 ￺sapisaamamokok￻蜷曲身軀使用的器具。
 ￺sapisaamamokokaw￻想蜷曲身軀。
@@ -37142,7 +37142,7 @@
 ￺saroparop￻橡皮擦、塗抹料。
 ￺saropay￻耙田、平田的工具。`sa~`rosaros~（`rosaros~）鋸子。
 ￺sasa'odaxen￻要做糖果。指要製造的糖果。
-￺sasa'epahen￻要釀酒。指要釀造的（酒）。
+￺sasa^epahen￻要釀酒。指要釀造的（酒）。
 ￺sasaatefen￻即將設置圈套。指要設置的圈套。
 ￺sasacaciyawen￻即將交談、商談。指要交談、商談的（物件）。
 ￺sasacapoxen￻要育秧、育苗。指要培育的（作物）。

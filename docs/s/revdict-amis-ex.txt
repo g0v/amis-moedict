@@ -96,7 +96,7 @@
 ￺'acfel￻￹`Mafiwfiw~ `no~ `fali~ `ko~ `'~`a~`c~`f~`e~`l~ .￺￻煙被風吹散。
 ￺acek￻￹`Maacek~ `kako~ `to~ `kadit~.￺￻我對髒很厭惡。
 ￺'acicim￻￹`'~`A~`cici~`m~ `koni~ `a~ `'asiro~ `haw~?￺￻這個橘子酸嗎？￹`'~`A~`cici~`m~ `koni~ `a~ `'asiro~ `haw~ ?￺￻這個橘子酸嗎？
-￺'acicimay￻￹`'Acicim~`ay~ `to~ `ko~ `e~`pa~`h~ `iso~.￺￻你的酒酸了。￹`'Acicim~`ay~ `a~ `f~`adi~`so'so'~.￺￻酸葡萄。￹`'Acicim~`ay~ `to~ `ko~ `'epah~ `iso~.￺￻你的酒有酸味了。
+￺'acicimay￻￹`'Acicim~`ay~ `to~ `ko~ `e~`pa~`h~ `iso~.￺￻你的酒酸了。￹`'Acicim~`ay~ `a~ `f~`adi~`so'so'~.￺￻酸葡萄。￹`'Acicim~`ay~ `to~ `ko~ `^epah~ `iso~.￺￻你的酒有酸味了。
 ￺'acis￻
 ￺aciyah￻￹`A~`ci~`yah~ `makapahay~ `kona~ `kaying~!￺￻啊，這位小姐真漂亮！
 ￺'aciyos￻￹`Tosaay~ `ko~ `'~`a~`c~`iyo~`s~ `no~ `wawa~ `ako~.￺￻我的孩子有兩個頭旋。
@@ -827,7 +827,7 @@
 ￺'asongayan￻
 ￺ata￻￹`A~`ta~, `tayra~ `a~ `misalama~!￺￻走，一起去玩耍吧！
 ￺'atal￻
-￺'atalen￻￹`'Atal~`e~`n~ `to~ `ko~ ^`e~`pa~`h~!￺￻把酒斟上。￹`'Atal~`e~`n~ `to~ `ko~ `'epah~ !￺￻把酒斟上。
+￺'atalen￻￹`'Atal~`e~`n~ `to~ `ko~ ^`e~`pa~`h~!￺￻把酒斟上。￹`'Atal~`e~`n~ `to~ `ko~ `^epah~ !￺￻把酒斟上。
 ￺ataen￻￹`Ata~`e~`n~ `ningra~ `koya~ `wawa~ `a~ `minokay~.￺￻他邀請那些孩子一起走回家。
 ￺ataneng￻￹`A~`taneng~ `ko~ `omah~ `ni~ `S~`onglay~.￺￻宋萊先生的農地很廣。
 ￺atanengay￻￹`Ataneng~`ay~ `ko~ `karomakatan~ `a~ `lalan~.￺￻要走的道路是很寬的。￹`Ataneng~`ay~ `ko~ `mikaomahan~ `ningra~.￺￻他做的農地很廣。￹`Ataneng~`ay~ `ko~ `mi'osian~ `ako~ `a~ `tilid~.￺￻我閱讀的書很多。
@@ -1177,7 +1177,7 @@
 ￺cacorohen￻￹`Ca~`corohen~ `niyam~ `a~ `tosiya~ `koni~.￺￻這是我們要推走的汽車。
 ￺cacorok￻￹`Ca~`corok~ `a~ `romadiw~.￺￻輪流唱歌。
 ￺cacoroken￻￹`Ca~`coroken~ `a~ `miliso'~.￺￻要輪流拜訪的。
-￺cacorokhan￻￹`Cecayay~ `ko~ `takid~ `no~ `'epah~, `cacorok~`han~ `ita~ `a~ `mi'owak~.￺￻杯子只有一個，大家就用這個杯子輪流喝酒。
+￺cacorokhan￻￹`Cecayay~ `ko~ `takid~ `no~ `^epah~, `cacorok~`han~ `ita~ `a~ `mi'owak~.￺￻杯子只有一個，大家就用這個杯子輪流喝酒。
 ￺cacoroksa￻￹`Cacorok~`sa~ `ko~ `finawlan~ `a~ `mipawsa~ `to~ `kakaenen~ `noya~ `misamaraday~.￺￻鄉親們輪流著給鐵匠送飯。
 ￺cacoscosen￻￹`Ca~`coscosen~ `a~ `payso~.￺￻要一再催討的債。
 ￺cacowaten￻￹`Adihay~ `ko~ `ca~`cowaten~ `a~ `omah~.￺￻好多要開闢的土地。
@@ -2155,7 +2155,7 @@
 ￺ciro'en￻￹`Ciro'~`e~`n~ `niyam~ `ko~ `kotang~.￺￻我們舉起矛槍。
 ￺cirocek￻￹`Ci~`rocek~ `kako~ `to~ `omah~.￺￻我擁有田地。
 ￺cirocekay￻￹`Cirocek~`ay~ `kami~ `ma~`'emin~ `to~ `tayal~.￺￻我們每人都有工作。
-￺cirofo￻￹`Ci~`rofo~ `cangra~ `to~ `'epah~.￺￻他們囤積米酒。
+￺cirofo￻￹`Ci~`rofo~ `cangra~ `to~ `^epah~.￺￻他們囤積米酒。
 ￺cirofoay￻￹`Cirofo~`ay~ `ko~ `paliding~ `ako~ `to~ `maamaan~.￺￻我車上囤積著各種貨物。
 ￺cirokohay￻
 ￺ciroma￻￹`Ci~`roma~ `to~ `riko'~ `ko~ `mitiliday~.￺￻學生的衣服有所不同。
@@ -2446,7 +2446,7 @@
 ￺coli'￻￹￺￻`Mipodpod~ `to~ `c~`oli'~ 去撿蝸牛。
 ￺coli￻￹`Pakaka~ `ko~ `c~`oli~ `no miso~.￺￻你很會頂嘴。
 ￺colien￻￹`Mana~ `c~`olien~ `kako~ `saw~?￺￻為什麼頂撞我呢？
-￺colipes￻￹`Micolipes~ `ko~ `faki~ `to~ `'epah~.￺￻叔叔用嘴噴灑酒。
+￺colipes￻￹`Micolipes~ `ko~ `faki~ `to~ `^epah~.￺￻叔叔用嘴噴灑酒。
 ￺colipesen￻￹`Colipes~`e~`n~ `niyam~ `ko~ `kilang~ `ato~ `hana~ `to~ `nanom~.￺￻我們給樹木和花灑水。
 ￺colo'￻
 ￺colo'en￻￹`Colo'~`e~`n~ `ko~ `kalimaamaan~ `to~ `paliding~.￺￻用牛車把貨物運走。
@@ -2991,7 +2991,7 @@
 ￺'efong￻￹`Palomaen~ `ko~ `dateng~ `i~ `'efon~g.￺￻在窪地種菜。￹`Mapolin~g `kora~ `malasangay~ `a~ `tamdaw~ `i~ `'efon~g.￺￻那位酒醉的人跌下深溝。
 ￺'efong￻￹`O~ `'Efon~g `a~ `niyaro'~ `konini~.￺￻這是瑞源部落。
 ￺eika￻
-￺'ekak￻￹`Misa~`'~`e~`ka~`k~ `ko~ `ina~ `ako~.￺￻我母親在做釀酒用的酒母。￹`O~ `sapisa'epah~ `ko~ `'~`e~`ka~`k~.￺￻酒母是用來釀酒的。
+￺'ekak￻￹`Misa~`'~`e~`ka~`k~ `ko~ `ina~ `ako~.￺￻我母親在做釀酒用的酒母。￹`O~ `sapisa^epah~ `ko~ `'~`e~`ka~`k~.￺￻酒母是用來釀酒的。
 ￺'ekaken￻￹`Aka~ `'ekak~`e~`n~ `ko~ `tao~ !￺￻不要詛咒別人！￹`Aka~ `'ekak~`e~`n~ `ko~ `tao~ !￺￻不要詛咒別人！
 ￺'eked￻￹`'~`E~`k~`e~`d~ `saan~ `nani~ `niyaro'~ `niyam~ `cangra~.￺￻他們由我部落分出來。
 ￺'ekeden￻￹`'Eked~`e~`n~ `no~ `ka~`kita~`a~`n~ `cangra~.￺￻頭目使他們另建派係。
@@ -3057,8 +3057,8 @@
 ￺'enoc￻
 ￺'enocen￻￹`'Enoc~`e~`n~ `ko~ `sapaiyo~.￺￻把藥吞下去。￹`'Enoc~`e~`n~ `ko~ `sapaiyo~.￺￻把藥吞下去。
 ￺'enor￻￹`'~`E~`no~`r~ `no~ `tingting~.￺￻秤坨。￹`'~`E~`no~`r~ `no~ `tingting~.￺￻秤砣。￹`'~`E~`no~`r~ `no~ `tamina~.￺￻船錨。
-￺'epah￻￹`Fadisoso'~ `a~ `'~`e~`pa~`h~.￺￻葡萄酒。
-￺'epahan￻￹`O~ `maan~ `a~ `'epah~`a~`n~ `ko~ `mikaenan~ `iso~ `saw~?￺￻你喝的什麼酒呢？
+￺^epah￻￹`Fadisoso'~ `a~ `'~`e~`pa~`h~.￺￻葡萄酒。
+￺^epahan￻￹`O~ `maan~ `a~ `^epah~`a~`n~ `ko~ `mikaenan~ `iso~ `saw~?￺￻你喝的什麼酒呢？
 ￺'epang￻
 ￺'epangan￻
 ￺'epec￻
@@ -3073,7 +3073,7 @@
 ￺'epong￻￹`'~`Adihay~ `ko~ `'~`e~`p~`o~`ng~ `no~ `lofoc~.￺￻袋子有很多破洞。
 ￺'epor￻￹`Ma~`'~`e~`p~`o~`r~`to~ `no~ `kaying~ `a~ `mitifek~ `ko~ `felac~.￺￻小姐已把米舂成精米。
 ￺'erac￻
-￺'eraw￻￹`Iraay~ `ko~ `'~`e~`ra~`w~ `no~ `mato'asay~.￺￻年老者有酒槽。￹`O~ `sapisanga'~ `to~ `'epah~ `ko~ `'~`e~`ra~`w~.￺￻
+￺'eraw￻￹`Iraay~ `ko~ `'~`e~`ra~`w~ `no~ `mato'asay~.￺￻年老者有酒槽。￹`O~ `sapisanga'~ `to~ `^epah~ `ko~ `'~`e~`ra~`w~.￺￻
 ￺'erec￻
 ￺'erecen￻￹`'Erec~`e~`n~ `ko~ `faloco'~ `no~ `tailangan~ !￺￻把碾磨的心擰緊！￹`'Erec~`e~`n~ `ko~ `kahadakan~ `no~ `nanom~.￺￻把水龍頭關緊。
 ￺'eres￻￹`Pakakaay~ `ko~ `'~`e~`r~`e~`s~ `no~ `'Amis~.￺￻阿美人的打扮很講究的。
@@ -3318,7 +3318,7 @@
 ￺fafoy￻￹`Komaen~ `ko~ `f~`a~`f~`oy~ `to~ `konga~..￺￻野豬吃地瓜。
 ￺fafoyan￻￹`Misanga'~ `cangra~ `to~ `pa~`fafoy~`a~`n~.￺￻他們在蓋豬舍。
 ￺fafoyolen￻
-￺fafetiken￻￹`F~`a~`fetiken~ `a~ `'epah~ `a~ `pakaen~ `to~ `to'as~.￺￻要彈撥酒祭祖先。￹`F~`a~`fetiken~ `no~ `ka~`kita~`a~`n~ `kona~ `'epah~ `i~ `'ayaw~ `no~ `kali~`k~u`da~`a~`n~.￺￻這是頭目在跳舞前祈禱時要用手指彈出祭祖的酒。
+￺fafetiken￻￹`F~`a~`fetiken~ `a~ `^epah~ `a~ `pakaen~ `to~ `to'as~.￺￻要彈撥酒祭祖先。￹`F~`a~`fetiken~ `no~ `ka~`kita~`a~`n~ `kona~ `^epah~ `i~ `'ayaw~ `no~ `kali~`k~u`da~`a~`n~.￺￻這是頭目在跳舞前祈禱時要用手指彈出祭祖的酒。
 ￺fafetiren￻￹`F~`a~`fetiren~ `a~ `pana'~.￺￻要發射的箭。
 ￺fafoti'en￻￹`Hemeksa~ `cingra~ `to~ `pina~ `a~ `dadaya~ `caay ka~ `ala~ `ko~ `f~`a~`foti'~`e~`n~ `ningra~.￺￻他高興得幾夜沒睡覺。
 ￺fafutingen￻￹`F~`a~`futingen~ `a~ `fanaw~.￺￻要捕魚的池塘。
@@ -4214,7 +4214,7 @@
 ￺hales￻￹`Ha~`l~`e~`s~ `kako~ `ko~ `ma~`milicay~ `sa~ `kiso~?￺￻你不是說好是你要去問嗎？
 ￺halhal￻￹`Ha~`l~`ha~`l~ `saan~ `cangra~ `to~ `pipawsa~ `niyam~.￺￻他們期盼我們的送東西來。
 ￺halhalen￻￹`Halhal~`e~`n~ `nangra~ `kami~ `a~ `mipalafang~ `to~ `tolo~ `a~ `romi'ad~.￺￻他們為我們的來訪接風三天。￹`Halhal~`e~`n~ `niyam~ `kamo~ `a~ `tayni~ !￺￻我們期盼著你們來！
-￺hali￻￹￺￻`hali'ayam~ 愛玩鳥。￹￺￻`hali'epah~ 愛喝酒。￹￺￻`h~`ali~`f~u`ti'~ 愛睡，嗜睡，貪睡。￹￺￻`h~`ali~`'afo~ 連灰一起取走。￹￺￻`halilamilamit~ 連根統統拔掉。
+￺hali￻￹￺￻`hali'ayam~ 愛玩鳥。￹￺￻`hali^epah~ 愛喝酒。￹￺￻`h~`ali~`f~u`ti'~ 愛睡，嗜睡，貪睡。￹￺￻`h~`ali~`'afo~ 連灰一起取走。￹￺￻`halilamilamit~ 連根統統拔掉。
 ￺hali'ayam￻￹`Ha~`li'ay~`a~`m~ `ko~ `misasingay~ `a~ `tamdaw~.￺￻攝影者愛鳥。
 ￺hali'ayamay￻￹`Hali'ayam~`ay~ `ko~ `ka~`'~`ma~`ng~`ay~.￺￻小孩愛玩鳥。
 ￺hali'es'es￻
@@ -4231,8 +4231,8 @@
 ￺hali'odaxay￻￹`Hali'odax~`ay~ `a~ `wawa~.￺￻喜歡吃糖的小孩
 ￺hali'opir￻￹`Hali~`'opir~ `to~ `fokes~.￺￻愛編辮子。
 ￺hali'opiray￻￹`Hali'opir~`ay~ `to~ `fokes~ `ko~ `kaying~.￺￻小姐是愛編髮型的人。
-￺hali'epah￻￹`Hali~`'epah~ `koni~ `a~ `ka'emangay~.￺￻這個年輕人嗜酒。
-￺hali'epahay￻￹`Hali'epah~`ay~ `ko~ `faki~ `ni~ `Kacaw~.￺￻卡照先生的叔叔愛喝酒。
+￺hali^epah￻￹`Hali~`^epah~ `koni~ `a~ `ka'emangay~.￺￻這個年輕人嗜酒。
+￺hali^epahay￻￹`Hali^epah~`ay~ `ko~ `faki~ `ni~ `Kacaw~.￺￻卡照先生的叔叔愛喝酒。
 ￺haliacang￻￹`Hali~`acang~ `ci~ `Osa~`y~.￺￻烏賽小姐喜歡赴宴會。
 ￺haliacangay￻￹`Haliacang~`ay~ `ko~ `'Amis~ `a~ `tamdaw~.￺￻阿美族人很喜歡歡宴。
 ￺hali'alip￻￹`Hali~`ali~`p~ `kona~ `malitengay~.￺￻這位老人喜歡做愛。
@@ -5133,7 +5133,7 @@
 ￺iyopen￻￹`Papi~ `iyop~`e~`n~ `ko~ `cikawasay~ `to~ `adada~ `iso~.￺￻請巫師為你念咒治病。
 ￺'iyot￻
 ￺k￻
-￺ka￻￹￺￻`ka'etip~ 西方。￹￺￻`kawali~ 東方。￹￺￻`kafafaw~ 上游。￹`Kafuti'~ !￺￻睡吧！￹`Kakomaen~ `to~ `'epah~ !￺￻請吃酒！￹`Nga'ayay~ `ko~ `karomakat~ `ako~.￺￻我走路走得好好的。￹`O~ `kamaro'~ `aca~ `no~ `malitengay~ `i~ `fokeloh~.￺￻老人只好坐在石頭上。￹`Kaherek~`ho~ `ningra~ `isawni~.￺￻他剛剛完成。￹`Cowa~ `katayra~.￺￻不去。￹`Aka ka~`f~u`ti'~ `itini~ !￺￻不要在這裡睡覺！￹`Aka ka~`komaen~ `to~ `'epah~ !￺￻不要喝酒！￹￺￻`k~`a~`ta'angay~ 大的（程度、規模）。￹`cowa~ `k~`a~`nga'ay~.￺￻不好。￹`O~ `cima~ `k~`a~ `tamdaw~?￺￻那人是誰？
+￺ka￻￹￺￻`ka'etip~ 西方。￹￺￻`kawali~ 東方。￹￺￻`kafafaw~ 上游。￹`Kafuti'~ !￺￻睡吧！￹`Kakomaen~ `to~ `^epah~ !￺￻請吃酒！￹`Nga'ayay~ `ko~ `karomakat~ `ako~.￺￻我走路走得好好的。￹`O~ `kamaro'~ `aca~ `no~ `malitengay~ `i~ `fokeloh~.￺￻老人只好坐在石頭上。￹`Kaherek~`ho~ `ningra~ `isawni~.￺￻他剛剛完成。￹`Cowa~ `katayra~.￺￻不去。￹`Aka ka~`f~u`ti'~ `itini~ !￺￻不要在這裡睡覺！￹`Aka ka~`komaen~ `to~ `^epah~ !￺￻不要喝酒！￹￺￻`k~`a~`ta'angay~ 大的（程度、規模）。￹`cowa~ `k~`a~`nga'ay~.￺￻不好。￹`O~ `cima~ `k~`a~ `tamdaw~?￺￻那人是誰？
 ￺kaadayayan￻￹`ka~`adayay~`a~`n~ `ko~ `manikaway~ `a~ `tamdaw~.￺￻窮人值得同情。
 ￺kaadayayen￻￹`kaa~`daya~`e~`n~ `ko~ `cipadesay~ `a~ `tamdaw~.￺￻要同情不幸的人。￹`Ka~`adayay~`e~`n~ `kora~ `pakoyoc~ `a~`tamdaw~.￺￻要同情那孤獨的人。
 ￺ka'adepetan￻￹`Awaay~ `ko~ `ka~`'adepet~`a~`n~ `niyam~.￺￻我們並不吝嗇。
@@ -5820,7 +5820,7 @@
 ￺kakolayacen￻￹`Ka~`kolayacen~ `a~ `focol~.￺￻要拉滿的弓。
 ￺kakolian￻￹`Papi~`ta'isen~ `to~ `kako~`l~`i~`a~`n~.￺￻叫她縫花邊。
 ￺kakoliyolen￻￹`Ka~`koliyolen~ `ta~ `maraod~ `ko~ `omah~ `nangra~.￺￻要個拐彎才會到達他們的園地。
-￺kakomaen￻￹`Ka~`komaen~`ho~ `ako~.￺￻我剛吃的飯。￹`Nga'ayay~ `ko~ `ka~`komaen~ `ningra~ `to~ `cilacila~.￺￻他天天吃的好好的。￹`Ka~`komaen~ `to~ `'epah~ !￺￻請喝酒！
+￺kakomaen￻￹`Ka~`komaen~`ho~ `ako~.￺￻我剛吃的飯。￹`Nga'ayay~ `ko~ `ka~`komaen~ `ningra~ `to~ `cilacila~.￺￻他天天吃的好好的。￹`Ka~`komaen~ `to~ `^epah~ !￺￻請喝酒！
 ￺kakomaenan￻￹`Kakomaen~`a~`n~ `a~ `loma'~.￺￻餐館，飯廳。￹`Lomahad~`ay~ `kami~ `to~ `kakomaen~`a~`n~ `to~ `mipalomaan~ `no~ `maomahay~ `a~ `tamdaw~ `a~ `panay~.￺￻我們是吃農夫的稻米長大的。
 ￺kakomimiten￻￹`Ka~`komimit~`e~`n~ `kona~ `ca~^`e~`ng~`e~`ta~`y~ `a~ `fanges~ `ako~.￺￻我皮膚癢癢要捏揉。
 ￺kakomod￻￹`Ka~`komod~ `kita~ `a~ `misaloma'~.￺￻我們一起建屋。
@@ -6366,8 +6366,8 @@
 ￺kara'aw'away￻￹`Kara'aw'aw~`ay~ `a~ `totoy~.￺￻愛嚎叫的小狗。
 ￺kara'eka'￻￹`Kara~`'~`e~`ka~`'~ `saan~ `ko~ `cikay~ `no~ `koliciw~.￺￻單車發出的吱吱嘎嘎聲。
 ￺kara'eka'ay￻
-￺kara'epah￻￹`Caay ka~ `nga'ay~ `a~ `kara~`'epah~ `ko~ `tamdaw~.￺￻人不可酗酒。
-￺kara'epahay￻￹`Kara'epah~`ay~ `a~ `fafahiyan~.￺￻女酒鬼.
+￺kara^epah￻￹`Caay ka~ `nga'ay~ `a~ `kara~`^epah~ `ko~ `tamdaw~.￺￻人不可酗酒。
+￺kara^epahay￻￹`Kara^epah~`ay~ `a~ `fafahiyan~.￺￻女酒鬼.
 ￺kara'idi￻￹`Caay~`ka~ `nga'ay~ `a~ `kara~`'i~`d~`i~ `ko~ `tamdaw~.￺￻人不可太小氣。
 ￺kara'idiay￻￹`Kara'idi~`ay~ `to~ `fiyaw~.￺￻對鄰居很小氣。
 ￺kara'ilol￻￹`Kara~`'ilol~ `kami~ `to~ `i~`loma'~`ay~.￺￻我們特別想念家裡人。
@@ -6639,7 +6639,7 @@
 ￺katahira￻￹`K~`ata~`h~`ira ho~ `no~ `kaka~ `isawni~.￺￻哥哥剛到那裡的。
 ￺katahiraan￻￹`Siwa~ `ko~ `toki~ `to~ `dadaya~ `ko~ `katahira~`a~`n~ `niyam~.￺￻晚間九點我們會到達那裡。
 ￺katakat￻￹`Cima~ `ko~ `ka~`t~`aka~`t~ `sanay~ `to~ `pawti~?￺￻誰用雙手抬舉米袋。
-￺katakaten￻￹`Katakat~`e~`n~ `ningra~ `ko~ `cecay~ `a~ `koreng~ `no~ `'epah~.￺￻他把一罈酒抬出去。
+￺katakaten￻￹`Katakat~`e~`n~ `ningra~ `ko~ `cecay~ `a~ `koreng~ `no~ `^epah~.￺￻他把一罈酒抬出去。
 ￺katal￻
 ￺katalahekalan￻￹`O~ `dadaya~ `ko~ `ka~`talahekal~`a~`n~ `no~ `comoli~.￺￻蝸牛夜間出來。
 ￺katalaloma'￻￹`Ka~`talaloma'~ `kami~ `i~ `ma'oraday~ `ko~ `romi'ad~.￺￻我剛到家的時候，天下雨了。￹`Ka~`talaloma'~ `ako~ `a~ `romadiw~ !￺￻請到我家來唱歌吧！
@@ -6719,7 +6719,7 @@
 ￺kawanan￻￹`I~ `ka~`wanan~ `ako~ `cingra~ `a~ `maro'~.￺￻她在我右邊坐下。
 ￺kawananay￻￹`Oya~ `kawanan~`ay~ `a~ `kamay~ `iso~ `ko~ `ma~`mitatoy~ `to~ `f~u`n~u`s~.￺￻你右邊的來握刀。
 ￺kawar￻￹`K~`awa~`r~ `no~ `pa~`'~`ta~`ng~.￺￻水桶的抬手。
-￺kawarakan￻￹`O~ `'epah~ `ko~ `kawar~`aka~`n~ `no~ `malasangay~.￺￻酒精中毒。
+￺kawarakan￻￹`O~ `^epah~ `ko~ `kawar~`aka~`n~ `no~ `malasangay~.￺￻酒精中毒。
 ￺kawas￻￹`K~`awa~`s~ `no~ `lotok~.￺￻山神。￹`Mi~`ngodo~`ay~ `ko~ ‘`A~`mi~`s~ `a~ `tamdaw~ `to~ `to'as~ `a~ `k~`awa~`s~.￺￻阿美族尊敬祖靈。
 ￺kawat￻￹`Lalaten~ `to~ `talod~`o~`'~ `lima~ `a~￺￻
 ￺kawaw￻
@@ -6737,7 +6737,7 @@
 ￺kawmi'￻￹`Ka~`w~`mi~`'~ `ko~ `kamay~ `iso~.￺￻妳的手柔軟脆弱。
 ￺kawmi'ay￻￹`Kawmi'~`ay~ `a~ `saw~`f~`a~`n~.￺￻軟被。
 ￺kawra￻￹`Ta'angayay~ `ko~ `fali~ `anini~ , `ka~`w~`ra~ `cowa~ `kasi~`'~`naw~.￺￻今天風大，但是不冷。
-￺kawrira￻￹`Maolahay~ `kako~ `to~ `'epah~ , `ka~`w~`r~`ira~ `ca~ `ka~`hakowa~ `ko~ `mikaenan~.￺￻我愛喝酒，但喝得不多。
+￺kawrira￻￹`Maolahay~ `kako~ `to~ `^epah~ , `ka~`w~`r~`ira~ `ca~ `ka~`hakowa~ `ko~ `mikaenan~.￺￻我愛喝酒，但喝得不多。
 ￺kayafayafan￻￹`I~ `Malaysiya~ `ko~ `ka~`yafayaf~`a~`n~ `niyam~ `a~ `malacafay~ `a~ `mala~`sufitay~.￺￻我與他在馬來西亞並肩當兵。
 ￺kayakay￻￹`Mita'elif~ `kako~ `toya~ `macoyacoyay~ `a~ `k~`aya~`ka~`y~.￺￻我躍過那吊橋。￹`Ma~`s~`to~`l~ `no~ `nanom~ `ko~ `k~`aya~`ka~`y~.￺￻橋被水沖。
 ￺kayakayen￻￹`Kayakay~`e~`n~ `niyam~ `ko~ `kilang~ `a~ `milacal~.￺￻我們踩木橋過去
@@ -7095,7 +7095,7 @@
 ￺kinamo'etepen￻￹`Kinamo'etep~`e~`n~ `iso~ `kako~ `a~ `pasifana'~.￺￻你要教我十次。
 ￺kinangici'￻￹`Tapiden~ `ko~ `kina~`ngici'~.￺￻把破碎的補上。
 ￺kinaolah￻
-￺kinaolahay￻￹`Malasang~ `to~ , `kinaolah~`ay~ `sa~ `a~ `komaen~ `to~ `'epah~.￺￻已經醉了，還只顧喝酒。￹`Kinaolah~`ay~ `kako~ `misasing~ `to~ `nga'ayay~ `a~ `sa~`sasingen~.￺￻我只顧著找好鏡頭拍照。
+￺kinaolahay￻￹`Malasang~ `to~ , `kinaolah~`ay~ `sa~ `a~ `komaen~ `to~ `^epah~.￺￻已經醉了，還只顧喝酒。￹`Kinaolah~`ay~ `kako~ `misasing~ `to~ `nga'ayay~ `a~ `sa~`sasingen~.￺￻我只顧著找好鏡頭拍照。
 ￺kinaolahsa￻￹`Kinaolah~`sa~ `kora~ `wawa~ `a~ `misalama~.￺￻那個小孩只顧自己玩耍。
 ￺kinapatay￻￹`Kina~`patay~ `to~ `koya~ `koli~.￺￻那個工人自殺了。￹`Ketemen~ `ningra~ `ko~ `sema~ `a~ `kina~`patay~.￺￻他咬斷舌頭自盡。
 ￺kinapecod￻￹`Kina~`pecod~ `no~ `'edo~ `a~ `ofang~ `koni~.￺￻這是老鼠鑽破過的小洞。
@@ -7353,7 +7353,7 @@
 ￺kofit￻￹`Caay~`ka~ `ko~`f~`i~`t~ `ko~ `pa~`panga~`a~`n~ `ako~.￺￻我沒扣緊褲子。
 ￺kofiten￻￹`Kofit~`e~`n~ `ko~ `takamayan~.￺￻把手袖扣緊。
 ￺kofo￻￹`Cecay~ `a~ `ko~`f~`o~.￺￻一公頃。
-￺kofoc￻￹`Kofo~`c~ `no~ `'epah~.￺￻酒瓶。
+￺kofoc￻￹`Kofo~`c~ `no~ `^epah~.￺￻酒瓶。
 ￺kofol￻￹`Ma~`kofo~`l~ `ko~ `riko'~ `ningra~.￺￻他的衣服皺摺。
 ￺kohakoh￻￹`Mako~`hako~`h~ `kona~ `pitaw~.￺￻這鋤頭鬆動。
 ￺kohaw￻￹`Ko~`haw~ `no~ `f~`o~`t~`i~`ng~.￺￻魚湯。
@@ -7420,8 +7420,8 @@
 ￺kolomi￻￹`Aka~ `piko~`l~`omi~ `to~ `sowal~ `ako~.￺￻勿扭曲我的話。
 ￺kolong￻￹`Kitingen~ `ko~ `ko~`l~`o~`ng~ `a~ `pananom~.￺￻把牛牽去飲水。
 ￺kolpet￻￹`Masenger~ `ko~ `romi'ad~ `ca'enget~ `ko~ `ko~`l~`p~`e~`t~ `ako~.￺￻天氣潮溼我得腳氣。
-￺komaen￻￹`ko~`ma~`e~`n~ `to~ `holo~.￺￻吃飯。￹`ko~`ma~`e~`n~ `to~ `'epah~.￺￻喝酒。￹`ko~`ma~`e~`n~ `ko~ `kolong~ `to~ `rengos~.￺￻牛吃青草。
-￺komaenay￻￹`Komaen~`ay~ `ci~ `wama~ `to~ `'epah~.￺￻父親在喝酒。
+￺komaen￻￹`ko~`ma~`e~`n~ `to~ `holo~.￺￻吃飯。￹`ko~`ma~`e~`n~ `to~ `^epah~.￺￻喝酒。￹`ko~`ma~`e~`n~ `ko~ `kolong~ `to~ `rengos~.￺￻牛吃青草。
+￺komaenay￻￹`Komaen~`ay~ `ci~ `wama~ `to~ `^epah~.￺￻父親在喝酒。
 ￺komaing￻￹`Ma~`lima~ `kako~ `k~`omaing~ `saan~ `ko~ `tireng~.￺￻我疲憊而軟弱無力。
 ￺komaingay￻￹`K~`omaingay~ `ko~ `kero~ `nona~ `kaying~.￺￻這女孩跳起舞來很柔軟。
 ￺komena￻
@@ -8629,7 +8629,7 @@
 ￺ma'alitad￻￹`Ma~`'alitad~ `ko~ `sota'~.￺￻泥土凝成塊狀。
 ￺ma'alitaday￻
 ￺ma'aliwa'iw￻
-￺ma'alol￻￹`Aka~ `pilakec~ `to~ `'alo~, `ma~`'alol~ `kiso~ !￺￻不要過河，你會淹死的！￹`Ma~`'alol~ `i~ `'epah~.￺￻酗酒。
+￺ma'alol￻￹`Aka~ `pilakec~ `to~ `'alo~, `ma~`'alol~ `kiso~ !￺￻不要過河，你會淹死的！￹`Ma~`'alol~ `i~ `^epah~.￺￻酗酒。
 ￺ma'alolay￻￹`Ma'alol~`ay~ `no~ `cedas~ `ko~ `maamaan~.￺￻所有的東西被洪水沖走了。￹￺￻`Ma'alol~`ay~ `a~ `fo'is~流星。￹`Ma'alol~`ay~ `koya~ `wawa~.￺￻那個小孩溺水了。
 ￺ma'amamokot￻
 ￺ma'amamokotay￻
@@ -9283,7 +9283,7 @@
 ￺micikcik￻￹`Mi~`cikcik~ `ci~ `k~`aka to~ `sakalafi~ `a~ `futing~.￺￻哥哥在切晚餐要煮的魚。￹`Mi~`cikcik~ `to~ `sait~`aw~ `ci~ `ina~ `ako~.￺￻我媽媽正在切蘿蔔。￹`Mi~`cikcik~ `to~ `konga~.￺￻切番薯塊。
 ￺micolal￻￹`Mi~`colal~ `ko~ `kakahong~ `a~ `ma~`'efer~.￺￻飛魚突然飛出來。￹`Mi~`colal~ `ko~ `kado~`d~`i~ `I~ `sena'~`sena'~`a~`n~.￺￻泥鰍會在沼澤地突然出現。
 ￺micoled￻￹`Mi~`coled~ `to~ `sata~`'~`ta~ `i~ `'alofo~ `no~ `kafer~.￺￻把鑰鎖塞進褲袋。
-￺micolipes￻￹`Mi~`colipes~ `ko~ `faki~ `to~ `'epah~ `mi~`paini~ `to~ `to'as~.￺￻舅舅口含著酒噴灑來祭祖。
+￺micolipes￻￹`Mi~`colipes~ `ko~ `faki~ `to~ `^epah~ `mi~`paini~ `to~ `to'as~.￺￻舅舅口含著酒噴灑來祭祖。
 ￺micolok￻￹`Mi~`colok~ `ko~ `kapah~ `a~`mi~`o~`l~`o~`ng~ `to~ `datong~.￺￻年青人一個接一個的搬運大樹幹。
 ￺micona￻￹`Mi~`cona~ `to~ `rakat~ `no~ `finawlan~ `kora~ `tamdaw~.￺￻那個人阻撓村民行進的路。
 ￺micoracor￻￹`Mi~`coracor~ `kako~ `to~ `kapah~ `a~ `pa~`pipanay~.￺￻我催促年青人快去收割稻子。
@@ -9537,7 +9537,7 @@
 ￺mafangafang￻￹`Ma~`fangafang~ `kisowanan~.￺￻麻煩你了。
 ￺mafangafangay￻￹`Mafangafang~`ay~ `ko~ `niyaro'~ `niyam~.￺￻我們村有麻煩了。
 ￺mafangih￻
-￺mafangihay￻￹`Mafangih~`ay~ `kora~ `komaenay~ `to~ `'epah~ `a~ `tamdaw~.￺￻那個喝酒的人有醉態了。
+￺mafangihay￻￹`Mafangih~`ay~ `kora~ `komaenay~ `to~ `^epah~ `a~ `tamdaw~.￺￻那個喝酒的人有醉態了。
 ￺mafangod￻
 ￺mafangoday￻
 ￺mafariri￻
@@ -10510,7 +10510,7 @@
 ￺malacecayay￻￹`Malacecay~`ay~ `ko~ `kasa~`niya~`r~`oy~`aro'~ `niyam~.￺￻我們各個村子團結一致了。
 ￺malacidek￻￹`Ma~`lacidek~ `a~ `romakat~.￺￻分道走。￹`Ma~`lacidek~ `to~ `ko~ `lalan~.￺￻道路出現岔道了。
 ￺malacidekay￻￹`Malacidek~`ay~ `koya~ `mararamoday~.￺￻那對夫妻分手了。
-￺malacinam￻￹`Mala~`cinam~ `ko~ `wawa~ `ningra~ , `hali'epahay~`to~.￺￻他的孩子彼此學壞,真愛喝酒。
+￺malacinam￻￹`Mala~`cinam~ `ko~ `wawa~ `ningra~ , `hali^epahay~`to~.￺￻他的孩子彼此學壞,真愛喝酒。
 ￺malacinowas￻￹`Ma~`lacinowas~ `ko~ `faloco'~.￺￻意見不和，貌合神離。￹`Ma~`lacinowas~ `kita~.￺￻我們分手。
 ￺malacinowasay￻￹`Malacinowas~`ay~ `ko~ `paro~ `no~ `loma'~ `ningra~.￺￻他的家人分離了。
 ￺malada'￻
@@ -15097,9 +15097,9 @@
 ￺mi'ot'ot￻
 ￺mi'ot'otan￻
 ￺mi'ot'otay￻
-￺mi'owak￻￹`Mi~`'owak~ `to~ `'epah~.￺￻把酒喝乾。
-￺mi'owakan￻￹`Mi'owak~`a~`n~ `niyam~ `ko~ `f~`adi~`so'so'~ `a~ `'epah~.￺￻我們把葡萄酒一飲而盡了。￹`Mi'owak~`a~`n~ `a~ `'epah~.￺￻一口喝乾的酒。
-￺mi'owakay￻￹`Mi'owak~`ay~ `kako~ `to~ `'epah~.￺￻我把酒一口喝乾了。￹`Mi'owak~`ay~ `a~ `tamdaw~.￺￻一飲而盡的人。
+￺mi'owak￻￹`Mi~`'owak~ `to~ `^epah~.￺￻把酒喝乾。
+￺mi'owakan￻￹`Mi'owak~`a~`n~ `niyam~ `ko~ `f~`adi~`so'so'~ `a~ `^epah~.￺￻我們把葡萄酒一飲而盡了。￹`Mi'owak~`a~`n~ `a~ `^epah~.￺￻一口喝乾的酒。
+￺mi'owakay￻￹`Mi'owak~`ay~ `kako~ `to~ `^epah~.￺￻我把酒一口喝乾了。￹`Mi'owak~`ay~ `a~ `tamdaw~.￺￻一飲而盡的人。
 ￺mi'owal￻
 ￺mi'owang￻￹`Mi~`'owang~ `ko~ `waco~ `to~ `tamdaw~.￺￻狗吠人。
 ￺mi'owangan￻￹`O~ `mi'adopay~ `ko~ `mi'owang~`a~`n~ `no~ `lokedaw~.￺￻豹子所狂吠的是獵人。
@@ -16014,9 +16014,9 @@
 ￺mihamham￻￹`Mi~`hamham~ `to~ `lafang~.￺￻款待客人。￹`Mi~`hamham~ `to~ `paini~ `no~ `kapah~ `ko~ `mato'asay~.￺￻老人只在等待年輕人來伺候。
 ￺mihamhaman￻￹`Mihamham~`a~`n~ `naira~ `kami~ `inacila~.￺￻昨天他們接待過我們。￹`Mihamham~`a~`n~ `a~ `kakeridan~.￺￻受到歡迎的領導。
 ￺mihamhamay￻￹`Mihamham~`ay~ `kami~ `to~ `salawinawina~ `niyam~.￺￻我們在歡迎我們的親戚。￹`Mihamham~`ay~ `a~ `kaying~.￺￻負責接待的小姐。
-￺mihamot￻￹`Hamaan~ `a~ `mi~`hamot~ `to~ `'epah~!￺￻不要猛喝酒！￹　`Mi~`hamot~ `to~ `futing~.￺￻狼吞虎嚥吃魚。
+￺mihamot￻￹`Hamaan~ `a~ `mi~`hamot~ `to~ `^epah~!￺￻不要猛喝酒！￹　`Mi~`hamot~ `to~ `futing~.￺￻狼吞虎嚥吃魚。
 ￺mihamotan￻￹`Mihamot~`a~`n~ `ira~ `ko~ `titi~.￺￻他拿了一大堆肉。￹`O~ `hemay~ `ko~ `mihamot~`a~`n~ `ira~.￺￻他猛吃的是年糕。
-￺mihamotay￻￹`Mihamot~`ay~ `kora~ `kapah~ `to~ `'epah~ `ato~ `titi~.￺￻那些青年在大口大口地喝酒和吃肉。￹`Mihamot~`ay~ `a~ `tamdaw~.￺￻貪得無厭的人。
+￺mihamotay￻￹`Mihamot~`ay~ `kora~ `kapah~ `to~ `^epah~ `ato~ `titi~.￺￻那些青年在大口大口地喝酒和吃肉。￹`Mihamot~`ay~ `a~ `tamdaw~.￺￻貪得無厭的人。
 ￺mihanek￻￹`Mi~`hanek~ `to~ `hana~.￺￻聞花味。
 ￺mihanekan￻￹`Mihanek~`a~`n~ `ako~ `koni~ `a~ `hana~.￺￻我聞過了這花香。￹`Mihanek~`a~`n~ `a~ `sapafangsis~.￺￻所聞的香水。
 ￺mihanekay￻￹`Mihanek~`ay~ `ci~ `safa~ `iso~ `to~ `sapafangsis~.￺￻你妹妹正在聞香水。￹`O~ `cima~ `ko~ `mihanek~`ay~ `to~ `hana~ `ako~?￺￻誰在聞我的花香？
@@ -16379,9 +16379,9 @@
 ￺mikalala'edan￻￹`Mana~ `a~ `mikalala'ed~`a~`n~ `namo~ `ca~`nira~？￺￻￹`Hakowa~ `ko~ `mikalala'ed~`a~`n~ `namo~?￺￻你們的距離有多少？
 ￺mikalala'eday￻￹`Mikalala'ed~`ay~ `koni~ `a~ `tosaay~ `a~ `niyaro'~.￺￻這兩個村子隔離開來了。
 ￺mikalaliwaliwad￻￹`Mika~`la~`liwaliw~`a~`d~ `ko~ `ta~`m~`tamdaw~.￺￻人人在議論。
-￺mikalanang￻￹`Mika~`lanang~ `kora~ `mili'epahay~.￺￻那些喝酒的人吵吵鬧鬧。￹`Mika~`lanang~ `to~ `tao~.￺￻排斥別人。
-￺mikalanangan￻￹`Mi~`kalanangan~ `niyam~ `koya~ `mili'epahay~.￺￻我們去煩那些喝酒的人。
-￺mikalanangay￻￹`Mikalanangan~ `ko~ `mili'epahay~.￺￻喝酒的人正在吵嚷。
+￺mikalanang￻￹`Mika~`lanang~ `kora~ `mili^epahay~.￺￻那些喝酒的人吵吵鬧鬧。￹`Mika~`lanang~ `to~ `tao~.￺￻排斥別人。
+￺mikalanangan￻￹`Mi~`kalanangan~ `niyam~ `koya~ `mili^epahay~.￺￻我們去煩那些喝酒的人。
+￺mikalanangay￻￹`Mikalanangan~ `ko~ `mili^epahay~.￺￻喝酒的人正在吵嚷。
 ￺mikalang￻￹`Mi~`kalang~ `kita~ `hasakaen~ `a~ `malahok~.￺￻我們去捉螃蟹準備當午餐的菜吃。
 ￺mikalangan￻￹`Mi~`kalangan~ `niyam~.￺￻我們捕捉螃蟹了。￹`Adihayay~ `to~ `ko~ `mi~`kalangan~ `ako~.￺￻我捕捉很多螃蟹。
 ￺mikalaomah￻￹`Sowal~`e~`n~ `to~ `ako~ `ko~ `mika~`la~`omah~ `niyam~ `ci~`nira~.￺￻我把開墾田地的經過對他說了。
@@ -17135,9 +17135,9 @@
 ￺milidongan￻￹`Milidong~`a~`n~ `to~ `ko~ `mipawalian~ `a~ `panay~.￺￻我把曬好的稻穀歸攏在一起了。￹`O~ `milidong~`a~`n~ `a~ `maamaan~.￺￻歸攏在一起的東西。
 ￺milidongay￻￹`Milidong~`ay~ `ca~`nira~ `to~ `lamelo~ `i~ `pawalian~.￺￻他們在曬穀場歸攏小米了。￹`O~ `ci~ `mama~ `ko~ `milidong~`ay~ `to~ `sakamaomah~.￺￻是爸爸在回收農具。
 ￺mili'eda￻￹`Mitatoy~ `ko~ `ka'emangay~ `to~ `sa~`'~`asik~ `a~ `mi~`li'edac~ `to~ `loma'~.￺￻拿著掃巴打掃房子。
-￺mili'epah￻￹`Tatayra~ `kami~ `ci~`nira~`a~`n~ `a~ `mi~`l~`i~`'epah~.￺￻我們要去他那裡討酒吃。
-￺mili'epahan￻￹`Mili'epah~`a~`n~ `niyam~ `ci~`nira~ `a~ `komaen~.￺￻我們向他討過酒吃了。￹`Cecay~ `a~ `koreng~ `ko~ `mili'epah~`a~`n~ `niyam~.￺￻我們討來一壇酒。
-￺mili'epahay￻￹`Mili'epah~`ay~ `ca~`nira~ `a~ `komaen~.￺￻他們在討酒吃了。￹`O~ `f~`i~`naol~`a~`n~ `ita~ `ko~ `mili'epah~`ay~ `a~ `ma~`'emin~.￺￻討酒喝的都是我們的鄉親。
+￺mili^epah￻￹`Tatayra~ `kami~ `ci~`nira~`a~`n~ `a~ `mi~`l~`i~`^epah~.￺￻我們要去他那裡討酒吃。
+￺mili^epahan￻￹`Mili^epah~`a~`n~ `niyam~ `ci~`nira~ `a~ `komaen~.￺￻我們向他討過酒吃了。￹`Cecay~ `a~ `koreng~ `ko~ `mili^epah~`a~`n~ `niyam~.￺￻我們討來一壇酒。
+￺mili^epahay￻￹`Mili^epah~`ay~ `ca~`nira~ `a~ `komaen~.￺￻他們在討酒吃了。￹`O~ `f~`i~`naol~`a~`n~ `ita~ `ko~ `mili^epah~`ay~ `a~ `ma~`'emin~.￺￻討酒喝的都是我們的鄉親。
 ￺milietan￻￹`Adihayen~ `a~ `mi~`l~`i~`e~`ta~`n~!￺￻要多賺點錢！
 ￺milietanan￻￹`Milietan~`a~`n~ `no~￺￻￹`O~ `milietan~`a~`n~ `a~ `koli~.￺￻被剝削的工人。
 ￺milietanay￻￹`Milietan~`ay~ `ko~ `tawki~ `kita~`ana~`n~.￺￻老闆在賺我們的錢。￹`Milietan~`ay~ `a~ `tawki~.￺￻賺錢的老闆。
@@ -17466,8 +17466,8 @@
 ￺mimokalan￻
 ￺mimokalay￻
 ￺mimokel￻￹`Mana~ `a~ `mi~`mokel~ `kiso~ `to~ `e~`pa~`h~?￺￻你為什麼對酒沒有節制地喝呢？
-￺mimokelan￻￹`Mimokel~`a~`n~ `naira~ `ko~ `'epah~ `ato~ `titi~ `a~ `komaen~.￺￻他們把酒肉狂吃濫飲了。￹`O~ `maan~ `ko~ `mimokel~`a~`n~ `iso~?￺￻他狂飲什麼？
-￺mimokelay￻￹`Mimokel~`ay~ `kako~ `to~ `'epah~ `a~ `komaen~.￺￻我在狂飲酒。￹`Mimokel~`ay~ `a~ `kapah~.￺￻貪吃的青年。
+￺mimokelan￻￹`Mimokel~`a~`n~ `naira~ `ko~ `^epah~ `ato~ `titi~ `a~ `komaen~.￺￻他們把酒肉狂吃濫飲了。￹`O~ `maan~ `ko~ `mimokel~`a~`n~ `iso~?￺￻他狂飲什麼？
+￺mimokelay￻￹`Mimokel~`ay~ `kako~ `to~ `^epah~ `a~ `komaen~.￺￻我在狂飲酒。￹`Mimokel~`ay~ `a~ `kapah~.￺￻貪吃的青年。
 ￺mimokmok￻￹`Mi~`mokmok~ `to~ `ofang~.￺￻鑽洞。
 ￺mimokmokan￻￹`Mimokmok~`a~`n~ `no~ `siri~ `kora~ `'adipel~.￺￻羊從籬笆鑽進去了。￹`Mimokmok~`a~`n~ `a~ `dihif~.￺￻鑽進去的山洞。
 ￺mimokmokay￻￹`Mimokmok~`ay~ `ko~ `wawa~ `i~ `oray~.￺￻孩子鑽進被子裡了。￹`O~ `oles~ `ko~ `mimokmok~`ay~ `toya~ `pasirian~ `haw~?￺￻是狼鑽進去羊圈裡吧？
@@ -17996,7 +17996,7 @@
 ￺mipahakelong￻￹`Mi~`pahakelong~ `a~ `tayra~.￺￻跟著去。￹`Mi~`pahakelong~ `ca~`nira~`a~`n~ `a~ `makero~.￺￻隨同她們一起跳舞。
 ￺mipahakelongan￻￹`Mipahakelong~`a~`n~ `ita~ `ci~`nira~ `a~ `milo'od~.￺￻我們跟隨過他打仗。￹`O~ `mipahakelong~`a~`n~ `ako~ `a~ `widang~.￺￻我所跟隨的朋友。
 ￺mipahakelongay￻￹`O~ `cima~ `ko~ `mipahakelong~`ay~ `takowanan~ `a~ `tayra~?￺￻是誰跟我去？
-￺mipahalineknek￻￹`M~`ipa~`halineknek~ `to~ `'epah~.￺￻使酒沉澱。
+￺mipahalineknek￻￹`M~`ipa~`halineknek~ `to~ `^epah~.￺￻使酒沉澱。
 ￺mipahalineknekan￻￹`Mipahalineknek~`a~`n~ `ako~ `ci~`nira~ `to~ `na~`nanom~`e~`n~.￺￻我給他們把飲水澄清了。￹`O~ `mipahalineknek~`a~`n~ `a~ `sangasif~.￺￻被沉澱下來的茶。
 ￺mipahalineknekay￻￹`Mipahalineknek~`ay~ `kako~ `to~ `nanom~.￺￻我正在沉澱水。￹`O~ `ci~`nira~ `ko~ `mipahalineknek~`ay~ `to~ `i~ `takid~`ay~.￺￻是他在沉澱杯裡的東西。
 ￺mipahanhan￻￹`Mi~`pahanhan~ `ci~`nira~`a~`n~.￺￻讓他歇工。
@@ -18041,7 +18041,7 @@
 ￺mipaysin￻￹`Mi~`paysin~ `to~ `caciyaw~ `anohatini~.￺￻現在講話有禁忌。
 ￺mipaising￻￹`Mi~`paising~ `to~ `adada~.￺￻讓醫生看病。
 ￺mipaisingan￻￹`Mipaising~`a~`n~ `to~ `ko~ `faki~.￺￻給爺爺請醫生了。￹`Mipaising~`a~`n~ `a~ `adadaay~.￺￻讓醫生看的病人。￹`Mipaising~`a~`n~ `niyam~ `ko~ `fafahiyan~ `toya~ `pi'a'adopan~.￺￻我們在打獵期間忌諱女人。￹`Mipaising~`a~`n~ `a~ `demak~.￺￻所禁忌的行為。
-￺mipaisingay￻￹`Mipaising~`ay~ `kako~ `to~ `doka'~ `no~ `oo'~.￺￻我讓醫生看腿傷了。￹`Ci~ `wama~ `ko~ `mipaising~`ay~ `to~ `adada~.￺￻是父親請醫生看病的。￹`Mipaising~`ay~ `kita~ `to~ `pi~`tamako~ `itini~.￺￻我們在這裡禁忌吸煙。￹`Ca~`nira~ `ko~ `mipaising~`ay~ `to~ `'epah~.￺￻他們禁忌酒。
+￺mipaisingay￻￹`Mipaising~`ay~ `kako~ `to~ `doka'~ `no~ `oo'~.￺￻我讓醫生看腿傷了。￹`Ci~ `wama~ `ko~ `mipaising~`ay~ `to~ `adada~.￺￻是父親請醫生看病的。￹`Mipaising~`ay~ `kita~ `to~ `pi~`tamako~ `itini~.￺￻我們在這裡禁忌吸煙。￹`Ca~`nira~ `ko~ `mipaising~`ay~ `to~ `^epah~.￺￻他們禁忌酒。
 ￺mipaisofok￻￹`Mi~`paisofok~ `to~ `hafel~.￺￻口袋裡裝木炭。
 ￺mipaisofokan￻￹`Mipaisofok~`a~`n~ `to~ `ko~ `falisan~ `ako~.￺￻我的高粱裝入口袋裡了。￹`O~ `maan~ `ko~ `mipaisofok~`a~`n~?￺￻口袋裡裝了什麼？
 ￺mipaisofokay￻￹`Mipaisofok~`ay~ `ci~ `Futing~ `to~ `felac~.￺￻`Futing~在口袋裡裝大米。￹`O~ `cima~ `ko~ `mipaisofok~`ay~ `to~ `maamaan~?￺￻往口袋裡裝東西的是誰？
@@ -18141,7 +18141,7 @@
 ￺mipakakiting￻￹`Mi~`paka~`kiting~ `tora~ `tosaay~ `a~ `kolong~.￺￻把那兩條牛互相栓起來。
 ￺mipakakitingan￻￹`Mipakakiting~`a~`n~ `ako~ `koya~ `tatosa~ `a~ `kolong~.￺￻我把那兩頭牛互相拴起來了。￹`Mipakakiting~`a~`n~ `a~ `koliciw~.￺￻互相栓起來的自行車。
 ￺mipakakitngay￻￹`Mi~`paka~`k~`i~`t~`ng~`ay~ `kako~ `to~ `paliding~ `a~ `ma~`e~`mi~`n~.￺￻我把車子都互相栓起來了。￹`Ci~ `faki~ `ko~ `mi~`paka~`k~`i~`t~`ng~`ay~ `to~ `kolong~.￺￻是爺爺把牛栓起來的。
-￺mipakakomaen￻￹`Mi~`pakakomaen~ `ca~`nira~`a~`n~ `to~ `'epah~.￺￻讓他們喝酒。
+￺mipakakomaen￻￹`Mi~`pakakomaen~ `ca~`nira~`a~`n~ `to~ `^epah~.￺￻讓他們喝酒。
 ￺mipakakomaenan￻￹`Mipakakomaen~`a~`n~ `ira~ `kami~ `to~ `e~`pa~`h~.￺￻他讓我們吃過酒了。
 ￺mipakakomaenay￻￹`Mipakakomaen~`ay~ `kako~ `ca~`nira~`a~`n~ `to~ `h~u`l~`o~.￺￻我讓他們吃米飯了。￹`Ci~ `wama~ `ko~ `mipakakomaen~`ay~ `ca~`nira~`a~`n~.￺￻叫他們吃飯的是父親。
 ￺mipakakorkor￻￹`Mi~`pakakorkor~ `ko~ `'edo~ `to~ `ofang~.￺￻老鼠擅長挖洞。
@@ -18480,7 +18480,7 @@
 ￺mipapiholol￻￹`Mi~`papiholol~ `to~ `kaying~ `to~ `lafang~.￺￻吩咐小姐款待客人。
 ￺mipapihololan￻￹`Mipapiholol~`a~`n~ `no~ `tapang~ `kami~ `to~ `nani~`Taypak~`ay~ `a~ `lafang~.￺￻官員吩咐我們招待臺北來的貴賓了。￹`Ora~ `kaying~ `ko~ `mipapiholol~`a~`n~ `ira~ `kamiyanan~.￺￻那些小姐是他交代來款待我們的。
 ￺mipapihololay￻￹`Mipapiholol~`ay~ `kako~ `ci~ `Omah~`a~`n~ `to~ `widang~ `ako~.￺￻我拜託`Omah~去款待我的朋友了。￹`O~ `faki~ `ko~ `mipapiholol~`ay~ `to~ `lafang~.￺￻是爺爺讓來招待客人的。
-￺mipapikaen￻￹`Mi~`papikaen~ `to~ `'epah~.￺￻叫人喝酒。
+￺mipapikaen￻￹`Mi~`papikaen~ `to~ `^epah~.￺￻叫人喝酒。
 ￺mipapikaenan￻￹`Mipapikaen~`a~`n~ `ako~ `ko~ `f~`i~`ya~`fiyaw~ `to~ `hemay~.￺￻鄰居們接受過我的邀請來吃粘糕了。￹`'Alomanay~ `ko~ `mipapikaen~`a~`n~ `niyam~ `to~ `e~`pa~`h~ `a~ `lafang~.￺￻接受我們邀請來吃酒的客人很多了。
 ￺mipapikaenay￻￹`Mi~`papikaenay~ `kami~ `to~ `wawa~ `to~ `pingko~.￺￻我們交代孩子們吃蘋果了。￹`O~ `ci~ `mama~ `ko~ `mi~`papikaenay~ `takowanan~ `to~ `safa~.￺￻是爸爸讓我叫弟弟去吃的。
 ￺mipapikarong￻￹`Mi~`papikarong~ `ko~ `ka~`kita~`a~`n~ `ci~`nira~`a~`n~.￺￻頭目叫人給他報信了。
@@ -18572,7 +18572,7 @@
 ￺mipapipatainian￻￹`Mipapipataini~`a~`n~ `ako~ `ko~ `kaying~ `to~ `sasing~ `ira~.￺￻小姐得到我叫人送給她的照片了。￹`Ora~ `wawa~ `ko~ `mipapipataini~`a~`n~ `ako~ `to~ `kakaenen~.￺￻我讓人送來食品是給那孩子的。
 ￺mipapipatainiay￻￹`Mi~`papipatainiay~ `kako~ `tora~ `kapah~ `to~ `sapi'adop~.￺￻我叫人給那些青年送來了打獵用具。￹`O~ `ci~ `faki~ `ko~ `mi~`papipatainiay~.￺￻是爺爺讓人送來的。
 ￺mipapipataira￻￹`Mi~`papipataira~ `to~ `tamako~.￺￻叫人送去香煙。
-￺mipapipatairaan￻￹`Mipapipataira~`a~`n~ `ako~ `ko~ `widang~ `ako~ `to~ `'epah~.￺￻我朋友按我的吩咐送去酒了。￹`O~ `cima~ `ko~ `mipapipataira~`a~`n~ `iso~?￺￻你讓人送給誰？
+￺mipapipatairaan￻￹`Mipapipataira~`a~`n~ `ako~ `ko~ `widang~ `ako~ `to~ `^epah~.￺￻我朋友按我的吩咐送去酒了。￹`O~ `cima~ `ko~ `mipapipataira~`a~`n~ `iso~?￺￻你讓人送給誰？
 ￺mipapipatairaay￻￹`Mi~`papipatairaay~ `ci~ `wama~ `kisowanan~ `to~ `tosiya~.￺￻父親讓人送你汽車了。￹`O~ `singsi~ `ko~ `mi~`papipatairaay~ `to~ `tilid~.￺￻是老師讓人送來書。
 ￺mipapipatalahekal￻￹`M~`ipa~`pipatalahekal~ `to~ `ka~`ngilos~`a~`n~ `ira~.￺￻讓人揭露他的醜陋。
 ￺mipapipatalahekalan￻￹`Mipapipatalahekal~`a~`n~ `ako~ `ci~`nira~ `to~ `mi~`sowal~`a~`n~ `niyam~.￺￻他應我的要求把我們說的話坦白出來了。￹`O~ `cima~ `ko~ `mipapipatalahekal~`a~`n~ `iso~ `to~ `demak~?￺￻你讓誰把事情公開化了？
@@ -18731,8 +18731,8 @@
 ￺mipasaromi'ad￻￹`Mi~`pasaromi'ad~ `ci~`nira~`a~`n~ `a~ `matayal~.￺￻讓他一整天地忙碌。
 ￺mipasaromi'adan￻￹`Mipasaromi'ad~`a~`n~ `iso~ `kami~ `a~ `dademak~.￺￻我們按你的安排工作了一整天。￹`Mipasaromi'ad~`a~`n~ `a~ `tayal~.￺￻整天所做的工作。
 ￺mipasaromi'aday￻￹`Mi~`pasaromi'aday~ `kako~ `ca~`nira~`a~`n~ `a~ `mipitaw~ `to~ `omah~.￺￻我讓他們用鋤頭挖一整天地了。￹`Kami~ `ko~ `mi~`pasaromi'aday~ `a~ `mikayki~.￺￻我們是開了一整天的會。
-￺mipasasa￻￹`Mi~`pasasa~ `to~ `'odax~.￺￻事先準備糖果。￹`Mi~`pasasa~ `to~ `'epah~ `ato~ `titi~.￺￻預備酒和肉。
-￺mipasasaan￻￹`Mipasasa~`a~`n~ `ko~ `sapa'aca~ `to~ `riko'~ `a~ `payso~.￺￻買衣服的錢準備了。￹`Mipasadak~ `toya~ `mipasasa~`a~`n~ `naira~ `a~ `'epah~.￺￻拿出他們準備好了的酒。
+￺mipasasa￻￹`Mi~`pasasa~ `to~ `'odax~.￺￻事先準備糖果。￹`Mi~`pasasa~ `to~ `^epah~ `ato~ `titi~.￺￻預備酒和肉。
+￺mipasasaan￻￹`Mipasasa~`a~`n~ `ko~ `sapa'aca~ `to~ `riko'~ `a~ `payso~.￺￻買衣服的錢準備了。￹`Mipasadak~ `toya~ `mipasasa~`a~`n~ `naira~ `a~ `^epah~.￺￻拿出他們準備好了的酒。
 ￺mipasasaay￻￹`Mipasasa~`ay~ `ci~ `wina~ `to~ `kakaenen~ `na~ `wawa~ `a~ `toron~.￺￻母親正預備著孩子要吃的糯米糕。￹`O~ `cima~ `ko~ `mipasasa~`ay~ `to~ `ta~`tahekaen~?￺￻誰去準備喜宴的東西呢？
 ￺mipasasela'￻￹`Halafinay~ `to~ `ko~ `kolong~ `a~ `mikangkang~, `mi~`pasasela'~ `to~ `kolong~ `haw~!￺￻牛犁了很長時間了，讓它喘口氣吧！
 ￺mipasasela'an￻￹`Mipasasela'~`a~`n~ `kora~ `maomahay~ `a~ `tamdaw~.￺￻勞動的人得到歇息了。￹`Mipasasela'~`a~`n~ `a~ `koli~.￺￻得到休息的工人。
@@ -18833,9 +18833,9 @@
 ￺mipatafak￻￹`Mi~`patafak~ `kako~ `to~ `mali~`t~`e~`m~g`ay~ `to~ `tamako~.￺￻我給老人香煙抽。￹`Mi~`patafak~ `to~ `lafang~ `to~ `tamako~.￺￻請客人抽煙。
 ￺mipatafakan￻￹`Mipatafak~`a~`n~ `ako~ `ci~ `wama~ `to~ `tamako~.￺￻我給過父親香煙抽了。￹`O~`mipatafak~`a~`n~ `ako~ `a~ `lafang~.￺￻我請抽煙的客人。
 ￺mipatafakay￻￹`Mipatafak~`ay~ `ci~`nira~ `kami~`ana~`n~ `to~ `tamako~.￺￻他在請我們抽香煙了。￹`Mipatafak~`ay~ `a~ `tamdaw~.￺￻給人吸煙的人。
-￺mipatafang￻￹`Mi~`patafang~ `kami~ `to~ `to'as~ `to~ `'epah~ `ato~ `toron~.￺￻我們向你們供奉酒和糯米糕。
+￺mipatafang￻￹`Mi~`patafang~ `kami~ `to~ `to'as~ `to~ `^epah~ `ato~ `toron~.￺￻我們向你們供奉酒和糯米糕。
 ￺mipatafangan￻￹`Mipatafang~`a~`n~ `niyam~ `ci~ `Malataw~ `to~ `tama'~.￺￻我們給`Malataw~神獻祭了。￹`O~ `mipatafang~`a~`n~ `a~ `tato'asan~.￺￻所供奉的祖先。
-￺mipatafangay￻￹`Mi~`patafangay~ `ci~`nira~ `ci~ `Kawakawas~`a~`n~ `to~ `'epah~ `titi~ `ato~ `hemay~.￺￻他在向神明供奉酒、肉和米糕。￹`Mi~`patafangay~ `a~ `tamdaw~.￺￻供奉者。
+￺mipatafangay￻￹`Mi~`patafangay~ `ci~`nira~ `ci~ `Kawakawas~`a~`n~ `to~ `^epah~ `titi~ `ato~ `hemay~.￺￻他在向神明供奉酒、肉和米糕。￹`Mi~`patafangay~ `a~ `tamdaw~.￺￻供奉者。
 ￺mipataheka￻￹`M~`ipa~`taheka~ `to~ `lafang~.￺￻宴請客人。￹`M~`ipa~`taheka~ `kisowanan~.￺￻給你接風洗塵。
 ￺mipatahekaan￻￹`Mipataheka~`a~`n~ `naira~ `kami~.￺￻他們為我們設宴接風了。￹`Matomes~ `ko~ `'eto~ `to~ `masamaanay~ `a~ `dateng~ `to~ `mipataheka~`a~`n~.￺￻桌子上擺滿了宴請客人的菜肴。
 ￺mipatahekaay￻￹`Mipataheka~`ay~ `kami~ `to~ `widang~ `niyam~.￺￻我們在設宴招待我們的朋友。￹`O~ `kami~ `ko~ `mipataheka~`ay~ `ca~`nira~`a~`n~.￺￻是我們宴請他們的。
@@ -18899,9 +18899,9 @@
 ￺mipatatodong￻￹`Mi~`patatodong~ `a~ `maro'~.￺￻就定位坐著。￹`Mi~`patatodong~ `kako~ `ci~`nira~`a~`n~ `a~ `somowal~.￺￻我對他說話適當。
 ￺mipatatodongay￻￹`Mipatatodong~`ay~ `to~ `tayal~ `a~ `tamdaw~.￺￻做事公正的人。￹`O~ `cima~ `ko~ `mipatatodong~`ay~ `kisowanan~?￺￻你認為哪一個人對你適當？
 ￺mipatatongan￻￹`M~`ipa~`tato~`ng~`a~`n~ `ako~ `ca~`nira~ `a~ `tomireng~.￺￻我讓他們適當地站著。￹`O~ `kamo~ `ko~ `m~`ipa~`tato~`ng~`a~`n~ `niyam~ `a~ `pasowal~.￺￻我們對你們說公正的話。
-￺mipatawsi￻￹`Mi~`patawsi~ `to~ `'epah~.￺￻給人小酌一杯。
+￺mipatawsi￻￹`Mi~`patawsi~ `to~ `^epah~.￺￻給人小酌一杯。
 ￺mipatawsian￻￹`Mipatawsi~`a~`n~ `ko~ `ci~ `faki~ `ako~.￺￻我給我爺爺小酌一杯了。￹`O~ `cima~ `ko~ `mipatawsi~`a~`n~ `iso~ `to~ `e~`pa~`h~?￺￻你是和誰小酌一杯?
-￺mipatawsiay￻￹`Mipatawsi~`ay~ `ci~`nira~ `takowanan~ `to~ `'epah~.￺￻他正在和我小酌一杯。￹`O~ `mipatawsi~`ay~ `a~ `wawa~.￺￻小酌一杯的孩子。
+￺mipatawsiay￻￹`Mipatawsi~`ay~ `ci~`nira~ `takowanan~ `to~ `^epah~.￺￻他正在和我小酌一杯。￹`O~ `mipatawsi~`ay~ `a~ `wawa~.￺￻小酌一杯的孩子。
 ￺mipatawyo￻￹`Ma~`harek~ `t~u `a~ `mi~`patawyo~.￺￻放完醬油了。
 ￺mipatawyoan￻￹`Mipatawyo~`a~`n~ `ako~ `ko~ `mitangtangan~ `a~ `titi~.￺￻我煮的肉放醬油了。￹`Mipatawyo~`a~`n~ `a~ `dateng~.￺￻放了醬油的菜。
 ￺mipatawyoay￻￹`Mipatawyo~`ay~ `ci~`ina~ `to~ `mitangtangan~ `a~ `saytaw~.￺￻媽媽在給煮熟的蘿蔔放醬油了。￹`Mipatawyo~`ay~ `a~ `tamdaw~.￺￻放醬油的人。
@@ -19529,9 +19529,9 @@
 ￺misa'emo￻￹`Mi~`sa'emo~ `to~ `doway~.￺￻研磨糯米做米糕。￹`Mi~`sa'emo~ `to~ `'emi~.￺￻磨麥粉。
 ￺misa'emoan￻￹`Misa'emo~`a~`n~ `ako~ `to~ `doway~ `a~ `felac~.￺￻我把糯米研磨做米糕了。￹`Misa'emo~`a~`n~ `a~ `'emi~.￺￻磨好的麥子，麥粉。
 ￺misa'emoay￻￹`Misa'emo~`ay~ `kami~ `to~ `'ariray~.￺￻我們正在磨玉米粉做玉米糕。￹`O~ `cima~ `ko~ `misa'emo~`ay~ `to~ `doway~ `a~ `felac~?￺￻是誰研磨糯米呢？
-￺misa'epah￻￹`Mi~`sa'epah~ `ko~ `loma'~ `ako~.￺￻我家要釀酒。
-￺misa'epahan￻￹`Misa'epah~`a~`n~ `niyam~ `ko~ `falisan~.￺￻我們把高粱釀酒了。
-￺misa'epahay￻￹`Misa'epah~`ay~ `to~ `ko~ `f~`i~`naol~`a~`n~ `no~ `niyaro'~ `sapatala~ `tona~ `kiloma'an~.￺￻鄉親們正在釀酒，準備等到豐收節飲用。￹`Misa'epah~`ay~ `a~ `sayxo~.￺￻釀酒的師傅。￹`Ko~`e~`sanay~ `koni~ `a~ `misa'epah~`ay~.￺￻這位釀酒者釀的酒很甜。
+￺misa^epah￻￹`Mi~`sa^epah~ `ko~ `loma'~ `ako~.￺￻我家要釀酒。
+￺misa^epahan￻￹`Misa^epah~`a~`n~ `niyam~ `ko~ `falisan~.￺￻我們把高粱釀酒了。
+￺misa^epahay￻￹`Misa^epah~`ay~ `to~ `ko~ `f~`i~`naol~`a~`n~ `no~ `niyaro'~ `sapatala~ `tona~ `kiloma'an~.￺￻鄉親們正在釀酒，準備等到豐收節飲用。￹`Misa^epah~`ay~ `a~ `sayxo~.￺￻釀酒的師傅。￹`Ko~`e~`sanay~ `koni~ `a~ `misa^epah~`ay~.￺￻這位釀酒者釀的酒很甜。
 ￺misa'et￻￹`Mi~`sa'et~ `to~ `lalan~.￺￻封路。
 ￺misa'icel￻￹`Mi~`sa'icel~ `ko~ `faloco'~ `no~ `mita~！￺￻￹`Sararimasa~ `a~ `mi~`sa'icel~ `a~ `macokacok~.￺￻使出最大的力氣推上山坡。
 ￺misa'icelan￻￹`Misa'icel~`a~`n~ `naira~ `kora~ `paliding~ `a~ `misolot~.￺￻那輛車被他們使勁地拉走了。￹`O~ `lalosidan~ `ko~ `misa'icel~`a~`n~ `namo~ `a~ `mililid~ `han~?￺￻你們使勁搬動的是行李嗎？
@@ -19882,7 +19882,7 @@
 ￺misahamedacay￻￹`Misahamedac~`ay~ `kako~ `to~ `ma~`so~`e~`so~`ay~ `a~ `titi~.￺￻我偏食肥肉。￹`Misahamedac~`ay~ `a~ `wawa~.￺￻偏食的孩子。
 ￺misahanehanek￻￹`Mi~`sahanehanek~ `ko~ `waco~ `icowacowa~.￺￻狗到處聞味道。
 ￺misahanehanekan￻￹`Misahanehanek~`a~`n~ `no~ `posi~ `ko~ `kakaenen~ `a~ `'edo~.￺￻貓把要吃的老鼠聞了聞。￹`O~ `maan~ `ko~ `misahanehanek~`a~`n~ `ira~?￺￻他聞什麼呢？
-￺misahanehanekay￻￹`Misahanehanek~`ay~ `ko~ `waco~ `to~ `titi~.￺￻狗在聞肉食了。￹`Ora~ `misahanehanek~`ay~ `to~ `'epah~ `a~ `tamdaw~ `o~ `widang~ `iso~ `han~?￺￻那個聞酒的人是你的朋友嗎？
+￺misahanehanekay￻￹`Misahanehanek~`ay~ `ko~ `waco~ `to~ `titi~.￺￻狗在聞肉食了。￹`Ora~ `misahanehanek~`ay~ `to~ `^epah~ `a~ `tamdaw~ `o~ `widang~ `iso~ `han~?￺￻那個聞酒的人是你的朋友嗎？
 ￺misahanek￻￹`Misa~`hanek~ `to~ `hana~.￺￻聞花。
 ￺misahanekan￻￹`Misahanek~`a~`n~ `no~ `widang~ `ko~ `tamako~.￺￻朋友把香煙聞過了。￹`Misahanek~`a~`n~ `a~ `hana~.￺￻所聞的花。
 ￺misahanekay￻￹`Misahanek~`ay~ `kora~ `lotong~ `ko~ `e~`pa~`h~ `i~ `koreng~.￺￻那隻猴子在聞罈子裡的酒了。￹`Ora~ `waco~ `ko~ `misahanek~`ay~ `to~ `paen~`a~`n~.￺￻是那隻狗在聞地板。
@@ -21262,7 +21262,7 @@
 ￺mitapoh￻￹`Mi~`tapoh~ `to~ `hafay~.￺￻撫摸小米（祈禱儀式之一）。
 ￺mitapohan￻
 ￺mitapohay￻
-￺mitapolong￻￹`Mita~`p~`o~`l~`e~`ng~ `to~ `'epah~ `i~ `kaysing~.￺￻倒酒在碗裏。
+￺mitapolong￻￹`Mita~`p~`o~`l~`e~`ng~ `to~ `^epah~ `i~ `kaysing~.￺￻倒酒在碗裏。
 ￺mitapolongan￻￹`Mitapolong~`a~`n~ `ako~ `ko~ `e~`pa~`h~ `i~ `kaysing~ `iso~.￺￻我把酒倒入你的碗裏了。
 ￺mitapolongay￻
 ￺mitarakar￻
@@ -22253,7 +22253,7 @@
 ￺nina'en￻
 ￺ningra￻
 ￺ninip￻
-￺ninipen￻￹`Ninip~`e~`n~ `ita~ `ko~ `'epah~ !￺￻我們把酒一口一口喝吧！
+￺ninipen￻￹`Ninip~`e~`n~ `ita~ `ko~ `^epah~ !￺￻我們把酒一口一口喝吧！
 ￺nirnir￻
 ￺nirniren￻
 ￺nipa￻
@@ -22612,7 +22612,7 @@
 ￺'ok'okay￻￹`Adihay~ `ta~ `to~ `ko~ ‘`o~`k~`'~`o~`ka~`y~ `i~ `fanaw~.￺￻水池太多牛蛙。
 ￺'ok'okayan￻
 ￺'ok'oken￻￹`'Ok'ok~`e~`n~ `ako~ `ko~ `nemnem~ `a~ `minanom~.￺￻我把泉水咕嘟咕嘟地喝下去。
-￺ok'okhan￻￹`Ca~ `to~ `ka~`'emet~ `ko~ `sakakomaenaw~ `ira~ , `o~`k~`'~`o~`k~`han~ `to~ `ira~ `koya~ `'epah~ `a~ `komaen~.￺￻他忍不住想吃，就大口大口地把酒吃了。
+￺ok'okhan￻￹`Ca~ `to~ `ka~`'emet~ `ko~ `sakakomaenaw~ `ira~ , `o~`k~`'~`o~`k~`han~ `to~ `ira~ `koya~ `^epah~ `a~ `komaen~.￺￻他忍不住想吃，就大口大口地把酒吃了。
 ￺'ok'ok'ok'oksa￻￹`'Ok'ok~`'ok'ok~`sa~ `ci~`nira~ `a~ `minanom~.￺￻他咕嘟咕嘟地喝著水。
 ￺okos￻￹`Tada~ `o~`ko~`s~ `ningra~.￺￻他真的很自傲。
 ￺okosen￻
@@ -22762,7 +22762,7 @@
 ￺'owadan￻
 ￺'owaden￻￹`'Owad~`e~`n~ `ako~ `mipanokay~.￺￻我要捉鮑魚送回去。
 ￺'owak￻
-￺'owaken￻￹`'Owak~`e~`n~ `ko~ `'epah~ !￺￻把酒一口喝乾！
+￺'owaken￻￹`'Owak~`e~`n~ `ko~ `^epah~ !￺￻把酒一口喝乾！
 ￺'owal￻
 ￺'owalen￻￹`'Owal~`e~`n~ `ko~ `fokeloh~ `a~ `satahaf~.￺￻把石蓋子撬開！
 ￺'owang￻
@@ -23096,7 +23096,7 @@
 ￺pacefahan￻￹`Pacefa~`han~ `niya~ `finawlan~ `a~ `mipawsa~ `to~ `forayan~ `ato~ `falisan~ `a~ `kakomaen~ `koya~ `misamaraday~ `a~ `tamdaw~.￺￻村民於是隨便煮在來米飯和高粱飯給打鐵工人吃。
 ￺pacefad￻￹`Pacefa~`d~ `to~ `ni~`tilidan~ `ningra~ `ko~ `s~`e~`n~`s~`e~`i~.￺￻老師對他的論文做了評論。
 ￺pacefaday￻￹`O~ `pa~`cefaday~ `cingra~ `anini~.￺￻他今天當評論。￹`Pa~`c~`e~`dada~`y~ `a~ `pafeli~ `to~ `payso~.￺￻多給了錢。
-￺pacefcef￻￹`Aka ka~ `Pa~`cefcef~ `to~ `'epah~.￺￻不要灌酒喝。
+￺pacefcef￻￹`Aka ka~ `Pa~`cefcef~ `to~ `^epah~.￺￻不要灌酒喝。
 ￺pacefong￻￹`Makerahay~ `to~ `ko~ `r~`i~`ya~`l~, `pa~`cefong~ `to~ `kita~.￺￻海退潮了，我們下海吧。
 ￺pacefongay￻
 ￺pacefongen￻￹`Pa~`cefongen~ `niyam~ `ko~ `fokeloh~ `i~ `r~`i~`ya~`l~.￺￻我們把石頭投放海裏。
@@ -23357,7 +23357,7 @@
 ￺pa'edeng￻
 ￺paed'engan￻￹`Awaay~ `ko~ `pa'edeng~`a~`n~ `a~ `mitiri'~ `to~ `tilid~.￺￻沒有足夠的時間看書。￹`Awa~ `ko~ `pa'edeng~`a~`n~ `ira~ `to~ `'ilol~ `a~ `somowal~ `toya~ `ka~ `itini~`a~`n~ `ho~ `ni~ `wina~ `a~ `demak~.￺￻他念念不忘地說母親在這裡的經歷。
 ￺pa'edengay￻
-￺pa'edengen￻￹`Pa'edeng~`e~`n~ `ko~ `mikaenan~ `iso~ `a~ `'epah~.￺￻你喝的酒差不多了吧（可以了，別過分）！￹`Halafinay~ `to~ `ko~ `lafii~, `pa'edeng~`e~`n~ `ko~ `dawdaw~ !￺￻夜深了，可以熄燈了吧！
+￺pa'edengen￻￹`Pa'edeng~`e~`n~ `ko~ `mikaenan~ `iso~ `a~ `^epah~.￺￻你喝的酒差不多了吧（可以了，別過分）！￹`Halafinay~ `to~ `ko~ `lafii~, `pa'edeng~`e~`n~ `ko~ `dawdaw~ !￺￻夜深了，可以熄燈了吧！
 ￺pa'efa￻
 ￺pa'efaan￻
 ￺pa'efaay￻
@@ -23989,7 +23989,7 @@
 ￺pakalolayay￻
 ￺pakalolayen￻
 ￺pakalomaloma'￻￹`Paka~`lomaloma'~ `pakafana'~ `to~ `tao~.￺￻挨家挨戶通知別人。
-￺pakalomaloma'ay￻￹`Pakalomaloma'~`ay~ `ci~`nira~ `a~ `milicay~.￺￻他正在挨家挨戶去問了。￹`Iraay~ `ko~ `pakalomaloma'~`ay~ `a~ `malitengay~ `a~ `komaen~ `to~ `'epah~.￺￻有的老人挨家挨戶去喝酒。
+￺pakalomaloma'ay￻￹`Pakalomaloma'~`ay~ `ci~`nira~ `a~ `milicay~.￺￻他正在挨家挨戶去問了。￹`Iraay~ `ko~ `pakalomaloma'~`ay~ `a~ `malitengay~ `a~ `komaen~ `to~ `^epah~.￺￻有的老人挨家挨戶去喝酒。
 ￺pakalomaloma'en￻￹`Pakalomaloma'~`e~`n~ `ci~`nira~ `a~ `micaliw~ `to~ `payso~.￺￻叫他挨家挨戶借錢。
 ￺pakalomaloma'sa￻￹`Pakalomaloma'~`sa~ `kami~ `a~ `mi'araw~.￺￻我們挨家挨戶去觀看。
 ￺pakalonan￻￹`Pa~`kalona~`n~ `a~ `tayra~ `i~ `D~`i~`p~`o~`n~.￺￻坐船去日本。
@@ -24235,7 +24235,7 @@
 ￺pakidoen￻
 ￺pakifongoh￻
 ￺pakifongohay￻
-￺pakifongohen￻￹`Pakifongoh~`e~`n~ `ira~ `a~ `mi'orong~ `ko~ `'epah~ `a~ `koreng~.￺￻她用頭頂著酒罈子。
+￺pakifongohen￻￹`Pakifongoh~`e~`n~ `ira~ `a~ `mi'orong~ `ko~ `^epah~ `a~ `koreng~.￺￻她用頭頂著酒罈子。
 ￺pakih￻
 ￺pakihater￻
 ￺pakihateray￻
@@ -25544,9 +25544,9 @@
 ￺papikacaw￻
 ￺papikacaway￻
 ￺papikacawen￻
-￺papikaen￻￹`Papik~`a~`e~`n~ `to~ `'epah~.￺￻允許吃酒。￹`Papik~`a~`e~`n~ `to~ `hemay~.￺￻讓人吃米糕。
+￺papikaen￻￹`Papik~`a~`e~`n~ `to~ `^epah~.￺￻允許吃酒。￹`Papik~`a~`e~`n~ `to~ `hemay~.￺￻讓人吃米糕。
 ￺papikaenay￻
-￺papikaenen￻￹`Papikaen~`e~`n~ `ko~ `malitengay~ `to~ `'epah~ !￺￻讓老人喝酒吧！￹`Papikaen~`e~`n~ `ko~ `kolong~ `ako~ `to~ `rengos~.￺￻讓我的牛去吃青草。
+￺papikaenen￻￹`Papikaen~`e~`n~ `ko~ `malitengay~ `to~ `^epah~ !￺￻讓老人喝酒吧！￹`Papikaen~`e~`n~ `ko~ `kolong~ `ako~ `to~ `rengos~.￺￻讓我的牛去吃青草。
 ￺papikalim￻
 ￺papikalimay￻
 ￺papikalimen￻
@@ -25720,7 +25720,7 @@
 ￺papisadipongen￻￹`Papisadipong~`e~`n~ `ci~`nira~ `toya~ `'alicay~ `i~ `'anongnongan~ `no~ `loma'~ !￺￻讓他為麻雀在屋簷下做巢吧！
 ￺papisaepah￻
 ￺papisaepahay￻
-￺papisaepahen￻￹`Papisaepah~`e~`n~ `ako~ `ko~ `sayxo~ `to~ `'epah~ `niyam~.￺￻我把師傅請來給我們釀酒。
+￺papisaepahen￻￹`Papisaepah~`e~`n~ `ako~ `ko~ `sayxo~ `to~ `^epah~ `niyam~.￺￻我把師傅請來給我們釀酒。
 ￺papisafelaw￻
 ￺papisafelaway￻
 ￺papisahemay￻￹`Pa~`pisahemay~ `aca~ `ci~ `Katol~ `toya~ `ngohah~ `ira~.￺￻`Katal~(卡特)又叫他的情人做糯米飯。
@@ -26135,7 +26135,7 @@
 ￺pasalikaf￻
 ￺pasalikafay￻
 ￺pasalikafen￻
-￺pasalong￻￹`Pa~`salong~ `ci~`nira~ `a~ `komaen~ `to~ `'epah~.￺￻他象徵性地喝了一點酒。
+￺pasalong￻￹`Pa~`salong~ `ci~`nira~ `a~ `komaen~ `to~ `^epah~.￺￻他象徵性地喝了一點酒。
 ￺pasalongay￻￹`Pasalong~`ay~ `a~ `ko~`ma~`'~`e~`n~.￺￻吃了一點。
 ￺pasalongen￻
 ￺pasamo￻￹`Pasa~`mo~ `to~ `sowal~.￺￻臨時性地說要點。
@@ -26171,7 +26171,7 @@
 ￺pasasa￻￹`Pasa~`sa~ `to~ `loma'~ `no~ `misamaraday~.￺￻預先準備鐵匠的房子。
 ￺pasasaay￻
 ￺pasasa'emelan￻￹`Pasa~`sa'emel~`a~`n~ `i~ `ka~`la'eno~ `noya~ `kilang~.￺￻在那樹下看樣子很涼快。
-￺pasasaen￻￹`Pasasa~`e~`n~ `ako~ `ko~ `lafang~ `to~ `tamako~ `ato~ `'epah~.￺￻我給客人準備香煙和酒。
+￺pasasaen￻￹`Pasasa~`e~`n~ `ako~ `ko~ `lafang~ `to~ `tamako~ `ato~ `^epah~.￺￻我給客人準備香煙和酒。
 ￺pasasela'￻￹`Pa~`sasela'~ `kora~ `faki~.￺￻老伯伯在呼吸。
 ￺pasasela'ay￻
 ￺pasasela'en￻￹`Pasasela'~`e~`n~ `ho~ `ko~ `malitengay~ !￺￻讓老人呼吸一下吧！
@@ -26349,7 +26349,7 @@
 ￺pasikaenan￻
 ￺pasikaenay￻
 ￺pasikaenen￻￹`Pasikaen~`e~`n~ `ko~ `namo~ `to~ `dateng~ !￺￻請你們配菜！￹`Mana~ `samedachan~ `ko~ `dateng~ `a~ `komaen~ `saw~?`pasikaen~`e~`n~ `to~ `titi~ !￺￻`pasikaen~`e~`n~ `to~ `titi~ !怎麼光吃菜呀？
-￺pasikaenhan￻￹`Pasikaen~`han~ `to~ `masamaamaan~`ay~ `a~ `dateng~, `ano~ `komaen~ `to~ `'epah~.￺￻如果要喝酒，就要給各種各樣的配菜吃。
+￺pasikaenhan￻￹`Pasikaen~`han~ `to~ `masamaamaan~`ay~ `a~ `dateng~, `ano~ `komaen~ `to~ `^epah~.￺￻如果要喝酒，就要給各種各樣的配菜吃。
 ￺pasikawanan￻
 ￺pasikawananay￻
 ￺pasikawananen￻
@@ -26685,7 +26685,7 @@
 ￺patatoresay￻
 ￺patatoresen￻
 ￺patatoreshan￻
-￺patawsi￻￹`Pa~`tawsi~ `to~ `'epah~.￺￻慰勞小酌一杯。
+￺patawsi￻￹`Pa~`tawsi~ `to~ `^epah~.￺￻慰勞小酌一杯。
 ￺patawsiay￻￹`Patawsi~`ay~ `ca~`nira~.￺￻他們在小酌。
 ￺patawsien￻
 ￺patawyo￻
@@ -26779,7 +26779,7 @@
 ￺paterasay￻
 ￺paterasen￻￹`Pateras~`e~`n~ `ko~ `miso~ `a~ `somowal~ !￺￻請你隨便說吧！
 ￺paterashan￻￹`Pateras~`han~ `ira~ `ko~ `cecay~ `a~ `futing~ `toya~ `ofang~ `noya~ `o~`ng~`ca~`y~ `kilang~.￺￻他就隨隨便便地把一條魚放在那個岩洞裏。
-￺pateratera'han￻￹`Pater~`a~`tera'~`han~ `ningra~ `ko~ `'epah~ `i~ `l~`ala~ `a~`misalisin~ `to~ `to'as~.￺￻他特地把酒灑落在路上祭祖靈。
+￺pateratera'han￻￹`Pater~`a~`tera'~`han~ `ningra~ `ko~ `^epah~ `i~ `l~`ala~ `a~`misalisin~ `to~ `to'as~.￺￻他特地把酒灑落在路上祭祖靈。
 ￺paterongan￻￹`O~ `niyaro'~ `no~ `K~`e~b`ala~`n~ `ko~ `Pa~`terong~`a~`n~ `i~ `sa~`wali~.￺￻東海岸的新社是噶瑪蘭族人的部落。
 ￺patesok￻
 ￺patesokay￻
@@ -29443,8 +29443,8 @@
 ￺pisa'elian￻
 ￺pisaeneeneng￻
 ￺pisaeneenengan￻
-￺pisa'epah￻
-￺pisa'epahan￻
+￺pisa^epah￻
+￺pisa^epahan￻
 ￺pisafa￻
 ￺pisafaan￻
 ￺pisafacal￻
@@ -31109,8 +31109,8 @@
 ￺saeneenengen￻￹`Sa~`e~`n~`e~`enengen~ `ako~ `kawra~ `ca~ `kafana'~ `o~ `maan~ `koni~ `sa~.￺￻我看了又看，可是不知道這是什麼。
 ￺saeneenenghan￻￹`Sa~`e~`n~`e~`enenghan~ `ira~ `kora~ `mi'orongay~ `to~ `kowang~ `a~ `so~`fitay~.￺￻他把那個扛槍的大兵仔細端詳。
 ￺saeneenengsa￻￹`O~ `maan~ `ko~ `mienengan~ `nona~ `tamdaw~ `hokini~?`sa~`e~`n~`e~`eneng~`sa~ `to~ `i~ `tatihitihi~.￺￻`sa~`e~`n~`e~`eneng~`sa~ `to~ `i~ `tatihitihi~.那個人到底在看什麼？
-￺sa'epah￻
-￺sa'epahen￻￹`Mangata~ `to~ `ko~ `kiloma'an~ `sa'epah~`e~`n~ `to~ !￺￻豐年節快到了，釀酒吧！
+￺sa^epah￻
+￺sa^epahen￻￹`Mangata~ `to~ `ko~ `kiloma'an~ `sa^epah~`e~`n~ `to~ !￺￻豐年節快到了，釀酒吧！
 ￺sa'epang￻
 ￺sa'epangen￻￹`Sa'epang~`e~`n~ `ko~ `ko~`e~`sanay~.￺￻要做甜麵包。
 ￺saepiepi￻
@@ -31402,7 +31402,7 @@
 ￺sahorohorodsa￻￹`Saho~`roho~`r~`o~`d~`sa~ `ko~ `fafahiyan~ `i~ `papotal~ `mitifek~ `to~ `felac~.￺￻女人三五成群地在院外舂米。
 ￺sahosaho￻￹`Saho~`saho~ `ira~ `kiso~.￺￻想不到你來了。
 ￺saikor to￻￹`Sa~`ikor to~ `mana~ `makahi~?￺￻後來呢，怎麼同意了？
-￺saikor￻￹`Tahira~ `i~ `s~`aikor~ `ca~ `to~ `pisa'epah~ `kami~.￺￻到後來，我們不釀酒了。￹`S~`aikor~ `nga'ay~ `ko~ `romi'ad~ `niyam~, `iraay~ `to~ `ko~ `makapahay~ `a~ `loma'~ `niyam~.￺￻後來，日子好了，我們有了漂亮的房子。
+￺saikor￻￹`Tahira~ `i~ `s~`aikor~ `ca~ `to~ `pisa^epah~ `kami~.￺￻到後來，我們不釀酒了。￹`S~`aikor~ `nga'ay~ `ko~ `romi'ad~ `niyam~, `iraay~ `to~ `ko~ `makapahay~ `a~ `loma'~ `niyam~.￺￻後來，日子好了，我們有了漂亮的房子。
 ￺saikoran￻￹`Mateli~ `I~ `saikor~`a~`n~ `no~ `loma'~ `ko~ `kasoy~.￺￻木柴放在屋後。
 ￺saikoray￻￹`O~ `cima~ `ka~ `sa~`ikoray~?￺￻最後面的是誰？
 ￺sail￻
@@ -33012,7 +33012,7 @@
 ￺sapacek￻￹`O~ `sa~`p~`c~`e~`k~ `to~ `pa~`m~`mo~ `ko~ `n~`ini~.￺￻這是釘板模的釘子。
 ￺sapacelol￻￹`Sa~`pacelol~ `to~ `matelangay~ `a~ `c~`iyof~`o~.￺￻供人更換舊內胎的東西。
 ￺sapacemot￻
-￺sapaco'ay￻￹`Sa~`paco'ay~ `a~ `'epah~.￺￻回禮的酒。
+￺sapaco'ay￻￹`Sa~`paco'ay~ `a~ `^epah~.￺￻回禮的酒。
 ￺sapacofay￻￹`Sa~`pacofay~ `a~ `paya~.￺￻來回票。
 ￺sapad￻
 ￺sapadamso'￻
@@ -33892,7 +33892,7 @@
 ￺sapihamhamaw￻
 ￺sapihamoco'￻￹`Sa~`pihamoco'~ `niyam~ `a~ `e~`l~`i~`'~.￺￻做牆的茅草。
 ￺sapihamoco'aw￻￹`Sapihamoco'~`aw~ `ako~ `itini~.￺￻我想在這裡造牆。
-￺sapihamot￻￹`Sa~`pihamot~ `to~ `'epah~ `a~ `wakong~.￺￻喝酒的大碗。
+￺sapihamot￻￹`Sa~`pihamot~ `to~ `^epah~ `a~ `wakong~.￺￻喝酒的大碗。
 ￺sapihamotaw￻￹`Sapihamot~`aw~ `naira~ `anini~.￺￻他們想今天暴飲暴食。
 ￺sapihanek￻￹`Sa~`pihanek~ `to~ `ma~`ama~`n~ `ko~ `ngoso'~.￺￻鼻子是聞東西的器官。
 ￺sapihanekaw￻￹`Sapihanek~`aw~ `ako~ `tona~ `e~`pa~`h~.￺￻我想聞聞這酒味。
@@ -34494,8 +34494,8 @@
 ￺sapili'akongaw￻￹`sapili'akong~`aw~ `ira~ `tora~ `sa~`seti'~ `ako~.￺￻他想扭彎我的棍棒。
 ￺sapili'ay￻￹`Miharatengay~ `kako~ `to~ `sa~`pili'ay~ `niyam~.￺￻我在思考我們和解的方式。
 ￺sapili'ayaw￻￹`Sapili'ay~`aw~ `ira~ `kamowanan~.￺￻他希望和你們和解。
-￺sapili'epah￻￹`Sapi~`l~`i~`'epah~ `a~ `kaysing~.￺￻向人家討酒喝的碗。
-￺sapili'epahaw￻￹`Sapili'epah~`aw~ `ira~ `ci~`nira~`a~`n~.￺￻我想向他討酒喝。
+￺sapili^epah￻￹`Sapi~`l~`i~`^epah~ `a~ `kaysing~.￺￻向人家討酒喝的碗。
+￺sapili^epahaw￻￹`Sapili^epah~`aw~ `ira~ `ci~`nira~`a~`n~.￺￻我想向他討酒喝。
 ￺sapili^etan￻￹`O~ `maan~ `ko~ `sapi~`l~`i~^`e~`ta~`n~ `ira~ `kisowanan~?￺￻他用什麼方式賺你的錢？
 ￺sapili^etanaw￻￹`Harateng~ `ningra~ `i~ `tao~ `ko~ `sapi~`l~`i~^`e~`tana~`w~ `ako~.￺￻他一心只想著賺別人的錢。
 ￺sapilicay￻￹`Sa~`pilicay~ `to~ `no~ `'Amis~ `a~ `sowal~.￺￻提問阿美話的方式。
@@ -35368,7 +35368,7 @@
 ￺sapipatafekang￻
 ￺sapipatafekangaw￻
 ￺sapipatakid￻￹`Sa~`pipatakid~ `to~ `lafang~.￺￻給客人敬酒用的。
-￺sapipatakidaw￻￹`Sapipatakid~`aw~ `niyam~ `to~ `kakeridan~ `to~ `'epah~.￺￻我們想給領導敬酒。
+￺sapipatakidaw￻￹`Sapipatakid~`aw~ `niyam~ `to~ `kakeridan~ `to~ `^epah~.￺￻我們想給領導敬酒。
 ￺sapipatala￻￹`Sapi~`patala~ `to~ `tosiya~.￺￻讓人等汽車用的。
 ￺sapipatalaaw￻￹`Sapipatala~`aw~ `ako~ `ca~`nira~`a~`n~ `itini~.￺￻我希望他們在這裡等候。
 ￺sapipatalafekang￻
@@ -35814,8 +35814,8 @@
 ￺sapisa^emahaw￻￹`Sa~`pisa~^`e~`maha~`w~ `to~ `'inorong~ `no~ `faloco'~.￺￻想要減輕心理的負擔。
 ￺sapisa^emel￻￹`Sa~`pisa~^`e~`m~`e~`l~ `a~ `'axenan~.￺￻乘涼用的椅子。
 ￺sapisa^emelaw￻￹`Sa~`pisa~^`e~`melaw~ `ako~ `tora~ `aikor~`a~`n~ `no~ `loma'~.￺￻我想在房子後頭乘涼。
-￺sapisa'epah￻￹`Sa~`pisa'epah~ `a~ `falisan~.￺￻釀酒的高粱。
-￺sapisa'epahaw￻￹`Sapisa'epah~`aw~ `niyam~ `idadaya~.￺￻我們想今夜釀酒。
+￺sapisa^epah￻￹`Sa~`pisa^epah~ `a~ `falisan~.￺￻釀酒的高粱。
+￺sapisa^epahaw￻￹`Sapisa^epah~`aw~ `niyam~ `idadaya~.￺￻我們想今夜釀酒。
 ￺sapipaysinaw￻￹`Sapi~`paysin~`aw~ `ako~ `toni~ `a~ `demak~.￺￻我希望禁忌這些行為。
 ￺sapisaamamokok￻￹`Sa~`pisaamamokok~ `to~ `'oner~.￺￻蜷曲蛇身用的。
 ￺sapisaamamokokaw￻￹`Sapisaamamokok~`aw~ `ira~ `to~ `tireng~ `a~ `mafuti'~.￺￻他想蜷曲身體睡覺。
@@ -36592,7 +36592,7 @@
 ￺sapita'isaw￻￹`Sapita'is~`aw~ `no~ `k~`aka to~ `kiping~ `ako~.￺￻姊姊想縫補我的大衣。
 ￺sapita'ong￻￹`O~ `maan~ `ko~ `sa~`pita'ong~ `niyam~ `to~ `singsi~?￺￻我們向先生鞠躬敬禮用什麼方式？
 ￺sapita'ongaw￻￹`Sapita'ong~`aw~ `niyam~ `to~ `wama~ `ato~ `wina~.￺￻我們想向父母鞠躬。
-￺sapita'owak￻￹`Ora~ `wakong~ `ko~ `sapi~`ta'owak~ `to~ `'epah~.￺￻用那大碗喝完這杯酒。
+￺sapita'owak￻￹`Ora~ `wakong~ `ko~ `sapi~`ta'owak~ `to~ `^epah~.￺￻用那大碗喝完這杯酒。
 ￺sapita'owakaw￻￹`Sapita'owak~`aw~ `niyam~ `toni~ `a~ `la~`m~`l~`o~ `a~ `e~`pa~`h~ `a~ `ma~`e~`mi~`n~.￺￻我們都想喝完這杯小米酒。
 ￺sapita'esel￻￹`Oni~ `a~ `kotang~ `ko~ `sapi~`ta'esel~ `ako~ `to~ `fadahong~ `no~ `tomay~.￺￻我用這把矛槍穿透狗熊的胸膛。
 ￺sapita'eselaw￻￹`Sapita'esel~`aw~ `no~ `so~`fitay~ `to~ `'ada~ `to~ `kowang~.￺￻士兵想用刺刀刺死敵人。
@@ -36902,7 +36902,7 @@
 ￺sapitolikawaw￻￹`Sapitolikaw~`aw~ `naira~ `to~ `lalan~ `i~ `tatoko~`sa~`n~.￺￻他們想在山上開路。
 ￺sapitolol￻￹`Sapi~`tolol~ `a~ `kasoy~.￺￻煮飯用的木柴。
 ￺sapitololaw￻￹`Sapitolol~`aw~ `ako~ `to~ `sapisakalahok~.￺￻我想生火煮午飯。
-￺sapitolon￻￹`Sa~`pitolon~ `a~ `'epah~ `ato~ `titi~.￺￻祭祀用的酒和肉。
+￺sapitolon￻￹`Sa~`pitolon~ `a~ `^epah~ `ato~ `titi~.￺￻祭祀用的酒和肉。
 ￺sapitolonaw￻￹`Sapitolon~`aw~ `ako~ `to~ `kawas~ `i~ `kiwkay~.￺￻我想在教堂祈禱神明。
 ￺sapitongal￻￹`Sapi~`tongal~ `to~ `l~`i~`f~`o~`n~.￺￻加薪的辦法。￹`Sapi~`tongal~ `to~ `katayalan~ `a~ `toki~.￺￻增加工作時間的手段。
 ￺sapitongalaw￻￹`Sapitongal~`aw~ `niyam~ `to~ `l~`i~`f~`o~`n~.￺￻我們希望加薪。￹`Sapitongal~`aw~ `no~ `wawa~ `to~ `riko'~.￺￻孩子想添衣服。
@@ -37134,7 +37134,7 @@
 ￺saromaromasa￻￹`Saromaroma~`sa~ `ko~ `romi'ad~.￺￻天氣變化不定。￹`Saromaroma~`sa~ `ko~ `ng~`'~`ay~ `no~ `'orip~ `ira~.￺￻他的日子越來越好。￹￺￻`saromi'ad~ 一整天。
 ￺saromi'ad￻
 ￺saromi'aden￻￹`Saromi'ad~`e~`n~ `cingra~ `a~ `mitilid~.￺￻叫他讀書一整天。
-￺saromi'adsa￻￹`Saromi'ad~`sa~ `cangra~ `komaen~ `to~ `'epah~, `ca~ `ka~`lasang~ `han~?￺￻他們一整天地喝酒，
+￺saromi'adsa￻￹`Saromi'ad~`sa~ `cangra~ `komaen~ `to~ `^epah~, `ca~ `ka~`lasang~ `han~?￺￻他們一整天地喝酒，
 ￺saromi'ami'ad￻
 ￺sarono￻
 ￺saronoen￻￹`Sarono~`e~`n~ `ko~ `titi~, `ca~ `kakomaen~ `to~ `dateng~.￺￻只吃肉，不吃蔬菜。
@@ -37142,7 +37142,7 @@
 ￺saroparop￻
 ￺saropay￻
 ￺sasa'odaxen￻￹`O~ `sa~`sa'odaxen~ ~ `kora~ `kodasing~.￺￻那些花生是要做糖果的。￹`Sa~`sa'odaxen~ `a~ `tefos~.￺￻要做糖的甘蔗。
-￺sasa'epahen￻￹`Sa~`sa'epahen~ `no~ `loma'~ `ira~.￺￻她家即將釀酒。￹`Oni~ `a~ `sa~`sa'epahen~ `ako~.￺￻這是我要釀造的酒。
+￺sasa^epahen￻￹`Sa~`sa^epahen~ `no~ `loma'~ `ira~.￺￻她家即將釀酒。￹`Oni~ `a~ `sa~`sa^epahen~ `ako~.￺￻這是我要釀造的酒。
 ￺sasaatefen￻￹`O~ `sa~`saatefen~ `niyam~.￺￻我們馬上去設置圈套的。
 ￺sasacaciyawen￻￹`O~ `sa~`sacaciyawen~ `niyam~ `koya~ `demak~.￺￻我們就要商談那年事情。￹`Sa~`sacaciyawen~ `a~ `demak~.￺￻即將交談的事。
 ￺sasacapoxen￻￹`Alikien~ `a~ `ta~`ini~, `sa~`sacapoxen~ `ita~ !￺￻快來呀，我們就要插秧了！￹`Sa~`sacapoxen~ `a~ `panay~.￺￻要培育的稻秧。
@@ -38527,7 +38527,7 @@
 ￺takaw￻
 ￺takawen￻￹`Ca~ `ka~`nga'ay~ `a~ `takaw~`e~`n~ `ko~ `payso~ `no~ `tao~.￺￻偷別人的錢不好。
 ￺takawhan￻￹`Takaw~`han~ `ningra~ `ko~ `kolong~ `no~ `fiyaw~.￺￻他就把鄰居的牛偷走。
-￺takawsa￻￹`Takaw~`sa~ `cangra~ `a~ `misa'epah~.￺￻他們在偷偷地造酒。
+￺takawsa￻￹`Takaw~`sa~ `cangra~ `a~ `misa^epah~.￺￻他們在偷偷地造酒。
 ￺takay￻
 ￺takayaman￻
 ￺takec￻
@@ -40195,7 +40195,7 @@
 ￺torik￻
 ￺torik￻
 ￺toriken￻￹`Torik~`e~`n~ `to~ `ko~ `cayna~.￺￻籃子編起來了。
-￺torin￻￹`Tosa~ `ko~ `tori~`n~ `ko~ `'epah~.￺￻二瓶酒。￹`Cecay~ `a~ `tori~`n~ `ko~ `papah~ `no~ `tamako~.￺￻一捆的煙葉。
+￺torin￻￹`Tosa~ `ko~ `tori~`n~ `ko~ `^epah~.￺￻二瓶酒。￹`Cecay~ `a~ `tori~`n~ `ko~ `papah~ `no~ `tamako~.￺￻一捆的煙葉。
 ￺torira￻￹`Mipakaen~ `kako~ `t~`orira~ `a~ `kolong~.￺￻我要放那隻牛。
 ￺torirac￻
 ￺toriracsa￻￹`Torirac~`sa~ `kora~ `madoka'ay~ `a~ `minokay~.￺￻那個受傷的人踉踉蹌蹌地回來。
