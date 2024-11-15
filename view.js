@@ -17,10 +17,6 @@
     var hash = window.location.hash,
         match = hash.match(/[#][!|:|~]('?[\w]+)/);
 
-        console.log(hash);
-        console.log('https://new-amis.moedict.tw/terms/' + match[1]);
-
-
     if (match) {
       window.open('https://new-amis.moedict.tw/terms/' + match[1]);
     } else {

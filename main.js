@@ -1329,9 +1329,15 @@
           desc = array[1];
         }
 
-        return $( "<li>" )
-                 .append( "<div>" + term + "<span>" + desc + "</span></div>" )
-                 .appendTo( ul );
+        if (term === '舊版無資料，到新版查詢') {
+          return $( "<li>" )
+                   .append( "<div><a onclick=\"$('#new-site a').trigger('click')\">" + term + "</a></div>" )
+                   .appendTo( ul );
+        } else {
+          return $( "<li>" )
+                   .append( "<div>" + term + "<span>" + desc + "</span></div>" )
+                   .appendTo( ul );
+        }
       }
     });
     return $('#query').autocomplete({
@@ -1429,7 +1435,7 @@
           results = amisOrdering(results, term);
         }
         if (!(results != null && results.length)) {
-          return cb(['']);
+          return cb(['舊版無資料，到新版查詢']);
         }
         if ((results != null) && (results.length === 1)) {
           doLookup(replace$.call(results[0], /"/g, ''));
@@ -1504,7 +1510,7 @@
         }
 
         if (x.length === 0) {
-          return cb(["無符合之詞"]);
+          return cb(["舊版無資料，到新版查詢"]);
         } else {
           return cb(x);
         }
