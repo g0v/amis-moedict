@@ -1405,7 +1405,8 @@
         term = term.replace(/[﹒．]/g, '。');
         regex = term;
         if (/\s$/.exec(term) || /\^/.exec(term)) {
-          regex = replace$.call(regex, /\^/g, '');
+          // 阿美語有 ^ 這個符號，因此 regex 中不能使用，要保留下來
+          regex = replace$.call(regex, /\^/g, '\\^');
           regex = replace$.call(regex, /\s*$/g, '');
           regex = '"' + regex;
         } else {
