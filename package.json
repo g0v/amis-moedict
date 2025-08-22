@@ -39,7 +39,7 @@
     "react": "^0.13.1",
     "react-hot-loader": "^1.2.4",
     "react-zh-stroker": "^0.1.3",
-    "webpack": "^1.15.0",
+    "webpack": "^5.101.3",
     "webpack-dev-server": "^1.16.5",
     "zeparser": "0.0.7"
   }
