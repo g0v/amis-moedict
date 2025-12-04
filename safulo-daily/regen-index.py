@@ -1,6 +1,7 @@
 # coding: utf-8
 # 重新產生 index.json
 
+import re
 import json
 from dailylib import *
 
@@ -15,7 +16,9 @@ for fn in list_vocabs():
         continue
     t = j['t']
     try:
-        cmn = j['h'][0]['d'][0]['f'][:CMN_MAX_LEN]
+        f = j['h'][0]['d'][0]['f']
+        f = re.sub(r'[（()）]', '', f)
+        cmn = f[:CMN_MAX_LEN]
     except:
         print('跳過:', t)
         continue
