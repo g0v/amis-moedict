@@ -2,5 +2,5 @@ version: "2"
 syncs:
   amis-v1-app-sync:
     src: ./
-    sync_excludes: [.git, s, old-s, docs]
+    sync_excludes: [.git, old-s]
     sync_strategy: native_osx
