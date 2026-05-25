@@ -1,7 +1,7 @@
 name: Safulo dictionary automated processing
-on:
+於:
   push:
-    branches:
+    分支:
       - master
     paths:
       - 'docs/s/*.json'
@@ -12,7 +12,7 @@ permissions:
 jobs:
   build:
     concurrency: ci-${{ github.ref }}
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     name: rebuild index and stem list
     steps:
       - uses: actions/checkout@v3
