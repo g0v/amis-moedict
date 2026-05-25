@@ -1,7 +1,8 @@
 name: Safulo dictionary automated processing
-於:
+
+on:
   push:
-    分支:
+    branches:
       - master
     paths:
       - 'docs/s/*.json'
@@ -13,17 +14,22 @@ jobs:
   build:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-22.04
+
     name: rebuild index and stem list
+
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 1000
+
       - name: generate index.json
         working-directory: ./safulo-daily
         run: python regen-index.py
+
       - name: generate stem-words.json
         working-directory: ./safulo-daily
         run: python regen-stems.py
+
       - name: commit generated files
         run: |
           git config user.email miaoski@gmail.com
