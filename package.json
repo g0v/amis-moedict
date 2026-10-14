@@ -42,5 +42,8 @@
     "webpack": "^1.15.0",
     "webpack-dev-server": "^1.16.5",
     "zeparser": "0.0.7"
+  },
+  "overrides": {
+    "y18n": "3.2.2"
   }
 }
