@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.email miaoski@gmail.com
           git config user.name miaoski-bot
-          git commit -m 'bot generated hyperlinks' ./docs/s/
+          git diff --quiet ./docs/s/ || git commit -m 'bot generated hyperlinks' ./docs/s/
           git rev-parse HEAD > safulo-daily/last
           git commit -m 'bot generated hyperlinks' ./safulo-daily/last
           git push
