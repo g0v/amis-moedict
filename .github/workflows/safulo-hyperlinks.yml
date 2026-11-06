@@ -18,8 +18,8 @@ jobs:
         id: listfiles
         working-directory: ./safulo-daily
         run: |
-          git diff --name-only $(<last)..HEAD | tee filelist
-          test -s filelist && echo "::set-output name=has_newfiles::true"
+          git diff --name-only $(<last)..HEAD | grep -v '^safulo-daily/last$' | tee filelist || true
+          if test -s filelist; then echo "has_newfiles=true" >> "$GITHUB_OUTPUT"; fi
       - name: generate stem-words.json
         if: steps.listfiles.outputs.has_newfiles == 'true'
         working-directory: ./safulo-daily
